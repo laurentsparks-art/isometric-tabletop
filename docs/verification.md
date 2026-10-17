@@ -12,7 +12,7 @@ Local preview, not a publication. Host base: PR371 d2b1f87dd297f55ff7aeea172ac5c
 - Framework: 34 core checks, 20 runtime checks, eight focused Vitest suites, TypeScript and scoped lint. Full repository run: 617/618 files passed; remaining backup test passed separately after removing inherited QA database environment. This is not a single all-green full-suite run.
 - Clean addon source copy: dependency install, deterministic 144-material pack, Godot import/Web export, preservation tests. Git-archive source and included runtime also passed all ten tests after newline attributes were corrected.
 - Separate clean host Git archive: fresh dependency installation, production build, all 300 production trace manifests free of private data. Actual authenticated gameplay checks above reran successfully against that clean production server.
-- Runtime package: about 19.5 MB, 32 files, no credentials/world/cache/screenshots. Editable source: about 150.7 MB, 820 files before this verification note. Code MIT, original art/audio CC0, fonts OFL, Godot notices retained. No remote configured for the addon.
+- Runtime package: about 19.5 MB, including runtime and notices, no credentials/world/cache/screenshots. Editable source: about 150.7 MB, 820 files before this verification note. Code MIT, original art/audio CC0, fonts OFL, Godot notices retained. No remote configured for the addon.
 
 ## Remaining limits
 
