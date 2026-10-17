@@ -1,0 +1,65 @@
+{
+  "material": "wall-rubble-collapsed",
+  "skins": [
+    "sunken-crypt"
+  ],
+  "approvedEntry": {
+    "file": "sources/approved/wall-rubble-collapsed__packed-v1.png",
+    "authoredSource": "sources/approved/wall-rubble-collapsed__source-v1.png",
+    "skin": "sunken-crypt",
+    "mode": "registered-approved",
+    "groundContact": [
+      64,
+      288
+    ],
+    "sha256": "494d2a3e0aa9850b8ed5ef1f1d52417d9c32c126bc14390e28674a7df824931f",
+    "approval": "Explicit user visual approval, full-library recovery request",
+    "processing": "Exact approved packed pixels retained",
+    "rollbackRecord": "metadata/approved-wall-rubble-collapsed.json"
+  },
+  "previousEntry": {
+    "file": "sources/recovery-v1/wall-rubble-collapsed.png",
+    "skin": "sunken-crypt",
+    "mode": "authored-wall",
+    "groundContact": [
+      64,
+      288
+    ],
+    "processing": "Uniform nearest-neighbour downsample; translation only. No texture projection, recolouring, silhouette filling or nonuniform stretch.",
+    "sha256": "12bf276386dca0744db1649a769c3874e3bc05f218c6bd7442b1881d2d982f2c",
+    "prompt": "Create ONE original production isometric pixel-art game sprite: broken ancient crypt masonry occupying one square grid cell. Input image is the original material/style reference. Preserve the attractive gray-green aged limestone masonry, irregular cracked blocks, golden gray top edge lighting and small broken stones, but redesign with convincing broad block volume and a crumbling stepped top. Orthographic 2:1 isometric camera; ground square projects to a diamond twice as wide as tall; top and base edges slope 1:2. Both camera-facing sides visible, left side brighter, right side darker. Hand-composed crisp pixel clusters, individual cut stones, subtle cracks and a few moss tufts. The wall is broken but substantial, not a narrow vertical panel, not a perfect identical cube, no flat silhouettes. Low rubble remains within the single-cell footprint, no projecting neighboring floor or plinth. Height about 1.2 times ground diamond height. Original quality fantasy tabletop asset with restrained detail. Transparent background, isolated centered sprite, generous clear margin, no text, no scene, no blur, no painterly smoothing, no cast shadow. Do not turn the source into a texture projected over a primitive shape; genuinely compose the masonry artwork."
+  },
+  "registration": {
+    "source": "sources/approved/wall-rubble-collapsed__source-v1.png",
+    "bbox": [
+      102,
+      233,
+      1020,
+      1209
+    ],
+    "scale": 0.1394335511982571,
+    "packed": [
+      128,
+      384
+    ],
+    "resize": "uniform nearest neighbour",
+    "translation": [
+      0,
+      184
+    ],
+    "status": "candidate, not approved",
+    "referenceGround": [
+      64,
+      288
+    ],
+    "generatedOutputName": "exec-81919f10-f9d2-4f41-bd34-4e22cf9cfbe6.png"
+  },
+  "provenance": {
+    "material": "wall-rubble-collapsed",
+    "status": "Proposed; awaiting user visual approval",
+    "generator": "OpenAI built-in image_gen",
+    "prompt": "Create ONE original production isometric pixel-art game sprite: wall-rubble-collapsed, a full-cell ruined ancient crypt masonry wall that REPEATS into continuous walls using one base sprite. Image1 is the exact interface registration guide, image2 shows approved connected hedge (left: STRUCTURE ONLY), actual stone-dungeon block (middle: structure/craftsmanship), and historical crypt wall (right: MATERIAL CHARACTER ONLY; do NOT repeat its thin stair/panel geometry). Build convincing substantial weathered grey masonry volume, broad detailed diamond top, two shaded camera-facing faces, individually laid damaged stones, 3-4 visible courses, chipped corners, small cracks, dark mortar recesses, sparse muted moss and a few integrated crumbs. Restrained cool/warm grey colour variation, clear upper-left edge lighting, right face darker. Real composed pixel-art construction with tangible stone shapes; NOT a generic painted cube, NOT flat textures projected onto a box, NOT noise. Main mass must fill BOTH square-cell interfaces equally and join copies translated (+halfwidth,+quarterwidth) or (-halfwidth,+quarterwidth) with NO GAPS. Reference1 structural top diamond rear(480,192), right(864,384), front(480,576), left(96,384); ground contact left(96,864), front(480,1056), right(864,864), hidden rear(480,672) on the 960x1200 authoring canvas. Fixed orthographic 2:1 projection; every projected ground and top edge slope1:2. Keep straight full-width structural contacts and consistent wall height on both axes. Add restrained broken/chipped detail and small local top stones without turning the cap into an inclined staircase, tapering the wall, or removing its connecting faces. Ruined atmosphere comes from individually damaged masonry and age, not half the structure being missing. No projecting rubble plinth, loose neighboring blocks, thick floor pedestal, floating bits, holes through the primary mass, thin side-view panel, or rectangular side fins. Keep all ground contacts centred beneath the volume. Both endpoints and 3x3 clusters must work. Crisp detailed pixel clusters suitable for nearest-neighbour reduction to128px footprint width. Transparent background, isolated SINGLE tile, ample clear margin, guide framing preserved. Replace ALL guide lines, colours and dots with art, none visible. No cast shadow, grid, text, scenery or extra assets. Match the fantasy tabletop-diorama pixel-art character of the actual project references.",
+    "referencePolicy": "Actual approved hedge structural reference, actual ODM stone-dungeon craft reference, historical original crypt atmosphere; no third-party art",
+    "registration": "Uniform nearest-neighbour crop/scale/translation only; see registration.json"
+  }
+}

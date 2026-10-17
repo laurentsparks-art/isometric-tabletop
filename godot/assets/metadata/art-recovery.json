@@ -1,0 +1,1976 @@
+{
+  "version": 1,
+  "approval": "Hedge and crypt explicitly approved; library entries internally reviewed under user batch authorization. Final overall visual review pending.",
+  "tool": "Codex built-in image_gen",
+  "license": "CC0-1.0, as authorized by artwork owner",
+  "entries": {
+    "wall-hedge-dense": {
+      "file": "sources/approved/wall-hedge-dense__packed-v1.png",
+      "authoredSource": "sources/approved/wall-hedge-dense__source-v1.png",
+      "skin": "open-ground",
+      "mode": "registered-approved",
+      "groundContact": [
+        64,
+        288
+      ],
+      "sha256": "4f66859d2c3da3fc3ffa2a74a0cb815027a42cedc216b1c6f7bb92a8daf6a4fa",
+      "approval": "Explicit user visual approval: playable-quality baseline, minor 1-6px organic contour imperfections acknowledged",
+      "processing": "Exact user-approved registered PNG; no pixel corrections, re-sampling or recolouring",
+      "rollbackRecord": "metadata/approved-wall-hedge-dense.json"
+    },
+    "wall-rubble-collapsed": {
+      "file": "sources/approved/wall-rubble-collapsed__packed-v1.png",
+      "authoredSource": "sources/approved/wall-rubble-collapsed__source-v1.png",
+      "skin": "sunken-crypt",
+      "mode": "registered-approved",
+      "groundContact": [
+        64,
+        288
+      ],
+      "sha256": "494d2a3e0aa9850b8ed5ef1f1d52417d9c32c126bc14390e28674a7df824931f",
+      "approval": "Explicit user visual approval, full-library recovery request",
+      "processing": "Exact approved packed pixels retained",
+      "rollbackRecord": "metadata/approved-wall-rubble-collapsed.json"
+    },
+    "wall-wood-plank": {
+      "file": "sources/recovery-v2/wall-wood-plank__packed-v1.png",
+      "authoredSource": "sources/recovery-v2/wall-wood-plank__source-v1.png",
+      "mode": "registered-art",
+      "skin": "ship-deck",
+      "groundContact": [
+        64,
+        288
+      ],
+      "sha256": "41f78b8c4d26bbe97e355502995c20aef649fbb56bc0b3c394683e38328124c8",
+      "artStatus": "original-first-pass",
+      "approval": "Internally reviewed under user batch authorization; final human review pending",
+      "registration": {
+        "bbox": [
+          73,
+          59,
+          1157,
+          1222
+        ],
+        "uniformScale": 0.11808118081180811,
+        "translation": [
+          0,
+          183
+        ],
+        "contact": [
+          64,
+          288
+        ],
+        "packed": [
+          128,
+          384
+        ]
+      },
+      "tool": "Codex built-in image_gen",
+      "license": "CC0-1.0 as authorized by original art owner",
+      "prompt": "Create ONE original, detailed pixel-art full-cell isometric wall game sprite for ODM. Use first image only as GEOMETRY REGISTRATION GUIDE, second only as craftsmanship/connected-volume references, not palette copying. Fixed 2:1 diamond ground footprint; target runtime128x64, packed128x384. Broad complete diamond cap, both equal camera-facing side interfaces, structural contact filling both map axes so identical copies tile in X/Y five-block rows, corners and dense clusters. Follow guide perspective: top rear(480,200), cap left(104,390), right(856,390), front(480,580); ground left(104,870), right(856,870), front(480,1060). Match main volume to these interfaces, not an upright thin wall panel, stair, plinth or detached prop. Crisper hand-composed pixel clusters, true texture and lighting, left face moderately lighter than right, visible detailed top. Transparent background outside sprite. Single isolated sprite with generous margin, no scene, no cast shadow, no guide colours/lines/text. Preserve designed material depth, not a generic painted cube, flat silhouette, primitive fill, procedural noise, blurry or glossy3D. Keep base within diamond, chips/ornament restrained and compatible with neighbors. Primary base sprite only. MATERIAL wall-wood-plank: substantial wooden sailing-ship cabin/bulwark structure, broad finished oak timber cap/deck above solid horizontal hull strakes on BOTH visible faces, warm weathered honey brown wood, carefully joined corner posts, layered timber end grain, crisp restrained grain, tiny iron fastenings. Believable maritime carpentry with full cell structural volume. NO door, opening, door handle, hinges, chest, crate, diagonal bracing, black door straps, or loose stacked floorboards. Cap should be continuous thick timberwork, not four floating planks. Strong construction and grain retain pixel detail and ship identity."
+    },
+    "wall-ruined-overgrown": {
+      "file": "sources/recovery-v2/wall-ruined-overgrown__packed-v1.png",
+      "authoredSource": "sources/recovery-v2/wall-ruined-overgrown__source-v1.png",
+      "mode": "registered-art",
+      "skin": "overgrown-ruin",
+      "groundContact": [
+        64,
+        288
+      ],
+      "sha256": "34c333faa4846830d38446182e98afacf3b437326b3cf98d047a042275e3c215",
+      "artStatus": "original-first-pass",
+      "approval": "Internally reviewed under user batch authorization; final human review pending",
+      "registration": {
+        "bbox": [
+          82,
+          109,
+          1150,
+          1190
+        ],
+        "uniformScale": 0.1198501872659176,
+        "translation": [
+          0,
+          190
+        ],
+        "contact": [
+          64,
+          288
+        ],
+        "packed": [
+          128,
+          384
+        ]
+      },
+      "tool": "Codex built-in image_gen",
+      "license": "CC0-1.0 as authorized by original art owner",
+      "prompt": "Create ONE original, detailed pixel-art full-cell isometric wall game sprite for ODM. Use first image only as GEOMETRY REGISTRATION GUIDE, second only as craftsmanship/connected-volume references, not palette copying. Fixed 2:1 diamond ground footprint; target runtime128x64, packed128x384. Broad complete diamond cap, both equal camera-facing side interfaces, structural contact filling both map axes so identical copies tile in X/Y five-block rows, corners and dense clusters. Follow guide perspective: top rear(480,200), cap left(104,390), right(856,390), front(480,580); ground left(104,870), right(856,870), front(480,1060). Match main volume to these interfaces, not an upright thin wall panel, stair, plinth or detached prop. Crisper hand-composed pixel clusters, true texture and lighting, left face moderately lighter than right, visible detailed top. Transparent background outside sprite. Single isolated sprite with generous margin, no scene, no cast shadow, no guide colours/lines/text. Preserve designed material depth, not a generic painted cube, flat silhouette, primitive fill, procedural noise, blurry or glossy3D. Keep base within diamond, chips/ornament restrained and compatible with neighbors. Primary base sprite only. MATERIAL wall-ruined-overgrown: ancient crumbling grey-green limestone masonry, distinct large and small chipped blocks and mortar gaps, ivy roots in cracks, small ferns and trailing leaves wrapping the corners. Solid built volume beneath lush but controlled vegetation; not hedge or tree. Crypt construction quality, richer organic vegetation, readable restrained palette."
+    },
+    "wall-volcanic": {
+      "file": "sources/recovery-v2/wall-volcanic__packed-v1.png",
+      "authoredSource": "sources/recovery-v2/wall-volcanic__source-v1.png",
+      "mode": "registered-art",
+      "skin": "volcanic-deep",
+      "groundContact": [
+        64,
+        288
+      ],
+      "sha256": "f9d4c7bd6d1f2f99eb6df30b05d5ac6dd249675dfdcacdb39a0ff73799660769",
+      "artStatus": "original-first-pass",
+      "approval": "Internally reviewed under user batch authorization; final human review pending",
+      "registration": {
+        "bbox": [
+          110,
+          98,
+          1104,
+          1188
+        ],
+        "uniformScale": 0.12877263581488935,
+        "translation": [
+          0,
+          180
+        ],
+        "contact": [
+          64,
+          288
+        ],
+        "packed": [
+          128,
+          384
+        ]
+      },
+      "tool": "Codex built-in image_gen",
+      "license": "CC0-1.0 as authorized by original art owner",
+      "prompt": "Create ONE original, detailed pixel-art full-cell isometric wall game sprite for ODM. Use first image only as GEOMETRY REGISTRATION GUIDE, second only as craftsmanship/connected-volume references, not palette copying. Fixed 2:1 diamond ground footprint; target runtime128x64, packed128x384. Broad complete diamond cap, both equal camera-facing side interfaces, structural contact filling both map axes so identical copies tile in X/Y five-block rows, corners and dense clusters. Follow guide perspective: top rear(480,200), cap left(104,390), right(856,390), front(480,580); ground left(104,870), right(856,870), front(480,1060). Match main volume to these interfaces, not an upright thin wall panel, stair, plinth or detached prop. Crisper hand-composed pixel clusters, true texture and lighting, left face moderately lighter than right, visible detailed top. Transparent background outside sprite. Single isolated sprite with generous margin, no scene, no cast shadow, no guide colours/lines/text. Preserve designed material depth, not a generic painted cube, flat silhouette, primitive fill, procedural noise, blurry or glossy3D. Keep base within diamond, chips/ornament restrained and compatible with neighbors. Primary base sprite only. MATERIAL wall-volcanic: dense dark basalt volcanic rock, broad solid fractured rock mass built from interlocked angular blocks, crisp charcoal/blue-black planes, subtle warm edge highlights and very sparse thin ember fissures in deep cracks, restrained orange glow, detailed rough top crust. Not a bundle of tall organ pipes or columns, not a lava-filled container, not a bright lava cube. Full flat-compatible top and both structural interfaces; volcanic volume and crafted rock texture."
+    },
+    "sp-wall-boiler": {
+      "file": "sources/recovery-v2/sp-wall-boiler__packed-v1.png",
+      "authoredSource": "sources/recovery-v2/sp-wall-boiler__source-v1.png",
+      "mode": "registered-art",
+      "skin": "sp-foundry",
+      "groundContact": [
+        64,
+        288
+      ],
+      "sha256": "d60b08bcab3bbd2c76e55999df4bae431589e350432759b31c74c5235b7a8aae",
+      "artStatus": "original-first-pass",
+      "approval": "Internally reviewed under user batch authorization; final human review pending",
+      "registration": {
+        "bbox": [
+          243,
+          51,
+          1159,
+          1053
+        ],
+        "uniformScale": 0.13973799126637554,
+        "translation": [
+          0,
+          180
+        ],
+        "contact": [
+          64,
+          288
+        ],
+        "packed": [
+          128,
+          384
+        ]
+      },
+      "tool": "Codex built-in image_gen",
+      "license": "CC0-1.0 as authorized by original art owner",
+      "prompt": "Create ONE original, detailed pixel-art full-cell isometric wall game sprite for ODM. Use first image only as GEOMETRY REGISTRATION GUIDE, second only as craftsmanship/connected-volume references, not palette copying. Fixed 2:1 diamond ground footprint; target runtime128x64, packed128x384. Broad complete diamond cap, both equal camera-facing side interfaces, structural contact filling both map axes so identical copies tile in X/Y five-block rows, corners and dense clusters. Follow guide perspective: top rear(480,200), cap left(104,390), right(856,390), front(480,580); ground left(104,870), right(856,870), front(480,1060). Match main volume to these interfaces, not an upright thin wall panel, stair, plinth or detached prop. Crisper hand-composed pixel clusters, true texture and lighting, left face moderately lighter than right, visible detailed top. Transparent background outside sprite. Single isolated sprite with generous margin, no scene, no cast shadow, no guide colours/lines/text. Preserve designed material depth, not a generic painted cube, flat silhouette, primitive fill, procedural noise, blurry or glossy3D. Keep base within diamond, chips/ornament restrained and compatible with neighbors. Primary base sprite only. MATERIAL sp-wall-boiler: solid steampunk industrial foundry wall module with soot-dark iron plate construction on both faces, carefully placed rivets at structural seams, dark inset steel panels, restrained warm brass valve fittings and short embedded copper steam pipework, thick industrial cap and worn edges. Believable load-bearing machinery structure, clear broad cap with inspection plate, iron grey and warm bronze palette. Not volcanic columns, not logs, not a freestanding round boiler, not a generic noise-covered cube. Embedded pipe details must not protrude past the connecting interface or create gaps. Clear heavy structural volume; refined pixel craftsmanship."
+    },
+    "hr-wall-flesh": {
+      "file": "sources/recovery-v2/hr-wall-flesh__packed-v1.png",
+      "authoredSource": "sources/recovery-v2/hr-wall-flesh__source-v1.png",
+      "mode": "registered-art",
+      "skin": "hr-flesh",
+      "groundContact": [
+        64,
+        288
+      ],
+      "sha256": "0049ce4529fb73bedb3064a96d5819e4f20076f9e78f1dcaa7ca76c0f34006f8",
+      "artStatus": "original-first-pass",
+      "approval": "Internally reviewed under user batch authorization; final human review pending",
+      "registration": {
+        "bbox": [
+          87,
+          66,
+          1141,
+          1191
+        ],
+        "uniformScale": 0.12144212523719165,
+        "translation": [
+          0,
+          183
+        ],
+        "contact": [
+          64,
+          288
+        ],
+        "packed": [
+          128,
+          384
+        ]
+      },
+      "tool": "Codex built-in image_gen",
+      "license": "CC0-1.0 as authorized by original art owner",
+      "prompt": "Create ONE original, detailed pixel-art full-cell isometric wall game sprite for ODM. Use first image only as GEOMETRY REGISTRATION GUIDE, second only as craftsmanship/connected-volume references, not palette copying. Fixed 2:1 diamond ground footprint; target runtime128x64, packed128x384. Broad complete diamond cap, both equal camera-facing side interfaces, structural contact filling both map axes so identical copies tile in X/Y five-block rows, corners and dense clusters. Follow guide perspective: top rear(480,200), cap left(104,390), right(856,390), front(480,580); ground left(104,870), right(856,870), front(480,1060). Match main volume to these interfaces, not an upright thin wall panel, stair, plinth or detached prop. Crisper hand-composed pixel clusters, true texture and lighting, left face moderately lighter than right, visible detailed top. Transparent background outside sprite. Single isolated sprite with generous margin, no scene, no cast shadow, no guide colours/lines/text. Preserve designed material depth, not a generic painted cube, flat silhouette, primitive fill, procedural noise, blurry or glossy3D. Keep base within diamond, chips/ornament restrained and compatible with neighbors. Primary base sprite only. MATERIAL hr-wall-flesh: non-explicit fantasy organic horror architecture, dense interwoven sinew and leathery fibrous tissue forming a coherent raised structural mass, muted dusty rose, burgundy and deep plum palette, layered muscle-like bands, subtle branching veins and ridges, small tendon knots, convincing shaded side faces and detailed broad irregular upper surface. Restrained ominous tabletop horror, no faces, no eyes, no mouths, no body parts, no organs spilling out, no liquid gore. Organic volume, NOT stone masonry tinted pink, NOT smooth rubber, NOT a red featureless cube. Connectable main contact faces despite surface ridges; continuous single-cell volume."
+    },
+    "cp-asphalt-wet": {
+      "file": "sources/recovery-v3/cp-asphalt-wet__source-v2.png",
+      "authoredSource": "sources/recovery-v3/cp-asphalt-wet__source-v2.png",
+      "skin": "cp-street",
+      "role": "floor",
+      "mode": "source-plane",
+      "groundContact": [
+        64,
+        288
+      ],
+      "sha256": "1772e31052d4c155463dce2f14e10dc320241a91440d7df3619dcc2029642b96",
+      "outputSha256": "afcd98d42093dbd2963188bdf376d16380b980fc39de8410a48beab243f7a08a",
+      "artStatus": "original-first-pass",
+      "approval": "Internally reviewed under full-library batch authorization; final human review pending",
+      "registration": {
+        "mode": "source-plane",
+        "centre": [
+          723.5,
+          570.0
+        ],
+        "radius": 650.23,
+        "bbox": [
+          60,
+          228,
+          1388,
+          913
+        ],
+        "uniformSampling": true,
+        "sourceRgbUnchanged": true
+      },
+      "tool": "Codex built-in image_gen",
+      "license": "CC0-1.0, authorized by original art owner",
+      "prompt": "Revise ONLY the material finish of this original isometric asphalt ground tile. Preserve exact flat2:1 diamond perspective, transparency, scale and zero thickness. Make it MUCH QUIETER and darker: matte charcoal asphalt with sparse tiny dark-grey aggregate, a very faint broad cool damp sheen only, hairline cracks, at most one extremely subtle puddle. Remove bright white/silver reflection streaks and glitter. Low contrast, calm readable tabletop ground beneath characters. Do not create a solid fill: retain tasteful authentic asphalt pixel texture. No road lines, stones, border or bevel.",
+      "centre": [
+        723.5,
+        570.0
+      ],
+      "radius": 650.23
+    },
+    "cp-cable-tangle": {
+      "file": "sources/recovery-v3/cp-cable-tangle__structure-v1.png",
+      "authoredSource": "sources/recovery-v3/cp-cable-tangle__source-v1.png",
+      "skin": "cp-street",
+      "role": "rough",
+      "mode": "registered-art",
+      "groundContact": [
+        64,
+        288
+      ],
+      "sha256": "1cf11fbbaf635822e66cc7e35b060fd2db6b97f8ce390a677aada434f7ae490f",
+      "outputSha256": "2768e2a5cd1c512461aa3447043724fb0b640d92d2583dffb357173d3f1cf2c6",
+      "artStatus": "original-first-pass",
+      "approval": "Internally reviewed under full-library batch authorization; final human review pending",
+      "registration": {
+        "mode": "registered-art",
+        "bbox": [
+          145,
+          144,
+          1629,
+          757
+        ],
+        "uniformScale": 0.0862533692722372,
+        "translation": [
+          0,
+          267
+        ]
+      },
+      "tool": "Codex built-in image_gen",
+      "license": "CC0-1.0, authorized by original art owner",
+      "prompt": "Create ONE original detailed isometric pixel-art difficult-ground game asset for ODM. Small LOW scatter/pile of debris occupying one128x64 logical ground diamond, guided by supplied 2:1 ground-registration image. Match fixed orthographic2:1 tabletop view. Crisp pixel clusters, believable shaded construction, readable at128px wide. Transparent background INCLUDING visible gaps between the scattered objects; no raised slab, tray, frame, pedestal, painted ground, cast shadow outside footprint, scene, text or guide marks. Props may rise modestly above the ground but stay grounded within that one diamond. Material identity must be clear, no generic coloured rubble substitution. No neighbouring tiles. MATERIAL cp-cable-tangle: A low cyberpunk tangle of black rubber power/data cables, two restrained cyan and amber connectors, coiled wire, one loose conduit and small fractured cable casing. No pottery, rocks, books, computer screen or large box. Dark steel/black palette, readable loops.",
+      "groundMaterial": "cp-asphalt-wet"
+    },
+    "cp-holo-tile": {
+      "file": "sources/recovery-v3/cp-holo-tile__source-v1.png",
+      "authoredSource": "sources/recovery-v3/cp-holo-tile__source-v1.png",
+      "skin": "cp-corp",
+      "role": "floor",
+      "mode": "source-plane",
+      "groundContact": [
+        64,
+        288
+      ],
+      "sha256": "61c70092d6d01784ff7d0a81b47c545ff6e2da5b364ce617a00350f3f1798a40",
+      "outputSha256": "eef369aec4c1a5070c4dc4b5908233e2fec344a2e2e2e061b555601f34eca59d",
+      "artStatus": "original-first-pass",
+      "approval": "Internally reviewed under full-library batch authorization; final human review pending",
+      "registration": {
+        "mode": "source-plane",
+        "centre": [
+          723.5,
+          583.5
+        ],
+        "radius": 633.5699999999999,
+        "bbox": [
+          77,
+          241,
+          1371,
+          927
+        ],
+        "uniformSampling": true,
+        "sourceRgbUnchanged": true
+      },
+      "tool": "Codex built-in image_gen",
+      "license": "CC0-1.0, authorized by original art owner",
+      "prompt": "Create ONE original pixel-art ground terrain tile for ODM tactical tabletop. Flat horizontal square projects to an exact 2:1 isometric diamond, matching the supplied geometry guide: full surface, no side walls, NO thickness, bevel, pedestal, tray, raised edge, border frame, extrusion, cast shadow or surrounding scene. Transparent outside diamond. Surface occupies the whole diamond with compatible unobtrusive edges for large contiguous patches. Crisp intentional pixel clusters and restrained texture, readable under miniatures, not noisy or checkerboard-like, no labels. Keep true isometric perspective, original material craftsmanship, no generic flat colour fill. This is a SINGLE asset, not a sheet. MATERIAL cp-holo-tile: Cyberpunk corporate floor, smooth dark blue-grey futuristic ceramic/composite panels, clean minimal beveled-in-surface panel seams and very restrained thin cyan circuit inlays, gentle reflected light, no noisy circuitry or big emblem. Calm professional futuristic surface, not cobblestones.",
+      "centre": [
+        723.5,
+        583.5
+      ],
+      "radius": 633.5699999999999
+    },
+    "cp-scrap-electronics": {
+      "file": "sources/recovery-v3/cp-scrap-electronics__structure-v1.png",
+      "authoredSource": "sources/recovery-v3/cp-scrap-electronics__source-v1.png",
+      "skin": "cp-corp",
+      "role": "rough",
+      "mode": "registered-art",
+      "groundContact": [
+        64,
+        288
+      ],
+      "sha256": "67bfa56b8f9c83d6f4ca6f3ac5a59f3e2eaf9c466f6372b059078f943a2ff9e8",
+      "outputSha256": "3d27474e05d492c26ad01f7f46647114d4d12cde35763d0aacc1d6d085672bef",
+      "artStatus": "original-first-pass",
+      "approval": "Internally reviewed under full-library batch authorization; final human review pending",
+      "registration": {
+        "mode": "registered-art",
+        "bbox": [
+          236,
+          159,
+          1544,
+          780
+        ],
+        "uniformScale": 0.09785932721712538,
+        "translation": [
+          0,
+          259
+        ]
+      },
+      "tool": "Codex built-in image_gen",
+      "license": "CC0-1.0, authorized by original art owner",
+      "prompt": "Create ONE original detailed isometric pixel-art difficult-ground game asset for ODM. Small LOW scatter/pile of debris occupying one128x64 logical ground diamond, guided by supplied 2:1 ground-registration image. Match fixed orthographic2:1 tabletop view. Crisp pixel clusters, believable shaded construction, readable at128px wide. Transparent background INCLUDING visible gaps between the scattered objects; no raised slab, tray, frame, pedestal, painted ground, cast shadow outside footprint, scene, text or guide marks. Props may rise modestly above the ground but stay grounded within that one diamond. Material identity must be clear, no generic coloured rubble substitution. No neighbouring tiles. MATERIAL cp-scrap-electronics: A low scatter of broken circuit boards, tiny exposed copper traces, small metal module housings and a cracked dark display panel, restrained blue-grey and muted green. No pottery, bottles, whole computers or rocks.",
+      "groundMaterial": "cp-holo-tile"
+    },
+    "cp-wall-container": {
+      "file": "sources/recovery-v3/cp-wall-container__packed-v1.png",
+      "authoredSource": "sources/recovery-v3/cp-wall-container__source-v1.png",
+      "skin": "cp-yard",
+      "role": "wall",
+      "mode": "registered-art",
+      "groundContact": [
+        64,
+        288
+      ],
+      "sha256": "e421cdc8640d2e8a2be2e5da1a88a440672876258433047e19cb72ac796f84f6",
+      "outputSha256": "e421cdc8640d2e8a2be2e5da1a88a440672876258433047e19cb72ac796f84f6",
+      "artStatus": "original-first-pass",
+      "approval": "Internally reviewed under full-library batch authorization; final human review pending",
+      "registration": {
+        "mode": "registered-art",
+        "bbox": [
+          87,
+          61,
+          1144,
+          1184
+        ],
+        "uniformScale": 0.12109744560075686,
+        "translation": [
+          0,
+          184
+        ]
+      },
+      "tool": "Codex built-in image_gen",
+      "license": "CC0-1.0, authorized by original art owner",
+      "prompt": "Create ONE original, detailed pixel-art full-cell isometric wall game sprite for ODM. Use first image only as GEOMETRY REGISTRATION GUIDE, second only as craftsmanship/connected-volume references, not palette copying. Fixed 2:1 diamond ground footprint; target runtime128x64, packed128x384. Broad complete diamond cap, both equal camera-facing side interfaces, structural contact filling both map axes so identical copies tile in X/Y five-block rows, corners and dense clusters. Follow guide perspective: top rear(480,200), cap left(104,390), right(856,390), front(480,580); ground left(104,870), right(856,870), front(480,1060). Match main volume to these interfaces, not an upright thin wall panel, stair, plinth or detached prop. Crisper hand-composed pixel clusters, true texture and lighting, left face moderately lighter than right, visible detailed top. Transparent background outside sprite. Single isolated sprite with generous margin, no scene, no cast shadow, no guide colours/lines/text. Preserve designed material depth, not a generic painted cube, flat silhouette, primitive fill, procedural noise, blurry or glossy3D. Keep base within diamond, chips/ornament restrained and compatible with neighbors. Primary base sprite only. MATERIAL cp-wall-container: Cyberpunk shipping-container industrial wall: dense dark teal corrugated steel on both faces, welded corner posts, bolts, worn orange hazard stripe trim, restrained cyan indicator strip. Full diamond steel cap, straight compatible edges. Not masonry, no opening/door, no text."
+    },
+    "sp-iron-plate": {
+      "file": "sources/recovery-v3/sp-iron-plate__source-v1.png",
+      "authoredSource": "sources/recovery-v3/sp-iron-plate__source-v1.png",
+      "skin": "sp-foundry",
+      "role": "floor",
+      "mode": "source-plane",
+      "groundContact": [
+        64,
+        288
+      ],
+      "sha256": "85db8844194c923947e4977e823853a928c5acdd8e6e9a423231ca57ca5a98e3",
+      "outputSha256": "26554f67f6a77a4c82d604e387cc2db2779d3c6b33684f3ebcb901bb4b21d6e1",
+      "artStatus": "original-first-pass",
+      "approval": "Internally reviewed under full-library batch authorization; final human review pending",
+      "registration": {
+        "mode": "source-plane",
+        "centre": [
+          723.5,
+          552.0
+        ],
+        "radius": 639.4499999999999,
+        "bbox": [
+          71,
+          193,
+          1377,
+          912
+        ],
+        "uniformSampling": true,
+        "sourceRgbUnchanged": true
+      },
+      "tool": "Codex built-in image_gen",
+      "license": "CC0-1.0, authorized by original art owner",
+      "prompt": "Create ONE original pixel-art ground terrain tile for ODM tactical tabletop. Flat horizontal square projects to an exact 2:1 isometric diamond, matching the supplied geometry guide: full surface, no side walls, NO thickness, bevel, pedestal, tray, raised edge, border frame, extrusion, cast shadow or surrounding scene. Transparent outside diamond. Surface occupies the whole diamond with compatible unobtrusive edges for large contiguous patches. Crisp intentional pixel clusters and restrained texture, readable under miniatures, not noisy or checkerboard-like, no labels. Keep true isometric perspective, original material craftsmanship, no generic flat colour fill. This is a SINGLE asset, not a sheet. MATERIAL sp-iron-plate: Steampunk foundry floor: broad dark iron tread plates, restrained diagonal anti-slip hatch detail, a few small brass fasteners, sooty steel, subtle wear. No stones, lava, bright glow, ornamental centre or raised objects.",
+      "centre": [
+        723.5,
+        552.0
+      ],
+      "radius": 639.4499999999999
+    },
+    "sp-cobbles-gaslit": {
+      "file": "sources/recovery-v3/sp-cobbles-gaslit__source-v1.png",
+      "authoredSource": "sources/recovery-v3/sp-cobbles-gaslit__source-v1.png",
+      "skin": "sp-street",
+      "role": "floor",
+      "mode": "source-plane",
+      "groundContact": [
+        64,
+        288
+      ],
+      "sha256": "8a1d7b57b71ef8e8961488a866a139bee15312b880a47446d4534cc8523ec760",
+      "outputSha256": "36cd2446cd395c8ff33bb35c9b47c54f7582bb09dcb63b9466dfea6662390041",
+      "artStatus": "original-first-pass",
+      "approval": "Internally reviewed under full-library batch authorization; final human review pending",
+      "registration": {
+        "mode": "source-plane",
+        "centre": [
+          723.5,
+          549.0
+        ],
+        "radius": 668.85,
+        "bbox": [
+          41,
+          193,
+          1407,
+          906
+        ],
+        "uniformSampling": true,
+        "sourceRgbUnchanged": true
+      },
+      "tool": "Codex built-in image_gen",
+      "license": "CC0-1.0, authorized by original art owner",
+      "prompt": "Create ONE original pixel-art ground terrain tile for ODM tactical tabletop. Flat horizontal square projects to an exact 2:1 isometric diamond, matching the supplied geometry guide: full surface, no side walls, NO thickness, bevel, pedestal, tray, raised edge, border frame, extrusion, cast shadow or surrounding scene. Transparent outside diamond. Surface occupies the whole diamond with compatible unobtrusive edges for large contiguous patches. Crisp intentional pixel clusters and restrained texture, readable under miniatures, not noisy or checkerboard-like, no labels. Keep true isometric perspective, original material craftsmanship, no generic flat colour fill. This is a SINGLE asset, not a sheet. MATERIAL sp-cobbles-gaslit: Steampunk gaslit street: closely fitted rounded Victorian grey-brown cobbles with a few restrained warm amber reflections, small worn mortar seams, low contrast, no wood, fixtures, gas lamps or street markings.",
+      "centre": [
+        723.5,
+        549.0
+      ],
+      "radius": 668.85
+    },
+    "sp-wall-brick-soot": {
+      "file": "sources/recovery-v3/sp-wall-brick-soot__packed-v1.png",
+      "authoredSource": "sources/recovery-v3/sp-wall-brick-soot__source-v1.png",
+      "skin": "sp-street",
+      "role": "wall",
+      "mode": "registered-art",
+      "groundContact": [
+        64,
+        288
+      ],
+      "sha256": "666b7a0b5a30f975a3851fe93e15f6cfbb5bb174d6f8b0b82fb65cee2c5e61c6",
+      "outputSha256": "666b7a0b5a30f975a3851fe93e15f6cfbb5bb174d6f8b0b82fb65cee2c5e61c6",
+      "artStatus": "original-first-pass",
+      "approval": "Internally reviewed under full-library batch authorization; final human review pending",
+      "registration": {
+        "mode": "registered-art",
+        "bbox": [
+          110,
+          55,
+          1136,
+          1189
+        ],
+        "uniformScale": 0.12475633528265107,
+        "translation": [
+          0,
+          179
+        ]
+      },
+      "tool": "Codex built-in image_gen",
+      "license": "CC0-1.0, authorized by original art owner",
+      "prompt": "Create ONE original, detailed pixel-art full-cell isometric wall game sprite for ODM. Use first image only as GEOMETRY REGISTRATION GUIDE, second only as craftsmanship/connected-volume references, not palette copying. Fixed 2:1 diamond ground footprint; target runtime128x64, packed128x384. Broad complete diamond cap, both equal camera-facing side interfaces, structural contact filling both map axes so identical copies tile in X/Y five-block rows, corners and dense clusters. Follow guide perspective: top rear(480,200), cap left(104,390), right(856,390), front(480,580); ground left(104,870), right(856,870), front(480,1060). Match main volume to these interfaces, not an upright thin wall panel, stair, plinth or detached prop. Crisper hand-composed pixel clusters, true texture and lighting, left face moderately lighter than right, visible detailed top. Transparent background outside sprite. Single isolated sprite with generous margin, no scene, no cast shadow, no guide colours/lines/text. Preserve designed material depth, not a generic painted cube, flat silhouette, primitive fill, procedural noise, blurry or glossy3D. Keep base within diamond, chips/ornament restrained and compatible with neighbors. Primary base sprite only. MATERIAL sp-wall-brick-soot: Steampunk street wall: soot-blackened deep russet brick masonry, individually built bricks, chipped mortar, dark stone coping cap, restrained brass ventilation grille and embedded iron conduit. Full broad volume with compatible straight interfaces, not logs."
+    },
+    "sp-coal-heap": {
+      "file": "sources/recovery-v3/sp-coal-heap__structure-v1.png",
+      "authoredSource": "sources/recovery-v3/sp-coal-heap__source-v1.png",
+      "skin": "sp-street",
+      "role": "rough",
+      "mode": "registered-art",
+      "groundContact": [
+        64,
+        288
+      ],
+      "sha256": "20a1eb6fbc9d6ffffaee548dcf971365bab9ed076a85fbdc10cfec041a9c13bb",
+      "outputSha256": "a3721381050cc3d004f46b4680059dc67effb716f111a68252c02d20e78e089d",
+      "artStatus": "original-first-pass",
+      "approval": "Internally reviewed under full-library batch authorization; final human review pending",
+      "registration": {
+        "mode": "registered-art",
+        "bbox": [
+          284,
+          206,
+          1487,
+          765
+        ],
+        "uniformScale": 0.10640066500415628,
+        "translation": [
+          0,
+          261
+        ]
+      },
+      "tool": "Codex built-in image_gen",
+      "license": "CC0-1.0, authorized by original art owner",
+      "prompt": "Create ONE original detailed isometric pixel-art difficult-ground game asset for ODM. Small LOW scatter/pile of debris occupying one128x64 logical ground diamond, guided by supplied 2:1 ground-registration image. Match fixed orthographic2:1 tabletop view. Crisp pixel clusters, believable shaded construction, readable at128px wide. Transparent background INCLUDING visible gaps between the scattered objects; no raised slab, tray, frame, pedestal, painted ground, cast shadow outside footprint, scene, text or guide marks. Props may rise modestly above the ground but stay grounded within that one diamond. Material identity must be clear, no generic coloured rubble substitution. No neighbouring tiles. MATERIAL sp-coal-heap: A low heap of irregular sharp coal chunks and cinders, deep charcoal with cool edge highlights, small ash dust, a few restrained ember specks. Actual coal not crates, wood or standing stalagmites.",
+      "groundMaterial": "sp-cobbles-gaslit"
+    },
+    "pa-asphalt-cracked": {
+      "file": "sources/recovery-v3/pa-asphalt-cracked__source-v1.png",
+      "authoredSource": "sources/recovery-v3/pa-asphalt-cracked__source-v1.png",
+      "skin": "pa-highway",
+      "role": "floor",
+      "mode": "source-plane",
+      "groundContact": [
+        64,
+        288
+      ],
+      "sha256": "4ba50c33a5503d2615b4ce9cdb14ec1bf66b0c929c210ebfa10f279db88d44dd",
+      "outputSha256": "f1c2815702baa243cf84fc0b87fbef5c86b7fd82f1ce0dfcb5f7aa4d7dd1a3e7",
+      "artStatus": "original-first-pass",
+      "approval": "Internally reviewed under full-library batch authorization; final human review pending",
+      "registration": {
+        "mode": "source-plane",
+        "centre": [
+          723.5,
+          542.5
+        ],
+        "radius": 599.27,
+        "bbox": [
+          112,
+          208,
+          1336,
+          878
+        ],
+        "uniformSampling": true,
+        "sourceRgbUnchanged": true
+      },
+      "tool": "Codex built-in image_gen",
+      "license": "CC0-1.0, authorized by original art owner",
+      "prompt": "Create ONE original pixel-art ground terrain tile for ODM tactical tabletop. Flat horizontal square projects to an exact 2:1 isometric diamond, matching the supplied geometry guide: full surface, no side walls, NO thickness, bevel, pedestal, tray, raised edge, border frame, extrusion, cast shadow or surrounding scene. Transparent outside diamond. Surface occupies the whole diamond with compatible unobtrusive edges for large contiguous patches. Crisp intentional pixel clusters and restrained texture, readable under miniatures, not noisy or checkerboard-like, no labels. Keep true isometric perspective, original material craftsmanship, no generic flat colour fill. This is a SINGLE asset, not a sheet. MATERIAL pa-asphalt-cracked: Post-apocalyptic roadway: faded charcoal asphalt with irregular thin fractures, dusty grey-ochre aggregate and a few tiny weeds inside cracks. Sparse detail, no road line, no sand dune, no debris pile.",
+      "centre": [
+        723.5,
+        542.5
+      ],
+      "radius": 599.27
+    },
+    "pa-wall-car-wrecks": {
+      "file": "sources/recovery-v3/pa-wall-car-wrecks__packed-v1.png",
+      "authoredSource": "sources/recovery-v3/pa-wall-car-wrecks__source-v1.png",
+      "skin": "pa-highway",
+      "role": "wall",
+      "mode": "registered-art",
+      "groundContact": [
+        64,
+        288
+      ],
+      "sha256": "a3acb43312088239f29932713491d371638ca259bf3c26a8a67c33f3aef13ceb",
+      "outputSha256": "a3acb43312088239f29932713491d371638ca259bf3c26a8a67c33f3aef13ceb",
+      "artStatus": "original-first-pass",
+      "approval": "Internally reviewed under full-library batch authorization; final human review pending",
+      "registration": {
+        "mode": "registered-art",
+        "bbox": [
+          100,
+          87,
+          1130,
+          1190
+        ],
+        "uniformScale": 0.12427184466019417,
+        "translation": [
+          0,
+          183
+        ]
+      },
+      "tool": "Codex built-in image_gen",
+      "license": "CC0-1.0, authorized by original art owner",
+      "prompt": "Create ONE original, detailed pixel-art full-cell isometric wall game sprite for ODM. Use first image only as GEOMETRY REGISTRATION GUIDE, second only as craftsmanship/connected-volume references, not palette copying. Fixed 2:1 diamond ground footprint; target runtime128x64, packed128x384. Broad complete diamond cap, both equal camera-facing side interfaces, structural contact filling both map axes so identical copies tile in X/Y five-block rows, corners and dense clusters. Follow guide perspective: top rear(480,200), cap left(104,390), right(856,390), front(480,580); ground left(104,870), right(856,870), front(480,1060). Match main volume to these interfaces, not an upright thin wall panel, stair, plinth or detached prop. Crisper hand-composed pixel clusters, true texture and lighting, left face moderately lighter than right, visible detailed top. Transparent background outside sprite. Single isolated sprite with generous margin, no scene, no cast shadow, no guide colours/lines/text. Preserve designed material depth, not a generic painted cube, flat silhouette, primitive fill, procedural noise, blurry or glossy3D. Keep base within diamond, chips/ornament restrained and compatible with neighbors. Primary base sprite only. MATERIAL pa-wall-car-wrecks: Post-apocalyptic barricade built as a densely compacted wall mass of rusted automotive steel, welded chassis plates, tire rubber and trapped wheel hubs. Main load-bearing mass fills a full diamond cell with broad contiguous steel scrap cap and both compatible faces. Muted rust orange, dusty charcoal, worn faded olive; coherent believable mechanical fragments, no complete car, no loose protruding bumper or gaps in main silhouette."
+    },
+    "pa-scrap-field": {
+      "file": "sources/recovery-v3/pa-scrap-field__structure-v1.png",
+      "authoredSource": "sources/recovery-v3/pa-scrap-field__source-v1.png",
+      "skin": "pa-highway",
+      "role": "rough",
+      "mode": "registered-art",
+      "groundContact": [
+        64,
+        288
+      ],
+      "sha256": "b52ca23cd0810e209928ef2b9df3b05698903f0ddb850db2979c193ad26f0d16",
+      "outputSha256": "3b9749c038bd79146c6ab2b6ac108247fdcce87ea229b4477c07f3626d99ace0",
+      "artStatus": "original-first-pass",
+      "approval": "Internally reviewed under full-library batch authorization; final human review pending",
+      "registration": {
+        "mode": "registered-art",
+        "bbox": [
+          160,
+          122,
+          1615,
+          802
+        ],
+        "uniformScale": 0.0879725085910653,
+        "translation": [
+          0,
+          260
+        ]
+      },
+      "tool": "Codex built-in image_gen",
+      "license": "CC0-1.0, authorized by original art owner",
+      "prompt": "Create ONE original detailed isometric pixel-art difficult-ground game asset for ODM. Small LOW scatter/pile of debris occupying one128x64 logical ground diamond, guided by supplied 2:1 ground-registration image. Match fixed orthographic2:1 tabletop view. Crisp pixel clusters, believable shaded construction, readable at128px wide. Transparent background INCLUDING visible gaps between the scattered objects; no raised slab, tray, frame, pedestal, painted ground, cast shadow outside footprint, scene, text or guide marks. Props may rise modestly above the ground but stay grounded within that one diamond. Material identity must be clear, no generic coloured rubble substitution. No neighbouring tiles. MATERIAL pa-scrap-field: Post-apocalyptic small scattered rusted sheet metal, severed rebar, broken mechanical brackets and a crushed tin can, dusty orange/brown iron and muted grey. Low readable debris, no whole wrecked car, driftwood or huge slab.",
+      "groundMaterial": "pa-asphalt-cracked"
+    },
+    "hr-wall-mould-brick": {
+      "file": "sources/recovery-v3/hr-wall-mould-brick__packed-v1.png",
+      "authoredSource": "sources/recovery-v3/hr-wall-mould-brick__source-v1.png",
+      "skin": "hr-manor",
+      "role": "wall",
+      "mode": "registered-art",
+      "groundContact": [
+        64,
+        288
+      ],
+      "sha256": "e5e08f704b3dc0676d8952d72ed6ef5617782d3c5aa8803458feddcdbade1390",
+      "outputSha256": "e5e08f704b3dc0676d8952d72ed6ef5617782d3c5aa8803458feddcdbade1390",
+      "artStatus": "original-first-pass",
+      "approval": "Internally reviewed under full-library batch authorization; final human review pending",
+      "registration": {
+        "mode": "registered-art",
+        "bbox": [
+          294,
+          74,
+          1156,
+          1038
+        ],
+        "uniformScale": 0.14849187935034802,
+        "translation": [
+          0,
+          177
+        ]
+      },
+      "tool": "Codex built-in image_gen",
+      "license": "CC0-1.0, authorized by original art owner",
+      "prompt": "Create ONE original, detailed pixel-art full-cell isometric wall game sprite for ODM. Use first image only as GEOMETRY REGISTRATION GUIDE, second only as craftsmanship/connected-volume references, not palette copying. Fixed 2:1 diamond ground footprint; target runtime128x64, packed128x384. Broad complete diamond cap, both equal camera-facing side interfaces, structural contact filling both map axes so identical copies tile in X/Y five-block rows, corners and dense clusters. Follow guide perspective: top rear(480,200), cap left(104,390), right(856,390), front(480,580); ground left(104,870), right(856,870), front(480,1060). Match main volume to these interfaces, not an upright thin wall panel, stair, plinth or detached prop. Crisper hand-composed pixel clusters, true texture and lighting, left face moderately lighter than right, visible detailed top. Transparent background outside sprite. Single isolated sprite with generous margin, no scene, no cast shadow, no guide colours/lines/text. Preserve designed material depth, not a generic painted cube, flat silhouette, primitive fill, procedural noise, blurry or glossy3D. Keep base within diamond, chips/ornament restrained and compatible with neighbors. Primary base sprite only. MATERIAL hr-wall-mould-brick: Restrained gothic manor masonry: weathered dark blue-grey and umber bricks, small patches of aged green-black mould in mortar, chipped dark stone coping. Built individual masonry courses, convincing shaded faces. Ominous and old, not tinted timber logs, no gore, no writing."
+    },
+    "hr-flesh-floor": {
+      "file": "sources/recovery-v3/hr-flesh-floor__source-v1.png",
+      "authoredSource": "sources/recovery-v3/hr-flesh-floor__source-v1.png",
+      "skin": "hr-flesh",
+      "role": "floor",
+      "mode": "source-plane",
+      "groundContact": [
+        64,
+        288
+      ],
+      "sha256": "27a3012c9158a2a44b8d06b32ae56a3f3d18680aa3935903ece03b3c47905272",
+      "outputSha256": "715030cfa37b243f48136e2ac8e641874b21b73229ac1f8a09fec362dad5137f",
+      "artStatus": "original-first-pass",
+      "approval": "Internally reviewed under full-library batch authorization; final human review pending",
+      "registration": {
+        "mode": "source-plane",
+        "centre": [
+          723.5,
+          575.0
+        ],
+        "radius": 616.91,
+        "bbox": [
+          94,
+          252,
+          1354,
+          899
+        ],
+        "uniformSampling": true,
+        "sourceRgbUnchanged": true
+      },
+      "tool": "Codex built-in image_gen",
+      "license": "CC0-1.0, authorized by original art owner",
+      "prompt": "Create ONE original pixel-art ground terrain tile for ODM tactical tabletop. Flat horizontal square projects to an exact 2:1 isometric diamond, matching the supplied geometry guide: full surface, no side walls, NO thickness, bevel, pedestal, tray, raised edge, border frame, extrusion, cast shadow or surrounding scene. Transparent outside diamond. Surface occupies the whole diamond with compatible unobtrusive edges for large contiguous patches. Crisp intentional pixel clusters and restrained texture, readable under miniatures, not noisy or checkerboard-like, no labels. Keep true isometric perspective, original material craftsmanship, no generic flat colour fill. This is a SINGLE asset, not a sheet. MATERIAL hr-flesh-floor: Restrained fantasy horror floor: continuous dark dusty-burgundy leathery organic membrane with subtle sinewy fibres, faint branching veins, irregular soft tissue seams; non-explicit and low-noise, no organs, faces, blood pool, masonry or glossy flesh. Flat walkable surface under miniatures.",
+      "centre": [
+        723.5,
+        575.0
+      ],
+      "radius": 616.91
+    },
+    "my-parquet-victorian": {
+      "file": "sources/recovery-v3/my-parquet-victorian__source-v2.png",
+      "authoredSource": "sources/recovery-v3/my-parquet-victorian__source-v2.png",
+      "skin": "my-townhouse",
+      "role": "floor",
+      "mode": "source-plane",
+      "groundContact": [
+        64,
+        288
+      ],
+      "sha256": "4ad74b8f97f0003404daa54bfbe876ec4099ed7945da80d2b2697c9aa91c32a3",
+      "outputSha256": "a05404c53f505e79f8b85de192f6c3edb6e332cb7fa644862c9e39710ab017cc",
+      "artStatus": "original-first-pass",
+      "approval": "Internally reviewed under full-library batch authorization; final human review pending",
+      "registration": {
+        "mode": "source-plane",
+        "centre": [
+          723.5,
+          575.0
+        ],
+        "radius": 645.33,
+        "bbox": [
+          65,
+          189,
+          1383,
+          962
+        ],
+        "uniformSampling": true,
+        "sourceRgbUnchanged": true
+      },
+      "tool": "Codex built-in image_gen",
+      "license": "CC0-1.0, authorized by original art owner",
+      "prompt": "Revise ONLY colour/detail contrast of this original isometric herringbone parquet tile. Preserve exact flat2:1 diamond, slat craftsmanship and transparency. Muted medium walnut and warm brown timber with restrained small colour differences between slats, matte worn finish. Remove strong alternating orange/dark checker contrast and bright edges. Herringbone remains recognisable but calm and low contrast beneath miniatures, not visually busy or noisy. No border, bevel, raised slab, objects, text or blur.",
+      "centre": [
+        723.5,
+        575.0
+      ],
+      "radius": 645.33
+    },
+    "my-wall-wallpaper": {
+      "file": "sources/recovery-v3/my-wall-wallpaper__packed-v1.png",
+      "authoredSource": "sources/recovery-v3/my-wall-wallpaper__source-v1.png",
+      "skin": "my-townhouse",
+      "role": "wall",
+      "mode": "registered-art",
+      "groundContact": [
+        64,
+        288
+      ],
+      "sha256": "01cd3489d369eeef7d10c1e85729cab246b99c6d36cd6dd83bd852dcec0232fd",
+      "outputSha256": "01cd3489d369eeef7d10c1e85729cab246b99c6d36cd6dd83bd852dcec0232fd",
+      "artStatus": "original-first-pass",
+      "approval": "Internally reviewed under full-library batch authorization; final human review pending",
+      "registration": {
+        "mode": "registered-art",
+        "bbox": [
+          131,
+          48,
+          1095,
+          1210
+        ],
+        "uniformScale": 0.13278008298755187,
+        "translation": [
+          0,
+          166
+        ]
+      },
+      "tool": "Codex built-in image_gen",
+      "license": "CC0-1.0, authorized by original art owner",
+      "prompt": "Create ONE original, detailed pixel-art full-cell isometric wall game sprite for ODM. Use first image only as GEOMETRY REGISTRATION GUIDE, second only as craftsmanship/connected-volume references, not palette copying. Fixed 2:1 diamond ground footprint; target runtime128x64, packed128x384. Broad complete diamond cap, both equal camera-facing side interfaces, structural contact filling both map axes so identical copies tile in X/Y five-block rows, corners and dense clusters. Follow guide perspective: top rear(480,200), cap left(104,390), right(856,390), front(480,580); ground left(104,870), right(856,870), front(480,1060). Match main volume to these interfaces, not an upright thin wall panel, stair, plinth or detached prop. Crisper hand-composed pixel clusters, true texture and lighting, left face moderately lighter than right, visible detailed top. Transparent background outside sprite. Single isolated sprite with generous margin, no scene, no cast shadow, no guide colours/lines/text. Preserve designed material depth, not a generic painted cube, flat silhouette, primitive fill, procedural noise, blurry or glossy3D. Keep base within diamond, chips/ornament restrained and compatible with neighbors. Primary base sprite only. MATERIAL my-wall-wallpaper: Victorian townhouse architectural wall volume: pale desaturated sage plaster with restrained faded damask wallpaper panels and warm dark wooden wainscot on two faces, chipped limestone/wood cap showing solid architectural thickness. Full square-cell volume and equal connected interfaces. Detailed joinery and fine surface aging but restrained readable pattern. Not log construction, no painting, no text, no door or window."
+    },
+    "my-papers-scattered": {
+      "file": "sources/recovery-v3/my-papers-scattered__structure-v1.png",
+      "authoredSource": "sources/recovery-v3/my-papers-scattered__source-v1.png",
+      "skin": "my-townhouse",
+      "role": "rough",
+      "mode": "registered-art",
+      "groundContact": [
+        64,
+        288
+      ],
+      "sha256": "052625eef228e4d2079cc57eac7c06c00818c3a18b70f61327635fb2d7f08f32",
+      "outputSha256": "ddbd2466519409e2438930832e1c36ff06863166fa7e2c355870ace6a0a87d3a",
+      "artStatus": "original-first-pass",
+      "approval": "Internally reviewed under full-library batch authorization; final human review pending",
+      "registration": {
+        "mode": "registered-art",
+        "bbox": [
+          268,
+          178,
+          1490,
+          696
+        ],
+        "uniformScale": 0.10474631751227496,
+        "translation": [
+          0,
+          266
+        ]
+      },
+      "tool": "Codex built-in image_gen",
+      "license": "CC0-1.0, authorized by original art owner",
+      "prompt": "Create ONE original detailed isometric pixel-art difficult-ground game asset for ODM. Small LOW scatter/pile of debris occupying one128x64 logical ground diamond, guided by supplied 2:1 ground-registration image. Match fixed orthographic2:1 tabletop view. Crisp pixel clusters, believable shaded construction, readable at128px wide. Transparent background INCLUDING visible gaps between the scattered objects; no raised slab, tray, frame, pedestal, painted ground, cast shadow outside footprint, scene, text or guide marks. Props may rise modestly above the ground but stay grounded within that one diamond. Material identity must be clear, no generic coloured rubble substitution. No neighbouring tiles. MATERIAL my-papers-scattered: Victorian mystery townhouse: several scattered and partly overlapping ivory paper sheets, two folded letters, a small dark book and one ribbon. No legible writing, icons, stones, crates or furniture. Delicate page edges and correct isometric lying-flat perspective, restrained cream and brown.",
+      "groundMaterial": "my-parquet-victorian"
+    },
+    "cp-lowwall-crash-barrier": {
+      "file": "sources/recovery-v3/cp-lowwall-crash-barrier__packed-v1.png",
+      "authoredSource": "sources/recovery-v3/cp-lowwall-crash-barrier__source-v1.png",
+      "skin": "cp-street",
+      "role": "lowwall",
+      "mode": "registered-art",
+      "groundContact": [
+        64,
+        288
+      ],
+      "sha256": "5b4b0c24a041e71fe81b282c97ca9afaf74d6456580c2e561df610e6666fe990",
+      "outputSha256": "5b4b0c24a041e71fe81b282c97ca9afaf74d6456580c2e561df610e6666fe990",
+      "artStatus": "original-first-pass",
+      "approval": "Internally reviewed under full-library batch authorization; final human review pending",
+      "registration": {
+        "mode": "registered-art",
+        "bbox": [
+          468,
+          167,
+          1311,
+          801
+        ],
+        "uniformScale": 0.15183867141162516,
+        "translation": [
+          0,
+          224
+        ]
+      },
+      "tool": "Codex built-in image_gen",
+      "license": "CC0-1.0, authorized by original art owner",
+      "prompt": "Create ONE original detailed crisp isometric pixel-art low wall / cover structure for ODM fantasy/scifi tabletop. A single waist-high barrier along ONE isometric grid axis, viewed orthographically at 2:1 perspective. The main horizontal edges slope 1 vertical per2 horizontal, NOT screen-horizontal. Clearly shaded front face, narrow believable top surface, complete front-facing lower edge, correct ground contact. Its base footprint stays inside one128x64 ground diamond, packed128x384 convention. Ground-level support will be supplied separately: transparent outside and in structure openings, no large plinth, slab, painted floor, cast shadow or background. Detailed handcrafted pixel clusters, no text, no huge scene, no adjacent copies, no flat-colour silhouettes or generic coloured box. Single image will be mirrored for second axis, so no writing/signs/asymmetric directional lighting. MATERIAL cp-lowwall-crash-barrier: Cyberpunk roadside crash barrier: heavy worn grey steel guardrail with two short bolted uprights, restrained yellow hazard bands, small cool cyan end reflectors, coherent industrial construction. No bookshelf, books or rock wall.",
+      "variants": {
+        "axis-a": {
+          "file": "sources/recovery-v3/cp-lowwall-crash-barrier__packed-axis-a.png",
+          "sha256": "5b4b0c24a041e71fe81b282c97ca9afaf74d6456580c2e561df610e6666fe990",
+          "outputSha256": "5b4b0c24a041e71fe81b282c97ca9afaf74d6456580c2e561df610e6666fe990"
+        },
+        "axis-b": {
+          "file": "sources/recovery-v3/cp-lowwall-crash-barrier__packed-axis-b.png",
+          "sha256": "0c9a2332ab8b0237ff85d537eb5c1664fbcbb3645ccc664124db40096dcd227a",
+          "outputSha256": "0c9a2332ab8b0237ff85d537eb5c1664fbcbb3645ccc664124db40096dcd227a"
+        }
+      }
+    },
+    "cp-lowwall-console": {
+      "file": "sources/recovery-v3/cp-lowwall-console__packed-v1.png",
+      "authoredSource": "sources/recovery-v3/cp-lowwall-console__source-v1.png",
+      "skin": "cp-corp",
+      "role": "lowwall",
+      "mode": "registered-art",
+      "groundContact": [
+        64,
+        288
+      ],
+      "sha256": "48a71496d5ef3bcc91f35e23dcd87d501681f8cc72c74dfc5267b9d9b7f1b7e2",
+      "outputSha256": "48a71496d5ef3bcc91f35e23dcd87d501681f8cc72c74dfc5267b9d9b7f1b7e2",
+      "artStatus": "original-first-pass",
+      "approval": "Internally reviewed under full-library batch authorization; final human review pending",
+      "registration": {
+        "mode": "registered-art",
+        "bbox": [
+          308,
+          234,
+          1282,
+          981
+        ],
+        "uniformScale": 0.13141683778234087,
+        "translation": [
+          0,
+          222
+        ]
+      },
+      "tool": "Codex built-in image_gen",
+      "license": "CC0-1.0, authorized by original art owner",
+      "prompt": "Create ONE original detailed crisp isometric pixel-art low wall / cover structure for ODM fantasy/scifi tabletop. A single waist-high barrier along ONE isometric grid axis, viewed orthographically at 2:1 perspective. The main horizontal edges slope 1 vertical per2 horizontal, NOT screen-horizontal. Clearly shaded front face, narrow believable top surface, complete front-facing lower edge, correct ground contact. Its base footprint stays inside one128x64 ground diamond, packed128x384 convention. Ground-level support will be supplied separately: transparent outside and in structure openings, no large plinth, slab, painted floor, cast shadow or background. Detailed handcrafted pixel clusters, no text, no huge scene, no adjacent copies, no flat-colour silhouettes or generic coloured box. Single image will be mirrored for second axis, so no writing/signs/asymmetric directional lighting. MATERIAL cp-lowwall-console: Corporate cyberpunk low console bank: waist-high dark teal steel control counter with two small angled cyan-blue display panels, recessed controls and clean panel edges. Screens show abstract dim shapes only, no text. Believable low cover silhouette, not a bookshelf.",
+      "variants": {
+        "axis-a": {
+          "file": "sources/recovery-v3/cp-lowwall-console__packed-axis-a.png",
+          "sha256": "48a71496d5ef3bcc91f35e23dcd87d501681f8cc72c74dfc5267b9d9b7f1b7e2",
+          "outputSha256": "48a71496d5ef3bcc91f35e23dcd87d501681f8cc72c74dfc5267b9d9b7f1b7e2"
+        },
+        "axis-b": {
+          "file": "sources/recovery-v3/cp-lowwall-console__packed-axis-b.png",
+          "sha256": "f973b6771f5ac082d6a92267dea4cb0ad4c199bb0bf3688a7f2ea17e6a916cfe",
+          "outputSha256": "f973b6771f5ac082d6a92267dea4cb0ad4c199bb0bf3688a7f2ea17e6a916cfe"
+        }
+      }
+    },
+    "cp-lowwall-crates": {
+      "file": "sources/recovery-v3/cp-lowwall-crates__packed-v1.png",
+      "authoredSource": "sources/recovery-v3/cp-lowwall-crates__source-v1.png",
+      "skin": "cp-yard",
+      "role": "lowwall",
+      "mode": "registered-art",
+      "groundContact": [
+        64,
+        288
+      ],
+      "sha256": "0b2bc4e0c37b44a44311de61aed48c1143adc2e40100fae5630d6647a3f3c1ff",
+      "outputSha256": "0b2bc4e0c37b44a44311de61aed48c1143adc2e40100fae5630d6647a3f3c1ff",
+      "artStatus": "original-first-pass",
+      "approval": "Internally reviewed under full-library batch authorization; final human review pending",
+      "registration": {
+        "mode": "registered-art",
+        "bbox": [
+          477,
+          156,
+          1412,
+          799
+        ],
+        "uniformScale": 0.13689839572192514,
+        "translation": [
+          0,
+          232
+        ]
+      },
+      "tool": "Codex built-in image_gen",
+      "license": "CC0-1.0, authorized by original art owner",
+      "prompt": "Create ONE original detailed crisp isometric pixel-art low wall / cover structure for ODM fantasy/scifi tabletop. A single waist-high barrier along ONE isometric grid axis, viewed orthographically at 2:1 perspective. The main horizontal edges slope 1 vertical per2 horizontal, NOT screen-horizontal. Clearly shaded front face, narrow believable top surface, complete front-facing lower edge, correct ground contact. Its base footprint stays inside one128x64 ground diamond, packed128x384 convention. Ground-level support will be supplied separately: transparent outside and in structure openings, no large plinth, slab, painted floor, cast shadow or background. Detailed handcrafted pixel clusters, no text, no huge scene, no adjacent copies, no flat-colour silhouettes or generic coloured box. Single image will be mirrored for second axis, so no writing/signs/asymmetric directional lighting. MATERIAL cp-lowwall-crates: Cyberpunk yard low cover: two rugged low dark olive/teal shipping cases with reinforced metal corners, latches and subtle wear, lined up along one isometric axis. No stone masonry, no writing or logos, no tall stack.",
+      "variants": {
+        "axis-a": {
+          "file": "sources/recovery-v3/cp-lowwall-crates__packed-axis-a.png",
+          "sha256": "0b2bc4e0c37b44a44311de61aed48c1143adc2e40100fae5630d6647a3f3c1ff",
+          "outputSha256": "0b2bc4e0c37b44a44311de61aed48c1143adc2e40100fae5630d6647a3f3c1ff"
+        },
+        "axis-b": {
+          "file": "sources/recovery-v3/cp-lowwall-crates__packed-axis-b.png",
+          "sha256": "a2fe97130252830114ba8593134fc9b183eaec820d041ebc866c080ef88053de",
+          "outputSha256": "a2fe97130252830114ba8593134fc9b183eaec820d041ebc866c080ef88053de"
+        }
+      }
+    },
+    "sp-lowwall-pipe-rail": {
+      "file": "sources/recovery-v3/sp-lowwall-pipe-rail__packed-v1.png",
+      "authoredSource": "sources/recovery-v3/sp-lowwall-pipe-rail__source-v1.png",
+      "skin": "sp-foundry",
+      "role": "lowwall",
+      "mode": "registered-art",
+      "groundContact": [
+        64,
+        288
+      ],
+      "sha256": "b2e9dd5962c0d537f5ebdb43d044cc08127d6abb6154dc1428bbf82ece02511d",
+      "outputSha256": "b2e9dd5962c0d537f5ebdb43d044cc08127d6abb6154dc1428bbf82ece02511d",
+      "artStatus": "original-first-pass",
+      "approval": "Internally reviewed under full-library batch authorization; final human review pending",
+      "registration": {
+        "mode": "registered-art",
+        "bbox": [
+          253,
+          197,
+          1196,
+          937
+        ],
+        "uniformScale": 0.1357370095440085,
+        "translation": [
+          0,
+          220
+        ]
+      },
+      "tool": "Codex built-in image_gen",
+      "license": "CC0-1.0, authorized by original art owner",
+      "prompt": "Create ONE original detailed crisp isometric pixel-art low wall / cover structure for ODM fantasy/scifi tabletop. A single waist-high barrier along ONE isometric grid axis, viewed orthographically at 2:1 perspective. The main horizontal edges slope 1 vertical per2 horizontal, NOT screen-horizontal. Clearly shaded front face, narrow believable top surface, complete front-facing lower edge, correct ground contact. Its base footprint stays inside one128x64 ground diamond, packed128x384 convention. Ground-level support will be supplied separately: transparent outside and in structure openings, no large plinth, slab, painted floor, cast shadow or background. Detailed handcrafted pixel clusters, no text, no huge scene, no adjacent copies, no flat-colour silhouettes or generic coloured box. Single image will be mirrored for second axis, so no writing/signs/asymmetric directional lighting. MATERIAL sp-lowwall-pipe-rail: Steampunk foundry low pipe railing: two stout iron posts holding horizontal brass/copper steam pipes and a small restrained valve, riveted feet and sooty wear. Correct isometric axis and complete lower/front pipe geometry. No rocks, wood crates, steam cloud or floor platform.",
+      "variants": {
+        "axis-a": {
+          "file": "sources/recovery-v3/sp-lowwall-pipe-rail__packed-axis-a.png",
+          "sha256": "b2e9dd5962c0d537f5ebdb43d044cc08127d6abb6154dc1428bbf82ece02511d",
+          "outputSha256": "b2e9dd5962c0d537f5ebdb43d044cc08127d6abb6154dc1428bbf82ece02511d"
+        },
+        "axis-b": {
+          "file": "sources/recovery-v3/sp-lowwall-pipe-rail__packed-axis-b.png",
+          "sha256": "a88f92b199f4d8fe29252d83ad400f3bc7354314edc930bef8cce7909b8cd55a",
+          "outputSha256": "a88f92b199f4d8fe29252d83ad400f3bc7354314edc930bef8cce7909b8cd55a"
+        }
+      }
+    },
+    "sp-lowwall-crate-row": {
+      "file": "sources/recovery-v3/sp-lowwall-crate-row__packed-v1.png",
+      "authoredSource": "sources/recovery-v3/sp-lowwall-crate-row__source-v1.png",
+      "skin": "sp-street",
+      "role": "lowwall",
+      "mode": "registered-art",
+      "groundContact": [
+        64,
+        288
+      ],
+      "sha256": "55487742f302a88f75daf41cbaca7470e504e394d9c4c41c41e5ff02469191ca",
+      "outputSha256": "55487742f302a88f75daf41cbaca7470e504e394d9c4c41c41e5ff02469191ca",
+      "artStatus": "original-first-pass",
+      "approval": "Internally reviewed under full-library batch authorization; final human review pending",
+      "registration": {
+        "mode": "registered-art",
+        "bbox": [
+          490,
+          130,
+          1406,
+          790
+        ],
+        "uniformScale": 0.13973799126637554,
+        "translation": [
+          0,
+          228
+        ]
+      },
+      "tool": "Codex built-in image_gen",
+      "license": "CC0-1.0, authorized by original art owner",
+      "prompt": "Create ONE original detailed crisp isometric pixel-art low wall / cover structure for ODM fantasy/scifi tabletop. A single waist-high barrier along ONE isometric grid axis, viewed orthographically at 2:1 perspective. The main horizontal edges slope 1 vertical per2 horizontal, NOT screen-horizontal. Clearly shaded front face, narrow believable top surface, complete front-facing lower edge, correct ground contact. Its base footprint stays inside one128x64 ground diamond, packed128x384 convention. Ground-level support will be supplied separately: transparent outside and in structure openings, no large plinth, slab, painted floor, cast shadow or background. Detailed handcrafted pixel clusters, no text, no huge scene, no adjacent copies, no flat-colour silhouettes or generic coloured box. Single image will be mirrored for second axis, so no writing/signs/asymmetric directional lighting. MATERIAL sp-lowwall-crate-row: Steampunk street cover: two squat well-constructed shipping crates, aged warm oak planks, corner iron bindings and small brass fasteners, no handles resembling a door, no food, mugs or tablecloth. Low row along one isometric axis, crisp wood joinery and complete base edges.",
+      "variants": {
+        "axis-a": {
+          "file": "sources/recovery-v3/sp-lowwall-crate-row__packed-axis-a.png",
+          "sha256": "55487742f302a88f75daf41cbaca7470e504e394d9c4c41c41e5ff02469191ca",
+          "outputSha256": "55487742f302a88f75daf41cbaca7470e504e394d9c4c41c41e5ff02469191ca"
+        },
+        "axis-b": {
+          "file": "sources/recovery-v3/sp-lowwall-crate-row__packed-axis-b.png",
+          "sha256": "6d0b6b7596f74d7f2b2da1a29eab535023b9f6591f74205a61911027222cfdc0",
+          "outputSha256": "6d0b6b7596f74d7f2b2da1a29eab535023b9f6591f74205a61911027222cfdc0"
+        }
+      }
+    },
+    "pa-lowwall-tyre-row": {
+      "file": "sources/recovery-v3/pa-lowwall-tyre-row__packed-v1.png",
+      "authoredSource": "sources/recovery-v3/pa-lowwall-tyre-row__source-v1.png",
+      "skin": "pa-highway",
+      "role": "lowwall",
+      "mode": "registered-art",
+      "groundContact": [
+        64,
+        288
+      ],
+      "sha256": "925919223f77cfc9e27869de1ff38d308eb2cf07b4a8486b06caa513d25e327e",
+      "outputSha256": "925919223f77cfc9e27869de1ff38d308eb2cf07b4a8486b06caa513d25e327e",
+      "artStatus": "original-first-pass",
+      "approval": "Internally reviewed under full-library batch authorization; final human review pending",
+      "registration": {
+        "mode": "registered-art",
+        "bbox": [
+          188,
+          296,
+          1272,
+          913
+        ],
+        "uniformScale": 0.11808118081180811,
+        "translation": [
+          0,
+          247
+        ]
+      },
+      "tool": "Codex built-in image_gen",
+      "license": "CC0-1.0, authorized by original art owner",
+      "prompt": "Create ONE original detailed crisp isometric pixel-art low wall / cover structure for ODM fantasy/scifi tabletop. A single waist-high barrier along ONE isometric grid axis, viewed orthographically at 2:1 perspective. The main horizontal edges slope 1 vertical per2 horizontal, NOT screen-horizontal. Clearly shaded front face, narrow believable top surface, complete front-facing lower edge, correct ground contact. Its base footprint stays inside one128x64 ground diamond, packed128x384 convention. Ground-level support will be supplied separately: transparent outside and in structure openings, no large plinth, slab, painted floor, cast shadow or background. Detailed handcrafted pixel clusters, no text, no huge scene, no adjacent copies, no flat-colour silhouettes or generic coloured box. Single image will be mirrored for second axis, so no writing/signs/asymmetric directional lighting. MATERIAL pa-lowwall-tyre-row: Post-apocalyptic low barricade: three worn chunky black rubber tyres and restrained rusty support brackets, some tyres stacked low to provide cover, convincing tread and shaded volume. Low row along one isometric axis. No stone masonry or bright colours.",
+      "variants": {
+        "axis-a": {
+          "file": "sources/recovery-v3/pa-lowwall-tyre-row__packed-axis-a.png",
+          "sha256": "925919223f77cfc9e27869de1ff38d308eb2cf07b4a8486b06caa513d25e327e",
+          "outputSha256": "925919223f77cfc9e27869de1ff38d308eb2cf07b4a8486b06caa513d25e327e"
+        },
+        "axis-b": {
+          "file": "sources/recovery-v3/pa-lowwall-tyre-row__packed-axis-b.png",
+          "sha256": "69824eaf9ce740471b5483950ba2989511d871562208de64b2c5fb735b8ded1e",
+          "outputSha256": "69824eaf9ce740471b5483950ba2989511d871562208de64b2c5fb735b8ded1e"
+        }
+      }
+    },
+    "hr-lowwall-cages": {
+      "file": "sources/recovery-v3/hr-lowwall-cages__packed-v1.png",
+      "authoredSource": "sources/recovery-v3/hr-lowwall-cages__source-v1.png",
+      "skin": "hr-flesh",
+      "role": "lowwall",
+      "mode": "registered-art",
+      "groundContact": [
+        64,
+        288
+      ],
+      "sha256": "1bed09dbcfda49e8d63087bfceee9c0743cf87b52f14ea64b1e181b6064fdbf0",
+      "outputSha256": "1bed09dbcfda49e8d63087bfceee9c0743cf87b52f14ea64b1e181b6064fdbf0",
+      "artStatus": "original-first-pass",
+      "approval": "Internally reviewed under full-library batch authorization; final human review pending",
+      "registration": {
+        "mode": "registered-art",
+        "bbox": [
+          215,
+          150,
+          1236,
+          994
+        ],
+        "uniformScale": 0.12536728697355534,
+        "translation": [
+          0,
+          214
+        ]
+      },
+      "tool": "Codex built-in image_gen",
+      "license": "CC0-1.0, authorized by original art owner",
+      "prompt": "Create ONE original detailed crisp isometric pixel-art low wall / cover structure for ODM fantasy/scifi tabletop. A single waist-high barrier along ONE isometric grid axis, viewed orthographically at 2:1 perspective. The main horizontal edges slope 1 vertical per2 horizontal, NOT screen-horizontal. Clearly shaded front face, narrow believable top surface, complete front-facing lower edge, correct ground contact. Its base footprint stays inside one128x64 ground diamond, packed128x384 convention. Ground-level support will be supplied separately: transparent outside and in structure openings, no large plinth, slab, painted floor, cast shadow or background. Detailed handcrafted pixel clusters, no text, no huge scene, no adjacent copies, no flat-colour silhouettes or generic coloured box. Single image will be mirrored for second axis, so no writing/signs/asymmetric directional lighting. MATERIAL hr-lowwall-cages: Restrained fantasy horror low cage barrier: weathered iron rib bars with a few organic bone-like fibrous braces, dark burgundy/charcoal patina, waist-high empty containment railing with transparent openings. No creature, body, skulls, gore, sarcophagus or coffin. Complete grounded feet and front bars.",
+      "variants": {
+        "axis-a": {
+          "file": "sources/recovery-v3/hr-lowwall-cages__packed-axis-a.png",
+          "sha256": "1bed09dbcfda49e8d63087bfceee9c0743cf87b52f14ea64b1e181b6064fdbf0",
+          "outputSha256": "1bed09dbcfda49e8d63087bfceee9c0743cf87b52f14ea64b1e181b6064fdbf0"
+        },
+        "axis-b": {
+          "file": "sources/recovery-v3/hr-lowwall-cages__packed-axis-b.png",
+          "sha256": "c198b2e789643bd83a67061a697209aa4696487a60831d62abd42075b77bdd25",
+          "outputSha256": "c198b2e789643bd83a67061a697209aa4696487a60831d62abd42075b77bdd25"
+        }
+      }
+    },
+    "my-lowwall-sofa": {
+      "file": "sources/recovery-v3/my-lowwall-sofa__packed-v1.png",
+      "authoredSource": "sources/recovery-v3/my-lowwall-sofa__source-v1.png",
+      "skin": "my-townhouse",
+      "role": "lowwall",
+      "mode": "registered-art",
+      "groundContact": [
+        64,
+        288
+      ],
+      "sha256": "7ae1aa34a9d275f03ebe8e1ae001bdc0e8162864ae3e4e9e1a59f8851c2ffa69",
+      "outputSha256": "7ae1aa34a9d275f03ebe8e1ae001bdc0e8162864ae3e4e9e1a59f8851c2ffa69",
+      "artStatus": "original-first-pass",
+      "approval": "Internally reviewed under full-library batch authorization; final human review pending",
+      "registration": {
+        "mode": "registered-art",
+        "bbox": [
+          210,
+          125,
+          1288,
+          928
+        ],
+        "uniformScale": 0.11873840445269017,
+        "translation": [
+          0,
+          225
+        ]
+      },
+      "tool": "Codex built-in image_gen",
+      "license": "CC0-1.0, authorized by original art owner",
+      "prompt": "Create ONE original detailed crisp isometric pixel-art low wall / cover structure for ODM fantasy/scifi tabletop. A single waist-high barrier along ONE isometric grid axis, viewed orthographically at 2:1 perspective. The main horizontal edges slope 1 vertical per2 horizontal, NOT screen-horizontal. Clearly shaded front face, narrow believable top surface, complete front-facing lower edge, correct ground contact. Its base footprint stays inside one128x64 ground diamond, packed128x384 convention. Ground-level support will be supplied separately: transparent outside and in structure openings, no large plinth, slab, painted floor, cast shadow or background. Detailed handcrafted pixel clusters, no text, no huge scene, no adjacent copies, no flat-colour silhouettes or generic coloured box. Single image will be mirrored for second axis, so no writing/signs/asymmetric directional lighting. MATERIAL my-lowwall-sofa: Victorian townhouse furniture cover: a low elegant two-seat burgundy upholstered settee with walnut wooden frame and short carved feet, restrained tufting, tasteful wear, coherent isometric upholstery volume. One sofa only, no table, dishes or bookshelf. Transparent around and under feet.",
+      "variants": {
+        "axis-a": {
+          "file": "sources/recovery-v3/my-lowwall-sofa__packed-axis-a.png",
+          "sha256": "7ae1aa34a9d275f03ebe8e1ae001bdc0e8162864ae3e4e9e1a59f8851c2ffa69",
+          "outputSha256": "7ae1aa34a9d275f03ebe8e1ae001bdc0e8162864ae3e4e9e1a59f8851c2ffa69"
+        },
+        "axis-b": {
+          "file": "sources/recovery-v3/my-lowwall-sofa__packed-axis-b.png",
+          "sha256": "7f526932d5b3a7e736da84f22d04f3a2eeb810f9cdcf7304fde16eebfdcb7529",
+          "outputSha256": "7f526932d5b3a7e736da84f22d04f3a2eeb810f9cdcf7304fde16eebfdcb7529"
+        }
+      }
+    },
+    "cp-door-sliding-glass": {
+      "file": "sources/recovery-v3/cp-door-sliding-glass__packed-v1.png",
+      "authoredSource": "sources/recovery-v3/cp-door-sliding-glass__source-v1.png",
+      "skin": "cp-corp",
+      "role": "door",
+      "mode": "registered-art",
+      "groundContact": [
+        64,
+        288
+      ],
+      "sha256": "7df2a23a0d0a80899e6e2e856a493826c5a6374c9a12e2176b44d01ac6d0567d",
+      "outputSha256": "7df2a23a0d0a80899e6e2e856a493826c5a6374c9a12e2176b44d01ac6d0567d",
+      "artStatus": "original-first-pass",
+      "approval": "Internally reviewed under full-library batch authorization; final human review pending",
+      "registration": {
+        "mode": "registered-art",
+        "bbox": [
+          237,
+          200,
+          861,
+          1301
+        ],
+        "uniformScale": 0.20512820512820512,
+        "translation": [
+          0,
+          94
+        ]
+      },
+      "tool": "Codex built-in image_gen",
+      "license": "CC0-1.0, authorized by original art owner",
+      "prompt": "Create ONE original detailed pixel-art isometric DOOR sprite for ODM tabletop. Upright narrow door in a complete frame, viewed orthographically along ONE isometric grid axis: top and bottom horizontal edges slope1vertical per2horizontal, both jambs vertical. Transparent outside; true transparent openings when appropriate. Full accurate thin structural depth, hinges/track/feet as appropriate, crisp shaded pixel clusters readable at128px wide. Reference image is only the successful thin-door perspective, scale and craftsmanship; replace the material/design entirely. No surrounding wall, large ground slab, scene, text or cast shadow outside footprint. Single modest doorway will be uniformly registered to existing140px maximum packed height and mirrored for other axis; avoid writing/logos. Do not create a full cuboid, huge gate or screen-facing flat rectangle. MATERIAL cp-door-sliding-glass: Corporate cyberpunk sliding glass doorway, slim dark chrome frame and two translucent blue-grey glass panels, small restrained cyan status accent, clear inset track. No timber, stone, ring handle, fantasy carving, screen text or giant opaque iron panel.",
+      "variants": {
+        "axis-a": {
+          "file": "sources/recovery-v3/cp-door-sliding-glass__packed-axis-a.png",
+          "sha256": "7df2a23a0d0a80899e6e2e856a493826c5a6374c9a12e2176b44d01ac6d0567d",
+          "outputSha256": "7df2a23a0d0a80899e6e2e856a493826c5a6374c9a12e2176b44d01ac6d0567d"
+        },
+        "axis-b": {
+          "file": "sources/recovery-v3/cp-door-sliding-glass__packed-axis-b.png",
+          "sha256": "2451f84921ea88e0bab13a8f7680114d7615345c7422c6377d8e3c901ac60be6",
+          "outputSha256": "2451f84921ea88e0bab13a8f7680114d7615345c7422c6377d8e3c901ac60be6"
+        }
+      }
+    },
+    "sp-door-cage-lift": {
+      "file": "sources/recovery-v3/sp-door-cage-lift__packed-v1.png",
+      "authoredSource": "sources/recovery-v3/sp-door-cage-lift__source-v1.png",
+      "skin": "sp-street",
+      "role": "door",
+      "mode": "registered-art",
+      "groundContact": [
+        64,
+        288
+      ],
+      "sha256": "0bef92fa8c357af14dde4fcae25f9c086cb5f859a2969f891efe41173dae02dc",
+      "outputSha256": "0bef92fa8c357af14dde4fcae25f9c086cb5f859a2969f891efe41173dae02dc",
+      "artStatus": "original-first-pass",
+      "approval": "Internally reviewed under full-library batch authorization; final human review pending",
+      "registration": {
+        "mode": "registered-art",
+        "bbox": [
+          311,
+          197,
+          868,
+          1289
+        ],
+        "uniformScale": 0.22980251346499103,
+        "translation": [
+          0,
+          69
+        ]
+      },
+      "tool": "Codex built-in image_gen",
+      "license": "CC0-1.0, authorized by original art owner",
+      "prompt": "Create ONE original detailed pixel-art isometric DOOR sprite for ODM tabletop. Upright narrow door in a complete frame, viewed orthographically along ONE isometric grid axis: top and bottom horizontal edges slope1vertical per2horizontal, both jambs vertical. Transparent outside; true transparent openings when appropriate. Full accurate thin structural depth, hinges/track/feet as appropriate, crisp shaded pixel clusters readable at128px wide. Reference image is only the successful thin-door perspective, scale and craftsmanship; replace the material/design entirely. No surrounding wall, large ground slab, scene, text or cast shadow outside footprint. Single modest doorway will be uniformly registered to existing140px maximum packed height and mirrored for other axis; avoid writing/logos. Do not create a full cuboid, huge gate or screen-facing flat rectangle. MATERIAL sp-door-cage-lift: Steampunk cage-lift doorway: narrow dark wrought iron bar gate in a riveted bronze frame, small mechanical latch, restrained brass track and worn rivets. Empty transparent cage gaps, no timber planks, stone, machinery block or whole elevator shaft.",
+      "variants": {
+        "axis-a": {
+          "file": "sources/recovery-v3/sp-door-cage-lift__packed-axis-a.png",
+          "sha256": "0bef92fa8c357af14dde4fcae25f9c086cb5f859a2969f891efe41173dae02dc",
+          "outputSha256": "0bef92fa8c357af14dde4fcae25f9c086cb5f859a2969f891efe41173dae02dc"
+        },
+        "axis-b": {
+          "file": "sources/recovery-v3/sp-door-cage-lift__packed-axis-b.png",
+          "sha256": "eb62529bb773eea25e7f027bb4a74fefffb8978d1ce8543edb61db9575e7b66d",
+          "outputSha256": "eb62529bb773eea25e7f027bb4a74fefffb8978d1ce8543edb61db9575e7b66d"
+        }
+      }
+    },
+    "pa-door-chain-gate": {
+      "file": "sources/recovery-v3/pa-door-chain-gate__packed-v1.png",
+      "authoredSource": "sources/recovery-v3/pa-door-chain-gate__source-v1.png",
+      "skin": "pa-highway",
+      "role": "door",
+      "mode": "registered-art",
+      "groundContact": [
+        64,
+        288
+      ],
+      "sha256": "c4a3d5fad66c8f7328a118fbb6774215f78295697f3eb4c5d007f698d2b50d9f",
+      "outputSha256": "c4a3d5fad66c8f7328a118fbb6774215f78295697f3eb4c5d007f698d2b50d9f",
+      "artStatus": "original-first-pass",
+      "approval": "Internally reviewed under full-library batch authorization; final human review pending",
+      "registration": {
+        "mode": "registered-art",
+        "bbox": [
+          358,
+          415,
+          813,
+          1287
+        ],
+        "uniformScale": 0.2813186813186813,
+        "translation": [
+          0,
+          75
+        ]
+      },
+      "tool": "Codex built-in image_gen",
+      "license": "CC0-1.0, authorized by original art owner",
+      "prompt": "Create ONE original detailed pixel-art isometric DOOR sprite for ODM tabletop. Upright narrow door in a complete frame, viewed orthographically along ONE isometric grid axis: top and bottom horizontal edges slope1vertical per2horizontal, both jambs vertical. Transparent outside; true transparent openings when appropriate. Full accurate thin structural depth, hinges/track/feet as appropriate, crisp shaded pixel clusters readable at128px wide. Reference image is only the successful thin-door perspective, scale and craftsmanship; replace the material/design entirely. No surrounding wall, large ground slab, scene, text or cast shadow outside footprint. Single modest doorway will be uniformly registered to existing140px maximum packed height and mirrored for other axis; avoid writing/logos. Do not create a full cuboid, huge gate or screen-facing flat rectangle. MATERIAL pa-door-chain-gate: Post-apocalyptic narrow chain-link gate: rusty steel frame/posts, sagging small-gauge diamond wire mesh, small latch and a short restrained chain at lock, transparent mesh gaps. No wood, stone wall, massive barricade or text.",
+      "variants": {
+        "axis-a": {
+          "file": "sources/recovery-v3/pa-door-chain-gate__packed-axis-a.png",
+          "sha256": "c4a3d5fad66c8f7328a118fbb6774215f78295697f3eb4c5d007f698d2b50d9f",
+          "outputSha256": "c4a3d5fad66c8f7328a118fbb6774215f78295697f3eb4c5d007f698d2b50d9f"
+        },
+        "axis-b": {
+          "file": "sources/recovery-v3/pa-door-chain-gate__packed-axis-b.png",
+          "sha256": "4de5af5aa1f305639e415b96f3568a4cf75c69cf83dfd8539c3b303fc6e8f27b",
+          "outputSha256": "4de5af5aa1f305639e415b96f3568a4cf75c69cf83dfd8539c3b303fc6e8f27b"
+        }
+      }
+    },
+    "hr-door-flesh": {
+      "file": "sources/recovery-v3/hr-door-flesh__packed-v1.png",
+      "authoredSource": "sources/recovery-v3/hr-door-flesh__source-v1.png",
+      "skin": "hr-flesh",
+      "role": "door",
+      "mode": "registered-art",
+      "groundContact": [
+        64,
+        288
+      ],
+      "sha256": "de0f62d1d86ad10aa45370386513ac52a0576f17b185fa7537e64a65c93fb9bf",
+      "outputSha256": "de0f62d1d86ad10aa45370386513ac52a0576f17b185fa7537e64a65c93fb9bf",
+      "artStatus": "original-first-pass",
+      "approval": "Internally reviewed under full-library batch authorization; final human review pending",
+      "registration": {
+        "mode": "registered-art",
+        "bbox": [
+          356,
+          440,
+          788,
+          1356
+        ],
+        "uniformScale": 0.2962962962962963,
+        "translation": [
+          0,
+          49
+        ]
+      },
+      "tool": "Codex built-in image_gen",
+      "license": "CC0-1.0, authorized by original art owner",
+      "prompt": "Create ONE original detailed pixel-art isometric DOOR sprite for ODM tabletop. Upright narrow door in a complete frame, viewed orthographically along ONE isometric grid axis: top and bottom horizontal edges slope1vertical per2horizontal, both jambs vertical. Transparent outside; true transparent openings when appropriate. Full accurate thin structural depth, hinges/track/feet as appropriate, crisp shaded pixel clusters readable at128px wide. Reference image is only the successful thin-door perspective, scale and craftsmanship; replace the material/design entirely. No surrounding wall, large ground slab, scene, text or cast shadow outside footprint. Single modest doorway will be uniformly registered to existing140px maximum packed height and mirrored for other axis; avoid writing/logos. Do not create a full cuboid, huge gate or screen-facing flat rectangle. MATERIAL hr-door-flesh: Non-explicit fantasy organic horror doorway: leathery dark burgundy membrane panel framed by intertwined sinewy structural ribs, subtle vein ridges and fibrous hinge-like folds, believable shaded thickness. No organs, bodies, mouth, eyes, gore, skulls, timber or conventional iron door. Modest upright doorway with quiet texture.",
+      "variants": {
+        "axis-a": {
+          "file": "sources/recovery-v3/hr-door-flesh__packed-axis-a.png",
+          "sha256": "de0f62d1d86ad10aa45370386513ac52a0576f17b185fa7537e64a65c93fb9bf",
+          "outputSha256": "de0f62d1d86ad10aa45370386513ac52a0576f17b185fa7537e64a65c93fb9bf"
+        },
+        "axis-b": {
+          "file": "sources/recovery-v3/hr-door-flesh__packed-axis-b.png",
+          "sha256": "ce97255b1cf0205f51041f789b672980496ae962f2aa29ae90c4c000717743b4",
+          "outputSha256": "ce97255b1cf0205f51041f789b672980496ae962f2aa29ae90c4c000717743b4"
+        }
+      }
+    },
+    "pa-toxic-sludge": {
+      "file": "sources/recovery-v3/pa-toxic-sludge__source-v1.png",
+      "authoredSource": "sources/recovery-v3/pa-toxic-sludge__source-v1.png",
+      "skin": "pa-highway",
+      "role": "water",
+      "mode": "source-plane",
+      "groundContact": [
+        64,
+        288
+      ],
+      "sha256": "fac7d60f76cf033db5e3d8d6d32165f5b020ef45803b7ac9860c3d3de8efc108",
+      "outputSha256": "d9ff33ae062c30cc233cc188c369935b25bb284e2e2845f9dc3d624655bda7ee",
+      "artStatus": "original-first-pass",
+      "approval": "Internally reviewed under full-library batch authorization; final human review pending",
+      "registration": {
+        "mode": "source-plane",
+        "centre": [
+          723.5,
+          573.0
+        ],
+        "radius": 649.25,
+        "bbox": [
+          61,
+          236,
+          1387,
+          911
+        ],
+        "uniformSampling": true,
+        "sourceRgbUnchanged": true
+      },
+      "tool": "Codex built-in image_gen",
+      "license": "CC0-1.0, authorized by original art owner",
+      "prompt": "Create ONE original pixel-art ground terrain tile for ODM tactical tabletop. Flat horizontal square projects to an exact 2:1 isometric diamond, matching the supplied geometry guide: full surface, no side walls, NO thickness, bevel, pedestal, tray, raised edge, border frame, extrusion, cast shadow or surrounding scene. Transparent outside diamond. Surface occupies the whole diamond with compatible unobtrusive edges for large contiguous patches. Crisp intentional pixel clusters and restrained texture, readable under miniatures, not noisy or checkerboard-like, no labels. Keep true isometric perspective, original material craftsmanship, no generic flat colour fill. This is a SINGLE asset, not a sheet. MATERIAL pa-toxic-sludge: post-apocalyptic stagnant dark olive-green polluted water with restrained oily iridescent patches, sparse small murky bubbles and thin scum tendrils. Recognisable calm liquid surface, low-noise, not beige river waves, not bright glowing acid, no container, rocks, bank, rim or sidewall. Flat exact2:1 diamond surface.",
+      "centre": [
+        723.5,
+        573.0
+      ],
+      "radius": 649.25
+    },
+    "cp-oil-slick": {
+      "file": "sources/recovery-v3/cp-oil-slick__source-v1.png",
+      "authoredSource": "sources/recovery-v3/cp-oil-slick__source-v1.png",
+      "skin": "cp-street",
+      "role": "water",
+      "mode": "source-plane",
+      "groundContact": [
+        64,
+        288
+      ],
+      "sha256": "df3a99f00cc44f95f8c32058a7d520d1731af965e953cf3935568fe9c08fc8f7",
+      "outputSha256": "06a8e020eb8801162c24b39197e9759facc3043201788f1ada9c286710426a00",
+      "artStatus": "original-first-pass",
+      "approval": "Internally reviewed under full-library batch authorization; final human review pending",
+      "registration": {
+        "mode": "source-plane",
+        "centre": [
+          723.5,
+          598.0
+        ],
+        "radius": 696.29,
+        "bbox": [
+          13,
+          219,
+          1435,
+          978
+        ],
+        "uniformSampling": true,
+        "sourceRgbUnchanged": true
+      },
+      "tool": "Codex built-in image_gen",
+      "license": "CC0-1.0, authorized by original art owner",
+      "prompt": "Create ONE original pixel-art ground terrain tile for ODM tactical tabletop. Flat horizontal square projects to an exact 2:1 isometric diamond, matching the supplied geometry guide: full surface, no side walls, NO thickness, bevel, pedestal, tray, raised edge, border frame, extrusion, cast shadow or surrounding scene. Transparent outside diamond. Surface occupies the whole diamond with compatible unobtrusive edges for large contiguous patches. Crisp intentional pixel clusters and restrained texture, readable under miniatures, not noisy or checkerboard-like, no labels. Keep true isometric perspective, original material craftsmanship, no generic flat colour fill. This is a SINGLE asset, not a sheet. MATERIAL cp-oil-slick: dark cyberpunk industrial spilled oil surface, near-black blue-violet liquid with restrained iridescent teal/purple films and a few subtle slow ripple rings. Clearly oily dark reflective liquid, not white foam, glowing coolant, water waves, bright neon, raised vat or stones. Quiet contiguous liquid suitable for repeated large patches.",
+      "centre": [
+        723.5,
+        598.0
+      ],
+      "radius": 696.29
+    },
+    "pa-wall-rubble-barricade": {
+      "file": "sources/final-three/pa-wall-rubble-barricade__packed-v1.png",
+      "authoredSource": "sources/final-three/pa-wall-rubble-barricade__source-v1.png",
+      "mode": "registered-art",
+      "skin": "pa-bunker",
+      "role": "wall",
+      "sha256": "72d09115bdf29a5f80d91d8f25309c3de50e36dfb49f3347ed81cfe116f3090e",
+      "outputSha256": "72d09115bdf29a5f80d91d8f25309c3de50e36dfb49f3347ed81cfe116f3090e",
+      "artStatus": "original-first-pass",
+      "groundContact": [
+        64,
+        288
+      ],
+      "registration": {
+        "mode": "registered-art",
+        "bbox": [
+          12,
+          231,
+          1012,
+          1311
+        ],
+        "uniformScale": 0.128,
+        "translation": [
+          0,
+          182
+        ]
+      },
+      "prompt": "Create ONE original finely crafted crisp pixel-art game sprite for ODM isometric tabletop, transparent background, no cast shadow, no scene, no text, no guide lines in final art. Use project reference1 ONLY for exact geometry registration: 2:1 isometric128x64 diamond footprint, 128x384 runtime canvas, ground centre64,288/front tip320. Reference2 approved crypt is construction/detail QUALITY and connecting volume reference ONLY; do NOT copy its stone material/palette. Show coherent top cap and both camera-facing sides with detailed readable authored pixel clusters. Complete full-cell volume must repeat seamlessly in five-tile runs along BOTH logical axes, 3x3 clusters and corners: compatible connecting faces, no thin panel, no plinth gap or rectangular overhang. No primitive colour cubes, no flat texture pasted onto box, no arbitrary perspective, no blur, no generic fantasy masonry. One consistent primary sprite; tasteful wear must not destroy structural edge joins. MATERIAL: reinforced poured-concrete civil-defense bunker wall. Weathered grey-green concrete aggregate and formwork seams, chipped modern expansion joints, hairline cracks, small exposed rusted reinforcing steel at one minor chip, a restrained inset steel structural bracket. Abandoned post-apocalyptic military shelter, subtle grime/stains, darker lower moisture. No individual medieval stone blocks, castle battlements, door or window. Height similar approved reference100px above ground, full footprint cap, believable heavy structural volume.",
+      "tool": "Codex built-in image_gen",
+      "license": "CC0-1.0",
+      "approval": "Final three-skin candidate awaiting user visual approval"
+    },
+    "hr-wall-rotten-timber": {
+      "file": "sources/final-three/hr-wall-rotten-timber__packed-v1.png",
+      "authoredSource": "sources/final-three/hr-wall-rotten-timber__source-v1.png",
+      "mode": "registered-art",
+      "skin": "hr-manor",
+      "role": "wall",
+      "sha256": "1563f80c6701e8aa77b02377ca6196b3f8b220a47dc9665aa64710e2523d6d74",
+      "outputSha256": "1563f80c6701e8aa77b02377ca6196b3f8b220a47dc9665aa64710e2523d6d74",
+      "artStatus": "original-first-pass",
+      "groundContact": [
+        64,
+        288
+      ],
+      "registration": {
+        "mode": "registered-art",
+        "bbox": [
+          47,
+          137,
+          1098,
+          1255
+        ],
+        "uniformScale": 0.12178877259752617,
+        "translation": [
+          0,
+          184
+        ]
+      },
+      "prompt": "Create ONE original finely crafted crisp pixel-art game sprite for ODM isometric tabletop, transparent background, no cast shadow, no scene, no text, no guide lines in final art. Use project reference1 ONLY for exact geometry registration: 2:1 isometric128x64 diamond footprint, 128x384 runtime canvas, ground centre64,288/front tip320. Reference2 approved crypt is construction/detail QUALITY and connecting volume reference ONLY; do NOT copy its stone material/palette. Show coherent top cap and both camera-facing sides with detailed readable authored pixel clusters. Complete full-cell volume must repeat seamlessly in five-tile runs along BOTH logical axes, 3x3 clusters and corners: compatible connecting faces, no thin panel, no plinth gap or rectangular overhang. No primitive colour cubes, no flat texture pasted onto box, no arbitrary perspective, no blur, no generic fantasy masonry. One consistent primary sprite; tasteful wear must not destroy structural edge joins. MATERIAL: haunted Victorian wooden interior wall block built from decaying dark timber framing and aged wooden panelling. Convincing solid isometric constructed volume with detailed wooden cap, both faces dark desaturated brown planks, narrow framing posts, subtle grain clusters, rotten chipped edges, a few small rusty nails, tiny muted mould traces. Restrained horror mood, beautifully shaded wood, full compatible continuous connecting faces. No bricks, stones, furniture, empty L-shaped wall, generic brown cube, large floor slab or door.",
+      "tool": "Codex built-in image_gen",
+      "license": "CC0-1.0",
+      "approval": "Final three-skin candidate awaiting user visual approval"
+    },
+    "pa-bunker-concrete": {
+      "file": "sources/final-three/pa-bunker-concrete__source-v1.png",
+      "authoredSource": "sources/final-three/pa-bunker-concrete__source-v1.png",
+      "mode": "source-plane",
+      "skin": "pa-bunker",
+      "role": "floor",
+      "sha256": "60b646a519ed0a3465213093ef7208ef8e4e206e0b3d01c561736e4b3e6f5fa2",
+      "outputSha256": "bc6acc9d87ee3d42da32e8ae27406a86ea1369176c09f237096961f9ca37a2cb",
+      "artStatus": "original-first-pass",
+      "groundContact": [
+        64,
+        288
+      ],
+      "registration": {
+        "mode": "source-plane",
+        "centre": [
+          886.5,
+          453.0
+        ],
+        "radius": 819.77,
+        "bbox": [
+          50,
+          33,
+          1724,
+          874
+        ],
+        "uniformSampling": true
+      },
+      "prompt": "Create ONE original crisp handcrafted pixel-art isometric sprite for ODM post-apocalyptic civil-defense bunker tabletop. Restrained grey/olive concrete, desaturated steel/rust accents, readable moderate detail, no medieval stonework, no fantasy props, no text, no scene or shadows outside sprite. Transparent alpha background, correct orthographic2:1 isometric perspective on128x64 ground diamond. Original game asset, no third-party pack imitation. Do not draw geometry guide or solid colour silhouettes. ROLE ground floor. A single complete FLAT128x64 isometric diamond surface of weathered poured reinforced-concrete flooring, subtle aggregate, a sparse small crack and subdued stain, restrained low noise with large quiet surfaces. Modern abandoned military bunker floor. NO thick slab, NO visible side faces, NO bevel, NO cobblestones, NO inset cube. Light from upperleft, modest grey-green palette. All four diamond corners exactlysamelevel, surface will repeat into a contiguous floor. Follow guide footprint ONLY.",
+      "tool": "Codex built-in image_gen",
+      "license": "CC0-1.0",
+      "approval": "Final three-skin candidate awaiting user visual approval",
+      "centre": [
+        886.5,
+        453.0
+      ],
+      "radius": 819.77
+    },
+    "pa-debris-plaster": {
+      "file": "sources/final-three/pa-debris-plaster__structure-v1.png",
+      "authoredSource": "sources/final-three/pa-debris-plaster__source-v1.png",
+      "mode": "registered-art",
+      "skin": "pa-bunker",
+      "role": "rough",
+      "sha256": "55229c3e6d7d313fcd7962308960596cf4dba85f2c94e9a9f690445440b62d8a",
+      "outputSha256": "3b7de30a9072d50e63569908eb73214756d7ed48da5dfc9b2c65a78fefc9e851",
+      "artStatus": "original-first-pass",
+      "groundContact": [
+        64,
+        288
+      ],
+      "registration": {
+        "mode": "registered-art",
+        "bbox": [
+          166,
+          153,
+          1620,
+          760
+        ],
+        "uniformScale": 0.08803301237964237,
+        "translation": [
+          0,
+          267
+        ]
+      },
+      "prompt": "Create ONE original crisp handcrafted pixel-art isometric sprite for ODM post-apocalyptic civil-defense bunker tabletop. Restrained grey/olive concrete, desaturated steel/rust accents, readable moderate detail, no medieval stonework, no fantasy props, no text, no scene or shadows outside sprite. Transparent alpha background, correct orthographic2:1 isometric perspective on128x64 ground diamond. Original game asset, no third-party pack imitation. Do not draw geometry guide or solid colour silhouettes. ROLE rough ground decoration. Small scattered modern plaster chips, broken concrete fragments, two small short rusty rebar pieces and torn insulation scraps on ONE isometric cell. Sparse readable clusters, tiny height, calm palette, no major boulder or crates, no large plank, no opaque floor slab. Transparent empty spaces between chips; full concrete floor will be supplied by renderer. Natural original pixel art with believable material texture. Footprint inside128x64diamond.",
+      "tool": "Codex built-in image_gen",
+      "license": "CC0-1.0",
+      "approval": "Final three-skin candidate awaiting user visual approval",
+      "groundMaterial": "pa-bunker-concrete"
+    },
+    "pa-lowwall-sandbags": {
+      "file": "sources/final-three/pa-lowwall-sandbags__packed-v1.png",
+      "authoredSource": "sources/final-three/pa-lowwall-sandbags__source-v1.png",
+      "mode": "registered-art",
+      "skin": "pa-bunker",
+      "role": "lowwall",
+      "sha256": "9aa5389c5d15d263f66337880bf80bec8105a648353a02d426e5f7b77a49d394",
+      "outputSha256": "9aa5389c5d15d263f66337880bf80bec8105a648353a02d426e5f7b77a49d394",
+      "artStatus": "original-first-pass",
+      "groundContact": [
+        64,
+        288
+      ],
+      "registration": {
+        "mode": "registered-art",
+        "bbox": [
+          213,
+          93,
+          1558,
+          846
+        ],
+        "uniformScale": 0.09516728624535316,
+        "translation": [
+          0,
+          248
+        ]
+      },
+      "prompt": "Create ONE original crisp handcrafted pixel-art isometric sprite for ODM post-apocalyptic civil-defense bunker tabletop. Restrained grey/olive concrete, desaturated steel/rust accents, readable moderate detail, no medieval stonework, no fantasy props, no text, no scene or shadows outside sprite. Transparent alpha background, correct orthographic2:1 isometric perspective on128x64 ground diamond. Original game asset, no third-party pack imitation. Do not draw geometry guide or solid colour silhouettes. ROLE low wall / cover. A single short waist-high defensive row of weathered olive canvas sandbags, carefully stacked and sagging with stitching, filled rounded volume, a few restrained dirt scuffs. Runs along ONE isometric axis with front bag seam slope1vertical/2horizontal, complete front-facing lower edge, both feet inside one128x64diamond. No plinth, floor, castleblocks, no solid box. Will be mirrored horizontally for second orientation. Retain tactical readability.",
+      "tool": "Codex built-in image_gen",
+      "license": "CC0-1.0",
+      "approval": "Final three-skin candidate awaiting user visual approval",
+      "variants": {
+        "axis-a": {
+          "file": "sources/final-three/pa-lowwall-sandbags__packed-axis-a.png",
+          "sha256": "9aa5389c5d15d263f66337880bf80bec8105a648353a02d426e5f7b77a49d394",
+          "outputSha256": "9aa5389c5d15d263f66337880bf80bec8105a648353a02d426e5f7b77a49d394"
+        },
+        "axis-b": {
+          "file": "sources/final-three/pa-lowwall-sandbags__packed-axis-b.png",
+          "sha256": "304fb34c544cba338b060a60f4fbe12d278a7a1bfff64f98a6a5db34a2ee1186",
+          "outputSha256": "304fb34c544cba338b060a60f4fbe12d278a7a1bfff64f98a6a5db34a2ee1186"
+        }
+      }
+    },
+    "pa-door-welded": {
+      "file": "sources/final-three/pa-door-welded__packed-v1.png",
+      "authoredSource": "sources/final-three/pa-door-welded__source-v1.png",
+      "mode": "registered-art",
+      "skin": "pa-bunker",
+      "role": "door",
+      "sha256": "76b43e766de81b2f4f8f69da72804b561c59a8351f59f7610ea9095b5685e136",
+      "outputSha256": "76b43e766de81b2f4f8f69da72804b561c59a8351f59f7610ea9095b5685e136",
+      "artStatus": "original-first-pass",
+      "groundContact": [
+        64,
+        288
+      ],
+      "registration": {
+        "mode": "registered-art",
+        "bbox": [
+          552,
+          61,
+          984,
+          954
+        ],
+        "uniformScale": 0.2962962962962963,
+        "translation": [
+          0,
+          55
+        ]
+      },
+      "prompt": "Create ONE original crisp handcrafted pixel-art isometric sprite for ODM post-apocalyptic civil-defense bunker tabletop. Restrained grey/olive concrete, desaturated steel/rust accents, readable moderate detail, no medieval stonework, no fantasy props, no text, no scene or shadows outside sprite. Transparent alpha background, correct orthographic2:1 isometric perspective on128x64 ground diamond. Original game asset, no third-party pack imitation. Do not draw geometry guide or solid colour silhouettes. ROLE upright door along ONE isometric axis. A heavy rusted grey-olive civil-defense steel blast-door leaf with coherent reinforced metal frame, one subdued wheel locking handle and two hinges, narrow riveted seams, restrained weathering/chippedpaint, no text, no masonry. Panel upper/lower horizontal edges slope1up/2right, front face visible. NO floor slab or cast shadow. Transparent around frame. It must fit beside a 100px raised bunker wall and within a single128x64diamond. Canonical image will be mirrored for second axis; crisp detailed authored pixels, not giant oversized portal.",
+      "tool": "Codex built-in image_gen",
+      "license": "CC0-1.0",
+      "approval": "Final three-skin candidate awaiting user visual approval",
+      "variants": {
+        "axis-a": {
+          "file": "sources/final-three/pa-door-welded__packed-axis-a.png",
+          "sha256": "76b43e766de81b2f4f8f69da72804b561c59a8351f59f7610ea9095b5685e136",
+          "outputSha256": "76b43e766de81b2f4f8f69da72804b561c59a8351f59f7610ea9095b5685e136"
+        },
+        "axis-b": {
+          "file": "sources/final-three/pa-door-welded__packed-axis-b.png",
+          "sha256": "b0eeeb1008badf81d8d6daed2d63821cc6d683e6315485b96d125609d2b89bff",
+          "outputSha256": "b0eeeb1008badf81d8d6daed2d63821cc6d683e6315485b96d125609d2b89bff"
+        }
+      }
+    },
+    "hr-boards-rotten": {
+      "mode": "source-plane",
+      "skin": "hr-manor",
+      "role": "floor",
+      "groundContact": [
+        64,
+        288
+      ],
+      "artStatus": "original-first-pass",
+      "authoredSource": "sources/final-corrections/hr-boards-rotten__source-v2-opaque-plane.png",
+      "sourceSha256": "64cbbe4c4855ad77f76a9f9d9f4d7ea8c342de6a7b39f72c9de1277c005a2f80",
+      "prompt": "Edit the supplied original project-owned floor sprite into a calmer more readable game FLOOR. Preserve complete flat2:1 diamond footprint, transparent outside, orthographic isometric perspective, dark brown/charcoal aged wood material matching attached approved timber wall. Replace excessive tiny grain with EIGHT broad continuous weathered floorboards across the tile, long uninterrupted board surfaces. Sparse large intentional pixel clusters for subtle woodgrain, at most one tiny nail per board-end, no ubiquitous cracks, no high-frequency horizontal stripes, no checkerboard, no stippling or speckle noise. No holes, bevel, plinth, border, furnishings, purple tint or cast shadow. This source is ultimately downsampled to128x64: author large crisp pixel clusters that survive that size; treat each logical target pixel as roughly10source pixels, do not paint microdetail. Attractive professionally composed pixel art with restrained detail. Floor should let miniatures and detailed walls dominate. One opaque diamond surface tile, not a scene, no text. Keep the original palette but slightly muted contrast within each board; no flat primitive fill.",
+      "tool": "Codex built-in image_gen",
+      "license": "CC0-1.0",
+      "approval": "Targeted manor cohesion candidate; final human review pending",
+      "registration": {
+        "mode": "source-plane",
+        "centre": [
+          887,
+          448
+        ],
+        "radius": 780,
+        "sourceFile": "sources/final-corrections/hr-boards-rotten__source-v2-opaque-plane.png",
+        "sourceSha256": "64cbbe4c4855ad77f76a9f9d9f4d7ea8c342de6a7b39f72c9de1277c005a2f80",
+        "originalSource": "sources/final-corrections/hr-boards-rotten__source-v2.png",
+        "alphaCorrection": {
+          "description": "Generated woodgrain contained unintended low-alpha pixels. Only interior nonzero alpha made opaque; every RGB byte retained. No colour fill or projection. Original retained.",
+          "pixels": 608599
+        }
+      },
+      "file": "sources/final-corrections/hr-boards-rotten__source-v2-opaque-plane.png",
+      "centre": [
+        887,
+        448
+      ],
+      "radius": 780,
+      "sha256": "64cbbe4c4855ad77f76a9f9d9f4d7ea8c342de6a7b39f72c9de1277c005a2f80",
+      "outputSha256": "c2a0290921b4c55d1772b3f0438a70b5104bb4937f559039e3cc588d31c45e30"
+    },
+    "hr-black-water": {
+      "mode": "source-plane",
+      "skin": "hr-manor",
+      "role": "water",
+      "groundContact": [
+        64,
+        288
+      ],
+      "artStatus": "original-first-pass",
+      "authoredSource": "sources/final-corrections/hr-black-water__source-v1.png",
+      "sourceSha256": "97e711cd72bb5ba26efc614cf00e17a04946e9b10b62d835bf670c2337b20066",
+      "prompt": "Create ONE original crisp detailed pixel-art sprite for a decaying haunted Victorian timber manor tabletop. Transparent background, no scene, no labels, no cast shadow. Use attached approved timber wall ONLY as palette/material craftsmanship reference: dark desaturated brown aged wood, charcoal shadows, subtle grey-violet ambience, tiny restrained ochre highlights. No monochrome purple tint, fantasy masonry, primitive geometric fills, blur, noise, perspective distortion. Fixed 2:1 isometric projection. Handcrafted readable pixel clusters. A COMPLETE flat 2:1 diamond ground surface of black stagnant flooded-manor water, charcoal brown with desaturated grey-violet reflections, tiny soft ripple clusters and a few floating wood splinters, restrained understated highlights, NO bright white foam, lava cracks, basin, rim, bevel, plinth or thickness. Continuous opaque liquid plane from diamond vertex to vertex. It must remain low contrast for readable miniatures. Guide is registration only.",
+      "tool": "Codex built-in image_gen",
+      "license": "CC0-1.0",
+      "approval": "Targeted manor cohesion candidate; final human review pending",
+      "registration": {
+        "mode": "source-plane",
+        "centre": [
+          613,
+          869
+        ],
+        "radius": 565.5,
+        "sourceFile": "sources/final-corrections/hr-black-water__source-v1.png",
+        "sourceSha256": "97e711cd72bb5ba26efc614cf00e17a04946e9b10b62d835bf670c2337b20066"
+      },
+      "file": "sources/final-corrections/hr-black-water__source-v1.png",
+      "centre": [
+        613,
+        869
+      ],
+      "radius": 565.5,
+      "sha256": "97e711cd72bb5ba26efc614cf00e17a04946e9b10b62d835bf670c2337b20066",
+      "outputSha256": "156e8707d58379dc2020d91386902f0badf975dd66d23681dd0eae2641158b45"
+    },
+    "hr-rot-debris": {
+      "mode": "registered-art",
+      "skin": "hr-manor",
+      "role": "rough",
+      "groundContact": [
+        64,
+        288
+      ],
+      "artStatus": "original-first-pass",
+      "authoredSource": "sources/final-corrections/hr-rot-debris__source-v1.png",
+      "sourceSha256": "ebba062161e3b0076a9d29dae0caed4fb6e197981d6b66389b6ab3aa092e646b",
+      "prompt": "Create ONE original crisp detailed pixel-art sprite for a decaying haunted Victorian timber manor tabletop. Transparent background, no scene, no labels, no cast shadow. Use attached approved timber wall ONLY as palette/material craftsmanship reference: dark desaturated brown aged wood, charcoal shadows, subtle grey-violet ambience, tiny restrained ochre highlights. No monochrome purple tint, fantasy masonry, primitive geometric fills, blur, noise, perspective distortion. Fixed 2:1 isometric projection. Handcrafted readable pixel clusters. A small sparse scatter of decaying wooden interior debris: broken dark brown floorboard lengths, a little rotten timber dust, two splintered moulding fragments, tiny dull nail. Original pixel art, no floor slab underneath, transparent between pieces, NOT crates, stone rubble, large furniture or pile hiding whole cell. Lie flat within central two-thirds of a 2:1 diamond footprint. Silhouette low and scattered; compatible with being composited on separate existing floor tile. No cast shadow outside footprint.",
+      "tool": "Codex built-in image_gen",
+      "license": "CC0-1.0",
+      "approval": "Targeted manor cohesion candidate; final human review pending",
+      "registration": {
+        "mode": "registered-art",
+        "bbox": [
+          262,
+          306,
+          1317,
+          775
+        ],
+        "uniformScale": 0.1023696682464455,
+        "translation": [
+          10,
+          264
+        ],
+        "sourceFile": "sources/final-corrections/hr-rot-debris__source-v1.png",
+        "sourceSha256": "ebba062161e3b0076a9d29dae0caed4fb6e197981d6b66389b6ab3aa092e646b"
+      },
+      "file": "sources/final-corrections/hr-rot-debris__structure-v1.png",
+      "sha256": "e8d656293e7019431f2526c674dbd19f92043cb454af702e3b1ea49250ecf65e",
+      "outputSha256": "2bafd07ed052f731ef944d07b726346a61da0a8b276d6f9d733c5d2de7c3fddd",
+      "groundMaterial": "hr-boards-rotten"
+    },
+    "hr-door-nailed": {
+      "mode": "registered-art",
+      "skin": "hr-manor",
+      "role": "door",
+      "groundContact": [
+        64,
+        288
+      ],
+      "artStatus": "original-first-pass",
+      "authoredSource": "sources/final-corrections/hr-door-nailed__source-v1.png",
+      "sourceSha256": "b05387e84e45a57db14f9112fd922b7d1562acf19a86fdd65562e922f3812076",
+      "prompt": "Create ONE original crisp detailed pixel-art sprite for a decaying haunted Victorian timber manor tabletop. Transparent background, no scene, no labels, no cast shadow. Use attached approved timber wall ONLY as palette/material craftsmanship reference: dark desaturated brown aged wood, charcoal shadows, subtle grey-violet ambience, tiny restrained ochre highlights. No monochrome purple tint, fantasy masonry, primitive geometric fills, blur, noise, perspective distortion. Fixed 2:1 isometric projection. Handcrafted readable pixel clusters. A SMALL full-height standalone closed wooden manor door PANEL in slim timber frame, aged dark-brown vertical boards, worn Victorian wooden moulding, small rusty ring handle, one diagonal repair board, tiny cobweb corners. Fixed panel direction: top beam and bottom contact beam descend from UPPER LEFT toward LOWER RIGHT on screen (positive slope +0.5). Clear exact 2:1 isometric panel plane, no opposite plane, no thick cuboid. Frame width at ground about half a full128wide footprint, modest scale fitting100pixel raised walls. No surrounding wall, floor slab, steps or pedestal. Consistent two ground-contact posts, transparent below/around. The second orientation will be generated by exact horizontal mirror, do not draw two.",
+      "tool": "Codex built-in image_gen",
+      "license": "CC0-1.0",
+      "approval": "Targeted manor cohesion candidate; final human review pending",
+      "registration": {
+        "bbox": [
+          246,
+          251,
+          769,
+          1313
+        ],
+        "sourceFile": "sources/final-corrections/hr-door-nailed__source-v1.png",
+        "sourceSha256": "b05387e84e45a57db14f9112fd922b7d1562acf19a86fdd65562e922f3812076"
+      },
+      "file": "sources/final-corrections/hr-door-nailed__packed-v1.png",
+      "sha256": "bf4034996b4b1c9e981bc865dc6c914af0bcb48060344d2e41efe3e2442c87db",
+      "outputSha256": "bf4034996b4b1c9e981bc865dc6c914af0bcb48060344d2e41efe3e2442c87db",
+      "variants": {
+        "axis-a": {
+          "file": "sources/final-corrections/hr-door-nailed__packed-axis-a.png",
+          "sha256": "bf4034996b4b1c9e981bc865dc6c914af0bcb48060344d2e41efe3e2442c87db",
+          "outputSha256": "bf4034996b4b1c9e981bc865dc6c914af0bcb48060344d2e41efe3e2442c87db"
+        },
+        "axis-b": {
+          "file": "sources/final-corrections/hr-door-nailed__packed-axis-b.png",
+          "sha256": "a42c63677b259b4c42e8643848c8b94dc47e4765c398b9f54e6e4f674e99c33a",
+          "outputSha256": "a42c63677b259b4c42e8643848c8b94dc47e4765c398b9f54e6e4f674e99c33a"
+        }
+      }
+    },
+    "hr-lowwall-pews": {
+      "mode": "registered-art",
+      "skin": "hr-manor",
+      "role": "lowwall",
+      "groundContact": [
+        64,
+        288
+      ],
+      "artStatus": "original-first-pass",
+      "authoredSource": "sources/final-corrections/hr-lowwall-pews__source-v2.png",
+      "sourceSha256": "cb8b25c45fe2979c2e1921f8cf4a4fd7b0e4aa23f90c4c0b1477c2784e867382",
+      "prompt": "Create ONE original crisp detailed pixel-art sprite for a decaying haunted Victorian timber manor tabletop. Transparent background, no scene, no labels, no cast shadow. Use attached approved timber wall ONLY as palette/material craftsmanship reference: dark desaturated brown aged wood, charcoal shadows, subtle grey-violet ambience, tiny restrained ochre highlights. No monochrome purple tint, fantasy masonry, primitive geometric fills, blur, noise, perspective distortion. Fixed 2:1 isometric projection. Handcrafted readable pixel clusters. A single low wooden manor balustrade / decayed pew end partition, coherent dark brown carved timber with plain worn top rail, three small vertical turned balusters and solid lower cross rail, subtle chipped wood and rusty nails. Full readable front edge, real thickness. Fixed panel direction: top rail and ground contact run from upper LEFT toward lower RIGHT on screen, slope +0.5. One segment must join exact copies along axis; no protruding end finials, counter bottles, cloth, crates, stone, door, platform, floor slab. Less than half wall height, enough open transparency between balusters. Transparent background.",
+      "tool": "Codex built-in image_gen",
+      "license": "CC0-1.0",
+      "approval": "Targeted manor cohesion candidate; final human review pending",
+      "registration": {
+        "bbox": [
+          151,
+          130,
+          1347,
+          1024
+        ],
+        "sourceFile": "sources/final-corrections/hr-lowwall-pews__source-v2.png",
+        "sourceSha256": "cb8b25c45fe2979c2e1921f8cf4a4fd7b0e4aa23f90c4c0b1477c2784e867382"
+      },
+      "file": "sources/final-corrections/hr-lowwall-pews__packed-v1.png",
+      "sha256": "e3656da2b7bb2e482d9bc8fdc32a33960f8dda4796a3609fd00ff26b64090908",
+      "outputSha256": "e3656da2b7bb2e482d9bc8fdc32a33960f8dda4796a3609fd00ff26b64090908",
+      "variants": {
+        "axis-a": {
+          "file": "sources/final-corrections/hr-lowwall-pews__packed-axis-a.png",
+          "sha256": "e3656da2b7bb2e482d9bc8fdc32a33960f8dda4796a3609fd00ff26b64090908",
+          "outputSha256": "e3656da2b7bb2e482d9bc8fdc32a33960f8dda4796a3609fd00ff26b64090908"
+        },
+        "axis-b": {
+          "file": "sources/final-corrections/hr-lowwall-pews__packed-axis-b.png",
+          "sha256": "0f80ee2efb2b878f89749f79ce29c383e473c2a51d4cd36761e278fd81355ed8",
+          "outputSha256": "0f80ee2efb2b878f89749f79ce29c383e473c2a51d4cd36761e278fd81355ed8"
+        }
+      },
+      "revision": "First tall source retained; second genuine image edit redraws shorter balusters and preserves positive 0.5-slope rails. No raster squash."
+    }
+  },
+  "surfaces": {
+    "open-ground": {
+      "id": "water-deep-blue",
+      "centre": [
+        103,
+        76
+      ],
+      "radius": 80
+    },
+    "sunken-crypt": {
+      "id": "water-blood-pool",
+      "centre": [
+        106,
+        66
+      ],
+      "radius": 60
+    },
+    "ship-deck": {
+      "id": "water-sea-waves",
+      "centre": [
+        119,
+        74
+      ],
+      "radius": 96
+    }
+  },
+  "registeredSurfaces": {
+    "water-shallow-clear": {
+      "id": "water-shallow-clear",
+      "centre": [
+        110,
+        85
+      ],
+      "radius": 78,
+      "method": "Uniform nearest samples from inspected original interior plane; exact source RGB, no average fills"
+    },
+    "water-swamp-murky": {
+      "id": "water-swamp-murky",
+      "centre": [
+        112,
+        78
+      ],
+      "radius": 76,
+      "method": "Uniform nearest samples from inspected original interior plane; exact source RGB, no average fills"
+    },
+    "hazard-lava-molten": {
+      "id": "hazard-lava-molten",
+      "centre": [
+        108,
+        67
+      ],
+      "radius": 70,
+      "method": "Uniform nearest samples from inspected original interior plane; exact source RGB, no average fills"
+    },
+    "water-sewer-sludge": {
+      "id": "water-sewer-sludge",
+      "centre": [
+        116,
+        88
+      ],
+      "radius": 48,
+      "method": "Uniform nearest samples from inspected original interior plane; exact source RGB, no average fills"
+    },
+    "water-river-flowing": {
+      "id": "water-river-flowing",
+      "centre": [
+        113,
+        76
+      ],
+      "radius": 60,
+      "method": "Uniform nearest samples from inspected original interior plane; exact source RGB, no average fills"
+    },
+    "water-hot-spring": {
+      "id": "water-hot-spring",
+      "centre": [
+        113,
+        83
+      ],
+      "radius": 46,
+      "method": "Uniform nearest samples from inspected original interior plane; exact source RGB, no average fills"
+    },
+    "hazard-acid-pool": {
+      "id": "hazard-acid-pool",
+      "centre": [
+        112,
+        92
+      ],
+      "radius": 48,
+      "method": "Uniform nearest samples from inspected original interior plane; exact source RGB, no average fills"
+    },
+    "cp-coolant": {
+      "id": "cp-coolant",
+      "centre": [
+        112,
+        92
+      ],
+      "radius": 48,
+      "method": "Uniform nearest samples from inspected original interior plane; exact source RGB, no average fills"
+    },
+    "cp-toxic-runoff": {
+      "id": "cp-toxic-runoff",
+      "centre": [
+        116,
+        88
+      ],
+      "radius": 48,
+      "method": "Uniform nearest samples from inspected original interior plane; exact source RGB, no average fills"
+    },
+    "sp-steam-pool": {
+      "id": "sp-steam-pool",
+      "centre": [
+        108,
+        67
+      ],
+      "radius": 70,
+      "method": "Uniform nearest samples from inspected original interior plane; exact source RGB, no average fills"
+    },
+    "my-canal": {
+      "id": "my-canal",
+      "centre": [
+        116,
+        88
+      ],
+      "radius": 48,
+      "method": "Uniform nearest samples from inspected original interior plane; exact source RGB, no average fills"
+    },
+    "hr-bile-pool": {
+      "id": "hr-bile-pool",
+      "centre": [
+        106,
+        66
+      ],
+      "radius": 60,
+      "method": "Uniform nearest samples from inspected original interior plane; exact source RGB, no average fills"
+    }
+  }
+}

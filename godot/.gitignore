@@ -1,0 +1,13 @@
+# Godot 4+ specific ignores
+.godot/
+/android/
+
+.export-templates/
+
+# Import sidecars for offline packing inputs/previews are editor-generated.
+assets/sources/**/*.import
+assets/generated/*.import
+assets/terrain/**/*.import
+
+# Local sprite QA previews
+assets/metadata/previews/

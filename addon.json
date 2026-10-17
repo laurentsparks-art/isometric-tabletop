@@ -1,0 +1,57 @@
+{
+  "id": "isometric-tabletop",
+  "name": "Isometric Tabletop",
+  "version": "0.1.0",
+  "apiVersion": 1,
+  "description": "Godot isometric board view with original pixel art, rotation and player-safe tactical interaction.",
+  "author": "Laurent Sparks",
+  "license": "MIT",
+  "runtime": {
+    "kind": "node",
+    "entry": "server/main.mjs"
+  },
+  "permissions": [],
+  "contributes": {
+    "boardViews": [
+      {
+        "id": "isometric",
+        "title": "Isometric",
+        "description": "Rotatable pixel-art tabletop.",
+        "entry": "ui/index.html",
+        "needsViewData": false,
+        "options": [
+          {
+            "key": "orientation",
+            "label": "Starting orientation",
+            "type": "select",
+            "default": "0",
+            "choices": [
+              {
+                "value": "0",
+                "label": "0 degrees"
+              },
+              {
+                "value": "1",
+                "label": "90 degrees"
+              },
+              {
+                "value": "2",
+                "label": "180 degrees"
+              },
+              {
+                "value": "3",
+                "label": "270 degrees"
+              }
+            ]
+          },
+          {
+            "key": "labels",
+            "label": "Character names",
+            "type": "boolean",
+            "default": true
+          }
+        ]
+      }
+    ]
+  }
+}

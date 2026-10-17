@@ -1,0 +1,81 @@
+{
+  "material": "wall-hedge-dense",
+  "skins": [
+    "open-ground"
+  ],
+  "approvedEntry": {
+    "file": "sources/approved/wall-hedge-dense__packed-v1.png",
+    "authoredSource": "sources/approved/wall-hedge-dense__source-v1.png",
+    "skin": "open-ground",
+    "mode": "registered-approved",
+    "groundContact": [
+      64,
+      288
+    ],
+    "sha256": "4f66859d2c3da3fc3ffa2a74a0cb815027a42cedc216b1c6f7bb92a8daf6a4fa",
+    "approval": "Explicit user visual approval: playable-quality baseline, minor 1-6px organic contour imperfections acknowledged",
+    "processing": "Exact user-approved registered PNG; no pixel corrections, re-sampling or recolouring",
+    "rollbackRecord": "metadata/approved-wall-hedge-dense.json"
+  },
+  "previousEntry": {
+    "file": "sources/recovery-v1/wall-hedge-dense.png",
+    "skin": "open-ground",
+    "mode": "authored-wall",
+    "groundContact": [
+      64,
+      288
+    ],
+    "processing": "Uniform nearest-neighbour downsample; translation only. No texture projection, recolouring, silhouette filling or nonuniform stretch.",
+    "sha256": "e9dbea602d8e182fec2f5a3b22ed4053d7514f133a01f9b16039376a3d8691a3",
+    "prompt": "Create ONE original production isometric pixel-art game sprite, a dense green hedge wall for a fantasy tabletop. The supplied original hedge is a STYLE AND MATERIAL REFERENCE: preserve its rich layered leaves, small angular leaf clusters, highlights and deep shadow pockets, but intentionally redesign its form into a convincing substantial hedge segment with visible top and two camera-facing sides. Orthographic 2:1 isometric projection (ground edges slope exactly 1 vertical to 2 horizontal), viewed from above. A single square-cell hedge mass, not a long thin wall. Ground contact sits on a 2:1 diamond footprint, no thick soil pedestal or surrounding scene. Raised silhouette slightly irregular foliage, professionally composed pixel clusters and readable volume, not a geometrical cube painted flat, not noise. Sunny yellow-green upper left highlights, emerald middle tones, deep green right side. Height roughly 1.2 times its ground diamond height; broad and substantial, not tall column. Transparent background, one isolated sprite centered with ample clear margins, no text, no drop shadow, no grid, no floor tile, no neighboring objects. Crisp chunky pixel art, no blur, no painterly rendering, no glossy 3D. Maintain same fixed isometric camera as reference."
+  },
+  "registration": {
+    "source": "sources/approved/wall-hedge-dense__source-v1.png",
+    "bbox": [
+      95,
+      166,
+      1026,
+      1262
+    ],
+    "scale": 0.13748657357679914,
+    "packed": [
+      128,
+      384
+    ],
+    "resize": "uniform nearest neighbour",
+    "translation": [
+      0,
+      169
+    ],
+    "status": "candidate, not approved",
+    "referenceGround": [
+      64,
+      288
+    ],
+    "generatedOutputName": "exec-71b772cb-dbd9-4a9f-8080-88a47b64f0c1.png"
+  },
+  "provenance": {
+    "material": "wall-hedge-dense",
+    "role": "full-block-wall",
+    "status": "PROPOSED \u00e2\u20ac\u201d NOT APPROVED",
+    "tool": "Codex built-in image_gen",
+    "attempts": [
+      {
+        "file": "exec-3edf4704-7e13-4b5c-8644-31a76fcc9196.png",
+        "status": "Rejected first guide attempt",
+        "prompt": "Use case: original production pixel-art terrain sprite. Material ID wall-hedge-dense, role FULL-BLOCK CONNECTED WALL, not a freestanding shrub. Image 1 is the EXACT GEOMETRY REGISTRATION GUIDE. Image 2 shows actual project-owned stone wall (left, geometry reference only) and foliage (right, leaf detail/palette reference only). Create ONE original beautiful detailed dense green hedge wall tile. Follow image 1's structural geometry precisely, replacing ALL guide colours/lines/dots with authored foliage artwork, no guide visible. Preserve the 960x1200 transparent canvas and guide placement: top cap diamond rear(480,192), right(864,384), front(480,576), left(96,384). Base contacts left(96,864), front(480,1056), right(864,864); hidden rear base(480,672). All edge slopes exactly 1 vertical:2 horizontal. Top is a broad DIAMOND plane, not a thin slanted ridge. Left and right visible faces must connect their respective top and base edges; upright sides don't taper or lean. The lower front corner is directly below the top front corner. This structural form must join exact copies shifted (+384,+192) or (-384,+192), producing continuous leafy walls AND a filled 3x3 cluster without gaps or sawtooth protruding rectangles. It must occupy both axis interfaces equally, not be only 3/4-width. Treat these contacts as a clipped/trained thick hedge's continuous living volume. Make its ART rich: layered clusters of individually readable angular leaves, warm yellow-green highlights on the upper-left cap, emerald and olive middle tones, dark interior branches and shaded recesses, darker right face. Crafted chunky pixel clusters readable when uniformly reduced to 128px ground width. Organic leaf detail and subtle top variation are welcome but must NOT shrink the connection faces, expose empty holes, taper the base, move ground contacts or break the diamond top. No pedestal, soil border, shadow, neighboring props, background, labels, text, grid or guides. No flat green silhouette, no primitive polygon-colour replacement, no noise-only texture, no painting a blurry texture onto a box, no glossy 3D. One single fully authored crisp pixel-art hedge tile with genuinely constructed foliage volume. Keep exact guide perspective and framing."
+      },
+      {
+        "file": "wall-hedge-dense__new-source-v2.png",
+        "status": "Temporary runtime candidate; awaiting visual approval",
+        "prompt": "Precise-object-edit / single production game sprite revision. Image1 is the EXACT required geometry and framing; Image2 is the hedge candidate whose beautiful leaf art must be retained in style but whose geometry drift must be corrected. Re-author ONE dense detailed pixel-art full-block hedge using EXACT image1 shape, proportion, silhouette interfaces and transparent canvas. This is NOT permission to project an existing texture over a cube or fill solid colours: deliberately draw the leaf clusters as real foliage and preserve volume/shading. Crucial corrections: use a genuine 2:1 diamond TOP plane, equal full-width interface in both grid directions, NOT the narrow/steep cap in image2. Left and right outer vertical structural edges must be at precisely the guide's leftmost/rightmost x, at the guide's top/ground y. Base front point exactly guide's front point; center vertical edge aligned directly beneath top front point. No leaf can move structural contacts or make the overall sprite wider/taller than the template. No dangling leaves below base, no taper, no inset sides, no projecting rectangular side fins. Leaf clusters can vary within faces and near top but edge coverage must remain continuous and exactly meet identical sprites offset half width / quarter width downward on EITHER axis. Maintain the guide image aspect/framing and the exact eight contact vertices in image1. Paint OUT all guide linework/dots/colours, replacing with beautiful layered emerald foliage, yellow-green upper-left highlight clusters and dark right face/branch recesses, crisp chunky pixels at a 128px final width. No floors/pedestal/cast shadow/background/grid/text. Transparent output. One isolated tile only, not a scene or sheet. This will be tested in five-block rows on BOTH axes, L corners and 3x3 clusters; vague near-isometric perspective is insufficient. Follow reference1 geometry much more strictly than reference2."
+      }
+    ],
+    "references": [
+      "registration-guide-author.png",
+      "actual-reference-pixels.png"
+    ],
+    "processing": "Complete alpha bounding-box crop, uniform nearest-neighbour downsample, translation to packed y=320. No face projection, fill, recolouring or independent X/Y scaling.",
+    "license": "CC0-1.0 as explicitly authorized by owner for original isometric artwork"
+  }
+}

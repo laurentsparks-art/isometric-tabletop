@@ -1,0 +1,1 @@
+Place future original prop standees here and add their catalogue entries through the asset packer. Unmapped props currently retain authorized labeled markers; terrain clutter does not create gameplay objects.

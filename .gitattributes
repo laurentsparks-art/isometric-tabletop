@@ -1,0 +1,8 @@
+* text=auto eol=lf
+# Prebuilt exports are checksummed and must remain byte-identical on checkout.
+ui/** -text
+*.png -text
+*.wasm -text
+*.pck -text
+*.wav -text
+*.woff2 -text

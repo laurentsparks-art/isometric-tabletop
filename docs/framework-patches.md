@@ -1,0 +1,12 @@
+# Host framework patches (separate from the addon)
+
+Based on open ODM PR #371 head `d2b1f87dd297f55ff7aeea172ac5c873bd653a87`; companion desktop PR #63 head `6f2918ef571d110a11b279be67127e3a4bd7712a`.
+
+1. **Binary UI assets:** serve `.pck` as `application/octet-stream`, and `.wav` as `audio/wav`. Keep the existing path checks, MIME allowlist, 64 MiB UI / 512 MiB asset limits, CSP, CORS and `allow-scripts` sandbox. Godot's 39.5 MB Wasm and 9.5 MB resource pack fit the existing UI limit. Tests cover MIME, size, dot/traversal rejection and unchanged sandbox headers.
+2. **Public presentation metadata:** optional `snapshot.skin` forwards the existing player-safe skin ID/material overrides; optional `genre` supplies the setting for ordinary maps using default skins. Optional `appearance.audio` forwards only global mute/volume, allowing sandboxed UI sounds to respect preferences without parent storage access. Additive API v1 fields; existing example addons ignore them. No secrets or DM data are added.
+3. **Windows lifecycle:** wait for an MCP child's process to close before swapping its package directory. Signalling termination alone raced the rename and made the existing install/update runtime suite fail with `EBUSY`. The full addon runtime suite now passes on Windows.
+4. **Windows developer checks:** close the checker's scratch SQLite handle before removing its directory (`EPERM`); compare generated schema text after CRLF normalization. No schema/API change is hidden in the newline fix.
+
+These are generic framework improvements, not an isometric exception. No legacy renderer changes, art files, QA database, credentials, caches or screenshots belong in the host changeset. No remote has been changed and nothing has been published.
+
+5. **Distribution privacy:** route trace exclusions keep runtime `data/` and local `artifacts/` out of ordinary page/API bundles; `scripts/check-private-build-files.mjs` audits **all** trace manifests. Next 16.4 currently ignores these exclusions for its startup instrumentation trace, so a build from a populated QA checkout is explicitly rejected by this audit. Do not distribute that host payload. A clean build context (as ODM's Docker configuration already requires) is necessary; this is a remaining framework/Next packaging concern, separate from the addon ZIP, which contains no world data. No ineffective backup/restore source changes were retained.

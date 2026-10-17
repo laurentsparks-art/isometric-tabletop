@@ -1,0 +1,20 @@
+{
+  "version": 1,
+  "frameSize": [
+    48,
+    32
+  ],
+  "orientations": [
+    "ne",
+    "se",
+    "sw",
+    "nw"
+  ],
+  "logicalNorth": [
+    0,
+    -1
+  ],
+  "source": "assets/sources/ui/north-arrow.svg",
+  "license": "CC0-1.0",
+  "method": "Original integer pixel polygons; fixed 2:1 axes, nearest sampling"
+}

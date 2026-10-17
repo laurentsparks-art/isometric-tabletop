@@ -1,0 +1,2650 @@
+{
+  "isomap_test.tscn": {
+    "sha256": "c1f73621a0ab938dc5da7779dd20a0d20157c84eb5ad3be290ea7c0062285b24",
+    "bytes": 1246
+  },
+  "tabletop.tscn": {
+    "sha256": "7862247891b915d269e1b490de3448ba4cb1996ccae4258a36313b33dbac02d1",
+    "bytes": 1256
+  },
+  "fixtures/all-terrain.json": {
+    "sha256": "c3e751b93fd3eeff82b3d6ea16541a9201dcbc028933ad17c56369852d329023",
+    "bytes": 2254
+  },
+  "fixtures/original-art.json": {
+    "sha256": "4ec2312d92d40528ee287f0ac6abb6b6e4b22df263aeddfc6cae83bfcbe69b47",
+    "bytes": 2481
+  },
+  "tests/approved-library.json": {
+    "sha256": "0f185d01219ce31ae60adc0d16f687f836b73b511e5643fe31dd58d22da7d035",
+    "bytes": 359601
+  },
+  "tests/final-corrections-baseline.json": {
+    "sha256": "aa63c0002872f4aee572593d4e623ad16f7c8afa87ab5f388ebde88ab8ff4349",
+    "bytes": 61978
+  },
+  "tilesets/DungeonTileTest.png": {
+    "sha256": "14e6d9f311cdec3b9ebed3125dc16152744dbfce50b8e2457ca73e4bb6b3da3e",
+    "bytes": 98540
+  },
+  "assets/atlases/terrain__climb.png": {
+    "sha256": "3a193c3662845734b047387b6749db83aaed9dcdadc0b1d02e406cd4e874c4a5",
+    "bytes": 47653
+  },
+  "assets/atlases/terrain__climb__frozen.png": {
+    "sha256": "36adc2b30cde6168ecec780dc537be9311802c109a8a7c1b64c6ed6a1bdab26f",
+    "bytes": 42841
+  },
+  "assets/atlases/terrain__door.png": {
+    "sha256": "06fa0e4ca920901681d1cc773561cc222a486bac111fca700caebfa682486eb5",
+    "bytes": 828185
+  },
+  "assets/atlases/terrain__door__cp-yard-axis-correction.png": {
+    "sha256": "264d98aa92908340cc14a00546af2889f2abb47804ce19a02d8619a2f3beb9ce",
+    "bytes": 826929
+  },
+  "assets/atlases/terrain__floor.png": {
+    "sha256": "eb749e15730bab077e60ead92da270e394fe32b4186d5096130af0f595df47d4",
+    "bytes": 226293
+  },
+  "assets/atlases/terrain__lowwall.png": {
+    "sha256": "f00dc51afc7d6bcc77ee55385f3cd2596505ab3cf05b5baa5c1d61477b1c3b76",
+    "bytes": 804146
+  },
+  "assets/atlases/terrain__lowwall__frozen.png": {
+    "sha256": "6e5e95581f9d01e1f9ddbed0b06454c7be462377e011bb7421fadb75f2ec2a81",
+    "bytes": 560574
+  },
+  "assets/atlases/terrain__rough.png": {
+    "sha256": "558ba56e66a6e75ecc52219e4a318ff1b29b5defd2ffc79383fd9dd3498a5ffa",
+    "bytes": 401954
+  },
+  "assets/atlases/terrain__wall.png": {
+    "sha256": "26de0542a4cee90227b591635959364a5729e7f1e7bca088fe729789aea86021",
+    "bytes": 1339940
+  },
+  "assets/atlases/terrain__water.png": {
+    "sha256": "cbff08948f8b796d2100bc882880d649d831f4920ed867c6e9e31cc82f5af005",
+    "bytes": 249514
+  },
+  "assets/atlases/terrain__water__recovery-open-ground.png": {
+    "sha256": "6b8490e91f4136f78a67233312446bb8153d20210a59b4e207032af7f2814f6d",
+    "bytes": 249501
+  },
+  "assets/atlases/terrain__water__recovery-ship-deck.png": {
+    "sha256": "e9a6687c803f4d2eee43f4c754fb862c3faf84cae319c8adb89293129008cac9",
+    "bytes": 249376
+  },
+  "assets/atlases/terrain__water__recovery-sunken-crypt.png": {
+    "sha256": "94e9dd6fa8b89994bb123c702a0c289af20f5dea1b4219da9e4f9dc49efdd782",
+    "bytes": 247902
+  },
+  "assets/backgrounds/bg__cavern.png": {
+    "sha256": "c021647898a57de22629a3ca43de232232d62ad0ac0cbbf515ef9ff2d009ca25",
+    "bytes": 308142
+  },
+  "assets/backgrounds/bg__cp-corp.png": {
+    "sha256": "d47cc9796da4b5b919a4bfb6ab1c236d1c86ed929ff278d8dbda94e00712bd38",
+    "bytes": 147950
+  },
+  "assets/backgrounds/bg__cp-street.png": {
+    "sha256": "1dcbd28fe0665ff133f294e19e0a73216fda639342e6936ed2ea5e844a1a2636",
+    "bytes": 137924
+  },
+  "assets/backgrounds/bg__cp-yard.png": {
+    "sha256": "531a278e071ffd3ca977f16a57a53693e5f701226722954e353d34a7c83ec3e8",
+    "bytes": 149979
+  },
+  "assets/backgrounds/bg__desert.png": {
+    "sha256": "54631a791f423a1be5c320a3a3cada6568f979a86dd55a53e5a4a5df8e30aa7a",
+    "bytes": 296303
+  },
+  "assets/backgrounds/bg__forest-floor.png": {
+    "sha256": "941dbdef4db493d1d042a942f560738b27cd068745744b8c262f0b61e11499ba",
+    "bytes": 343576
+  },
+  "assets/backgrounds/bg__frozen.png": {
+    "sha256": "feb47792c78202e95080047cfe649e820730553943ba409bf439842710c2f64f",
+    "bytes": 336601
+  },
+  "assets/backgrounds/bg__hr-flesh.png": {
+    "sha256": "68e3a2da96a1ba1dd8a9131bca4a4650b6e2ae1c3c1be2176cdc65d6a6834631",
+    "bytes": 135630
+  },
+  "assets/backgrounds/bg__hr-manor.png": {
+    "sha256": "cb0dc7cb1ad02f076074da5e0a2b17c14bdc58e24e717ef3d5346cfcf84435dd",
+    "bytes": 135629
+  },
+  "assets/backgrounds/bg__laboratory.png": {
+    "sha256": "c021647898a57de22629a3ca43de232232d62ad0ac0cbbf515ef9ff2d009ca25",
+    "bytes": 308142
+  },
+  "assets/backgrounds/bg__mire.png": {
+    "sha256": "1b6ffe601515982b7fa1aa96a1d1926218a640a7dad785d2cb342e34dc744dcd",
+    "bytes": 300120
+  },
+  "assets/backgrounds/bg__my-alley.png": {
+    "sha256": "5050979e02ef5521cb0f6b17d6e2ee6dfa71056e2237f6e43e56d2b119b69e43",
+    "bytes": 136961
+  },
+  "assets/backgrounds/bg__my-townhouse.png": {
+    "sha256": "e81013f07f5a362831f4a1eb27a9fe07915206ecb39ce781c1905de10f5fe0f3",
+    "bytes": 142479
+  },
+  "assets/backgrounds/bg__open-ground.png": {
+    "sha256": "941dbdef4db493d1d042a942f560738b27cd068745744b8c262f0b61e11499ba",
+    "bytes": 343576
+  },
+  "assets/backgrounds/bg__overgrown-ruin.png": {
+    "sha256": "941dbdef4db493d1d042a942f560738b27cd068745744b8c262f0b61e11499ba",
+    "bytes": 343576
+  },
+  "assets/backgrounds/bg__pa-bunker.png": {
+    "sha256": "fe9f06e9a9238471d0c076942dc645d3d7bcf29da4c23238a07ac489b80d2413",
+    "bytes": 147929
+  },
+  "assets/backgrounds/bg__pa-highway.png": {
+    "sha256": "1d75938a140221dfcbe6a69731d00cd07e81154241b4034bb5cc62a8d49165dc",
+    "bytes": 119094
+  },
+  "assets/backgrounds/bg__river-bank.png": {
+    "sha256": "1b6ffe601515982b7fa1aa96a1d1926218a640a7dad785d2cb342e34dc744dcd",
+    "bytes": 300120
+  },
+  "assets/backgrounds/bg__sewer.png": {
+    "sha256": "1b6ffe601515982b7fa1aa96a1d1926218a640a7dad785d2cb342e34dc744dcd",
+    "bytes": 300120
+  },
+  "assets/backgrounds/bg__ship-deck.png": {
+    "sha256": "1b6ffe601515982b7fa1aa96a1d1926218a640a7dad785d2cb342e34dc744dcd",
+    "bytes": 300120
+  },
+  "assets/backgrounds/bg__sp-foundry.png": {
+    "sha256": "71117aec5df37a055f2301735c3b4e2cb707ffd5680b766d6562cfdbff3423a2",
+    "bytes": 123643
+  },
+  "assets/backgrounds/bg__sp-street.png": {
+    "sha256": "84bba59a4102c220aed1b0b0e8076cec3c08f58ed9b39420aca1f498e36c13ee",
+    "bytes": 141907
+  },
+  "assets/backgrounds/bg__stone-dungeon.png": {
+    "sha256": "c021647898a57de22629a3ca43de232232d62ad0ac0cbbf515ef9ff2d009ca25",
+    "bytes": 308142
+  },
+  "assets/backgrounds/bg__sunken-crypt.png": {
+    "sha256": "8ef9e090752081b6f6b2ad7bd9e253183b1ec14181cc7bb3992fb5e88168361a",
+    "bytes": 298982
+  },
+  "assets/backgrounds/bg__tavern.png": {
+    "sha256": "72e5333e5739d40c5ceb8398b16bb37c3b1316db4775c9db3f23ebd80d813532",
+    "bytes": 341144
+  },
+  "assets/backgrounds/bg__temple.png": {
+    "sha256": "72e5333e5739d40c5ceb8398b16bb37c3b1316db4775c9db3f23ebd80d813532",
+    "bytes": 341144
+  },
+  "assets/backgrounds/bg__volcanic-deep.png": {
+    "sha256": "b1c85a0d1775660fefe5c72b17c471191f7473e3c8560c2c3ae9e21afbac7823",
+    "bytes": 291891
+  },
+  "assets/generated/backgrounds.png": {
+    "sha256": "7d12c9ada07435e2fc684bb4d6d4e0768beaff1dbcc17b4ad8c22a476c53ff0e",
+    "bytes": 1797736
+  },
+  "assets/generated/terrain-a.png": {
+    "sha256": "d2eb1b72bc4ad1f4db08d9ee9805a3859ea15ff0646d49f2236fb2c6d87d340b",
+    "bytes": 1695759
+  },
+  "assets/generated/terrain-b.png": {
+    "sha256": "f3c241ac0a32bfc63c3c3f40b0f04b610af29e095234d9a4591e18f18ca365d7",
+    "bytes": 1920398
+  },
+  "assets/generated/terrain-c.png": {
+    "sha256": "30c3d6056a96b5602ebf4f35b55c513f8302f67f3f8110420c012573a85755a5",
+    "bytes": 1891040
+  },
+  "assets/generated/terrain-d.png": {
+    "sha256": "3961a242a30a116ced93d1af6ee9874308934928a969ce558441e2919b133796",
+    "bytes": 2057085
+  },
+  "assets/generated/tokens-classes.png": {
+    "sha256": "b55255b505ea7f06ba38184c3ade9cead4139ce39dca063595e534393f99020f",
+    "bytes": 1784784
+  },
+  "assets/generated/tokens-enemies.png": {
+    "sha256": "3cb7330f57f445050d45124f2cc1d51e1f7e12e59c478fb405eb0f176d554d5f",
+    "bytes": 1366885
+  },
+  "assets/metadata/approved-wall-hedge-dense.json": {
+    "sha256": "d06e514a7d4d633290fad353f36131f998906ac5e40fe8e3065caa56cf6b9efb",
+    "bytes": 8101
+  },
+  "assets/metadata/approved-wall-rubble-collapsed.json": {
+    "sha256": "56bc524d9086547c4868e1805dfa6cafdc9c536d1e1b66e09456319474297c33",
+    "bytes": 5833
+  },
+  "assets/metadata/art-recovery.json": {
+    "sha256": "3177dced40506ddf99f0a70cc157ac5d17e1918b173a29e23d5d112309aa3fec",
+    "bytes": 124580
+  },
+  "assets/metadata/catalogue.json": {
+    "sha256": "36b943103caac358386131879b750cc644092ddc81eca6c305e96375b0c26786",
+    "bytes": 412590
+  },
+  "assets/metadata/door-orientations.json": {
+    "sha256": "60c06d5567f0b1ad3e5380193d44397840dbb450d96db4736146fc610b5af931",
+    "bytes": 6647
+  },
+  "assets/metadata/north-arrow.json": {
+    "sha256": "878a98e3ddbdad668dba89fc4caa62d9b87612e8b8b348b846c611b8fe933939",
+    "bytes": 312
+  },
+  "assets/metadata/recovery-library.json": {
+    "sha256": "3ab52c4334c60366f8b937b40555c4b8af464fa651a4dbf6d5d1189bfc8e0800",
+    "bytes": 174524
+  },
+  "assets/metadata/sources.json": {
+    "sha256": "dab2036dc4153e425699ca2b11268e34573264c31cde77a1161141ba710834bc",
+    "bytes": 11719
+  },
+  "assets/metadata/terrain-sources.json": {
+    "sha256": "6b21f5c2aaf667a528cd1305ac90441c63f6d29265b08f2657f14fff2e99395e",
+    "bytes": 133806
+  },
+  "assets/tokens/classes/token__class__barbarian.png": {
+    "sha256": "e8ec4eb69be00e3d847f0b602f794fb7a0f11feea699d3e18014e71fdbfae136",
+    "bytes": 13908
+  },
+  "assets/tokens/classes/token__class__bard.png": {
+    "sha256": "62904e5f21ada855fe8573fa02c958e0d82c0afac925fc65ee21b3fbffc9f70d",
+    "bytes": 18699
+  },
+  "assets/tokens/classes/token__class__cleric.png": {
+    "sha256": "f08a7cc30e97455e3af789afd17a5f89d60f1432f6ba28d8a16aa8b47f69def8",
+    "bytes": 17718
+  },
+  "assets/tokens/classes/token__class__druid.png": {
+    "sha256": "4dc857988c16b91d8a316e33e3c0ee23be932b8b3edaaf4990dc07358558860e",
+    "bytes": 11762
+  },
+  "assets/tokens/classes/token__class__fighter.png": {
+    "sha256": "95a26ed28a7116f8dec3c82385d4fb5458a33a13bcadf988e0ec07cf2a6d6ead",
+    "bytes": 14610
+  },
+  "assets/tokens/classes/token__class__monk.png": {
+    "sha256": "612ce357a22ee438ba8589974a5980f6defbb3d1a20a2352ff5709db82012fe0",
+    "bytes": 16880
+  },
+  "assets/tokens/classes/token__class__paladin.png": {
+    "sha256": "ab25d4bb00df1b23b24afc725d055185a44d5cb91fad04ba06f26a887b9526a1",
+    "bytes": 13099
+  },
+  "assets/tokens/classes/token__class__ranger.png": {
+    "sha256": "bf3ae6bae6a975613c0426d16addbde92660f2ce14ea292c94fff0316dd12082",
+    "bytes": 14424
+  },
+  "assets/tokens/classes/token__class__rogue.png": {
+    "sha256": "093ff49a0511441c9a6a63ba19945d798cedb05dfd72731b780fa101ba0d9a91",
+    "bytes": 11091
+  },
+  "assets/tokens/classes/token__class__sorcerer.png": {
+    "sha256": "76371a1c5869f828e502e7c0ab5a828ee8efea8f53d2efae9b45bf46e5bc4103",
+    "bytes": 16414
+  },
+  "assets/tokens/classes/token__class__warlock.png": {
+    "sha256": "412a91782cf12554a28775351130a5212809e0da7587269cf890e6ae9afc76b4",
+    "bytes": 15858
+  },
+  "assets/tokens/classes/token__class__wizard.png": {
+    "sha256": "02120c5002585fadd5ca971b32de8d7ef0d8ba5912b2d661601d098eed039d80",
+    "bytes": 16796
+  },
+  "assets/tokens/enemies/token__enemy__bandit.png": {
+    "sha256": "a403c226edf377043dca1db32503f2a60f2f02f7eca3bb620ba6848abf02a291",
+    "bytes": 14120
+  },
+  "assets/tokens/enemies/token__enemy__cultist.png": {
+    "sha256": "dc97e98c4903d4c187a80cd11c1cb10255ffd331907bbe7992cc84186597f0da",
+    "bytes": 15966
+  },
+  "assets/tokens/enemies/token__enemy__giant-spider.png": {
+    "sha256": "2643c66896433c5797e0bfb516732cc600a3c0894120528cdee8535d5b5c9ccf",
+    "bytes": 11415
+  },
+  "assets/tokens/enemies/token__enemy__goblin.png": {
+    "sha256": "81de81157170501b5910308cb96479eb624e2ac2fcac49f759ef992204082bc3",
+    "bytes": 12912
+  },
+  "assets/tokens/enemies/token__enemy__guard.png": {
+    "sha256": "c48f50ea51b55fcc7e8315bfa4dc65573e73815b07eb0b4c247a17eff801c437",
+    "bytes": 15308
+  },
+  "assets/tokens/enemies/token__enemy__orc.png": {
+    "sha256": "1a6579b9dd6360cad5aba038d25ee1aadc6b0c231d6bc9a2bf53fb31c6a82f57",
+    "bytes": 14219
+  },
+  "assets/tokens/enemies/token__enemy__skeleton.png": {
+    "sha256": "0a5a5aeb24dd4d18f5902dcb2c16349869044a4dad8099a32a6ab3affad8a617",
+    "bytes": 15347
+  },
+  "assets/tokens/enemies/token__enemy__slime.png": {
+    "sha256": "ed83d86b56ca6fcef5b955f9e9753a6903ab41e205eccbc2bf8e0e88dd3d8906",
+    "bytes": 11166
+  },
+  "assets/tokens/enemies/token__enemy__wolf.png": {
+    "sha256": "62935136caae954477c32fdeee02a6f7c1e28f54a4ef15c44b5617825674eaf4",
+    "bytes": 13323
+  },
+  "assets/tokens/enemies/token__enemy__zombie.png": {
+    "sha256": "17dec9d9e4e19c5c0e41d765e641554bd06158f8a0de161b8e4f34e140405a08",
+    "bytes": 9972
+  },
+  "assets/terrain/climb/climb__generic-ladder.png": {
+    "sha256": "a0a3e904fd274376da669cf2559a809ff99d238ac397fc67df556dac00eef431",
+    "bytes": 42777
+  },
+  "assets/terrain/door/door__cp-door-cage__axis-a.png": {
+    "sha256": "eee31f6f75e75d92d104916a1ca836e8339b301a6c4d6cdcdf539b2ce354ecf1",
+    "bytes": 22312
+  },
+  "assets/terrain/door/door__cp-door-cage__axis-b.png": {
+    "sha256": "bc9680fa509b7bed60967faa9c53ca1ca95c5800f3e03e3335d0e2419a0f4040",
+    "bytes": 22416
+  },
+  "assets/terrain/door/door__cp-door-sliding-glass__axis-a.png": {
+    "sha256": "7df2a23a0d0a80899e6e2e856a493826c5a6374c9a12e2176b44d01ac6d0567d",
+    "bytes": 27416
+  },
+  "assets/terrain/door/door__cp-door-sliding-glass__axis-b.png": {
+    "sha256": "2451f84921ea88e0bab13a8f7680114d7615345c7422c6377d8e3c901ac60be6",
+    "bytes": 27526
+  },
+  "assets/terrain/door/door__door-cell-bars__axis-a.png": {
+    "sha256": "adb54636c609d09b1a1bc3426bc626509a0dea220a66555a9da24fa147d08d3f",
+    "bytes": 34034
+  },
+  "assets/terrain/door/door__door-cell-bars__axis-b.png": {
+    "sha256": "ca866e960ab639b7645995b1dee574cc35bf3b540d1474542c83cfd2e3f1ff1f",
+    "bytes": 34077
+  },
+  "assets/terrain/door/door__door-curtain-beaded__axis-a.png": {
+    "sha256": "f248a286249ba3bacc6a72d27c88bb1f237e85a374ab7f85a05509c94fc385c4",
+    "bytes": 36218
+  },
+  "assets/terrain/door/door__door-curtain-beaded__axis-b.png": {
+    "sha256": "ca83416c7a81db59f42fc6e9d8640dd799ac4680b580e248830a6556d7ce5f4f",
+    "bytes": 36215
+  },
+  "assets/terrain/door/door__door-double-ornate__axis-a.png": {
+    "sha256": "97f14ec4a7bd4b4cf41f0ff4a214cecf1d6c470a68a12b3436dd07daa40702a1",
+    "bytes": 36884
+  },
+  "assets/terrain/door/door__door-double-ornate__axis-b.png": {
+    "sha256": "16ddf13257e1b4000511b0d16a69579ef541072b52213436e32693900b9edd3d",
+    "bytes": 36886
+  },
+  "assets/terrain/door/door__door-gate-timber__axis-a.png": {
+    "sha256": "c8e185b9795f60bbdc353aca14d70ece1788cbfa1b2cf14a70a6ab3bd645059d",
+    "bytes": 35032
+  },
+  "assets/terrain/door/door__door-gate-timber__axis-b.png": {
+    "sha256": "f56b7cfaa781d10272200aa93a5962f7b3405c9465064003f4a74dc08943e50f",
+    "bytes": 35068
+  },
+  "assets/terrain/door/door__door-iron-reinforced__axis-a.png": {
+    "sha256": "3c8d031ece70ace2f1163624425cf0145f37d2f09aad40bce0902efaa9a08a14",
+    "bytes": 34581
+  },
+  "assets/terrain/door/door__door-iron-reinforced__axis-b.png": {
+    "sha256": "d11fbc09cf2514b3d77c174dbccd371588469932f71060b235235b3487c827af",
+    "bytes": 34613
+  },
+  "assets/terrain/door/door__door-rotted-broken__axis-a.png": {
+    "sha256": "bd780d10695f441235215d346abce3995de8d9b8c8354f353092a20d572cb546",
+    "bytes": 33401
+  },
+  "assets/terrain/door/door__door-rotted-broken__axis-b.png": {
+    "sha256": "c13c5ba8fe6efd0d30e8430463f0120acdb5d71b575d0076cd74d2fdfece1dc1",
+    "bytes": 33383
+  },
+  "assets/terrain/door/door__door-stone-slab__axis-a.png": {
+    "sha256": "4e42c036fc9760dea9f86a4ba6728926d5adab45c08b572a3da292da057dfc83",
+    "bytes": 27614
+  },
+  "assets/terrain/door/door__door-stone-slab__axis-b.png": {
+    "sha256": "271852255d8dab677b346c33e4cd27a460446403ef8de1c805ed9004f581224f",
+    "bytes": 27622
+  },
+  "assets/terrain/door/door__door-wood-iron-banded__axis-a.png": {
+    "sha256": "d30fa55acf2e5a93eb82123a474e262eab6dea8ac9d6e6d9683d23d57cc53699",
+    "bytes": 25610
+  },
+  "assets/terrain/door/door__door-wood-iron-banded__axis-b.png": {
+    "sha256": "aa96e23eb6dc391b4fa45b4b8cd2aaec56dc44f420276f53ebac8d085d7058a7",
+    "bytes": 25632
+  },
+  "assets/terrain/door/door__door-wood-plain__axis-a.png": {
+    "sha256": "a2880e4a84d7f369a5f58e091a010a4b441f2b94740fe91cf1e65726170b4c21",
+    "bytes": 26805
+  },
+  "assets/terrain/door/door__door-wood-plain__axis-b.png": {
+    "sha256": "99f90a13fa2c9a74eaa828b0ccc28a9ce0978ac60f616a244d752ded4e4a9e31",
+    "bytes": 26849
+  },
+  "assets/terrain/door/door__hr-door-flesh__axis-a.png": {
+    "sha256": "de0f62d1d86ad10aa45370386513ac52a0576f17b185fa7537e64a65c93fb9bf",
+    "bytes": 23124
+  },
+  "assets/terrain/door/door__hr-door-flesh__axis-b.png": {
+    "sha256": "ce97255b1cf0205f51041f789b672980496ae962f2aa29ae90c4c000717743b4",
+    "bytes": 23118
+  },
+  "assets/terrain/door/door__hr-door-nailed__axis-a.png": {
+    "sha256": "bf4034996b4b1c9e981bc865dc6c914af0bcb48060344d2e41efe3e2442c87db",
+    "bytes": 21463
+  },
+  "assets/terrain/door/door__hr-door-nailed__axis-b.png": {
+    "sha256": "a42c63677b259b4c42e8643848c8b94dc47e4765c398b9f54e6e4f674e99c33a",
+    "bytes": 21437
+  },
+  "assets/terrain/door/door__my-door-panelled__axis-a.png": {
+    "sha256": "fcf0d23e149643a47e99222d98eccdd156215c60f150b861b9440b4d0277cc51",
+    "bytes": 17537
+  },
+  "assets/terrain/door/door__my-door-panelled__axis-b.png": {
+    "sha256": "438d0ea0d0215713313b941df72c01804b7cc07ef5258fcc69109d3400ff246a",
+    "bytes": 17543
+  },
+  "assets/terrain/door/door__my-door-shop__axis-a.png": {
+    "sha256": "5c8bab57df5c2a3855b603fbb95e657132062d6d2c8195915fb72777ba712626",
+    "bytes": 24048
+  },
+  "assets/terrain/door/door__my-door-shop__axis-b.png": {
+    "sha256": "1322fa6da9a40b446f8d9bae9ecd004432dc23581aa75d90b1bf37017c6ac644",
+    "bytes": 24066
+  },
+  "assets/terrain/door/door__pa-door-chain-gate__axis-a.png": {
+    "sha256": "c4a3d5fad66c8f7328a118fbb6774215f78295697f3eb4c5d007f698d2b50d9f",
+    "bytes": 20207
+  },
+  "assets/terrain/door/door__pa-door-chain-gate__axis-b.png": {
+    "sha256": "4de5af5aa1f305639e415b96f3568a4cf75c69cf83dfd8539c3b303fc6e8f27b",
+    "bytes": 20107
+  },
+  "assets/terrain/door/door__pa-door-welded__axis-a.png": {
+    "sha256": "76b43e766de81b2f4f8f69da72804b561c59a8351f59f7610ea9095b5685e136",
+    "bytes": 25450
+  },
+  "assets/terrain/door/door__pa-door-welded__axis-b.png": {
+    "sha256": "b0eeeb1008badf81d8d6daed2d63821cc6d683e6315485b96d125609d2b89bff",
+    "bytes": 25414
+  },
+  "assets/terrain/door/door__sp-door-brass__axis-a.png": {
+    "sha256": "fdc03bc974324315ff39d8afd8aa602340fca2cdaf91c893714e994f4d786579",
+    "bytes": 13838
+  },
+  "assets/terrain/door/door__sp-door-brass__axis-b.png": {
+    "sha256": "cc1cb1cd827b8f96c4cdc923100923da9bed3fdc6b5484bbdf358d9d66860238",
+    "bytes": 13892
+  },
+  "assets/terrain/door/door__sp-door-cage-lift__axis-a.png": {
+    "sha256": "0bef92fa8c357af14dde4fcae25f9c086cb5f859a2969f891efe41173dae02dc",
+    "bytes": 18875
+  },
+  "assets/terrain/door/door__sp-door-cage-lift__axis-b.png": {
+    "sha256": "eb62529bb773eea25e7f027bb4a74fefffb8978d1ce8543edb61db9575e7b66d",
+    "bytes": 18887
+  },
+  "assets/terrain/floor/floor__basalt-columns.png": {
+    "sha256": "50d4471c345415e53b51744eaa307a6ef7eeca086588d9a317da239c130787de",
+    "bytes": 5258
+  },
+  "assets/terrain/floor/floor__cave-rock-smooth.png": {
+    "sha256": "099b02464aeef80d4d0c0a5e6e6d39244164e7661538063b509b627495bb2300",
+    "bytes": 12404
+  },
+  "assets/terrain/floor/floor__cp-asphalt-wet.png": {
+    "sha256": "afcd98d42093dbd2963188bdf376d16380b980fc39de8410a48beab243f7a08a",
+    "bytes": 10106
+  },
+  "assets/terrain/floor/floor__cp-concrete-plaza.png": {
+    "sha256": "b01295c557ec362ecf75f6aa31b9045abb13480a8b99ac20c430bf08dc9d36bb",
+    "bytes": 3487
+  },
+  "assets/terrain/floor/floor__cp-holo-tile.png": {
+    "sha256": "eef369aec4c1a5070c4dc4b5908233e2fec344a2e2e2e061b555601f34eca59d",
+    "bytes": 10425
+  },
+  "assets/terrain/floor/floor__flagstone-cracked.png": {
+    "sha256": "37780c86be3bd3b6e430d644fdf4de1a3a202e52dd02362712377b9af9de2b26",
+    "bytes": 4365
+  },
+  "assets/terrain/floor/floor__flagstone-granite.png": {
+    "sha256": "3ea894a095dbc10e4cc1b87d3c9dc7a8d766bf8325ea6c247018bba9cbcaa63b",
+    "bytes": 13017
+  },
+  "assets/terrain/floor/floor__grass-dark.png": {
+    "sha256": "217eb3f89fa90c62d060d0239137fdede2893b87aa57aff4edb834d433fe9ae0",
+    "bytes": 5799
+  },
+  "assets/terrain/floor/floor__grass-meadow.png": {
+    "sha256": "9d0c1ca588a23fdad942779524af2ee56bdb7e682877e7900d336c33ce06a506",
+    "bytes": 6363
+  },
+  "assets/terrain/floor/floor__hr-boards-rotten.png": {
+    "sha256": "c2a0290921b4c55d1772b3f0438a70b5104bb4937f559039e3cc588d31c45e30",
+    "bytes": 11461
+  },
+  "assets/terrain/floor/floor__hr-flesh-floor.png": {
+    "sha256": "715030cfa37b243f48136e2ac8e641874b21b73229ac1f8a09fec362dad5137f",
+    "bytes": 12897
+  },
+  "assets/terrain/floor/floor__marble-polished.png": {
+    "sha256": "413d26bd3928d14ced2b8e5089d4eed0a0c66c2236e9410e04d291f67bd1a666",
+    "bytes": 4479
+  },
+  "assets/terrain/floor/floor__my-cobbles-wet.png": {
+    "sha256": "3a523e0b57739e2dd808b4b9ef537ba28c8bf5266c07601548d066a3c6a6fa15",
+    "bytes": 3762
+  },
+  "assets/terrain/floor/floor__my-parquet-victorian.png": {
+    "sha256": "a05404c53f505e79f8b85de192f6c3edb6e332cb7fa644862c9e39710ab017cc",
+    "bytes": 11907
+  },
+  "assets/terrain/floor/floor__pa-asphalt-cracked.png": {
+    "sha256": "f1c2815702baa243cf84fc0b87fbef5c86b7fd82f1ce0dfcb5f7aa4d7dd1a3e7",
+    "bytes": 11772
+  },
+  "assets/terrain/floor/floor__pa-bunker-concrete.png": {
+    "sha256": "bc6acc9d87ee3d42da32e8ae27406a86ea1369176c09f237096961f9ca37a2cb",
+    "bytes": 12463
+  },
+  "assets/terrain/floor/floor__peat-swamp.png": {
+    "sha256": "b5153140dfe22fc60f39a0ad8ba86924894d13669f1c809db908ac2726c2c789",
+    "bytes": 5044
+  },
+  "assets/terrain/floor/floor__sand-beach.png": {
+    "sha256": "0d3051dfd142a3b9829efa7a77d0f3c296e4326fef9eb75c7ab5a18d819ecc57",
+    "bytes": 5748
+  },
+  "assets/terrain/floor/floor__sand-desert.png": {
+    "sha256": "cb65ffdb3d23df8edf5c3fa1c3262f48712d0984ad090593b9a5dc5c97ac1185",
+    "bytes": 3644
+  },
+  "assets/terrain/floor/floor__sewer-brick.png": {
+    "sha256": "3773b14977d646f31a8cae8ee600c8b5f7067a2406a29b1e42388bdd4961cd62",
+    "bytes": 4973
+  },
+  "assets/terrain/floor/floor__ship-deck.png": {
+    "sha256": "e9f0880d68bb13d32e25662e5c2cf9c6e7bff0b499feb8b359183789d52e7fe7",
+    "bytes": 5079
+  },
+  "assets/terrain/floor/floor__slate-tile.png": {
+    "sha256": "e20b0435c43cf1412e45a2bfc6fb2fd89c1f8ea52d58213caf7985203da27fd3",
+    "bytes": 4364
+  },
+  "assets/terrain/floor/floor__snow-packed.png": {
+    "sha256": "82bc57fbb3143ef78efd65773ac73e13a178b5871c15495d16ba2d4c5ab3ec1d",
+    "bytes": 3943
+  },
+  "assets/terrain/floor/floor__sp-cobbles-gaslit.png": {
+    "sha256": "36cd2446cd395c8ff33bb35c9b47c54f7582bb09dcb63b9466dfea6662390041",
+    "bytes": 13166
+  },
+  "assets/terrain/floor/floor__sp-iron-plate.png": {
+    "sha256": "26554f67f6a77a4c82d604e387cc2db2779d3c6b33684f3ebcb901bb4b21d6e1",
+    "bytes": 12285
+  },
+  "assets/terrain/floor/floor__wood-plank-worn.png": {
+    "sha256": "9f491c27524b37cb5801e49b4bd3191444599ab00598d51f32970da02d563a26",
+    "bytes": 4556
+  },
+  "assets/terrain/lowwall/lowwall__cp-lowwall-console__axis-a.png": {
+    "sha256": "48a71496d5ef3bcc91f35e23dcd87d501681f8cc72c74dfc5267b9d9b7f1b7e2",
+    "bytes": 18808
+  },
+  "assets/terrain/lowwall/lowwall__cp-lowwall-console__axis-b.png": {
+    "sha256": "f973b6771f5ac082d6a92267dea4cb0ad4c199bb0bf3688a7f2ea17e6a916cfe",
+    "bytes": 18428
+  },
+  "assets/terrain/lowwall/lowwall__cp-lowwall-crash-barrier__axis-a.png": {
+    "sha256": "5b4b0c24a041e71fe81b282c97ca9afaf74d6456580c2e561df610e6666fe990",
+    "bytes": 16629
+  },
+  "assets/terrain/lowwall/lowwall__cp-lowwall-crash-barrier__axis-b.png": {
+    "sha256": "0c9a2332ab8b0237ff85d537eb5c1664fbcbb3645ccc664124db40096dcd227a",
+    "bytes": 17055
+  },
+  "assets/terrain/lowwall/lowwall__cp-lowwall-crates__axis-a.png": {
+    "sha256": "0b2bc4e0c37b44a44311de61aed48c1143adc2e40100fae5630d6647a3f3c1ff",
+    "bytes": 17939
+  },
+  "assets/terrain/lowwall/lowwall__cp-lowwall-crates__axis-b.png": {
+    "sha256": "a2fe97130252830114ba8593134fc9b183eaec820d041ebc866c080ef88053de",
+    "bytes": 18080
+  },
+  "assets/terrain/lowwall/lowwall__hr-lowwall-cages__axis-a.png": {
+    "sha256": "1bed09dbcfda49e8d63087bfceee9c0743cf87b52f14ea64b1e181b6064fdbf0",
+    "bytes": 18044
+  },
+  "assets/terrain/lowwall/lowwall__hr-lowwall-cages__axis-b.png": {
+    "sha256": "c198b2e789643bd83a67061a697209aa4696487a60831d62abd42075b77bdd25",
+    "bytes": 16719
+  },
+  "assets/terrain/lowwall/lowwall__hr-lowwall-pews__axis-a.png": {
+    "sha256": "e3656da2b7bb2e482d9bc8fdc32a33960f8dda4796a3609fd00ff26b64090908",
+    "bytes": 16283
+  },
+  "assets/terrain/lowwall/lowwall__hr-lowwall-pews__axis-b.png": {
+    "sha256": "0f80ee2efb2b878f89749f79ce29c383e473c2a51d4cd36761e278fd81355ed8",
+    "bytes": 16276
+  },
+  "assets/terrain/lowwall/lowwall__lowwall-barrel-row__axis-a.png": {
+    "sha256": "79f60c3565d6c557a4f93c56096b4a37e33433f3daa1896f5b81b8e0f957f979",
+    "bytes": 24445
+  },
+  "assets/terrain/lowwall/lowwall__lowwall-barrel-row__axis-b.png": {
+    "sha256": "48096f29482a64900a78621ae9463a29edd68085340d7d2b07da846882de3aa9",
+    "bytes": 24421
+  },
+  "assets/terrain/lowwall/lowwall__lowwall-bookshelf__axis-a.png": {
+    "sha256": "425387ac11d393ccde428904141db2e9ffbc9eaa368df1d43ef4b872b21141d2",
+    "bytes": 30070
+  },
+  "assets/terrain/lowwall/lowwall__lowwall-bookshelf__axis-b.png": {
+    "sha256": "343ef89901eec6e0c9869db4d44c7266cd09ce59e059fb853aaacdf3140eb8d1",
+    "bytes": 30055
+  },
+  "assets/terrain/lowwall/lowwall__lowwall-broken-stub__axis-a.png": {
+    "sha256": "c1e709d0d5a13b492a4729653d68f204419363c1166b2a3653fc45afd229fff5",
+    "bytes": 25613
+  },
+  "assets/terrain/lowwall/lowwall__lowwall-broken-stub__axis-b.png": {
+    "sha256": "890430d996ef68871c5857b0622acf089476c32dc504629dbfab14e8cfd512ac",
+    "bytes": 25605
+  },
+  "assets/terrain/lowwall/lowwall__lowwall-log-barricade__axis-a.png": {
+    "sha256": "6d3191df6981e98f3c8ecf99651eed51ccee9ef9eb0683a1c4c5775e721d452a",
+    "bytes": 26240
+  },
+  "assets/terrain/lowwall/lowwall__lowwall-log-barricade__axis-b.png": {
+    "sha256": "cc12e46b1935f8c4149b42f04a6085970711400565d630cc8eae4c056653f065",
+    "bytes": 26247
+  },
+  "assets/terrain/lowwall/lowwall__lowwall-market-counter__axis-a.png": {
+    "sha256": "09be9ee65a2a10929a81475aa18e5e5a82cee1e73e0241589f85a20d4fe895ea",
+    "bytes": 25979
+  },
+  "assets/terrain/lowwall/lowwall__lowwall-market-counter__axis-b.png": {
+    "sha256": "d54d4e56a0a42bd92cc4f3d0281439ee9a86a1032b1111010d2c0bc2ccfc8fad",
+    "bytes": 25992
+  },
+  "assets/terrain/lowwall/lowwall__lowwall-pew-bench__axis-a.png": {
+    "sha256": "22ad27e528ae5de851129c42d2d6070e7c278cd073cc35d7642f04d72b967687",
+    "bytes": 26443
+  },
+  "assets/terrain/lowwall/lowwall__lowwall-pew-bench__axis-b.png": {
+    "sha256": "334cb7c3b38f44a0862fce11ff3e58da4edf64fdf824c93b2c5732450085b8fa",
+    "bytes": 26408
+  },
+  "assets/terrain/lowwall/lowwall__lowwall-rubble-heap__axis-a.png": {
+    "sha256": "eaa2d3a939b1a5f431d6e06b1fa235044b3257e4c1a39d28b0b76fd0565d94e3",
+    "bytes": 24004
+  },
+  "assets/terrain/lowwall/lowwall__lowwall-rubble-heap__axis-b.png": {
+    "sha256": "d7956cb3215d28a447e9611dffeb3f10599729d23dd54e3034ac0118a105865c",
+    "bytes": 23984
+  },
+  "assets/terrain/lowwall/lowwall__lowwall-sandbag__axis-a.png": {
+    "sha256": "72f01dc7b9590684084200284cc3868ed7cb584412ebc9ece8c4e31958c8bfdd",
+    "bytes": 25030
+  },
+  "assets/terrain/lowwall/lowwall__lowwall-sandbag__axis-b.png": {
+    "sha256": "4b979c61d0751d4653d01a0895de3aa7b1ebb2967fed93de20ca5d7f63b64773",
+    "bytes": 25022
+  },
+  "assets/terrain/lowwall/lowwall__lowwall-sarcophagus__axis-a.png": {
+    "sha256": "25a3ea83b0b13835fea55b8c0e5081565efc9f06ba710f0a91a636378482c915",
+    "bytes": 25434
+  },
+  "assets/terrain/lowwall/lowwall__lowwall-sarcophagus__axis-b.png": {
+    "sha256": "7f66865628bb5f6ff83995cd84afedb10f017e96d3a30d55b6c45f01d461f89a",
+    "bytes": 25395
+  },
+  "assets/terrain/lowwall/lowwall__lowwall-stalagmite-row__axis-a.png": {
+    "sha256": "88290e30a9d5eebeee5fbeea4e1171e86d1ddf73433beca5d5166c7a334defb8",
+    "bytes": 25731
+  },
+  "assets/terrain/lowwall/lowwall__lowwall-stalagmite-row__axis-b.png": {
+    "sha256": "7cc2e148f8be31da54c5e2ba853fe750dac66692506d832a043619bfb1381ad6",
+    "bytes": 25757
+  },
+  "assets/terrain/lowwall/lowwall__lowwall-stone-parapet__axis-a.png": {
+    "sha256": "4074afc0132a361c93da62dd17182f23aa96c9861a65a5b02eb066b3f6760d5c",
+    "bytes": 30483
+  },
+  "assets/terrain/lowwall/lowwall__lowwall-stone-parapet__axis-b.png": {
+    "sha256": "6c1562c405d16b79d2dcbb9781a1028e4b3bfea6d9f42f7273ca9f040d4bda54",
+    "bytes": 30491
+  },
+  "assets/terrain/lowwall/lowwall__lowwall-wood-fence__axis-a.png": {
+    "sha256": "3d83511bfab6028f46222841a026123b3906b2f57f74a3295dd185f99cd5223d",
+    "bytes": 26789
+  },
+  "assets/terrain/lowwall/lowwall__lowwall-wood-fence__axis-b.png": {
+    "sha256": "d46de645ac8a1c97088ca855194eb723a45ebff8145f04ac40f81bfdcb7d3bce",
+    "bytes": 26787
+  },
+  "assets/terrain/lowwall/lowwall__my-lowwall-railing__axis-a.png": {
+    "sha256": "ad775fe4daf0f3b43c89f13f31f7df5ddbe7ee0b38394436acf0c6631345b2af",
+    "bytes": 16073
+  },
+  "assets/terrain/lowwall/lowwall__my-lowwall-railing__axis-b.png": {
+    "sha256": "a6c43cdc5c8965b64f709a7f9481db4233e26c9a0d68c213925fe6cd83ddb935",
+    "bytes": 16077
+  },
+  "assets/terrain/lowwall/lowwall__my-lowwall-sofa__axis-a.png": {
+    "sha256": "7ae1aa34a9d275f03ebe8e1ae001bdc0e8162864ae3e4e9e1a59f8851c2ffa69",
+    "bytes": 20470
+  },
+  "assets/terrain/lowwall/lowwall__my-lowwall-sofa__axis-b.png": {
+    "sha256": "7f526932d5b3a7e736da84f22d04f3a2eeb810f9cdcf7304fde16eebfdcb7529",
+    "bytes": 20861
+  },
+  "assets/terrain/lowwall/lowwall__pa-lowwall-sandbags__axis-a.png": {
+    "sha256": "9aa5389c5d15d263f66337880bf80bec8105a648353a02d426e5f7b77a49d394",
+    "bytes": 14123
+  },
+  "assets/terrain/lowwall/lowwall__pa-lowwall-sandbags__axis-b.png": {
+    "sha256": "304fb34c544cba338b060a60f4fbe12d278a7a1bfff64f98a6a5db34a2ee1186",
+    "bytes": 13969
+  },
+  "assets/terrain/lowwall/lowwall__pa-lowwall-tyre-row__axis-a.png": {
+    "sha256": "925919223f77cfc9e27869de1ff38d308eb2cf07b4a8486b06caa513d25e327e",
+    "bytes": 15400
+  },
+  "assets/terrain/lowwall/lowwall__pa-lowwall-tyre-row__axis-b.png": {
+    "sha256": "69824eaf9ce740471b5483950ba2989511d871562208de64b2c5fb735b8ded1e",
+    "bytes": 15154
+  },
+  "assets/terrain/lowwall/lowwall__sp-lowwall-crate-row__axis-a.png": {
+    "sha256": "55487742f302a88f75daf41cbaca7470e504e394d9c4c41c41e5ff02469191ca",
+    "bytes": 22497
+  },
+  "assets/terrain/lowwall/lowwall__sp-lowwall-crate-row__axis-b.png": {
+    "sha256": "6d0b6b7596f74d7f2b2da1a29eab535023b9f6591f74205a61911027222cfdc0",
+    "bytes": 21268
+  },
+  "assets/terrain/lowwall/lowwall__sp-lowwall-pipe-rail__axis-a.png": {
+    "sha256": "b2e9dd5962c0d537f5ebdb43d044cc08127d6abb6154dc1428bbf82ece02511d",
+    "bytes": 15840
+  },
+  "assets/terrain/lowwall/lowwall__sp-lowwall-pipe-rail__axis-b.png": {
+    "sha256": "a88f92b199f4d8fe29252d83ad400f3bc7354314edc930bef8cce7909b8cd55a",
+    "bytes": 15575
+  },
+  "assets/terrain/rough/rough__cp-cable-tangle.png": {
+    "sha256": "2768e2a5cd1c512461aa3447043724fb0b640d92d2583dffb357173d3f1cf2c6",
+    "bytes": 13202
+  },
+  "assets/terrain/rough/rough__cp-rubble-concrete.png": {
+    "sha256": "6ae0ee8fe7ec9c049ee23e59d2c24638f8d449c6b7463d5e2620d2a016c92eca",
+    "bytes": 12085
+  },
+  "assets/terrain/rough/rough__cp-scrap-electronics.png": {
+    "sha256": "3d27474e05d492c26ad01f7f46647114d4d12cde35763d0aacc1d6d085672bef",
+    "bytes": 14523
+  },
+  "assets/terrain/rough/rough__hr-rot-debris.png": {
+    "sha256": "2bafd07ed052f731ef944d07b726346a61da0a8b276d6f9d733c5d2de7c3fddd",
+    "bytes": 13272
+  },
+  "assets/terrain/rough/rough__hr-viscera.png": {
+    "sha256": "14ecd74c2d61a61a602f3171b1a25dda4537f6eb1a3b61dc514198174e800bb4",
+    "bytes": 10689
+  },
+  "assets/terrain/rough/rough__my-papers-scattered.png": {
+    "sha256": "ddbd2466519409e2438930832e1c36ff06863166fa7e2c355870ace6a0a87d3a",
+    "bytes": 17422
+  },
+  "assets/terrain/rough/rough__my-rubbish-alley.png": {
+    "sha256": "7d2509bf369ff16f3b19557c98fe2b969bec377d19248f2ed82d240a4495b2f9",
+    "bytes": 11955
+  },
+  "assets/terrain/rough/rough__pa-debris-plaster.png": {
+    "sha256": "3b7de30a9072d50e63569908eb73214756d7ed48da5dfc9b2c65a78fefc9e851",
+    "bytes": 14604
+  },
+  "assets/terrain/rough/rough__pa-scrap-field.png": {
+    "sha256": "3b9749c038bd79146c6ab2b6ac108247fdcce87ea229b4477c07f3626d99ace0",
+    "bytes": 14753
+  },
+  "assets/terrain/rough/rough__rough-ash-drifts.png": {
+    "sha256": "067f8b4bc8b9e7e5e6900ecdc21ac18272173ed05ca48b1fa62526d51df4533c",
+    "bytes": 16730
+  },
+  "assets/terrain/rough/rough__rough-bone-scatter.png": {
+    "sha256": "ebf6ba4d207fd8fde6919238fcbbc42573311a246661d8b4009dfddf3f2ecc77",
+    "bytes": 16792
+  },
+  "assets/terrain/rough/rough__rough-bramble.png": {
+    "sha256": "9a3c570339e15d3a1b4554fbef108d108ba5c36cab45dac315bf83709c0b49ac",
+    "bytes": 23681
+  },
+  "assets/terrain/rough/rough__rough-cactus-scrub.png": {
+    "sha256": "be11a8a5a8fe75e681fcb876c810c49e70beace4f321d43b6e5cd08a3924eaf3",
+    "bytes": 25074
+  },
+  "assets/terrain/rough/rough__rough-debris-crates.png": {
+    "sha256": "d339c3462d4f194553195edf39b3ad27de3d0a3a109a03ebff82f7c5b0e2ded3",
+    "bytes": 16509
+  },
+  "assets/terrain/rough/rough__rough-driftwood.png": {
+    "sha256": "971791d9754e87f17adaad6357c0a91913b867cb74c76b3edf2fec1dcee6850b",
+    "bytes": 21714
+  },
+  "assets/terrain/rough/rough__rough-mud-churned.png": {
+    "sha256": "b93c1c4689989e1a2c332c6e5f3c64e91e5083b2379e8b9894aa5296a3a23137",
+    "bytes": 18822
+  },
+  "assets/terrain/rough/rough__rough-pottery-shards.png": {
+    "sha256": "9572de2808c608536e769947752109d94db4d593d56b7cd51d7a6375633bef06",
+    "bytes": 18004
+  },
+  "assets/terrain/rough/rough__rough-reed-bed.png": {
+    "sha256": "4f920a635d0cc27fbcc3044334c1733dbab88aac4d25ffc35aaa364cdf994be2",
+    "bytes": 22419
+  },
+  "assets/terrain/rough/rough__rough-rubble-scree.png": {
+    "sha256": "dd606fc21aeb77b54835b3daf1d394d6d5bfd97d2bd29df54d2eb3ce9a5c6a78",
+    "bytes": 17666
+  },
+  "assets/terrain/rough/rough__rough-snow-deep.png": {
+    "sha256": "63fa86fe95dfe4677178be547d2e97f4cde2b394aa006ddd15ef6c1744ac1b32",
+    "bytes": 22161
+  },
+  "assets/terrain/rough/rough__rough-tall-grass.png": {
+    "sha256": "a873f9028606249fef977d4409ce0efe574aeb0a88a8b9097f321629726f54cd",
+    "bytes": 22500
+  },
+  "assets/terrain/rough/rough__sp-coal-heap.png": {
+    "sha256": "a3721381050cc3d004f46b4680059dc67effb716f111a68252c02d20e78e089d",
+    "bytes": 13042
+  },
+  "assets/terrain/rough/rough__sp-gear-scrap.png": {
+    "sha256": "bd8ea700b80ce2ce9fea6f12f22a08995d938735f5a6c67591da905c7b150902",
+    "bytes": 10527
+  },
+  "assets/terrain/wall/wall__cp-wall-chrome.png": {
+    "sha256": "d0073ac2fc5a058931ca2e6a8b118bbaa2c1d7a43b9235d626f976b792cad9bd",
+    "bytes": 29778
+  },
+  "assets/terrain/wall/wall__cp-wall-container.png": {
+    "sha256": "e421cdc8640d2e8a2be2e5da1a88a440672876258433047e19cb72ac796f84f6",
+    "bytes": 35305
+  },
+  "assets/terrain/wall/wall__cp-wall-neon.png": {
+    "sha256": "077ca8bf9054faff267c8f9f21878070660d1f3cf43b7ff6a426f5a79cd1d110",
+    "bytes": 29499
+  },
+  "assets/terrain/wall/wall__hr-wall-flesh.png": {
+    "sha256": "0049ce4529fb73bedb3064a96d5819e4f20076f9e78f1dcaa7ca76c0f34006f8",
+    "bytes": 40144
+  },
+  "assets/terrain/wall/wall__hr-wall-mould-brick.png": {
+    "sha256": "e5e08f704b3dc0676d8952d72ed6ef5617782d3c5aa8803458feddcdbade1390",
+    "bytes": 40984
+  },
+  "assets/terrain/wall/wall__hr-wall-rotten-timber.png": {
+    "sha256": "1563f80c6701e8aa77b02377ca6196b3f8b220a47dc9665aa64710e2523d6d74",
+    "bytes": 37821
+  },
+  "assets/terrain/wall/wall__my-wall-brick-alley.png": {
+    "sha256": "64fc8cf12b5d2f1916333ff847dc2eee34df31ba59b2aec86feda7f234dbe68d",
+    "bytes": 30331
+  },
+  "assets/terrain/wall/wall__my-wall-wallpaper.png": {
+    "sha256": "01cd3489d369eeef7d10c1e85729cab246b99c6d36cd6dd83bd852dcec0232fd",
+    "bytes": 44107
+  },
+  "assets/terrain/wall/wall__pa-wall-car-wrecks.png": {
+    "sha256": "a3acb43312088239f29932713491d371638ca259bf3c26a8a67c33f3aef13ceb",
+    "bytes": 42011
+  },
+  "assets/terrain/wall/wall__pa-wall-rubble-barricade.png": {
+    "sha256": "72d09115bdf29a5f80d91d8f25309c3de50e36dfb49f3347ed81cfe116f3090e",
+    "bytes": 39214
+  },
+  "assets/terrain/wall/wall__sp-wall-boiler.png": {
+    "sha256": "d60b08bcab3bbd2c76e55999df4bae431589e350432759b31c74c5235b7a8aae",
+    "bytes": 41383
+  },
+  "assets/terrain/wall/wall__sp-wall-brick-soot.png": {
+    "sha256": "666b7a0b5a30f975a3851fe93e15f6cfbb5bb174d6f8b0b82fb65cee2c5e61c6",
+    "bytes": 42398
+  },
+  "assets/terrain/wall/wall__wall-adobe.png": {
+    "sha256": "28022a64c3479b2bbadffa752f494b69168bd1b0de49912b7ebbaa291a5a32df",
+    "bytes": 57930
+  },
+  "assets/terrain/wall/wall__wall-cave-rock.png": {
+    "sha256": "ee66cc52d92e67d56ff0eeb2e673065a86693784d1c194e431d1c9c539205764",
+    "bytes": 44838
+  },
+  "assets/terrain/wall/wall__wall-dungeon-mossy.png": {
+    "sha256": "32a7e8d3854e2e8c4cb8f4c348189e2b14feba184ca9cd19a5f83605418d37cc",
+    "bytes": 46419
+  },
+  "assets/terrain/wall/wall__wall-earth-cut.png": {
+    "sha256": "98b0260064b2f05dededc947053c40ea9aac6d9863c9ab80637790afb56cb040",
+    "bytes": 57016
+  },
+  "assets/terrain/wall/wall__wall-hedge-dense.png": {
+    "sha256": "4f66859d2c3da3fc3ffa2a74a0cb815027a42cedc216b1c6f7bb92a8daf6a4fa",
+    "bytes": 45666
+  },
+  "assets/terrain/wall/wall__wall-ice.png": {
+    "sha256": "703a4f78d4d913c822949529473ee0d19cde623cb121adebf7cc9a0a4a890492",
+    "bytes": 57816
+  },
+  "assets/terrain/wall/wall__wall-iron-plate.png": {
+    "sha256": "30f57efb4cc7e91c397231a036a20aa37601e335819ab192e14509c3d7499f3e",
+    "bytes": 50624
+  },
+  "assets/terrain/wall/wall__wall-mangrove.png": {
+    "sha256": "654f9dcc8d67507a09af576c4de04bead6fce4884e52b6cbcd3228d81eabb1d0",
+    "bytes": 38999
+  },
+  "assets/terrain/wall/wall__wall-marble-panel.png": {
+    "sha256": "8f92bf4ad7f35f2ad41b43b3c8fb25a8a8658e4b86d2f7a85697150353b0086a",
+    "bytes": 58510
+  },
+  "assets/terrain/wall/wall__wall-rubble-collapsed.png": {
+    "sha256": "494d2a3e0aa9850b8ed5ef1f1d52417d9c32c126bc14390e28674a7df824931f",
+    "bytes": 39614
+  },
+  "assets/terrain/wall/wall__wall-ruined-overgrown.png": {
+    "sha256": "34c333faa4846830d38446182e98afacf3b437326b3cf98d047a042275e3c215",
+    "bytes": 40911
+  },
+  "assets/terrain/wall/wall__wall-sewer-stone.png": {
+    "sha256": "380be7639386e9fe16e6102f1ecdc989a539b9d1000d0cabbe34c25a5a78e042",
+    "bytes": 52147
+  },
+  "assets/terrain/wall/wall__wall-tree-canopy.png": {
+    "sha256": "350b591561853ed5ef5ecec53f4b36997fe72453cd2d61167e7e6f8fdc85bc97",
+    "bytes": 49836
+  },
+  "assets/terrain/wall/wall__wall-volcanic.png": {
+    "sha256": "f9d4c7bd6d1f2f99eb6df30b05d5ac6dd249675dfdcacdb39a0ff73799660769",
+    "bytes": 39098
+  },
+  "assets/terrain/wall/wall__wall-wood-log.png": {
+    "sha256": "7d1653b85b8edac261f756eba03e23778444f51698a4f532d56404c3a5bfeb67",
+    "bytes": 50851
+  },
+  "assets/terrain/wall/wall__wall-wood-plank.png": {
+    "sha256": "41f78b8c4d26bbe97e355502995c20aef649fbb56bc0b3c394683e38328124c8",
+    "bytes": 39404
+  },
+  "assets/terrain/water/water__cp-coolant.png": {
+    "sha256": "be7c9bce353a22584b3f1bf57107d362ec52e8d2f0776a66bfe62cfd114caeca",
+    "bytes": 4437
+  },
+  "assets/terrain/water/water__cp-oil-slick.png": {
+    "sha256": "06a8e020eb8801162c24b39197e9759facc3043201788f1ada9c286710426a00",
+    "bytes": 12072
+  },
+  "assets/terrain/water/water__cp-toxic-runoff.png": {
+    "sha256": "29eaf617d686c465759543c41099c880fd91eaec07abd34c783bc78136289b7f",
+    "bytes": 4169
+  },
+  "assets/terrain/water/water__hazard-acid-pool.png": {
+    "sha256": "f206384717b8579ea352c9438d56828d6e6bd7b74b38f7a86f366a7d4b13be8d",
+    "bytes": 8980
+  },
+  "assets/terrain/water/water__hazard-lava-molten.png": {
+    "sha256": "0f889ef2608fc075f7051eb9a03ef179b0d646acd87d3149023fee084f2ba7f4",
+    "bytes": 12002
+  },
+  "assets/terrain/water/water__hr-bile-pool.png": {
+    "sha256": "d22346dd553bad0ad070fb1a2480032e2cd1bf13a358f4f238c9dde084ddc7ac",
+    "bytes": 4248
+  },
+  "assets/terrain/water/water__hr-black-water.png": {
+    "sha256": "156e8707d58379dc2020d91386902f0badf975dd66d23681dd0eae2641158b45",
+    "bytes": 11291
+  },
+  "assets/terrain/water/water__my-canal.png": {
+    "sha256": "9b792e4640c84dc93c32c99011966d38e4f3ae03acc47ad58bb8abce62b585b0",
+    "bytes": 4095
+  },
+  "assets/terrain/water/water__my-puddle-rain.png": {
+    "sha256": "5f56b089b0ba01c130b1bfcf672c513080925ec66f966a127b7b85db454e7f8b",
+    "bytes": 6772
+  },
+  "assets/terrain/water/water__pa-rust-water.png": {
+    "sha256": "97ff69ea1c5d2bc580cbabb35b4b833f48f39f44f56affb6437869714c510003",
+    "bytes": 6764
+  },
+  "assets/terrain/water/water__pa-toxic-sludge.png": {
+    "sha256": "d9ff33ae062c30cc233cc188c369935b25bb284e2e2845f9dc3d624655bda7ee",
+    "bytes": 11272
+  },
+  "assets/terrain/water/water__sp-steam-pool.png": {
+    "sha256": "6647993c051ee0ab976a00999851a8b154204c0b503a2a897247b27c09d56327",
+    "bytes": 6171
+  },
+  "assets/terrain/water/water__sp-water-canal.png": {
+    "sha256": "34f6739979a03a921bcca9b9b938ccca5e7063b23fa122da26a3d574fa7926ef",
+    "bytes": 6695
+  },
+  "assets/terrain/water/water__water-blood-pool.png": {
+    "sha256": "6d22c2eff14941a7f4a6fc70692b9196ac6aeaa9c0190fd911ab0b8abb0f64b6",
+    "bytes": 11037
+  },
+  "assets/terrain/water/water__water-blood-pool__recovery-sunken-crypt.png": {
+    "sha256": "6077f308546f69e43b27c506bd7528f3831b1532fe8f026cb4cff73fd457476e",
+    "bytes": 8352
+  },
+  "assets/terrain/water/water__water-cave-pool.png": {
+    "sha256": "934342dcb8286b2d85e86c0c59cd6a210513606e29e4648150c72315db7f34c7",
+    "bytes": 12170
+  },
+  "assets/terrain/water/water__water-deep-blue.png": {
+    "sha256": "6f7d1a1ee6bcd696ab5ad04906ec03725aac8e430857caee3fec4a7fa9008a4f",
+    "bytes": 14188
+  },
+  "assets/terrain/water/water__water-deep-blue__recovery-open-ground.png": {
+    "sha256": "7e83e5ae47d3150212f9cf9642b7f3cc6ab2f7db13976103103ada0a82ef5726",
+    "bytes": 14061
+  },
+  "assets/terrain/water/water__water-flooded-floor.png": {
+    "sha256": "632a20ba002610d02af5560e20af6ea24ec03b774853934b32eb9b984df43234",
+    "bytes": 13432
+  },
+  "assets/terrain/water/water__water-hot-spring.png": {
+    "sha256": "7410071e41d14e9709296736ceaf7e22330772d22c9d15d8c9232fe8dfe07c2a",
+    "bytes": 7543
+  },
+  "assets/terrain/water/water__water-icy-slush.png": {
+    "sha256": "7da07a189deac96ba084371920b602ce52633784c3f068480b091b42f459c974",
+    "bytes": 14271
+  },
+  "assets/terrain/water/water__water-river-flowing.png": {
+    "sha256": "b015c763de526fb569d676ef97095ad89066ccf9047fa9baf91f436eeb572837",
+    "bytes": 12620
+  },
+  "assets/terrain/water/water__water-sea-waves.png": {
+    "sha256": "bfde0d0deb1bd95a5fe91288df1f69e2a51d0fab8d45cb8ff90d5cc95eaf12b1",
+    "bytes": 13270
+  },
+  "assets/terrain/water/water__water-sea-waves__recovery-ship-deck.png": {
+    "sha256": "962576ad4bc1c0df2c06e7acc12b36ba322a5be22130bdeb9ecf1ed5092e6793",
+    "bytes": 12958
+  },
+  "assets/terrain/water/water__water-sewer-sludge.png": {
+    "sha256": "a37265987614259f9654ab744614d7398deda4678f2024fd3849ab86c8879264",
+    "bytes": 7194
+  },
+  "assets/terrain/water/water__water-shallow-clear.png": {
+    "sha256": "5e6924292f43fd3fce574e9434422319527f4a68262dfd76e1197d8073dd97f7",
+    "bytes": 13573
+  },
+  "assets/terrain/water/water__water-swamp-murky.png": {
+    "sha256": "af8ba6a49e9154348e94b59cb25b88e39800e2ab62ad79c918d8d4eac4eddc51",
+    "bytes": 12463
+  },
+  "assets/sources/approved/wall-hedge-dense__packed-v1.png": {
+    "sha256": "4f66859d2c3da3fc3ffa2a74a0cb815027a42cedc216b1c6f7bb92a8daf6a4fa",
+    "bytes": 45666
+  },
+  "assets/sources/approved/wall-hedge-dense__source-v1.png": {
+    "sha256": "a3433cdb21d45723a4bf583aa0df126650f64f70abac1a077c2062c7633195a8",
+    "bytes": 1375916
+  },
+  "assets/sources/approved/wall-rubble-collapsed__packed-v1.png": {
+    "sha256": "494d2a3e0aa9850b8ed5ef1f1d52417d9c32c126bc14390e28674a7df824931f",
+    "bytes": 39614
+  },
+  "assets/sources/approved/wall-rubble-collapsed__source-v1.png": {
+    "sha256": "d919e444890d9efa1b32bc0c2ad33311c5f06808125f2a4a2da51a337ed70758",
+    "bytes": 1192871
+  },
+  "assets/sources/final-corrections/hr-black-water__source-v1.png": {
+    "sha256": "97e711cd72bb5ba26efc614cf00e17a04946e9b10b62d835bf670c2337b20066",
+    "bytes": 601908
+  },
+  "assets/sources/final-corrections/hr-boards-rotten__source-v1.png": {
+    "sha256": "4efb03c7cf8f9492e27d23ce096f6e3d67ba0223edae8c5efd6fae7c05a7a870",
+    "bytes": 1326185
+  },
+  "assets/sources/final-corrections/hr-boards-rotten__source-v2-opaque-plane.png": {
+    "sha256": "64cbbe4c4855ad77f76a9f9d9f4d7ea8c342de6a7b39f72c9de1277c005a2f80",
+    "bytes": 1304658
+  },
+  "assets/sources/final-corrections/hr-boards-rotten__source-v2.png": {
+    "sha256": "0343c9b2eefb2a757284373b16e341a884d2fb7c1944019ed7a1a5a3895803a2",
+    "bytes": 1317370
+  },
+  "assets/sources/final-corrections/hr-door-nailed__packed-axis-a.png": {
+    "sha256": "bf4034996b4b1c9e981bc865dc6c914af0bcb48060344d2e41efe3e2442c87db",
+    "bytes": 21463
+  },
+  "assets/sources/final-corrections/hr-door-nailed__packed-axis-b.png": {
+    "sha256": "a42c63677b259b4c42e8643848c8b94dc47e4765c398b9f54e6e4f674e99c33a",
+    "bytes": 21437
+  },
+  "assets/sources/final-corrections/hr-door-nailed__packed-v1.png": {
+    "sha256": "bf4034996b4b1c9e981bc865dc6c914af0bcb48060344d2e41efe3e2442c87db",
+    "bytes": 21463
+  },
+  "assets/sources/final-corrections/hr-door-nailed__source-v1.png": {
+    "sha256": "b05387e84e45a57db14f9112fd922b7d1562acf19a86fdd65562e922f3812076",
+    "bytes": 1345180
+  },
+  "assets/sources/final-corrections/hr-lowwall-pews__packed-axis-a.png": {
+    "sha256": "e3656da2b7bb2e482d9bc8fdc32a33960f8dda4796a3609fd00ff26b64090908",
+    "bytes": 16283
+  },
+  "assets/sources/final-corrections/hr-lowwall-pews__packed-axis-b.png": {
+    "sha256": "0f80ee2efb2b878f89749f79ce29c383e473c2a51d4cd36761e278fd81355ed8",
+    "bytes": 16276
+  },
+  "assets/sources/final-corrections/hr-lowwall-pews__packed-v1.png": {
+    "sha256": "e3656da2b7bb2e482d9bc8fdc32a33960f8dda4796a3609fd00ff26b64090908",
+    "bytes": 16283
+  },
+  "assets/sources/final-corrections/hr-lowwall-pews__source-v1.png": {
+    "sha256": "023ae3051ba7a8e3fd0e3b21256845a04f80d403d44a75a76cad5488cbd21321",
+    "bytes": 947581
+  },
+  "assets/sources/final-corrections/hr-lowwall-pews__source-v2.png": {
+    "sha256": "cb8b25c45fe2979c2e1921f8cf4a4fd7b0e4aa23f90c4c0b1477c2784e867382",
+    "bytes": 1429828
+  },
+  "assets/sources/final-corrections/hr-rot-debris__source-v1.png": {
+    "sha256": "ebba062161e3b0076a9d29dae0caed4fb6e197981d6b66389b6ab3aa092e646b",
+    "bytes": 1180790
+  },
+  "assets/sources/final-corrections/hr-rot-debris__structure-v1.png": {
+    "sha256": "e8d656293e7019431f2526c674dbd19f92043cb454af702e3b1ea49250ecf65e",
+    "bytes": 11694
+  },
+  "assets/sources/final-three/hr-wall-rotten-timber__packed-v1.png": {
+    "sha256": "1563f80c6701e8aa77b02377ca6196b3f8b220a47dc9665aa64710e2523d6d74",
+    "bytes": 37821
+  },
+  "assets/sources/final-three/hr-wall-rotten-timber__source-v1.png": {
+    "sha256": "0dd48ee15bd79d20fd975ae717cd4da162a551d20800e4b0e4acbee1f9f959de",
+    "bytes": 1486860
+  },
+  "assets/sources/final-three/pa-bunker-concrete__packed-v1.png": {
+    "sha256": "bc6acc9d87ee3d42da32e8ae27406a86ea1369176c09f237096961f9ca37a2cb",
+    "bytes": 12463
+  },
+  "assets/sources/final-three/pa-bunker-concrete__source-v1.png": {
+    "sha256": "60b646a519ed0a3465213093ef7208ef8e4e206e0b3d01c561736e4b3e6f5fa2",
+    "bytes": 1840267
+  },
+  "assets/sources/final-three/pa-debris-plaster__packed-v1.png": {
+    "sha256": "3b7de30a9072d50e63569908eb73214756d7ed48da5dfc9b2c65a78fefc9e851",
+    "bytes": 14604
+  },
+  "assets/sources/final-three/pa-debris-plaster__source-v1.png": {
+    "sha256": "28664beac1aa0e24ad45f8875d687763cf6d973213ea310aa5af15d0d0f4bc1f",
+    "bytes": 665906
+  },
+  "assets/sources/final-three/pa-debris-plaster__structure-v1.png": {
+    "sha256": "55229c3e6d7d313fcd7962308960596cf4dba85f2c94e9a9f690445440b62d8a",
+    "bytes": 9575
+  },
+  "assets/sources/final-three/pa-door-welded__packed-axis-a.png": {
+    "sha256": "76b43e766de81b2f4f8f69da72804b561c59a8351f59f7610ea9095b5685e136",
+    "bytes": 25450
+  },
+  "assets/sources/final-three/pa-door-welded__packed-axis-b.png": {
+    "sha256": "b0eeeb1008badf81d8d6daed2d63821cc6d683e6315485b96d125609d2b89bff",
+    "bytes": 25414
+  },
+  "assets/sources/final-three/pa-door-welded__packed-v1.png": {
+    "sha256": "76b43e766de81b2f4f8f69da72804b561c59a8351f59f7610ea9095b5685e136",
+    "bytes": 25450
+  },
+  "assets/sources/final-three/pa-door-welded__source-v1.png": {
+    "sha256": "d8eea919e0ad13734e44cc4812896b001a40b06ddeebaefaa0071afeb10ce307",
+    "bytes": 1332977
+  },
+  "assets/sources/final-three/pa-lowwall-sandbags__packed-axis-a.png": {
+    "sha256": "9aa5389c5d15d263f66337880bf80bec8105a648353a02d426e5f7b77a49d394",
+    "bytes": 14123
+  },
+  "assets/sources/final-three/pa-lowwall-sandbags__packed-axis-b.png": {
+    "sha256": "304fb34c544cba338b060a60f4fbe12d278a7a1bfff64f98a6a5db34a2ee1186",
+    "bytes": 13969
+  },
+  "assets/sources/final-three/pa-lowwall-sandbags__packed-v1.png": {
+    "sha256": "9aa5389c5d15d263f66337880bf80bec8105a648353a02d426e5f7b77a49d394",
+    "bytes": 14123
+  },
+  "assets/sources/final-three/pa-lowwall-sandbags__source-v1.png": {
+    "sha256": "ab01120dd1e62b47270b84ad64b3a866279d866eeaab28a96cab55720a720ef7",
+    "bytes": 752310
+  },
+  "assets/sources/final-three/pa-wall-rubble-barricade__packed-v1.png": {
+    "sha256": "72d09115bdf29a5f80d91d8f25309c3de50e36dfb49f3347ed81cfe116f3090e",
+    "bytes": 39214
+  },
+  "assets/sources/final-three/pa-wall-rubble-barricade__source-v1.png": {
+    "sha256": "560e024ea156ebb20a27a3005b954bb45319cf669f211987e1727d80ba302456",
+    "bytes": 1952536
+  },
+  "assets/sources/recovery-v1/wall-hedge-dense.png": {
+    "sha256": "e9dbea602d8e182fec2f5a3b22ed4053d7514f133a01f9b16039376a3d8691a3",
+    "bytes": 1242864
+  },
+  "assets/sources/recovery-v1/wall-rubble-collapsed.png": {
+    "sha256": "12bf276386dca0744db1649a769c3874e3bc05f218c6bd7442b1881d2d982f2c",
+    "bytes": 1381100
+  },
+  "assets/sources/recovery-v1/wall-wood-plank.png": {
+    "sha256": "253a117dd2865131d8c322ddfa33fe637109d71df327a9d5c5e2e2edff51d182",
+    "bytes": 1608265
+  },
+  "assets/sources/recovery-v2/hr-wall-flesh__packed-v1.png": {
+    "sha256": "0049ce4529fb73bedb3064a96d5819e4f20076f9e78f1dcaa7ca76c0f34006f8",
+    "bytes": 40144
+  },
+  "assets/sources/recovery-v2/hr-wall-flesh__source-v1.png": {
+    "sha256": "750d4f6a90ccb879835d262ad1690421ef8cfe04c583cf520d7327a58472a5e0",
+    "bytes": 1470881
+  },
+  "assets/sources/recovery-v2/sp-wall-boiler__packed-v1.png": {
+    "sha256": "d60b08bcab3bbd2c76e55999df4bae431589e350432759b31c74c5235b7a8aae",
+    "bytes": 41383
+  },
+  "assets/sources/recovery-v2/sp-wall-boiler__source-v1.png": {
+    "sha256": "73f3cfad0735f5f6037d6ae3899b13bc15519042c8114b6ae0cf4cc910694fcf",
+    "bytes": 1382908
+  },
+  "assets/sources/recovery-v2/wall-ruined-overgrown__packed-v1.png": {
+    "sha256": "34c333faa4846830d38446182e98afacf3b437326b3cf98d047a042275e3c215",
+    "bytes": 40911
+  },
+  "assets/sources/recovery-v2/wall-ruined-overgrown__source-v1.png": {
+    "sha256": "1b447700832f02ae013c44f4c9cb73dbd862ff474280b9d772b3d06fd4a1ae56",
+    "bytes": 1800655
+  },
+  "assets/sources/recovery-v2/wall-volcanic__packed-v1.png": {
+    "sha256": "f9d4c7bd6d1f2f99eb6df30b05d5ac6dd249675dfdcacdb39a0ff73799660769",
+    "bytes": 39098
+  },
+  "assets/sources/recovery-v2/wall-volcanic__source-v1.png": {
+    "sha256": "d94e67f5ebc254526b13594418ade7744d516b48efbc2fd5cf3dc812334002e3",
+    "bytes": 1268774
+  },
+  "assets/sources/recovery-v2/wall-wood-plank__packed-v1.png": {
+    "sha256": "41f78b8c4d26bbe97e355502995c20aef649fbb56bc0b3c394683e38328124c8",
+    "bytes": 39404
+  },
+  "assets/sources/recovery-v2/wall-wood-plank__source-v1.png": {
+    "sha256": "c0011a8dceeffc1ae851cd63f596e8a930df3dd52952ac4eef1182bff677491b",
+    "bytes": 1510770
+  },
+  "assets/sources/recovery-v3/cp-asphalt-wet__packed-v1.png": {
+    "sha256": "afcd98d42093dbd2963188bdf376d16380b980fc39de8410a48beab243f7a08a",
+    "bytes": 10106
+  },
+  "assets/sources/recovery-v3/cp-asphalt-wet__source-v2.png": {
+    "sha256": "1772e31052d4c155463dce2f14e10dc320241a91440d7df3619dcc2029642b96",
+    "bytes": 877128
+  },
+  "assets/sources/recovery-v3/cp-cable-tangle__packed-v1.png": {
+    "sha256": "2768e2a5cd1c512461aa3447043724fb0b640d92d2583dffb357173d3f1cf2c6",
+    "bytes": 13202
+  },
+  "assets/sources/recovery-v3/cp-cable-tangle__source-v1.png": {
+    "sha256": "4c15e3cac2467ac2a6c1566db5818f8c08f7ff328b6d35fbe8dc22c7b7acfe62",
+    "bytes": 791986
+  },
+  "assets/sources/recovery-v3/cp-cable-tangle__structure-v1.png": {
+    "sha256": "1cf11fbbaf635822e66cc7e35b060fd2db6b97f8ce390a677aada434f7ae490f",
+    "bytes": 12453
+  },
+  "assets/sources/recovery-v3/cp-door-sliding-glass__packed-axis-a.png": {
+    "sha256": "7df2a23a0d0a80899e6e2e856a493826c5a6374c9a12e2176b44d01ac6d0567d",
+    "bytes": 27416
+  },
+  "assets/sources/recovery-v3/cp-door-sliding-glass__packed-axis-b.png": {
+    "sha256": "2451f84921ea88e0bab13a8f7680114d7615345c7422c6377d8e3c901ac60be6",
+    "bytes": 27526
+  },
+  "assets/sources/recovery-v3/cp-door-sliding-glass__packed-v1.png": {
+    "sha256": "7df2a23a0d0a80899e6e2e856a493826c5a6374c9a12e2176b44d01ac6d0567d",
+    "bytes": 27416
+  },
+  "assets/sources/recovery-v3/cp-door-sliding-glass__source-v1.png": {
+    "sha256": "a29cab3c31e167f638aac1b31a24b152b431dfe577db221350202450a8a8784f",
+    "bytes": 736660
+  },
+  "assets/sources/recovery-v3/cp-holo-tile__packed-v1.png": {
+    "sha256": "eef369aec4c1a5070c4dc4b5908233e2fec344a2e2e2e061b555601f34eca59d",
+    "bytes": 10425
+  },
+  "assets/sources/recovery-v3/cp-holo-tile__source-v1.png": {
+    "sha256": "61c70092d6d01784ff7d0a81b47c545ff6e2da5b364ce617a00350f3f1798a40",
+    "bytes": 731275
+  },
+  "assets/sources/recovery-v3/cp-lowwall-console__packed-axis-a.png": {
+    "sha256": "48a71496d5ef3bcc91f35e23dcd87d501681f8cc72c74dfc5267b9d9b7f1b7e2",
+    "bytes": 18808
+  },
+  "assets/sources/recovery-v3/cp-lowwall-console__packed-axis-b.png": {
+    "sha256": "f973b6771f5ac082d6a92267dea4cb0ad4c199bb0bf3688a7f2ea17e6a916cfe",
+    "bytes": 18428
+  },
+  "assets/sources/recovery-v3/cp-lowwall-console__packed-v1.png": {
+    "sha256": "48a71496d5ef3bcc91f35e23dcd87d501681f8cc72c74dfc5267b9d9b7f1b7e2",
+    "bytes": 18808
+  },
+  "assets/sources/recovery-v3/cp-lowwall-console__source-v1.png": {
+    "sha256": "488e9343866dea5e8643d8b58850f4f0e0a501a2a2791169306744902c38e60b",
+    "bytes": 614443
+  },
+  "assets/sources/recovery-v3/cp-lowwall-crash-barrier__packed-axis-a.png": {
+    "sha256": "5b4b0c24a041e71fe81b282c97ca9afaf74d6456580c2e561df610e6666fe990",
+    "bytes": 16629
+  },
+  "assets/sources/recovery-v3/cp-lowwall-crash-barrier__packed-axis-b.png": {
+    "sha256": "0c9a2332ab8b0237ff85d537eb5c1664fbcbb3645ccc664124db40096dcd227a",
+    "bytes": 17055
+  },
+  "assets/sources/recovery-v3/cp-lowwall-crash-barrier__packed-v1.png": {
+    "sha256": "5b4b0c24a041e71fe81b282c97ca9afaf74d6456580c2e561df610e6666fe990",
+    "bytes": 16629
+  },
+  "assets/sources/recovery-v3/cp-lowwall-crash-barrier__source-v1.png": {
+    "sha256": "3a7fcef1e36b26d607293d5566df785658e80af392c667d1730ef49159422f9d",
+    "bytes": 417138
+  },
+  "assets/sources/recovery-v3/cp-lowwall-crates__packed-axis-a.png": {
+    "sha256": "0b2bc4e0c37b44a44311de61aed48c1143adc2e40100fae5630d6647a3f3c1ff",
+    "bytes": 17939
+  },
+  "assets/sources/recovery-v3/cp-lowwall-crates__packed-axis-b.png": {
+    "sha256": "a2fe97130252830114ba8593134fc9b183eaec820d041ebc866c080ef88053de",
+    "bytes": 18080
+  },
+  "assets/sources/recovery-v3/cp-lowwall-crates__packed-v1.png": {
+    "sha256": "0b2bc4e0c37b44a44311de61aed48c1143adc2e40100fae5630d6647a3f3c1ff",
+    "bytes": 17939
+  },
+  "assets/sources/recovery-v3/cp-lowwall-crates__source-v1.png": {
+    "sha256": "a5c0a32b37aa25d2e7a7a263be0148e5c83bd6172e67fa83cc2edf3d1b49713c",
+    "bytes": 559584
+  },
+  "assets/sources/recovery-v3/cp-oil-slick__packed-v1.png": {
+    "sha256": "06a8e020eb8801162c24b39197e9759facc3043201788f1ada9c286710426a00",
+    "bytes": 12072
+  },
+  "assets/sources/recovery-v3/cp-oil-slick__source-v1.png": {
+    "sha256": "df3a99f00cc44f95f8c32058a7d520d1731af965e953cf3935568fe9c08fc8f7",
+    "bytes": 801349
+  },
+  "assets/sources/recovery-v3/cp-scrap-electronics__packed-v1.png": {
+    "sha256": "3d27474e05d492c26ad01f7f46647114d4d12cde35763d0aacc1d6d085672bef",
+    "bytes": 14523
+  },
+  "assets/sources/recovery-v3/cp-scrap-electronics__source-v1.png": {
+    "sha256": "fba8966b05db96c92b7b3e69d95418e6cbeb1f5b25bdd841ecdd60af8e59157d",
+    "bytes": 752754
+  },
+  "assets/sources/recovery-v3/cp-scrap-electronics__structure-v1.png": {
+    "sha256": "67bfa56b8f9c83d6f4ca6f3ac5a59f3e2eaf9c466f6372b059078f943a2ff9e8",
+    "bytes": 14195
+  },
+  "assets/sources/recovery-v3/cp-wall-container__packed-v1.png": {
+    "sha256": "e421cdc8640d2e8a2be2e5da1a88a440672876258433047e19cb72ac796f84f6",
+    "bytes": 35305
+  },
+  "assets/sources/recovery-v3/cp-wall-container__source-v1.png": {
+    "sha256": "81a32966e3cdacf5f2267b5dbee1d3252e9f3e1f167a036b9265002d668db599",
+    "bytes": 1353531
+  },
+  "assets/sources/recovery-v3/hr-door-flesh__packed-axis-a.png": {
+    "sha256": "de0f62d1d86ad10aa45370386513ac52a0576f17b185fa7537e64a65c93fb9bf",
+    "bytes": 23124
+  },
+  "assets/sources/recovery-v3/hr-door-flesh__packed-axis-b.png": {
+    "sha256": "ce97255b1cf0205f51041f789b672980496ae962f2aa29ae90c4c000717743b4",
+    "bytes": 23118
+  },
+  "assets/sources/recovery-v3/hr-door-flesh__packed-v1.png": {
+    "sha256": "de0f62d1d86ad10aa45370386513ac52a0576f17b185fa7537e64a65c93fb9bf",
+    "bytes": 23124
+  },
+  "assets/sources/recovery-v3/hr-door-flesh__source-v1.png": {
+    "sha256": "baa3834a5f1a2ea5b6176315d4e569d667833d60edbd729302bcda192a652a7f",
+    "bytes": 1170538
+  },
+  "assets/sources/recovery-v3/hr-flesh-floor__packed-v1.png": {
+    "sha256": "715030cfa37b243f48136e2ac8e641874b21b73229ac1f8a09fec362dad5137f",
+    "bytes": 12897
+  },
+  "assets/sources/recovery-v3/hr-flesh-floor__source-v1.png": {
+    "sha256": "27a3012c9158a2a44b8d06b32ae56a3f3d18680aa3935903ece03b3c47905272",
+    "bytes": 655091
+  },
+  "assets/sources/recovery-v3/hr-lowwall-cages__packed-axis-a.png": {
+    "sha256": "1bed09dbcfda49e8d63087bfceee9c0743cf87b52f14ea64b1e181b6064fdbf0",
+    "bytes": 18044
+  },
+  "assets/sources/recovery-v3/hr-lowwall-cages__packed-axis-b.png": {
+    "sha256": "c198b2e789643bd83a67061a697209aa4696487a60831d62abd42075b77bdd25",
+    "bytes": 16719
+  },
+  "assets/sources/recovery-v3/hr-lowwall-cages__packed-v1.png": {
+    "sha256": "1bed09dbcfda49e8d63087bfceee9c0743cf87b52f14ea64b1e181b6064fdbf0",
+    "bytes": 18044
+  },
+  "assets/sources/recovery-v3/hr-lowwall-cages__source-v1.png": {
+    "sha256": "29979ade4cf26941b911ac4af2ed45f6be682bf58c8a9b51b2e1f60287f2ef77",
+    "bytes": 686488
+  },
+  "assets/sources/recovery-v3/hr-wall-mould-brick__packed-v1.png": {
+    "sha256": "e5e08f704b3dc0676d8952d72ed6ef5617782d3c5aa8803458feddcdbade1390",
+    "bytes": 40984
+  },
+  "assets/sources/recovery-v3/hr-wall-mould-brick__source-v1.png": {
+    "sha256": "ad0a18e08cad42e7f2ba189c359596dd5a373eff73c4c2c1ae1dff61dbb68867",
+    "bytes": 1036287
+  },
+  "assets/sources/recovery-v3/my-lowwall-sofa__packed-axis-a.png": {
+    "sha256": "7ae1aa34a9d275f03ebe8e1ae001bdc0e8162864ae3e4e9e1a59f8851c2ffa69",
+    "bytes": 20470
+  },
+  "assets/sources/recovery-v3/my-lowwall-sofa__packed-axis-b.png": {
+    "sha256": "7f526932d5b3a7e736da84f22d04f3a2eeb810f9cdcf7304fde16eebfdcb7529",
+    "bytes": 20861
+  },
+  "assets/sources/recovery-v3/my-lowwall-sofa__packed-v1.png": {
+    "sha256": "7ae1aa34a9d275f03ebe8e1ae001bdc0e8162864ae3e4e9e1a59f8851c2ffa69",
+    "bytes": 20470
+  },
+  "assets/sources/recovery-v3/my-lowwall-sofa__source-v1.png": {
+    "sha256": "adfc837b3ab46a4ad1038c406d646c6af2af9c1f6725531dd0b3dcff18c616a2",
+    "bytes": 1316594
+  },
+  "assets/sources/recovery-v3/my-papers-scattered__packed-v1.png": {
+    "sha256": "ddbd2466519409e2438930832e1c36ff06863166fa7e2c355870ace6a0a87d3a",
+    "bytes": 17422
+  },
+  "assets/sources/recovery-v3/my-papers-scattered__source-v1.png": {
+    "sha256": "dc14ea8a8e65f66ebc970a33b2dccc948ff961292f4f3bc0c09ae6b557fff0ea",
+    "bytes": 628854
+  },
+  "assets/sources/recovery-v3/my-papers-scattered__structure-v1.png": {
+    "sha256": "052625eef228e4d2079cc57eac7c06c00818c3a18b70f61327635fb2d7f08f32",
+    "bytes": 13328
+  },
+  "assets/sources/recovery-v3/my-parquet-victorian__packed-v1.png": {
+    "sha256": "a05404c53f505e79f8b85de192f6c3edb6e332cb7fa644862c9e39710ab017cc",
+    "bytes": 11907
+  },
+  "assets/sources/recovery-v3/my-parquet-victorian__source-v2.png": {
+    "sha256": "4ad74b8f97f0003404daa54bfbe876ec4099ed7945da80d2b2697c9aa91c32a3",
+    "bytes": 1001021
+  },
+  "assets/sources/recovery-v3/my-wall-wallpaper__packed-v1.png": {
+    "sha256": "01cd3489d369eeef7d10c1e85729cab246b99c6d36cd6dd83bd852dcec0232fd",
+    "bytes": 44107
+  },
+  "assets/sources/recovery-v3/my-wall-wallpaper__source-v1.png": {
+    "sha256": "99e3ceb30e640618b374627691385cfd0576e4369dbd15643234485bf52a0ebe",
+    "bytes": 1497300
+  },
+  "assets/sources/recovery-v3/pa-asphalt-cracked__packed-v1.png": {
+    "sha256": "f1c2815702baa243cf84fc0b87fbef5c86b7fd82f1ce0dfcb5f7aa4d7dd1a3e7",
+    "bytes": 11772
+  },
+  "assets/sources/recovery-v3/pa-asphalt-cracked__source-v1.png": {
+    "sha256": "4ba50c33a5503d2615b4ce9cdb14ec1bf66b0c929c210ebfa10f279db88d44dd",
+    "bytes": 732423
+  },
+  "assets/sources/recovery-v3/pa-door-chain-gate__packed-axis-a.png": {
+    "sha256": "c4a3d5fad66c8f7328a118fbb6774215f78295697f3eb4c5d007f698d2b50d9f",
+    "bytes": 20207
+  },
+  "assets/sources/recovery-v3/pa-door-chain-gate__packed-axis-b.png": {
+    "sha256": "4de5af5aa1f305639e415b96f3568a4cf75c69cf83dfd8539c3b303fc6e8f27b",
+    "bytes": 20107
+  },
+  "assets/sources/recovery-v3/pa-door-chain-gate__packed-v1.png": {
+    "sha256": "c4a3d5fad66c8f7328a118fbb6774215f78295697f3eb4c5d007f698d2b50d9f",
+    "bytes": 20207
+  },
+  "assets/sources/recovery-v3/pa-door-chain-gate__source-v1.png": {
+    "sha256": "90135657729f578676712222cce2774c290c37e17c6fb10708c09391a97971b5",
+    "bytes": 536798
+  },
+  "assets/sources/recovery-v3/pa-lowwall-tyre-row__packed-axis-a.png": {
+    "sha256": "925919223f77cfc9e27869de1ff38d308eb2cf07b4a8486b06caa513d25e327e",
+    "bytes": 15400
+  },
+  "assets/sources/recovery-v3/pa-lowwall-tyre-row__packed-axis-b.png": {
+    "sha256": "69824eaf9ce740471b5483950ba2989511d871562208de64b2c5fb735b8ded1e",
+    "bytes": 15154
+  },
+  "assets/sources/recovery-v3/pa-lowwall-tyre-row__packed-v1.png": {
+    "sha256": "925919223f77cfc9e27869de1ff38d308eb2cf07b4a8486b06caa513d25e327e",
+    "bytes": 15400
+  },
+  "assets/sources/recovery-v3/pa-lowwall-tyre-row__source-v1.png": {
+    "sha256": "a1628bf2cd04009eb6ba6809fe48da04abd1c2bfffaa76effbcb2ba029c9715a",
+    "bytes": 592786
+  },
+  "assets/sources/recovery-v3/pa-scrap-field__packed-v1.png": {
+    "sha256": "3b9749c038bd79146c6ab2b6ac108247fdcce87ea229b4477c07f3626d99ace0",
+    "bytes": 14753
+  },
+  "assets/sources/recovery-v3/pa-scrap-field__source-v1.png": {
+    "sha256": "e46b7fc422d221b222f89cbc5bbd9dfecd7235570cbd1c7d90db6478b56e0614",
+    "bytes": 886721
+  },
+  "assets/sources/recovery-v3/pa-scrap-field__structure-v1.png": {
+    "sha256": "b52ca23cd0810e209928ef2b9df3b05698903f0ddb850db2979c193ad26f0d16",
+    "bytes": 13820
+  },
+  "assets/sources/recovery-v3/pa-toxic-sludge__packed-v1.png": {
+    "sha256": "d9ff33ae062c30cc233cc188c369935b25bb284e2e2845f9dc3d624655bda7ee",
+    "bytes": 11272
+  },
+  "assets/sources/recovery-v3/pa-toxic-sludge__source-v1.png": {
+    "sha256": "fac7d60f76cf033db5e3d8d6d32165f5b020ef45803b7ac9860c3d3de8efc108",
+    "bytes": 706569
+  },
+  "assets/sources/recovery-v3/pa-wall-car-wrecks__packed-v1.png": {
+    "sha256": "a3acb43312088239f29932713491d371638ca259bf3c26a8a67c33f3aef13ceb",
+    "bytes": 42011
+  },
+  "assets/sources/recovery-v3/pa-wall-car-wrecks__source-v1.png": {
+    "sha256": "509559a4a106ae37fc190515949a06094f667ccbb59f561b6f0e9e1384ee3398",
+    "bytes": 1509013
+  },
+  "assets/sources/recovery-v3/sp-coal-heap__packed-v1.png": {
+    "sha256": "a3721381050cc3d004f46b4680059dc67effb716f111a68252c02d20e78e089d",
+    "bytes": 13042
+  },
+  "assets/sources/recovery-v3/sp-coal-heap__source-v1.png": {
+    "sha256": "b0b4c3612800b87c7d3b530042ec69c2d6fcc0b09ce53f535680764b34e9ce0a",
+    "bytes": 538143
+  },
+  "assets/sources/recovery-v3/sp-coal-heap__structure-v1.png": {
+    "sha256": "20a1eb6fbc9d6ffffaee548dcf971365bab9ed076a85fbdc10cfec041a9c13bb",
+    "bytes": 12747
+  },
+  "assets/sources/recovery-v3/sp-cobbles-gaslit__packed-v1.png": {
+    "sha256": "36cd2446cd395c8ff33bb35c9b47c54f7582bb09dcb63b9466dfea6662390041",
+    "bytes": 13166
+  },
+  "assets/sources/recovery-v3/sp-cobbles-gaslit__source-v1.png": {
+    "sha256": "8a1d7b57b71ef8e8961488a866a139bee15312b880a47446d4534cc8523ec760",
+    "bytes": 818334
+  },
+  "assets/sources/recovery-v3/sp-door-cage-lift__packed-axis-a.png": {
+    "sha256": "0bef92fa8c357af14dde4fcae25f9c086cb5f859a2969f891efe41173dae02dc",
+    "bytes": 18875
+  },
+  "assets/sources/recovery-v3/sp-door-cage-lift__packed-axis-b.png": {
+    "sha256": "eb62529bb773eea25e7f027bb4a74fefffb8978d1ce8543edb61db9575e7b66d",
+    "bytes": 18887
+  },
+  "assets/sources/recovery-v3/sp-door-cage-lift__packed-v1.png": {
+    "sha256": "0bef92fa8c357af14dde4fcae25f9c086cb5f859a2969f891efe41173dae02dc",
+    "bytes": 18875
+  },
+  "assets/sources/recovery-v3/sp-door-cage-lift__source-v1.png": {
+    "sha256": "421196c9a16baf601540c8c570954d6e890e7ff0bad4aabed5507d78db851e01",
+    "bytes": 635579
+  },
+  "assets/sources/recovery-v3/sp-iron-plate__packed-v1.png": {
+    "sha256": "26554f67f6a77a4c82d604e387cc2db2779d3c6b33684f3ebcb901bb4b21d6e1",
+    "bytes": 12285
+  },
+  "assets/sources/recovery-v3/sp-iron-plate__source-v1.png": {
+    "sha256": "85db8844194c923947e4977e823853a928c5acdd8e6e9a423231ca57ca5a98e3",
+    "bytes": 836396
+  },
+  "assets/sources/recovery-v3/sp-lowwall-crate-row__packed-axis-a.png": {
+    "sha256": "55487742f302a88f75daf41cbaca7470e504e394d9c4c41c41e5ff02469191ca",
+    "bytes": 22497
+  },
+  "assets/sources/recovery-v3/sp-lowwall-crate-row__packed-axis-b.png": {
+    "sha256": "6d0b6b7596f74d7f2b2da1a29eab535023b9f6591f74205a61911027222cfdc0",
+    "bytes": 21268
+  },
+  "assets/sources/recovery-v3/sp-lowwall-crate-row__packed-v1.png": {
+    "sha256": "55487742f302a88f75daf41cbaca7470e504e394d9c4c41c41e5ff02469191ca",
+    "bytes": 22497
+  },
+  "assets/sources/recovery-v3/sp-lowwall-crate-row__source-v1.png": {
+    "sha256": "5e514a867b7382ef2a194dbfca956387b69bb7c8e944df4e2afc1bffd196304f",
+    "bytes": 630108
+  },
+  "assets/sources/recovery-v3/sp-lowwall-pipe-rail__packed-axis-a.png": {
+    "sha256": "b2e9dd5962c0d537f5ebdb43d044cc08127d6abb6154dc1428bbf82ece02511d",
+    "bytes": 15840
+  },
+  "assets/sources/recovery-v3/sp-lowwall-pipe-rail__packed-axis-b.png": {
+    "sha256": "a88f92b199f4d8fe29252d83ad400f3bc7354314edc930bef8cce7909b8cd55a",
+    "bytes": 15575
+  },
+  "assets/sources/recovery-v3/sp-lowwall-pipe-rail__packed-v1.png": {
+    "sha256": "b2e9dd5962c0d537f5ebdb43d044cc08127d6abb6154dc1428bbf82ece02511d",
+    "bytes": 15840
+  },
+  "assets/sources/recovery-v3/sp-lowwall-pipe-rail__source-v1.png": {
+    "sha256": "a20ca86baaa85e9011d38d0b2d72b40b8df2a232de79979d9cd5db7ff81ae0e4",
+    "bytes": 527937
+  },
+  "assets/sources/recovery-v3/sp-wall-brick-soot__packed-v1.png": {
+    "sha256": "666b7a0b5a30f975a3851fe93e15f6cfbb5bb174d6f8b0b82fb65cee2c5e61c6",
+    "bytes": 42398
+  },
+  "assets/sources/recovery-v3/sp-wall-brick-soot__source-v1.png": {
+    "sha256": "3b0f078c4b263c6076931e6ee9399b77c3d214165c77df7bc86645591bc33439",
+    "bytes": 1583866
+  },
+  "assets/sources/terrain/climb__generic-ladder__default.png": {
+    "sha256": "e57cafe8cfcda089aa29615d7836d43816838522700126726043314c2dd94058",
+    "bytes": 42458
+  },
+  "assets/sources/terrain/door__cp-door-cage__axis-a.png": {
+    "sha256": "ab7be42b4153d7375ecf76f7ed42dfc893a83897bf397fce6aff5429d4ccb790",
+    "bytes": 43208
+  },
+  "assets/sources/terrain/door__cp-door-cage__axis-b.png": {
+    "sha256": "94203c857aee398bcb1d4ece3eab03b3259a37b42b77c7860b24c3c9af570d1c",
+    "bytes": 43603
+  },
+  "assets/sources/terrain/door__cp-door-sliding-glass__axis-a.png": {
+    "sha256": "4df5397bf6330c0e71be1c36a89b448576fd202a3ac4a7861df6147898ea97a4",
+    "bytes": 43567
+  },
+  "assets/sources/terrain/door__cp-door-sliding-glass__axis-b.png": {
+    "sha256": "1a90de694175370141f8952266caa972b08773d8bfe5845ab2a0139fb9557cfc",
+    "bytes": 43965
+  },
+  "assets/sources/terrain/door__door-cell-bars__axis-a.png": {
+    "sha256": "417a9a1f8e99074832ad790b354b82564e1c2793b6050b5e10f474158c775c1c",
+    "bytes": 70395
+  },
+  "assets/sources/terrain/door__door-cell-bars__axis-b.png": {
+    "sha256": "d923966cddf59a4fa568a33e294b57aa010bb052befde45820149d27f8380f42",
+    "bytes": 58601
+  },
+  "assets/sources/terrain/door__door-curtain-beaded__axis-a.png": {
+    "sha256": "8d9d595a75f6288e3f15d9feda948d40b70f7c68ec552018d4af34daac452b06",
+    "bytes": 76650
+  },
+  "assets/sources/terrain/door__door-curtain-beaded__axis-b.png": {
+    "sha256": "35ad6d85da0fe0f00c058e6d19e0763498d4fca76f05716d1abdc78361c5c267",
+    "bytes": 76665
+  },
+  "assets/sources/terrain/door__door-double-ornate__axis-a.png": {
+    "sha256": "43c4f10869fdfe77594a91b73440f78b72768bdbdcf1e04c0d73b33c00b503df",
+    "bytes": 79062
+  },
+  "assets/sources/terrain/door__door-double-ornate__axis-b.png": {
+    "sha256": "f1e47eec791ad855e0e14a0a526ce48aee9e464e6bf6ea69af35767a2d9d5d71",
+    "bytes": 79060
+  },
+  "assets/sources/terrain/door__door-gate-timber__axis-a.png": {
+    "sha256": "0bde854db8070edbcf60d1283187d3507078979293fbefc159d40e50b9ce8a65",
+    "bytes": 77467
+  },
+  "assets/sources/terrain/door__door-gate-timber__axis-b.png": {
+    "sha256": "aa7784dcb59ea262b6fff1f9017f4551c453bbebf2491e1f4ede075bf71c9f85",
+    "bytes": 77392
+  },
+  "assets/sources/terrain/door__door-iron-reinforced__axis-a.png": {
+    "sha256": "cbb0511118c1f567cc5989532ce60e8bcee4f6fa05261c81c7e1c197a31847a4",
+    "bytes": 72234
+  },
+  "assets/sources/terrain/door__door-iron-reinforced__axis-b.png": {
+    "sha256": "aa3b5e8ef4fbc1a725a723fdefc2b15b62c45031c49b9c2b40982f3c2d7c8dc7",
+    "bytes": 72567
+  },
+  "assets/sources/terrain/door__door-rotted-broken__axis-a.png": {
+    "sha256": "1edb6012aa4ba26cb158cfee15a35cb33ac864c0f5347caf29114c0a9eddda63",
+    "bytes": 80074
+  },
+  "assets/sources/terrain/door__door-rotted-broken__axis-b.png": {
+    "sha256": "bf9fad326a3403b519365d62b88550775f4754250cf6f0cfc4d5e130ad37ece0",
+    "bytes": 80313
+  },
+  "assets/sources/terrain/door__door-stone-slab__axis-a.png": {
+    "sha256": "7a18c1377c906fe4e91414fc5536b01a59ca495d6c6746d1316eac13e0a31c3f",
+    "bytes": 27614
+  },
+  "assets/sources/terrain/door__door-stone-slab__axis-b.png": {
+    "sha256": "64949a99b0a7f92c2edf4b63e67b9a6288940e60d867fee5caaae3a75c10d2c4",
+    "bytes": 41150
+  },
+  "assets/sources/terrain/door__door-wood-iron-banded__axis-a.png": {
+    "sha256": "df108b7a7ecb1c634b492e5e1b64b5387e3695e96cca7c5915824295a9b840cc",
+    "bytes": 25390
+  },
+  "assets/sources/terrain/door__door-wood-iron-banded__axis-b.png": {
+    "sha256": "c3371ceb920ce980be7f25c33c1c96a6feb1c2128abd0166cd673e5366516fb9",
+    "bytes": 46194
+  },
+  "assets/sources/terrain/door__door-wood-plain__axis-a.png": {
+    "sha256": "55b15a0beb457f63720d0255f04ebfc670759a631a2c85ee89081d555cb95a5f",
+    "bytes": 57127
+  },
+  "assets/sources/terrain/door__door-wood-plain__axis-b.png": {
+    "sha256": "2518edee3e151427011d03731f556302ab8c0fa7a6148fcaa3296164fe65a73a",
+    "bytes": 57102
+  },
+  "assets/sources/terrain/door__hr-door-flesh__axis-a.png": {
+    "sha256": "95b97e8a644eac4357d8c42b9d170973e5d666764e1cdd47f514d33de0b5faa0",
+    "bytes": 16952
+  },
+  "assets/sources/terrain/door__hr-door-flesh__axis-b.png": {
+    "sha256": "a8b213e5b0e2db2e76f5005616269b4bdb4b9ba7cac7d9d39467fef50ec066a3",
+    "bytes": 28796
+  },
+  "assets/sources/terrain/door__hr-door-nailed__axis-a.png": {
+    "sha256": "397e6a5287ea45691319b44d49d7a033381686d6f8042f37453aa2f47bd5c034",
+    "bytes": 34150
+  },
+  "assets/sources/terrain/door__hr-door-nailed__axis-b.png": {
+    "sha256": "1d0497e87ad7737959b1d5f437456700df51193e27e011f7408ff4ce6a4bcfc3",
+    "bytes": 33906
+  },
+  "assets/sources/terrain/door__my-door-panelled__axis-a.png": {
+    "sha256": "2b1b9ed5b3104dbdaa7d61d3bbd04f8310488170e9928ed887d98121e6c235af",
+    "bytes": 34148
+  },
+  "assets/sources/terrain/door__my-door-panelled__axis-b.png": {
+    "sha256": "8c0248a554e8fbf67e323210fc128f036736f7ad84d8e0ed69f1f349bd14a6c1",
+    "bytes": 33918
+  },
+  "assets/sources/terrain/door__my-door-shop__axis-a.png": {
+    "sha256": "6ced0e0b53507415b3cfa187d4717470acf9de98adada3b7812d21487b61fafc",
+    "bytes": 45718
+  },
+  "assets/sources/terrain/door__my-door-shop__axis-b.png": {
+    "sha256": "c7fe5e26ad8d86061941a3dff156e5e5e148eb7c880764fea90a24510909f0bb",
+    "bytes": 38118
+  },
+  "assets/sources/terrain/door__pa-door-chain-gate__axis-a.png": {
+    "sha256": "abb349311141e60f9c25e32a65f25187d1d7b602567fd37dc0a5a24fb731f4cf",
+    "bytes": 33985
+  },
+  "assets/sources/terrain/door__pa-door-chain-gate__axis-b.png": {
+    "sha256": "55e38c68b11c79bffb85203c27b8a45bc7388cb9b7cc82d8bd5fc49aecb50b4f",
+    "bytes": 33791
+  },
+  "assets/sources/terrain/door__pa-door-welded__axis-a.png": {
+    "sha256": "207d68895202bad2cd68e48696d3dc403de3e6f8590a69fe6cf0d9bfc99c3644",
+    "bytes": 16962
+  },
+  "assets/sources/terrain/door__pa-door-welded__axis-b.png": {
+    "sha256": "ff7eb2fa29a16be8b9ba88e33015a6c4b39828e4dd0ddb32938f0ebe0eeaf08e",
+    "bytes": 28907
+  },
+  "assets/sources/terrain/door__sp-door-brass__axis-a.png": {
+    "sha256": "37b2510ae075a56ae2d8603b3ec47198ebd3393f116e9c5c0c90c6e7373262ae",
+    "bytes": 18909
+  },
+  "assets/sources/terrain/door__sp-door-brass__axis-b.png": {
+    "sha256": "d4f578639cdc1b7e8e9641089c6f19e5a5aefb5b6a0f51e0e72421845d355787",
+    "bytes": 26827
+  },
+  "assets/sources/terrain/door__sp-door-cage-lift__axis-a.png": {
+    "sha256": "b72e3c5e0684a94be67cc3ecf00dac55bf43e3167cd1f9f54b0d44e25ea518e7",
+    "bytes": 33936
+  },
+  "assets/sources/terrain/door__sp-door-cage-lift__axis-b.png": {
+    "sha256": "d4ef65024e6b61947fddb19987f70fc944a89b5b1775bfc8d6424b9995b91826",
+    "bytes": 33705
+  },
+  "assets/sources/terrain/floor__basalt-columns__default.png": {
+    "sha256": "a550e0302b56fd552ee66b400a551a10bf603eb9c901d9ab667cb8dc1ce4067e",
+    "bytes": 52436
+  },
+  "assets/sources/terrain/floor__cave-rock-smooth__default.png": {
+    "sha256": "5f5be0d7c3a7e9220cf91afa0c0d2b7d6d710659c21bdbd03aed727fe6a51284",
+    "bytes": 22296
+  },
+  "assets/sources/terrain/floor__cp-asphalt-wet__default.png": {
+    "sha256": "a94be36c96ab08dae03ffe4c96e96b28f8da67df919cc8de325f3549fb985b86",
+    "bytes": 31670
+  },
+  "assets/sources/terrain/floor__cp-concrete-plaza__default.png": {
+    "sha256": "9171a6724b363be6995365395074b2f15333a4dac3fb8a715bb1b04fed5c384c",
+    "bytes": 35169
+  },
+  "assets/sources/terrain/floor__cp-holo-tile__default.png": {
+    "sha256": "76d979fffa59ac64aad97a37f690b47bd373d778de0c6f4746392c0720b5e31c",
+    "bytes": 31650
+  },
+  "assets/sources/terrain/floor__flagstone-cracked__default.png": {
+    "sha256": "9471efaeca34fd8e17b7ab1bf23f72a057dee413289c7362a2923d6893cbbe49",
+    "bytes": 50959
+  },
+  "assets/sources/terrain/floor__flagstone-granite__default.png": {
+    "sha256": "81edfebff08e4e3ee494e9ccbdcc006d725e50033d9606c98999af983f27e9a0",
+    "bytes": 22560
+  },
+  "assets/sources/terrain/floor__grass-dark__default.png": {
+    "sha256": "3c5386df7334f8185afce63a86d7543b1db79368839705bb1234acd4a3eb037d",
+    "bytes": 56117
+  },
+  "assets/sources/terrain/floor__grass-meadow__default.png": {
+    "sha256": "c42c702c796653d090ed4deb89c42fb54d49d3d1457fe4216d6cf7b7214d6a36",
+    "bytes": 59219
+  },
+  "assets/sources/terrain/floor__hr-boards-rotten__default.png": {
+    "sha256": "8755969cace98d25548e25f0d454634eb652740f26768f1f7a1695b4fb807b74",
+    "bytes": 35549
+  },
+  "assets/sources/terrain/floor__hr-flesh-floor__default.png": {
+    "sha256": "8f83226c6d7eae68781ad878f2a66eca9317210fb42122337452afeaab47237e",
+    "bytes": 30693
+  },
+  "assets/sources/terrain/floor__marble-polished__default.png": {
+    "sha256": "221215b873315f81c62dd3e1b6efc8ca1f67c9c159f7713dbd1e60339c78ea08",
+    "bytes": 56604
+  },
+  "assets/sources/terrain/floor__my-cobbles-wet__default.png": {
+    "sha256": "17b4c6590b0871f3b9a6ed2741a8b75de00e5f21d68d9e188507226e4588434d",
+    "bytes": 34993
+  },
+  "assets/sources/terrain/floor__my-parquet-victorian__default.png": {
+    "sha256": "ad3954ea0e7e9099567baa353b079e869b10c853ddea5f31778d169b57cddceb",
+    "bytes": 35515
+  },
+  "assets/sources/terrain/floor__pa-asphalt-cracked__default.png": {
+    "sha256": "2428d4146af3ab68e14cea50aecf3f14ca17c121085d3fb97a9bdf521e17768d",
+    "bytes": 33925
+  },
+  "assets/sources/terrain/floor__pa-bunker-concrete__default.png": {
+    "sha256": "1a76fd2a14971c849aa803ca3e613c5e30fd82d715274e40d8d305f2bd1ed6bc",
+    "bytes": 14729
+  },
+  "assets/sources/terrain/floor__peat-swamp__default.png": {
+    "sha256": "1688313667b6938a94c8310b749ac7ee73009a575851b35b3568f06520655db0",
+    "bytes": 55876
+  },
+  "assets/sources/terrain/floor__sand-beach__default.png": {
+    "sha256": "847100f5f9bbb604d8105cc1c3819ec1851f609ca6484e8321309eb7a321ccf0",
+    "bytes": 56874
+  },
+  "assets/sources/terrain/floor__sand-desert__default.png": {
+    "sha256": "3212124deddb233ddc35279850892804ccc4441baaba81208e6ce9c626f336e4",
+    "bytes": 55688
+  },
+  "assets/sources/terrain/floor__sewer-brick__default.png": {
+    "sha256": "94c319cc693990fa7848d7aea25a24121d9c86be69c7987d325419c1a23af873",
+    "bytes": 61313
+  },
+  "assets/sources/terrain/floor__ship-deck__default.png": {
+    "sha256": "62a182b8071248f208bbd4fdbcb389c72cb3477a293880153ac86a34405c9b05",
+    "bytes": 68355
+  },
+  "assets/sources/terrain/floor__slate-tile__default.png": {
+    "sha256": "df9826702099f84941459c80d58f8630174ba476df02405d4cb8aad98f39c4ed",
+    "bytes": 53298
+  },
+  "assets/sources/terrain/floor__snow-packed__default.png": {
+    "sha256": "15db1a1f0b51d148a3b635502105f69defd56bb1d2c9430456d5abcdb2a1079c",
+    "bytes": 54375
+  },
+  "assets/sources/terrain/floor__sp-cobbles-gaslit__default.png": {
+    "sha256": "fd50ed6192e95035effa7a566ca427a4ee72ff3e974f804cd2702e8c62ec97c7",
+    "bytes": 35310
+  },
+  "assets/sources/terrain/floor__sp-iron-plate__default.png": {
+    "sha256": "8da897569d1e70c45904e21fb612793f7ea7cd667ee7fe04d62a090e58622da8",
+    "bytes": 30534
+  },
+  "assets/sources/terrain/floor__wood-plank-worn__default.png": {
+    "sha256": "25e46e20aa69dc382cd2fa8571e7195fc76ce7aedd558d56a835f365e0e52aa2",
+    "bytes": 61318
+  },
+  "assets/sources/terrain/lowwall__cp-lowwall-console__axis-a.png": {
+    "sha256": "0c0063c1d89070dd1a39f2d30914292a43a8df760cc004cb9fbd0959ab0b9948",
+    "bytes": 46405
+  },
+  "assets/sources/terrain/lowwall__cp-lowwall-console__axis-b.png": {
+    "sha256": "79deb482c7f1f405443dc80a3c0473cb33efc81ebe37f547f38e660a4f555e52",
+    "bytes": 46343
+  },
+  "assets/sources/terrain/lowwall__cp-lowwall-crash-barrier__axis-a.png": {
+    "sha256": "ca5bb15f894fbc26eaba884f02c021522ab3320e00284cd9ee11373154d31dcb",
+    "bytes": 45928
+  },
+  "assets/sources/terrain/lowwall__cp-lowwall-crash-barrier__axis-b.png": {
+    "sha256": "c611eb02cad0189be54888cd668b85f52e4134e02fe031f084dcddd066de7dce",
+    "bytes": 45911
+  },
+  "assets/sources/terrain/lowwall__cp-lowwall-crates__axis-a.png": {
+    "sha256": "dafff9fca4c1add63330d6d54283ff5a3849369adae216cb1754de69fdfef4b9",
+    "bytes": 34076
+  },
+  "assets/sources/terrain/lowwall__cp-lowwall-crates__axis-b.png": {
+    "sha256": "fc6bc73766b3024d6d66f85c49daa522d98ddc75406fd300f8abb6928d32f1b6",
+    "bytes": 34134
+  },
+  "assets/sources/terrain/lowwall__hr-lowwall-cages__axis-a.png": {
+    "sha256": "018d7d7508c6e7cfad12a8ac380159c752e313ebef95f1c83eefb83343843141",
+    "bytes": 38837
+  },
+  "assets/sources/terrain/lowwall__hr-lowwall-cages__axis-b.png": {
+    "sha256": "74aa46e44e696956fe49b876c3ca0a5136d604f3b13a06398dd26fca34994a99",
+    "bytes": 38823
+  },
+  "assets/sources/terrain/lowwall__hr-lowwall-pews__axis-a.png": {
+    "sha256": "9d726fd51512f4da4e2032d97ed73b9816c7d76517275b15be546ea39164d985",
+    "bytes": 37037
+  },
+  "assets/sources/terrain/lowwall__hr-lowwall-pews__axis-b.png": {
+    "sha256": "e1754fb707d7a7451b93070e03a74104655d72a1a2b4bed03f2fe39f66fbdfa8",
+    "bytes": 36989
+  },
+  "assets/sources/terrain/lowwall__lowwall-barrel-row__axis-a.png": {
+    "sha256": "2d71275a2b04fd3e23861626743884624a54a7509c8a732e56dde4a4c86abef6",
+    "bytes": 64912
+  },
+  "assets/sources/terrain/lowwall__lowwall-barrel-row__axis-b.png": {
+    "sha256": "a98561d2acef93f47cad1dc85703f853c0afd335f4c7f70dd9ace9ac5c61fee8",
+    "bytes": 64969
+  },
+  "assets/sources/terrain/lowwall__lowwall-bookshelf__axis-a.png": {
+    "sha256": "3a4e529261adc49625255f94a97559d5a94ae89034b7387714fdc109276af65e",
+    "bytes": 78176
+  },
+  "assets/sources/terrain/lowwall__lowwall-bookshelf__axis-b.png": {
+    "sha256": "2b1db9fc393aeed5ec7a91c723cbd01bce6b17ba2c7fe10c0f74da86a3aa9d17",
+    "bytes": 78159
+  },
+  "assets/sources/terrain/lowwall__lowwall-broken-stub__axis-a.png": {
+    "sha256": "79f5728089d9980023ce22f6988e01d47e3ef828123626cc3e1c4762f6fcd41f",
+    "bytes": 62771
+  },
+  "assets/sources/terrain/lowwall__lowwall-broken-stub__axis-b.png": {
+    "sha256": "9dbb679711af4f93ab234f32695274dd6a622b6da1ae235f6de6631142eff480",
+    "bytes": 62792
+  },
+  "assets/sources/terrain/lowwall__lowwall-log-barricade__axis-a.png": {
+    "sha256": "910d77aac0a095de6599ccc437daa629673e3fa77c37472fbfaf9c263ea4a733",
+    "bytes": 60853
+  },
+  "assets/sources/terrain/lowwall__lowwall-log-barricade__axis-b.png": {
+    "sha256": "31f65b4d6f31c848962fce7dbcffe6f2560ce1f926e3055afb98ece9db3faa4a",
+    "bytes": 60758
+  },
+  "assets/sources/terrain/lowwall__lowwall-market-counter__axis-a.png": {
+    "sha256": "ab8a43a194aad55e16a76661779fa4b641c58766321dd559b1def8af4a687e07",
+    "bytes": 61161
+  },
+  "assets/sources/terrain/lowwall__lowwall-market-counter__axis-b.png": {
+    "sha256": "555346a68f1c86c3fdcb763523090eb38fb8e87e3f50493719e927bc699a2fc0",
+    "bytes": 61217
+  },
+  "assets/sources/terrain/lowwall__lowwall-pew-bench__axis-a.png": {
+    "sha256": "5beb309a51b1087db247eada5874ab3b085185dc01d32ff19da1142b5146a613",
+    "bytes": 48192
+  },
+  "assets/sources/terrain/lowwall__lowwall-pew-bench__axis-b.png": {
+    "sha256": "cdb3c04319bd22629143c134f1b99bc2d4624d90f4cd8fa66fdad17f86054d56",
+    "bytes": 48091
+  },
+  "assets/sources/terrain/lowwall__lowwall-rubble-heap__axis-a.png": {
+    "sha256": "a06216344a8c3635ee52eb9293d6149a04a038f742bc8b5abe67d2dc0d10bac6",
+    "bytes": 54852
+  },
+  "assets/sources/terrain/lowwall__lowwall-rubble-heap__axis-b.png": {
+    "sha256": "ec8bc095bae95c70a2cc30af7c23a420da1804585f69a40bd4be7dc98c232f68",
+    "bytes": 54937
+  },
+  "assets/sources/terrain/lowwall__lowwall-sandbag__axis-a.png": {
+    "sha256": "20f8372aa3f7ae292fde89339d6c6665a803d8b1a59d5acc78b2abc2de7c72d5",
+    "bytes": 64545
+  },
+  "assets/sources/terrain/lowwall__lowwall-sandbag__axis-b.png": {
+    "sha256": "69ca883e1f7a3536c07f5948887a54d1173992b33f70dbd3e9234e7711a4f41f",
+    "bytes": 64554
+  },
+  "assets/sources/terrain/lowwall__lowwall-sarcophagus__axis-a.png": {
+    "sha256": "9ecbd8735fa5eee5817ce73bbf8ea9c943bbd16807d5053cf644a9338cc2fcbd",
+    "bytes": 64236
+  },
+  "assets/sources/terrain/lowwall__lowwall-sarcophagus__axis-b.png": {
+    "sha256": "92ba0a3a94b8b14d3522d6a92cd74762ca94a2d9337591328d68bcf1dc4cac70",
+    "bytes": 64294
+  },
+  "assets/sources/terrain/lowwall__lowwall-stalagmite-row__axis-a.png": {
+    "sha256": "3015d7f072343246315b4099417fbafaff22e07743a53664f2b1205d547fb89a",
+    "bytes": 25876
+  },
+  "assets/sources/terrain/lowwall__lowwall-stalagmite-row__axis-b.png": {
+    "sha256": "91364f41630d19d9b30ca974fa5bf18e239fafaf8f030872f9766cc55843b2b9",
+    "bytes": 25856
+  },
+  "assets/sources/terrain/lowwall__lowwall-stone-parapet__axis-a.png": {
+    "sha256": "eff4c4d0469073a27190b7182448302bacf72ecca21947200a95d5b01594a8d2",
+    "bytes": 30258
+  },
+  "assets/sources/terrain/lowwall__lowwall-stone-parapet__axis-b.png": {
+    "sha256": "a58d78221c71a276a81f4ecada8a6b5e1e9bf178b06cdbf12c73754d1a67e103",
+    "bytes": 30268
+  },
+  "assets/sources/terrain/lowwall__lowwall-wood-fence__axis-a.png": {
+    "sha256": "9768468f02882dd6d5a29531bb175e0bca245e496a354456c907a0bce51cf221",
+    "bytes": 52286
+  },
+  "assets/sources/terrain/lowwall__lowwall-wood-fence__axis-b.png": {
+    "sha256": "4618a5abeee476dabadd5c57234a117d73cad233742cc99e342b9e568c3ec0a2",
+    "bytes": 52320
+  },
+  "assets/sources/terrain/lowwall__my-lowwall-railing__axis-a.png": {
+    "sha256": "c5e8d387570515a7ae2abc77d0b1914374796b18689da5adc59c355854c9e9fd",
+    "bytes": 33750
+  },
+  "assets/sources/terrain/lowwall__my-lowwall-railing__axis-b.png": {
+    "sha256": "b9ae80ce61384f72af7461a6f4b45ab29b557ab17ec0f842971fbc2b930ff031",
+    "bytes": 33786
+  },
+  "assets/sources/terrain/lowwall__my-lowwall-sofa__axis-a.png": {
+    "sha256": "cc117bcbb93fabc6239e4ba57df85162ac4422ca9a4756ffa83a95b64362d938",
+    "bytes": 36986
+  },
+  "assets/sources/terrain/lowwall__my-lowwall-sofa__axis-b.png": {
+    "sha256": "135adfb2af5308be2aa042b7c71e68d5444df7542c17724540ac87b5b918c646",
+    "bytes": 36970
+  },
+  "assets/sources/terrain/lowwall__pa-lowwall-sandbags__axis-a.png": {
+    "sha256": "e82fd3941ff5a51e1b70d79f9acf26bd024e94b24cd858fb8ffa6d1f3da77d75",
+    "bytes": 19291
+  },
+  "assets/sources/terrain/lowwall__pa-lowwall-sandbags__axis-b.png": {
+    "sha256": "518bf4c70ed1a0aacdef0a434b670891186d64b99017adfe1a275acd135491bd",
+    "bytes": 19255
+  },
+  "assets/sources/terrain/lowwall__pa-lowwall-tyre-row__axis-a.png": {
+    "sha256": "a837de38b4bb01339e43216db5eaa24b0742cddbbea19f91f75a02a92feacf15",
+    "bytes": 19233
+  },
+  "assets/sources/terrain/lowwall__pa-lowwall-tyre-row__axis-b.png": {
+    "sha256": "48cc83103507518c2492068064d7fe7aa03e6b7b565b87208d9b140bd0a07b84",
+    "bytes": 19216
+  },
+  "assets/sources/terrain/lowwall__sp-lowwall-crate-row__axis-a.png": {
+    "sha256": "1a8e48cef91590d46cee9cb3abb883a2c4a3a42d6ef5726d013b40603a2d2b0e",
+    "bytes": 36774
+  },
+  "assets/sources/terrain/lowwall__sp-lowwall-crate-row__axis-b.png": {
+    "sha256": "ae70a8263cb3f9b6be3d8980e81bc8c212e23e167141e87e3b105d0997f58561",
+    "bytes": 36740
+  },
+  "assets/sources/terrain/lowwall__sp-lowwall-pipe-rail__axis-a.png": {
+    "sha256": "3067f405ef6622e794570adbf83741fbbca9745eecf0e007357e7fc9e10671b8",
+    "bytes": 18452
+  },
+  "assets/sources/terrain/lowwall__sp-lowwall-pipe-rail__axis-b.png": {
+    "sha256": "a8c7e3dd4b259955d5178db75327b9065bfeed2cfac4c4452b14da14d7dcf520",
+    "bytes": 18454
+  },
+  "assets/sources/terrain/rough__cp-cable-tangle__default.png": {
+    "sha256": "31768f81d6f1cde5ff54ee23838a0fc9fe46c6bfb90835e4bf7c97e7a195d8fe",
+    "bytes": 40099
+  },
+  "assets/sources/terrain/rough__cp-rubble-concrete__default.png": {
+    "sha256": "64162f3c13bfeefcb5c1f848be0cd606957445473fb5bf94c8a62bf2c5dbc96c",
+    "bytes": 36826
+  },
+  "assets/sources/terrain/rough__cp-scrap-electronics__default.png": {
+    "sha256": "828f98a02bc5e93c5e911c8b4679280fc036a50347c693ae41f972ddefd3f653",
+    "bytes": 40200
+  },
+  "assets/sources/terrain/rough__hr-rot-debris__default.png": {
+    "sha256": "29ccb9543a58b09b3d7ea2a10a518d70698ba52d42be9d7764989ca1d9d470ac",
+    "bytes": 15075
+  },
+  "assets/sources/terrain/rough__hr-viscera__default.png": {
+    "sha256": "bbe5158c923eb61c392a19f0e00cb7cda99c83fcebb97713f4dd52ff9106336a",
+    "bytes": 33626
+  },
+  "assets/sources/terrain/rough__my-papers-scattered__default.png": {
+    "sha256": "f6262782111424f42c7dbc84cf10814e57ea0baf9c7edd99978a5f102efe95af",
+    "bytes": 15061
+  },
+  "assets/sources/terrain/rough__my-rubbish-alley__default.png": {
+    "sha256": "98b5f5b2a50f7bcdb9e7f7bb31ebd96f879dc184ad70b29f87847a8c20f05d56",
+    "bytes": 36383
+  },
+  "assets/sources/terrain/rough__pa-debris-plaster__default.png": {
+    "sha256": "9f1f34f690be1fa23b4b8f7538ed60c23f2dc8dd2a7fcbf938f42979abc40f74",
+    "bytes": 15038
+  },
+  "assets/sources/terrain/rough__pa-scrap-field__default.png": {
+    "sha256": "19100440c843ba138695953a1040a3e0a5c1b776eedeec073c288bae3a57b6ed",
+    "bytes": 44982
+  },
+  "assets/sources/terrain/rough__rough-ash-drifts__default.png": {
+    "sha256": "e5b9eac351d26a9c23a54d3d13ae743fe5f3ca72e1a8cd8f6db8425c4ecb51ca",
+    "bytes": 56929
+  },
+  "assets/sources/terrain/rough__rough-bone-scatter__default.png": {
+    "sha256": "f0ed52e29a178781f38a5846ffc6a124faffcc18b45029fa036effd4644d2f13",
+    "bytes": 56211
+  },
+  "assets/sources/terrain/rough__rough-bramble__default.png": {
+    "sha256": "db8423b7ce4befb66ffc28ad71a210aa3acbf91eded5709104be8062fe8ab927",
+    "bytes": 76486
+  },
+  "assets/sources/terrain/rough__rough-cactus-scrub__default.png": {
+    "sha256": "cbbb84fdc05681146b60e074f77542cb60be0caf3c8da7f6c4aa19d95d9af7ed",
+    "bytes": 80612
+  },
+  "assets/sources/terrain/rough__rough-debris-crates__default.png": {
+    "sha256": "c3f59c76e30d1f0985b0c518baaf15ef4a44bb2232ff26cc4d7cd7dfa5b0018b",
+    "bytes": 22309
+  },
+  "assets/sources/terrain/rough__rough-driftwood__default.png": {
+    "sha256": "14e1471806783fdf4825307e411fd19db30ab67e7068536d2e3b793cfde893a0",
+    "bytes": 72027
+  },
+  "assets/sources/terrain/rough__rough-mud-churned__default.png": {
+    "sha256": "29b0a7f1e4450bce7d10ca984158a35eed971185fb08fbdb3cceb802252583a9",
+    "bytes": 61234
+  },
+  "assets/sources/terrain/rough__rough-pottery-shards__default.png": {
+    "sha256": "a8f55ef4b31c6c74b5e8b1601a29022c874385c25802292f4497b01d51d061ce",
+    "bytes": 66917
+  },
+  "assets/sources/terrain/rough__rough-reed-bed__default.png": {
+    "sha256": "4eabb4d1cd45b0a5a3d3581de61b4a96211548056e1858df2ab4a49d7ed0f0e9",
+    "bytes": 70234
+  },
+  "assets/sources/terrain/rough__rough-rubble-scree__default.png": {
+    "sha256": "fe540d4ddda2b74c706775e188afcac70205f0f7f4d08de824f1c3869cd55868",
+    "bytes": 24305
+  },
+  "assets/sources/terrain/rough__rough-snow-deep__default.png": {
+    "sha256": "8d2a671f9e28a08f9135ab631d4f7994e1d9a85eedf57db535c78d630af9af98",
+    "bytes": 71677
+  },
+  "assets/sources/terrain/rough__rough-tall-grass__default.png": {
+    "sha256": "5b01b75413dbfe35f0c3270f0e9ccafc27d6b50955ea950bfce48c3e835777fd",
+    "bytes": 67089
+  },
+  "assets/sources/terrain/rough__sp-coal-heap__default.png": {
+    "sha256": "3b2af46c03f5bd1e7b10b83db7ae678414c8b6e71689cb7c396ec19d67310c71",
+    "bytes": 14995
+  },
+  "assets/sources/terrain/rough__sp-gear-scrap__default.png": {
+    "sha256": "6a2955a61b6b42665b6ab7990747bc30750e79fca8ce7c839ffa93a8dc7de546",
+    "bytes": 34141
+  },
+  "assets/sources/terrain/wall__cp-wall-chrome__default.png": {
+    "sha256": "92d6d9e56c1942e66e9741f8a3d605e68d674ea2c7af8add1381e8fcf912ae35",
+    "bytes": 38969
+  },
+  "assets/sources/terrain/wall__cp-wall-container__default.png": {
+    "sha256": "8fe4ff912835e0728744ac8ad07853d5d0b7da223ee86c7bf7cf40645fd976a3",
+    "bytes": 43711
+  },
+  "assets/sources/terrain/wall__cp-wall-neon__default.png": {
+    "sha256": "c664dbd7d50718f53af456fcb1fadc98eabd39219b846958b4ad339bbed21707",
+    "bytes": 38564
+  },
+  "assets/sources/terrain/wall__hr-wall-flesh__default.png": {
+    "sha256": "7276f2e1e111413ca3bebaf8e46a43d65ebe12eb516c3bfe3fda8f3f2fc8c80f",
+    "bytes": 53126
+  },
+  "assets/sources/terrain/wall__hr-wall-mould-brick__default.png": {
+    "sha256": "8ee0424895e4c358d25b8f599d985c3409939ffb7b8c8e3027ca65ca2f402d11",
+    "bytes": 45310
+  },
+  "assets/sources/terrain/wall__my-wall-brick-alley__default.png": {
+    "sha256": "38fa4d8b93db4004befaffe027bc8a700ef053a9028b3f7e5947ffb1a0985d89",
+    "bytes": 43191
+  },
+  "assets/sources/terrain/wall__my-wall-wallpaper__default.png": {
+    "sha256": "f1de8e202a0d8c239f80d4d7073cf82e5ff91b021024c9ac48dba82574d2bf97",
+    "bytes": 45316
+  },
+  "assets/sources/terrain/wall__pa-wall-car-wrecks__default.png": {
+    "sha256": "9efa9797fc9f6081517c79ed13f1506f5dfc0a8af3b2ff3c22f4791b770aafc3",
+    "bytes": 43691
+  },
+  "assets/sources/terrain/wall__pa-wall-rubble-barricade__default.png": {
+    "sha256": "93fc5c6ff4e0c2304ae13f834cbd5d567016a765dad426071161c47be7caceb2",
+    "bytes": 27211
+  },
+  "assets/sources/terrain/wall__sp-wall-boiler__default.png": {
+    "sha256": "c54c8ec1bb303225c50b1f0d07f1ed7aaf6bdcb03398403e6077e3485ca4f204",
+    "bytes": 42700
+  },
+  "assets/sources/terrain/wall__sp-wall-brick-soot__default.png": {
+    "sha256": "593bc71dc5cd971429e4c83586a301b5d239da841aa6ac22762cc1e0bf7f09d4",
+    "bytes": 45067
+  },
+  "assets/sources/terrain/wall__wall-adobe__default.png": {
+    "sha256": "4907884c481fbbf17b0a7b84026c0e43fee6382c0d3cba28b4817fdfec37e1dc",
+    "bytes": 77555
+  },
+  "assets/sources/terrain/wall__wall-cave-rock__default.png": {
+    "sha256": "e87405f51436b0333e0e5b1921bce4f08d8ea1b78cc7bc25b6f4d0159af23c91",
+    "bytes": 44597
+  },
+  "assets/sources/terrain/wall__wall-dungeon-mossy__default.png": {
+    "sha256": "25c039a40998dfbb0a8715b4b1da724d9983379f82df6a88444526498e1653d8",
+    "bytes": 46135
+  },
+  "assets/sources/terrain/wall__wall-earth-cut__default.png": {
+    "sha256": "bbc186e09424773f39be026de75466f9a815ca88de7545c85d51ca049bac6d70",
+    "bytes": 77156
+  },
+  "assets/sources/terrain/wall__wall-hedge-dense__default.png": {
+    "sha256": "9694a98d3a1bb15055ca880a6da68a2a077914f7af7dcd0496fc2f46540baaac",
+    "bytes": 83905
+  },
+  "assets/sources/terrain/wall__wall-ice__default.png": {
+    "sha256": "b272303dec0cc2a81fcb39b265449480d32e492ce874a29d5d11f2f6e0eb3f7d",
+    "bytes": 82059
+  },
+  "assets/sources/terrain/wall__wall-iron-plate__default.png": {
+    "sha256": "0008e764191e1eebb78e1985edf5c2f042882eb76b0983a7972188cb7118ae5b",
+    "bytes": 68356
+  },
+  "assets/sources/terrain/wall__wall-mangrove__default.png": {
+    "sha256": "7028e75949477a5435e9259864aaf94f8cf0256a7566e95ad8e485ae8cebfa02",
+    "bytes": 97781
+  },
+  "assets/sources/terrain/wall__wall-marble-panel__default.png": {
+    "sha256": "d528880f9f9955ffdde0b6e3397dcba7ec511fa2c93b763a9a08d1827b0e19a2",
+    "bytes": 86799
+  },
+  "assets/sources/terrain/wall__wall-rubble-collapsed__default.png": {
+    "sha256": "e2898f68f6b96e145bd5c891da9582255fdc13c143f2aeed66e53906ae8ef354",
+    "bytes": 90389
+  },
+  "assets/sources/terrain/wall__wall-ruined-overgrown__default.png": {
+    "sha256": "b4b8bbb217fad3ce8c465512e09b41d24e1208c676b693c401e09e141eea3c5d",
+    "bytes": 98837
+  },
+  "assets/sources/terrain/wall__wall-sewer-stone__default.png": {
+    "sha256": "a168417ff876257768fe9dd67d4eb447b5649d91e4bed6c4c6fc5e7822c39cf5",
+    "bytes": 78211
+  },
+  "assets/sources/terrain/wall__wall-tree-canopy__default.png": {
+    "sha256": "1fe0891019207a3671a6d966230be1fc116f4c262a17c70e7d0796563a6e1763",
+    "bytes": 49339
+  },
+  "assets/sources/terrain/wall__wall-volcanic__default.png": {
+    "sha256": "a56d04d52b4cfa10d9b38d9b3ca237d6d9ee0acf543823b02c007c59322ee60a",
+    "bytes": 72814
+  },
+  "assets/sources/terrain/wall__wall-wood-log__default.png": {
+    "sha256": "9c7c0197ac20ab32714ad3dd6a14c40f75f3bca56268a7ce3ad61cb7aa4a6e12",
+    "bytes": 80727
+  },
+  "assets/sources/terrain/wall__wall-wood-plank__default.png": {
+    "sha256": "967b8d51954005dc79d4064739ffab3e7c67495798493d1652304175411894b3",
+    "bytes": 80327
+  },
+  "assets/sources/terrain/water__cp-coolant__default.png": {
+    "sha256": "73a9ccb36cbd99e962bb834aae3d862b54ddf35af4cd7b53fff7bf3d774868dd",
+    "bytes": 47477
+  },
+  "assets/sources/terrain/water__cp-oil-slick__default.png": {
+    "sha256": "0fd066091a8c44f48733a03a4b8cca434a26ba86741532bd47b3dadbf4ddff01",
+    "bytes": 47447
+  },
+  "assets/sources/terrain/water__cp-toxic-runoff__default.png": {
+    "sha256": "109b986f7a1eb0503b59127b437a68accd2b47cb9cb8d75a3e4d25a01f647034",
+    "bytes": 41032
+  },
+  "assets/sources/terrain/water__hazard-acid-pool__default.png": {
+    "sha256": "8fa73b5dae5c0a90246d4f83dccabc0b798997d3f6ab10a8ed96cd81dbbd7d9f",
+    "bytes": 80789
+  },
+  "assets/sources/terrain/water__hazard-lava-molten__default.png": {
+    "sha256": "a0d69860ba587bdccc3db33ad03c9d2c83d85a4abd25ae88a7a717690fdb39f9",
+    "bytes": 60544
+  },
+  "assets/sources/terrain/water__hr-bile-pool__default.png": {
+    "sha256": "3f21ede6612d7316e3f11493315e7211096512268d7a4a979a92baf446cb7dae",
+    "bytes": 30463
+  },
+  "assets/sources/terrain/water__hr-black-water__default.png": {
+    "sha256": "b303aa93fb2dcafe428e87ce854807c191d8a526a9f5e2ee9acfa0c681f7bf3b",
+    "bytes": 14310
+  },
+  "assets/sources/terrain/water__my-canal__default.png": {
+    "sha256": "4b4c38d85b3a1b68050579a30219285a2ab967d523dd929ccb9da511a9f62fdb",
+    "bytes": 40531
+  },
+  "assets/sources/terrain/water__my-puddle-rain__default.png": {
+    "sha256": "ef0946459d9ec7096bfb8665aa0b6e17cea3066ac983a85d4f4707a5d972ee67",
+    "bytes": 14305
+  },
+  "assets/sources/terrain/water__pa-rust-water__default.png": {
+    "sha256": "6bb3e7ff87bd3adea6e88768d92aac00981f9cc3536abe36c57109e1f592c9dd",
+    "bytes": 14317
+  },
+  "assets/sources/terrain/water__pa-toxic-sludge__default.png": {
+    "sha256": "9e069b067c53b19684a726b84c4ec8d8c4de03d4f1b1624e855dc4ecd8524548",
+    "bytes": 50545
+  },
+  "assets/sources/terrain/water__sp-steam-pool__default.png": {
+    "sha256": "20e0f7a6833835a1d0d6cd1735d244a893ea70e630383df595c372f19c6115e8",
+    "bytes": 35071
+  },
+  "assets/sources/terrain/water__sp-water-canal__default.png": {
+    "sha256": "81214def28c431d4c8dcb78c57c83eecae07bac81655ace5af3d32443c81acc9",
+    "bytes": 14224
+  },
+  "assets/sources/terrain/water__water-blood-pool__default.png": {
+    "sha256": "848a79090d508729b5d61ec9a4090106c6c0e8a943bbd4235e848fede54fa201",
+    "bytes": 50872
+  },
+  "assets/sources/terrain/water__water-cave-pool__default.png": {
+    "sha256": "4735439425ec3829f7f8846d17bd766eace4d828794618c730d788c65dfe2ece",
+    "bytes": 21792
+  },
+  "assets/sources/terrain/water__water-deep-blue__default.png": {
+    "sha256": "b3bf046a84d5b03fbbbfeff064113c472995ef06c45ab0c91edf48801c965c49",
+    "bytes": 60546
+  },
+  "assets/sources/terrain/water__water-flooded-floor__default.png": {
+    "sha256": "e28cdedfc4a5709986025e83373130e3a1e9a42d46f54a2d78e242d8fdad4382",
+    "bytes": 22634
+  },
+  "assets/sources/terrain/water__water-hot-spring__default.png": {
+    "sha256": "bc5ccc128b03cb0d96a8917360c602f9b0c63c1931918387587c2e0580d62f53",
+    "bytes": 83111
+  },
+  "assets/sources/terrain/water__water-icy-slush__default.png": {
+    "sha256": "de3ce611d4ee45fa5bbf2044e3329f8aee4a86d563689e72704019d432c37607",
+    "bytes": 85979
+  },
+  "assets/sources/terrain/water__water-river-flowing__default.png": {
+    "sha256": "1db989cf8eedcb7e62c6390f282cfce8ee72b61a6a644bb6897d780ab471d1a0",
+    "bytes": 87186
+  },
+  "assets/sources/terrain/water__water-sea-waves__default.png": {
+    "sha256": "09aba649555dadb34470ad9440431a6bf1fd5f78c835f7f981d10c1327569678",
+    "bytes": 76683
+  },
+  "assets/sources/terrain/water__water-sewer-sludge__default.png": {
+    "sha256": "f56a8aa65a7ce57abb7387265003c10055429453c034f20763dc7e69356465a7",
+    "bytes": 70775
+  },
+  "assets/sources/terrain/water__water-shallow-clear__default.png": {
+    "sha256": "cf092a376a2dcd87bc3c43631531020c84e76b3868c5afefa35e4d2e35b3ef50",
+    "bytes": 65545
+  },
+  "assets/sources/terrain/water__water-swamp-murky__default.png": {
+    "sha256": "e00d45ed65ef6d081a2ac7f2335c69ff29a9dca26eddcc12c1b7745ef684b137",
+    "bytes": 62477
+  },
+  "assets/sources/archive/pre-final-corrections/hr-black-water__default.png": {
+    "sha256": "893fa1531de1b0cc6055e72eb5b6b0afedf2d3a89fd9775d6591512f44894d90",
+    "bytes": 6751
+  },
+  "assets/sources/archive/pre-final-corrections/hr-boards-rotten__default.png": {
+    "sha256": "d9e547547f636d2bc0fcbb0be7a7592038653dd5661c0ba6077a2f9062cab574",
+    "bytes": 3913
+  },
+  "assets/sources/archive/pre-final-corrections/hr-door-nailed__axis-a.png": {
+    "sha256": "93fc06f91224d0f46d95d573b2a93ca34f385cbd241d398af78f3d4a88c59e99",
+    "bytes": 17578
+  },
+  "assets/sources/archive/pre-final-corrections/hr-door-nailed__axis-b.png": {
+    "sha256": "418a46159abc277fc7e87bf422dd9a71af9e1c58a63dacbc70c4d0e8a036405c",
+    "bytes": 17595
+  },
+  "assets/sources/archive/pre-final-corrections/hr-lowwall-pews__axis-a.png": {
+    "sha256": "ec203746b39fbbdff687e8e010da295d7b45ded211dceed11a5678e80eadef7b",
+    "bytes": 17041
+  },
+  "assets/sources/archive/pre-final-corrections/hr-lowwall-pews__axis-b.png": {
+    "sha256": "8b24f25420aed057be7204b6e2bd656f4c38f6aa33689269702bb1bcd792e92d",
+    "bytes": 17052
+  },
+  "assets/sources/archive/pre-final-corrections/hr-rot-debris__default.png": {
+    "sha256": "4f5d78465da865a031f827e02dcc8d52909228ab632a804980fb8c0e82cce878",
+    "bytes": 10684
+  },
+  "assets/sources/archive/pre-final-three/hr-wall-rotten-timber__default.png": {
+    "sha256": "e5e08f704b3dc0676d8952d72ed6ef5617782d3c5aa8803458feddcdbade1390",
+    "bytes": 40984
+  },
+  "assets/sources/archive/pre-final-three/pa-bunker-concrete__default.png": {
+    "sha256": "a991efd765b2b517347277d6877fea5101a1673a896578959fbea4c9ae48b2c8",
+    "bytes": 7025
+  },
+  "assets/sources/archive/pre-final-three/pa-debris-plaster__default.png": {
+    "sha256": "10e35a1e9f14acb00c23fbe9941961f9f6f3df6ced5b65d36d633e521f698e08",
+    "bytes": 10171
+  },
+  "assets/sources/archive/pre-final-three/pa-door-welded__axis-a.png": {
+    "sha256": "02021e6dbcb1684a6f77a4d834e43ba3a8a6de5f8fe0276925fcee1844579149",
+    "bytes": 17219
+  },
+  "assets/sources/archive/pre-final-three/pa-door-welded__axis-b.png": {
+    "sha256": "52e5f4a3cf6dc06988ebda2aef4299da1096863fb0e6b6924f38a08cf5d525d4",
+    "bytes": 17272
+  },
+  "assets/sources/archive/pre-final-three/pa-lowwall-sandbags__axis-a.png": {
+    "sha256": "cdfcdd89a5df83d7a564aff96e1250903fe4d31d3540fb57b7bfb522b634efdb",
+    "bytes": 19566
+  },
+  "assets/sources/archive/pre-final-three/pa-lowwall-sandbags__axis-b.png": {
+    "sha256": "d7c663f86db82e2d91f59adb6bca104ab0ecdfe6545796931225796f070987a4",
+    "bytes": 19529
+  },
+  "assets/sources/archive/pre-final-three/pa-wall-rubble-barricade__default.png": {
+    "sha256": "df518638d37ffd504a086362ed14ac3affbed4a8735a9d8a33c0a4b12f7c39bb",
+    "bytes": 27607
+  },
+  "assets/sources/archive/pre-library-recovery/cp-asphalt-wet.png": {
+    "sha256": "cc4388519b6e4cd4bc24aae8e9a4300dc0f0f55682a94ec1cad4c5ef3cde88c6",
+    "bytes": 3611
+  },
+  "assets/sources/archive/pre-library-recovery/cp-cable-tangle.png": {
+    "sha256": "04c55ea8c2d8a58a1da8ed3fa7734803cd978d64acc444bbde74458984634e27",
+    "bytes": 11446
+  },
+  "assets/sources/archive/pre-library-recovery/cp-door-sliding-glass__axis-a.png": {
+    "sha256": "a28ca17b7cb03508651bcadce056352d00c7f5a439dbff44e3cb5c629fe7c826",
+    "bytes": 22569
+  },
+  "assets/sources/archive/pre-library-recovery/cp-door-sliding-glass__axis-b.png": {
+    "sha256": "ba07a8501ee3275d2d0a2682f3a311a69c53e0e07500b3edb656328674b9a32e",
+    "bytes": 22468
+  },
+  "assets/sources/archive/pre-library-recovery/cp-holo-tile.png": {
+    "sha256": "65ab97e65b4da3ab34a3f46f37bc0e3a199f05726cfe7810438d27cdc73fa58d",
+    "bytes": 3634
+  },
+  "assets/sources/archive/pre-library-recovery/cp-lowwall-console__axis-a.png": {
+    "sha256": "e782813a050b6a89f689e37ffffa2da0dc2493570fcd763c6befe6c5de4413a5",
+    "bytes": 19450
+  },
+  "assets/sources/archive/pre-library-recovery/cp-lowwall-console__axis-b.png": {
+    "sha256": "247707c0f373a8d2ebca50f4b06c80ced4fb1ad431baa31b883f8f88b573c45c",
+    "bytes": 19402
+  },
+  "assets/sources/archive/pre-library-recovery/cp-lowwall-crash-barrier__axis-a.png": {
+    "sha256": "54fd92032d1264c6fc5b03e8e37e5917e2c92f600ef35bb9fc17feb0a20d8bc0",
+    "bytes": 19391
+  },
+  "assets/sources/archive/pre-library-recovery/cp-lowwall-crash-barrier__axis-b.png": {
+    "sha256": "ff70d5402d291a5e00a42ad7212cb0b366f266ca84ce241ca3a199f208bc05b6",
+    "bytes": 19295
+  },
+  "assets/sources/archive/pre-library-recovery/cp-lowwall-crates__axis-a.png": {
+    "sha256": "72fc1cdeeb3919324b4f7e59138fc2b325ed4e1ffedcc6f142ace8ee95a4d92e",
+    "bytes": 16165
+  },
+  "assets/sources/archive/pre-library-recovery/cp-lowwall-crates__axis-b.png": {
+    "sha256": "8c17b1ea18d868dc2f9d316fb3c2344ba5504ba8f7220f76a8ec68faa94fe32e",
+    "bytes": 16158
+  },
+  "assets/sources/archive/pre-library-recovery/cp-oil-slick.png": {
+    "sha256": "debb128e58ca618fb32611d4f7063f1d2a5a19199f9d154ccb27adeaf01c4428",
+    "bytes": 8008
+  },
+  "assets/sources/archive/pre-library-recovery/cp-scrap-electronics.png": {
+    "sha256": "3b4d280559ecf812ab212d779fbb5b2c3ac2fee8ab4398cc04cc066ccc05f003",
+    "bytes": 11486
+  },
+  "assets/sources/archive/pre-library-recovery/cp-wall-container.png": {
+    "sha256": "c96dbbbf7005994b2b3bc2f3efd82c15116002501cd1fcc101a6b4007a02a38d",
+    "bytes": 30614
+  },
+  "assets/sources/archive/pre-library-recovery/hr-door-flesh__axis-a.png": {
+    "sha256": "66722aeb180fadd63340ebcff60be0a5d60795b81b89de39dc3eac3c74b274f2",
+    "bytes": 13282
+  },
+  "assets/sources/archive/pre-library-recovery/hr-door-flesh__axis-b.png": {
+    "sha256": "11af345030a04ecb806ded0cb92e8e8244b170ac3ffec390aa5f78e280d47aae",
+    "bytes": 13304
+  },
+  "assets/sources/archive/pre-library-recovery/hr-flesh-floor.png": {
+    "sha256": "baefefca7895b4bf1ad37d3a6f81261df84d3815614f2cbbf5ac51015f86652f",
+    "bytes": 3656
+  },
+  "assets/sources/archive/pre-library-recovery/hr-lowwall-cages__axis-a.png": {
+    "sha256": "88e896c5e8e31a2fd776f4dddfc295466b0babc5f7c1464e84956c24393b5c37",
+    "bytes": 16930
+  },
+  "assets/sources/archive/pre-library-recovery/hr-lowwall-cages__axis-b.png": {
+    "sha256": "7e021de2e93e4b962e542790fe08f4b6ba0c9e3e3af4f15db32017415984f4a4",
+    "bytes": 16916
+  },
+  "assets/sources/archive/pre-library-recovery/hr-wall-flesh.png": {
+    "sha256": "97dbe4bda7676228a3962de667656fbdc7f80bb81f4559744f107f7ce369857e",
+    "bytes": 21106
+  },
+  "assets/sources/archive/pre-library-recovery/hr-wall-mould-brick.png": {
+    "sha256": "ad99a5b7ebb09802bf64abe79555cc70f5e6d973a93ff314005026e93fdab607",
+    "bytes": 29974
+  },
+  "assets/sources/archive/pre-library-recovery/my-lowwall-sofa__axis-a.png": {
+    "sha256": "531186efe98194c9cb090dcf66558f02448f7b95a2170cd912ee441243aff0a9",
+    "bytes": 17005
+  },
+  "assets/sources/archive/pre-library-recovery/my-lowwall-sofa__axis-b.png": {
+    "sha256": "fea6c1e1df33e3d09b6d0906f61b79bf80e47615648e87286f38b828bf610618",
+    "bytes": 17021
+  },
+  "assets/sources/archive/pre-library-recovery/my-papers-scattered.png": {
+    "sha256": "877296ce6b1063e39fc0d7b045ff733a95b00df68ebf0ec41d0d0bc3bfdb8774",
+    "bytes": 10671
+  },
+  "assets/sources/archive/pre-library-recovery/my-parquet-victorian.png": {
+    "sha256": "348394f7cef02a61e688161abd05ca612b79f1effec59ba076e15712de02b27e",
+    "bytes": 3883
+  },
+  "assets/sources/archive/pre-library-recovery/my-wall-wallpaper.png": {
+    "sha256": "d8d29dc7ec920110b1262d45c6d5e6be537168703e83b4378e6d3a69f7e6ec4f",
+    "bytes": 29893
+  },
+  "assets/sources/archive/pre-library-recovery/pa-asphalt-cracked.png": {
+    "sha256": "fe1fed249d03b8287a1128aba48ecbe3b782e15714a92cbdd50d3829a1be2905",
+    "bytes": 4125
+  },
+  "assets/sources/archive/pre-library-recovery/pa-door-chain-gate__axis-a.png": {
+    "sha256": "590884f19df6fa697bf84da8de501a6a7db657a96b417a97fe0a0b014c89ec93",
+    "bytes": 17394
+  },
+  "assets/sources/archive/pre-library-recovery/pa-door-chain-gate__axis-b.png": {
+    "sha256": "c1aa0b6e64d9a08366902621aa34c51832a8b53e785faf6a3e47264bb1a842a0",
+    "bytes": 17412
+  },
+  "assets/sources/archive/pre-library-recovery/pa-lowwall-tyre-row__axis-a.png": {
+    "sha256": "2c24b7f60bc92d58ec5476b26a22fa535922bf90f165e869dcb4644e018151ed",
+    "bytes": 18385
+  },
+  "assets/sources/archive/pre-library-recovery/pa-lowwall-tyre-row__axis-b.png": {
+    "sha256": "b12c18053e88ff07e6ab401f4ddba895350c8e5232ce0fe51c388853b010c07e",
+    "bytes": 18341
+  },
+  "assets/sources/archive/pre-library-recovery/pa-scrap-field.png": {
+    "sha256": "1b53e867c003ab924ff7b906d8465baeea30f4c2fde258f82338ed43e99e889e",
+    "bytes": 14732
+  },
+  "assets/sources/archive/pre-library-recovery/pa-toxic-sludge.png": {
+    "sha256": "fd47ae5c2c2b46c8186a08daa6dc5cb57288988dac30e15f692b94932f911f76",
+    "bytes": 8025
+  },
+  "assets/sources/archive/pre-library-recovery/pa-wall-car-wrecks.png": {
+    "sha256": "0268371cb76b6843fea882eea2b5ebec13eef2dec8068f5411835bc697042c23",
+    "bytes": 33669
+  },
+  "assets/sources/archive/pre-library-recovery/sp-coal-heap.png": {
+    "sha256": "aed24899542394dd6b0282dd405137d3dea0bf64dbac4eb468d1aa609caa1f0a",
+    "bytes": 10612
+  },
+  "assets/sources/archive/pre-library-recovery/sp-cobbles-gaslit.png": {
+    "sha256": "92d74bda9dc29414a66daca897cf3df1bb5417bdf1268f183e14b1abd80cddb6",
+    "bytes": 4031
+  },
+  "assets/sources/archive/pre-library-recovery/sp-door-cage-lift__axis-a.png": {
+    "sha256": "4562fd1510f9517aa8f36bc536fd3deed041586f16ed4ed9d01d681bbee9c53d",
+    "bytes": 17383
+  },
+  "assets/sources/archive/pre-library-recovery/sp-door-cage-lift__axis-b.png": {
+    "sha256": "6401212d09d74913a27801475459598f78c64bf6101fc4daf90ca373fa2088ac",
+    "bytes": 17394
+  },
+  "assets/sources/archive/pre-library-recovery/sp-iron-plate.png": {
+    "sha256": "b9e729e17e854f90b3fee2d11648592f1c79533ecdf85c1f2f159b10feb278ae",
+    "bytes": 3716
+  },
+  "assets/sources/archive/pre-library-recovery/sp-lowwall-crate-row__axis-a.png": {
+    "sha256": "c30e79bafb2037ec0cfcc82eb80ec346ea06a13ce81266d9b119dc0a26b3eabc",
+    "bytes": 16903
+  },
+  "assets/sources/archive/pre-library-recovery/sp-lowwall-crate-row__axis-b.png": {
+    "sha256": "3adc1787460a99bc7151f90d8f48ac00d89f6aaf873774ca032885e97ffd6303",
+    "bytes": 16927
+  },
+  "assets/sources/archive/pre-library-recovery/sp-lowwall-pipe-rail__axis-a.png": {
+    "sha256": "e149a4175a2870f564672a8394caa7e23d008c987fc572c6085171230a37c602",
+    "bytes": 16382
+  },
+  "assets/sources/archive/pre-library-recovery/sp-lowwall-pipe-rail__axis-b.png": {
+    "sha256": "1054fb21094155e192daacca77dfcaeeb0535e924a5b4d6ade2784236ca25a36",
+    "bytes": 16333
+  },
+  "assets/sources/archive/pre-library-recovery/sp-wall-boiler.png": {
+    "sha256": "23b30dc8632c667bfce88f91f7614145aa9a8653401465fb8b587bdae5210b10",
+    "bytes": 17350
+  },
+  "assets/sources/archive/pre-library-recovery/sp-wall-brick-soot.png": {
+    "sha256": "e0399bf78b379bde44c9985d11f54f6b3d82148fc46100b3d517c5e4cb261612",
+    "bytes": 29691
+  },
+  "assets/sources/archive/pre-library-recovery/wall-ruined-overgrown.png": {
+    "sha256": "38a06845159383e43e7f6a989468bb6e663fe050f79a20178bf018420bdbae1d",
+    "bytes": 34916
+  },
+  "assets/sources/archive/pre-library-recovery/wall-volcanic.png": {
+    "sha256": "c5b53f3b13d81efce07fa2cbaed0dc46808fd708660986df2a205e6bce11b8ef",
+    "bytes": 26962
+  },
+  "assets/sources/archive/pre-library-recovery/wall-wood-plank.png": {
+    "sha256": "2961d136029a350e470764bc01400bf4ef385d471f631214ad70a22369121c52",
+    "bytes": 38799
+  }
+}

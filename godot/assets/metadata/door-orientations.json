@@ -1,0 +1,136 @@
+{
+  "version": 1,
+  "axisContract": {
+    "axis-a": "Panel follows logical Y: screen up-right/down-left at view 0; negative slope",
+    "axis-b": "Panel follows logical X: screen up-left/down-right at view 0; positive slope"
+  },
+  "materials": {
+    "door-wood-iron-banded": {
+      "sourceWallAxis": "y",
+      "basis": "Preserves previously user-approved orientation and historical registration phase.",
+      "canonicalSource": "sources/terrain/door__door-wood-iron-banded__axis-a.png",
+      "registrationMirror": false
+    },
+    "door-stone-slab": {
+      "sourceWallAxis": "y",
+      "basis": "Preserves previously user-approved orientation and historical registration phase.",
+      "canonicalSource": "sources/terrain/door__door-stone-slab__axis-a.png",
+      "registrationMirror": false
+    },
+    "door-wood-plain": {
+      "sourceWallAxis": "y",
+      "basis": "Preserves previously user-approved orientation and historical registration phase.",
+      "canonicalSource": "sources/terrain/door__door-wood-plain__axis-a.png",
+      "registrationMirror": false
+    },
+    "door-gate-timber": {
+      "sourceWallAxis": "y",
+      "basis": "Preserves previously user-approved orientation and historical registration phase.",
+      "canonicalSource": "sources/terrain/door__door-gate-timber__axis-a.png",
+      "registrationMirror": false
+    },
+    "door-rotted-broken": {
+      "sourceWallAxis": "y",
+      "basis": "Preserves previously user-approved orientation and historical registration phase.",
+      "canonicalSource": "sources/terrain/door__door-rotted-broken__axis-a.png",
+      "registrationMirror": false
+    },
+    "door-double-ornate": {
+      "sourceWallAxis": "x",
+      "basis": "Preserves previously user-approved orientation and historical registration phase.",
+      "canonicalSource": "sources/terrain/door__door-double-ornate__axis-a.png",
+      "registrationMirror": true
+    },
+    "door-cell-bars": {
+      "sourceWallAxis": "x",
+      "basis": "Preserves previously user-approved orientation and historical registration phase.",
+      "canonicalSource": "sources/terrain/door__door-cell-bars__axis-a.png",
+      "registrationMirror": true
+    },
+    "door-curtain-beaded": {
+      "sourceWallAxis": "x",
+      "basis": "Inspected panel beam/ground contacts, not ornamental post silhouette",
+      "canonicalSource": "sources/terrain/door__door-curtain-beaded__axis-a.png",
+      "registrationMirror": false
+    },
+    "door-iron-reinforced": {
+      "sourceWallAxis": "x",
+      "basis": "Inspected panel beam/ground contacts, not ornamental post silhouette",
+      "canonicalSource": "sources/terrain/door__door-iron-reinforced__axis-a.png",
+      "registrationMirror": false
+    },
+    "cp-door-cage": {
+      "sourceWallAxis": "x",
+      "basis": "Inspected panel beam/ground contacts, not ornamental post silhouette",
+      "canonicalSource": "sources/terrain/door__cp-door-cage__axis-a.png",
+      "registrationMirror": false
+    },
+    "cp-door-sliding-glass": {
+      "sourceWallAxis": "y",
+      "basis": "Registered canonical axis-a panel already follows logical Y; retained exact approved/candidate pixels.",
+      "canonicalSource": "sources/recovery-v3/cp-door-sliding-glass__packed-axis-a.png",
+      "registrationMirror": false,
+      "historicalSource": "sources/terrain/door__cp-door-sliding-glass__axis-a.png",
+      "packing": "registered-axes"
+    },
+    "sp-door-brass": {
+      "sourceWallAxis": "y",
+      "basis": "Preserves previously user-approved orientation and historical registration phase.",
+      "canonicalSource": "sources/terrain/door__sp-door-brass__axis-a.png",
+      "registrationMirror": false
+    },
+    "sp-door-cage-lift": {
+      "sourceWallAxis": "y",
+      "basis": "Registered canonical axis-a panel already follows logical Y; retained exact approved/candidate pixels.",
+      "canonicalSource": "sources/recovery-v3/sp-door-cage-lift__packed-axis-a.png",
+      "registrationMirror": false,
+      "historicalSource": "sources/terrain/door__sp-door-cage-lift__axis-a.png",
+      "packing": "registered-axes"
+    },
+    "pa-door-chain-gate": {
+      "sourceWallAxis": "y",
+      "basis": "Registered canonical axis-a panel already follows logical Y; retained exact approved/candidate pixels.",
+      "canonicalSource": "sources/recovery-v3/pa-door-chain-gate__packed-axis-a.png",
+      "registrationMirror": false,
+      "historicalSource": "sources/terrain/door__pa-door-chain-gate__axis-a.png",
+      "packing": "registered-axes"
+    },
+    "pa-door-welded": {
+      "sourceWallAxis": "y",
+      "basis": "Registered canonical axis-a panel already follows logical Y; retained exact approved/candidate pixels.",
+      "canonicalSource": "sources/final-three/pa-door-welded__packed-axis-a.png",
+      "registrationMirror": false,
+      "historicalSource": "sources/terrain/door__pa-door-welded__axis-a.png",
+      "packing": "registered-axes"
+    },
+    "hr-door-nailed": {
+      "sourceWallAxis": "y",
+      "basis": "Registered canonical axis-a panel already follows logical Y; retained exact approved/candidate pixels.",
+      "canonicalSource": "sources/final-corrections/hr-door-nailed__packed-axis-a.png",
+      "registrationMirror": false,
+      "historicalSource": "sources/terrain/door__hr-door-nailed__axis-a.png",
+      "packing": "registered-axes"
+    },
+    "hr-door-flesh": {
+      "sourceWallAxis": "y",
+      "basis": "Registered canonical axis-a panel already follows logical Y; retained exact approved/candidate pixels.",
+      "canonicalSource": "sources/recovery-v3/hr-door-flesh__packed-axis-a.png",
+      "registrationMirror": false,
+      "historicalSource": "sources/terrain/door__hr-door-flesh__axis-a.png",
+      "packing": "registered-axes"
+    },
+    "my-door-panelled": {
+      "sourceWallAxis": "y",
+      "basis": "Preserves previously user-approved orientation and historical registration phase.",
+      "canonicalSource": "sources/terrain/door__my-door-panelled__axis-a.png",
+      "registrationMirror": false
+    },
+    "my-door-shop": {
+      "sourceWallAxis": "x",
+      "basis": "Preserves previously user-approved orientation and historical registration phase.",
+      "canonicalSource": "sources/terrain/door__my-door-shop__axis-a.png",
+      "registrationMirror": true
+    }
+  },
+  "registrationNote": "registrationMirror preserves the historical pre-resize pixel phase for three already-approved sprites; semantic plane normalization happens after registration. No runtime skin exceptions."
+}

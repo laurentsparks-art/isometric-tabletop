@@ -1,0 +1,109 @@
+{
+  "version": 1,
+  "date": "2026-10-13",
+  "generator": "Codex built-in image_gen",
+  "style": "Original chunky 2:1 isometric pixel art, low noise, fixed camera",
+  "images": [
+    {
+      "file": "terrain-a.png",
+      "kind": "terrain",
+      "skins": [
+        "stone-dungeon",
+        "cavern",
+        "forest-floor",
+        "mire"
+      ],
+      "prompt": "Use case: stylized-concept. Create ONE original production sprite atlas for a fixed 2:1 isometric fantasy tactical game. Chunky crisp PIXEL ART, low noise, limited earthy palette, clean block silhouettes, no existing game/style copying. Transparent RGBA background. Exact 8 columns by 4 rows, evenly spaced equal square slots, no margins between slots, no labels, no text, no guide lines. Canvas 2048x1024. Each sprite wholly inside its 256x256 slot with transparent padding; same footprint width 200px with 2:1 diamond plane; all base diamonds at same baseline near bottom (y220 within slot). Light top-left, left face medium, right face dark. Flat floor tiles are shallow diamond slabs, walls chunky full cubes, doors freestanding panels on shallow diamond plinths, ladders on small shallow plinths. Each row is one coherent material theme. Columns in EVERY row: 1 floor slab; 2 solid full-height wall block; 3 liquid slab; 4 rough-ground slab with scattered obstacles; 5 door aligned with down-right isometric axis (wooden panel); 6 door aligned with down-left axis; 7 low wall on down-right axis; 8 short ladder/climb piece. Row1 STONE DUNGEON: granite flagstones, mossy masonry wall, teal flooded water, rubble/crates, iron-banded wood doors, stone parapet, ladder. Row2 CAVERN: smooth grey cave stone, irregular chunky rock wall, dark blue pool, scree, stone slab doors, stalagmite low wall, ladder. Row3 FOREST: dark grassy floor, blocky trunk-and-canopy obstruction, shallow clear water, brambles, plain timber gates, log barricade, ladder. Row4 MIRE: peat floor, mangrove root block, murky olive water, reeds/mud, worn timber doors, wood fence, ladder. Important no shadows outside each sprite, no painterly gradients, no glossy 3D render. These are original isolated reusable game assets, precisely arranged, not a scene."
+    },
+    {
+      "file": "terrain-b.png",
+      "kind": "terrain",
+      "skins": [
+        "open-ground",
+        "sunken-crypt",
+        "overgrown-ruin",
+        "volcanic-deep"
+      ],
+      "prompt": "Create ONE original reusable sprite atlas, 8 columns x 4 rows of equally spaced square slots, transparent RGBA, no labels or guides. Wide canvas 2048x1024. Original chunky 2:1 ISOMETRIC PIXEL ART with crisp limited palette, low-noise block shapes, light top-left. No third-party game references, no glossy render. Every sprite isolated in its slot, equal diamond footprint width 200px, shallow diamond slab base ending at y220 of each 256px slot, wall rises vertically above base. Columns every row: floor, full-height chunky wall, liquid, difficult-ground obstacle slab, door panel along down-right grid axis, door panel along down-left grid axis, low wall along down-right axis, ladder on base. Row1 OPEN GROUND: grassy meadow slab, chunky leafy hedge block, blue pond, tall grasses, timber gate doors, simple wood fence, ladder. Row2 SUNKEN CRYPT: cracked slate floor, collapsed masonry cube, muted burgundy blood pool, bone scatter, aged iron-banded wood doors, small sarcophagus low barricade, ladder. Row3 OVERGROWN RUIN: dark grass and mossy stone, ruined ivy masonry block, clear turquoise water, brambles, rotted plank doors in both orientations, broken stone low wall, ladder. Row4 VOLCANIC DEEP: basalt floor, dark basalt column block, molten orange lava slab, grey ash and obsidian rough ground, carved basalt slab doors, short basalt stalagmite barrier, ladder. Keep footprints and bases consistent across all eight columns; avoid giant decorative scenery, shadows outside sprites, painterly texture, text, symbols, watermarks."
+    },
+    {
+      "file": "terrain-c.png",
+      "kind": "terrain",
+      "skins": [
+        "temple",
+        "sewer",
+        "tavern",
+        "ship-deck"
+      ],
+      "prompt": "Original production game sprite ATLAS, transparent RGBA background, 8 columns x 4 rows evenly sized square slots. Wide 2048x1024 sheet, NO text or guides. Chunky crisp PIXEL ART, earthy limited palette, fixed 2:1 isometric view (x down-right, y down-left), light upper-left, strong readable block silhouettes, no copyrighted packs or copies. Each asset entirely in one slot, same200px wide shallow diamond footprint, base frontmost tip y220 within256px slot. EVERY row has columns floor slab; wall full-height chunky cube; water/hazard slab; difficult-ground clutter slab; door oriented along down-right; door along down-left; low wall along down-right; ladder on shallow base. Row1 TEMPLE: ivory marble floor, carved pale marble wall cube, calm deep blue pool, pottery shards, ornate golden double doors, wood pew barrier, ladder. Row2 SEWER: brown-green brick floor, slimed brick wall, dark olive sludge slab, mud/refuse rough ground, iron barred gate panels in both orientations, rubble low wall, ladder. Row3 TAVERN: warm worn plank floor, chunky log wall, teal flooded floor, overturned small crates/sacks, plain wooden doors in both orientations, wood serving counter low barrier, ladder. Row4 SHIP DECK: caulked tan deck planks, plank bulkhead cube, blue foamy sea slab, rope and crates rough ground, plain timber hatches/gates both orientations, barrels low barrier, ladder. Keep scale and sprite anchors consistent, no scenery, no outside shadow, no glossy3D, no painterly effect."
+    },
+    {
+      "file": "terrain-d.png",
+      "kind": "terrain",
+      "skins": [
+        "river-bank",
+        "frozen",
+        "desert",
+        "laboratory"
+      ],
+      "prompt": "ONE original reusable fantasy tactical sprite atlas. Transparent background. Exact8columns x4rows equal square slots, wide2048x1024, no labels/text/guides. Chunky CRISP PIXEL ART 2:1 fixed isometric view, limited palette, low-noise blocks, no glossy3D. Each isolated tile has same200px wide diamond footprint, base bottomtip y220 in256px slot. Everyrowcolumns: floor; FULL-HEIGHT WALL BLOCK; liquid; rough terrain; tall door down-right axis; SAME DOOR down-left axis; LOW WALL barrier down-right; ladder on base. Every slot must contain EXACT assigned object, BOTH door columns are doors. Row1 RIVER BANK: damp pale sand floor, cut-earth wall block, flowing aqua river, driftwood/pebbles, plainwooddoors bothdirections, stoneparapet, ladder. Row2 FROZEN: packed snowfloor, icewallblock, icy blueslush, deepsnowclumps, carved frosty stone doors bothdirections, snow-covered rubblelowbarrier, ladder. Row3 DESERT: rippled sandfloor, adobe wallcube, turquoise hotspring, cactus/dry scrubroughground, beadcurtain doorwaywithposts bothdirections, sandbaglowbarrier, ladder. Row4 LABORATORY: bluegreyslatefloor, dark ironplatewallcube, brightgreen acidpool, pottery/glassshards, reinforcedirondoor bothdirections, short bookshelfbarrier, ladder. Consistentpixel sizes, broadreadableforms, original designs, no thirdpartypacks, no backgroundscene, no casts shadows beyond each sprite."
+    },
+    {
+      "file": "tokens-classes.png",
+      "kind": "tokens",
+      "group": "class",
+      "columns": 4,
+      "rows": 3,
+      "ids": [
+        "fighter",
+        "wizard",
+        "cleric",
+        "rogue",
+        "ranger",
+        "barbarian",
+        "paladin",
+        "druid",
+        "monk",
+        "bard",
+        "warlock",
+        "sorcerer"
+      ],
+      "prompt": "ONE original game TOKEN sprite atlas, exactly 4 columns x 3 rows equal slots, transparent RGBA, landscape1200x900. Isometric standee/miniature PIXEL ART for fixed 2:1 fantasy tabletop, chunky low-noise broad silhouettes, clear contrasting colors, crisp pixels, no copyrighted characters or imitation packs. Twelve full-body archetypes, viewed from same slightly elevated three-quarter camera, grounded feet at same baseline, optional tiny plain base no scenery. Each wholly isolated inside slot with generous padding. Row1: silver armored FIGHTER with red cape/shield; blue pointed-hat WIZARD with staff; white-and-gold CLERIC with mace; charcoal hooded ROGUE with dagger. Row2: green hooded RANGER with bow; fur-clad muscular BARBARIAN with axe; gold-armored PALADIN with blue cape; moss-green DRUID with oakstaff. Row3: orange-robed MONK unarmed; purple BARD with lute; dark-plum WARLOCK with teal lantern; crimson SORCERER with small amber magical orb. Exact twelve distinct original silhouettes, body proportions consistent, useful role cue at tiny size, no fine texture or particle clouds, no text/labels/watermarks, no floating portraits, no oversized weapons crossing slot boundaries. Head and limbs anatomically sensible."
+    },
+    {
+      "file": "tokens-enemies.png",
+      "kind": "tokens",
+      "group": "enemy",
+      "columns": 5,
+      "rows": 2,
+      "ids": [
+        "goblin",
+        "skeleton",
+        "wolf",
+        "bandit",
+        "cultist",
+        "orc",
+        "slime",
+        "giant-spider",
+        "zombie",
+        "guard"
+      ],
+      "prompt": "ONE original fantasy tactical game TOKEN ATLAS, exactly5columns x2rows equal square slots, transparentRGBA. Widecanvas2000x800. Chunky crisp PIXEL ART with broad low-noise shapes, limitedpalette, fixedisometric three-quarter slightlyelevated view, consistent standing scale, feet/base atsamebaseline, eachisolatedslot withpadding. No textlabels/watermarks, no copied officialart or existingpacks. Row1: original green small GOBLIN spear/scuffedleather; SKELETON rusty shortsword clearbones; ordinary grey WOLF fourlegs bushytail; browncloak BANDIT withshortblade; plumrobe CULTIST maskedface/candle. Row2: original green muscular ORC withaxe; simpleteal SLIME blob (genericoriginal no brandedmonster); GIANT SPIDER eightlegs exactly readable silhouette; shambling ZOMBIE tatteredearthtoneclothes; genericsteelhelmet GUARD spearandshield. Tinyplain roundstandee bases optionalconsistent, no sceneryorparticles, eachsprite stayswithin itscell, no anatomy crossing boundaries, no glossy3D or painterlynoise. These are independent original generic fantasy designs, not recreations of published illustrations."
+    },
+    {
+      "file": "backgrounds.png",
+      "kind": "backgrounds",
+      "families": [
+        "cave",
+        "woodland",
+        "wetland",
+        "volcanic",
+        "warm",
+        "ice",
+        "desert",
+        "horror"
+      ],
+      "prompt": "ONE ORIGINAL background mood atlas for a fantasy isometric pixel-art tabletop, 2columns x4rows, exactly8 equal landscape panels, square1024x1024 canvas. No labels, no borders or visible gridlines, no text, no sprites. Each panel is a separate subdued stage backdrop, soft sparse broad pixel clusters and restrained atmospheric haze, low contrast, dark values, very low detail and low noise, NO busy scenicpainting, NO foregroundobjects. Empty calm center for a board, subtle shapes near edges. Readorderlefttoright: row1 left subterranean coolgrey CAVE haze distant rock silhouettes; row1 right mutedgreen WOODLAND canopy haze; row2 left murkyolive WETLAND haze faintwaterbands; row2 right charcoal VOLCANIC ash with restrainedamberglow nearbottom; row3 left warmochre WARM INTERIOR ambientlight broad indistinct beamshapes; row3 right pale mutedblue ICE atmosphere; row4 left mutedumber DESERT dust haze; row4 right restrainedplumgrey HORROR mist faintdistant arches. Deliberately abstract moodfields, original chunky pixelart atmosphere coherent across families, no glossy3D, no painterlynoise or sharp scenic landmarks, no thirdpartyart references. Opaque RGB."
+    }
+  ]
+}

@@ -1,0 +1,1429 @@
+{
+  "version": 1,
+  "authorization": "Only three authored door-axis corrections and five unique manor materials may differ. Approved timber and all other art stay exact.",
+  "materials": {
+    "flagstone-granite": {
+      "default": "3ea894a095dbc10e4cc1b87d3c9dc7a8d766bf8325ea6c247018bba9cbcaa63b"
+    },
+    "wall-dungeon-mossy": {
+      "default": "32a7e8d3854e2e8c4cb8f4c348189e2b14feba184ca9cd19a5f83605418d37cc"
+    },
+    "water-flooded-floor": {
+      "default": "632a20ba002610d02af5560e20af6ea24ec03b774853934b32eb9b984df43234"
+    },
+    "rough-debris-crates": {
+      "default": "d339c3462d4f194553195edf39b3ad27de3d0a3a109a03ebff82f7c5b0e2ded3"
+    },
+    "door-wood-iron-banded": {
+      "axis-a": "d30fa55acf2e5a93eb82123a474e262eab6dea8ac9d6e6d9683d23d57cc53699",
+      "axis-b": "aa96e23eb6dc391b4fa45b4b8cd2aaec56dc44f420276f53ebac8d085d7058a7"
+    },
+    "lowwall-stone-parapet": {
+      "axis-a": "4074afc0132a361c93da62dd17182f23aa96c9861a65a5b02eb066b3f6760d5c",
+      "axis-b": "6c1562c405d16b79d2dcbb9781a1028e4b3bfea6d9f42f7273ca9f040d4bda54"
+    },
+    "generic-ladder": {
+      "default": "a0a3e904fd274376da669cf2559a809ff99d238ac397fc67df556dac00eef431"
+    },
+    "cave-rock-smooth": {
+      "default": "099b02464aeef80d4d0c0a5e6e6d39244164e7661538063b509b627495bb2300"
+    },
+    "wall-cave-rock": {
+      "default": "ee66cc52d92e67d56ff0eeb2e673065a86693784d1c194e431d1c9c539205764"
+    },
+    "water-cave-pool": {
+      "default": "934342dcb8286b2d85e86c0c59cd6a210513606e29e4648150c72315db7f34c7"
+    },
+    "rough-rubble-scree": {
+      "default": "dd606fc21aeb77b54835b3daf1d394d6d5bfd97d2bd29df54d2eb3ce9a5c6a78"
+    },
+    "door-stone-slab": {
+      "axis-a": "4e42c036fc9760dea9f86a4ba6728926d5adab45c08b572a3da292da057dfc83",
+      "axis-b": "271852255d8dab677b346c33e4cd27a460446403ef8de1c805ed9004f581224f"
+    },
+    "lowwall-stalagmite-row": {
+      "axis-a": "88290e30a9d5eebeee5fbeea4e1171e86d1ddf73433beca5d5166c7a334defb8",
+      "axis-b": "7cc2e148f8be31da54c5e2ba853fe750dac66692506d832a043619bfb1381ad6"
+    },
+    "grass-dark": {
+      "default": "217eb3f89fa90c62d060d0239137fdede2893b87aa57aff4edb834d433fe9ae0"
+    },
+    "wall-tree-canopy": {
+      "default": "350b591561853ed5ef5ecec53f4b36997fe72453cd2d61167e7e6f8fdc85bc97"
+    },
+    "water-shallow-clear": {
+      "default": "5e6924292f43fd3fce574e9434422319527f4a68262dfd76e1197d8073dd97f7"
+    },
+    "rough-bramble": {
+      "default": "9a3c570339e15d3a1b4554fbef108d108ba5c36cab45dac315bf83709c0b49ac"
+    },
+    "door-wood-plain": {
+      "axis-a": "a2880e4a84d7f369a5f58e091a010a4b441f2b94740fe91cf1e65726170b4c21",
+      "axis-b": "99f90a13fa2c9a74eaa828b0ccc28a9ce0978ac60f616a244d752ded4e4a9e31"
+    },
+    "lowwall-log-barricade": {
+      "axis-a": "6d3191df6981e98f3c8ecf99651eed51ccee9ef9eb0683a1c4c5775e721d452a",
+      "axis-b": "cc12e46b1935f8c4149b42f04a6085970711400565d630cc8eae4c056653f065"
+    },
+    "peat-swamp": {
+      "default": "b5153140dfe22fc60f39a0ad8ba86924894d13669f1c809db908ac2726c2c789"
+    },
+    "wall-mangrove": {
+      "default": "654f9dcc8d67507a09af576c4de04bead6fce4884e52b6cbcd3228d81eabb1d0"
+    },
+    "water-swamp-murky": {
+      "default": "af8ba6a49e9154348e94b59cb25b88e39800e2ab62ad79c918d8d4eac4eddc51"
+    },
+    "rough-reed-bed": {
+      "default": "4f920a635d0cc27fbcc3044334c1733dbab88aac4d25ffc35aaa364cdf994be2"
+    },
+    "lowwall-wood-fence": {
+      "axis-a": "3d83511bfab6028f46222841a026123b3906b2f57f74a3295dd185f99cd5223d",
+      "axis-b": "d46de645ac8a1c97088ca855194eb723a45ebff8145f04ac40f81bfdcb7d3bce"
+    },
+    "grass-meadow": {
+      "default": "9d0c1ca588a23fdad942779524af2ee56bdb7e682877e7900d336c33ce06a506"
+    },
+    "wall-hedge-dense": {
+      "default": "4f66859d2c3da3fc3ffa2a74a0cb815027a42cedc216b1c6f7bb92a8daf6a4fa"
+    },
+    "water-deep-blue": {
+      "default": "6f7d1a1ee6bcd696ab5ad04906ec03725aac8e430857caee3fec4a7fa9008a4f"
+    },
+    "rough-tall-grass": {
+      "default": "a873f9028606249fef977d4409ce0efe574aeb0a88a8b9097f321629726f54cd"
+    },
+    "door-gate-timber": {
+      "axis-a": "c8e185b9795f60bbdc353aca14d70ece1788cbfa1b2cf14a70a6ab3bd645059d",
+      "axis-b": "f56b7cfaa781d10272200aa93a5962f7b3405c9465064003f4a74dc08943e50f"
+    },
+    "flagstone-cracked": {
+      "default": "37780c86be3bd3b6e430d644fdf4de1a3a202e52dd02362712377b9af9de2b26"
+    },
+    "wall-rubble-collapsed": {
+      "default": "494d2a3e0aa9850b8ed5ef1f1d52417d9c32c126bc14390e28674a7df824931f"
+    },
+    "water-blood-pool": {
+      "default": "6d22c2eff14941a7f4a6fc70692b9196ac6aeaa9c0190fd911ab0b8abb0f64b6"
+    },
+    "rough-bone-scatter": {
+      "default": "ebf6ba4d207fd8fde6919238fcbbc42573311a246661d8b4009dfddf3f2ecc77"
+    },
+    "lowwall-sarcophagus": {
+      "axis-a": "25a3ea83b0b13835fea55b8c0e5081565efc9f06ba710f0a91a636378482c915",
+      "axis-b": "7f66865628bb5f6ff83995cd84afedb10f017e96d3a30d55b6c45f01d461f89a"
+    },
+    "wall-ruined-overgrown": {
+      "default": "34c333faa4846830d38446182e98afacf3b437326b3cf98d047a042275e3c215"
+    },
+    "door-rotted-broken": {
+      "axis-a": "bd780d10695f441235215d346abce3995de8d9b8c8354f353092a20d572cb546",
+      "axis-b": "c13c5ba8fe6efd0d30e8430463f0120acdb5d71b575d0076cd74d2fdfece1dc1"
+    },
+    "lowwall-broken-stub": {
+      "axis-a": "c1e709d0d5a13b492a4729653d68f204419363c1166b2a3653fc45afd229fff5",
+      "axis-b": "890430d996ef68871c5857b0622acf089476c32dc504629dbfab14e8cfd512ac"
+    },
+    "basalt-columns": {
+      "default": "50d4471c345415e53b51744eaa307a6ef7eeca086588d9a317da239c130787de"
+    },
+    "wall-volcanic": {
+      "default": "f9d4c7bd6d1f2f99eb6df30b05d5ac6dd249675dfdcacdb39a0ff73799660769"
+    },
+    "hazard-lava-molten": {
+      "default": "0f889ef2608fc075f7051eb9a03ef179b0d646acd87d3149023fee084f2ba7f4"
+    },
+    "rough-ash-drifts": {
+      "default": "067f8b4bc8b9e7e5e6900ecdc21ac18272173ed05ca48b1fa62526d51df4533c"
+    },
+    "marble-polished": {
+      "default": "413d26bd3928d14ced2b8e5089d4eed0a0c66c2236e9410e04d291f67bd1a666"
+    },
+    "wall-marble-panel": {
+      "default": "8f92bf4ad7f35f2ad41b43b3c8fb25a8a8658e4b86d2f7a85697150353b0086a"
+    },
+    "rough-pottery-shards": {
+      "default": "9572de2808c608536e769947752109d94db4d593d56b7cd51d7a6375633bef06"
+    },
+    "door-double-ornate": {
+      "axis-a": "97f14ec4a7bd4b4cf41f0ff4a214cecf1d6c470a68a12b3436dd07daa40702a1",
+      "axis-b": "16ddf13257e1b4000511b0d16a69579ef541072b52213436e32693900b9edd3d"
+    },
+    "lowwall-pew-bench": {
+      "axis-a": "22ad27e528ae5de851129c42d2d6070e7c278cd073cc35d7642f04d72b967687",
+      "axis-b": "334cb7c3b38f44a0862fce11ff3e58da4edf64fdf824c93b2c5732450085b8fa"
+    },
+    "sewer-brick": {
+      "default": "3773b14977d646f31a8cae8ee600c8b5f7067a2406a29b1e42388bdd4961cd62"
+    },
+    "wall-sewer-stone": {
+      "default": "380be7639386e9fe16e6102f1ecdc989a539b9d1000d0cabbe34c25a5a78e042"
+    },
+    "water-sewer-sludge": {
+      "default": "a37265987614259f9654ab744614d7398deda4678f2024fd3849ab86c8879264"
+    },
+    "rough-mud-churned": {
+      "default": "b93c1c4689989e1a2c332c6e5f3c64e91e5083b2379e8b9894aa5296a3a23137"
+    },
+    "door-cell-bars": {
+      "axis-a": "adb54636c609d09b1a1bc3426bc626509a0dea220a66555a9da24fa147d08d3f",
+      "axis-b": "ca866e960ab639b7645995b1dee574cc35bf3b540d1474542c83cfd2e3f1ff1f"
+    },
+    "lowwall-rubble-heap": {
+      "axis-a": "eaa2d3a939b1a5f431d6e06b1fa235044b3257e4c1a39d28b0b76fd0565d94e3",
+      "axis-b": "d7956cb3215d28a447e9611dffeb3f10599729d23dd54e3034ac0118a105865c"
+    },
+    "wood-plank-worn": {
+      "default": "9f491c27524b37cb5801e49b4bd3191444599ab00598d51f32970da02d563a26"
+    },
+    "wall-wood-log": {
+      "default": "7d1653b85b8edac261f756eba03e23778444f51698a4f532d56404c3a5bfeb67"
+    },
+    "lowwall-market-counter": {
+      "axis-a": "09be9ee65a2a10929a81475aa18e5e5a82cee1e73e0241589f85a20d4fe895ea",
+      "axis-b": "d54d4e56a0a42bd92cc4f3d0281439ee9a86a1032b1111010d2c0bc2ccfc8fad"
+    },
+    "ship-deck": {
+      "default": "e9f0880d68bb13d32e25662e5c2cf9c6e7bff0b499feb8b359183789d52e7fe7"
+    },
+    "wall-wood-plank": {
+      "default": "41f78b8c4d26bbe97e355502995c20aef649fbb56bc0b3c394683e38328124c8"
+    },
+    "water-sea-waves": {
+      "default": "bfde0d0deb1bd95a5fe91288df1f69e2a51d0fab8d45cb8ff90d5cc95eaf12b1"
+    },
+    "lowwall-barrel-row": {
+      "axis-a": "79f60c3565d6c557a4f93c56096b4a37e33433f3daa1896f5b81b8e0f957f979",
+      "axis-b": "48096f29482a64900a78621ae9463a29edd68085340d7d2b07da846882de3aa9"
+    },
+    "sand-beach": {
+      "default": "0d3051dfd142a3b9829efa7a77d0f3c296e4326fef9eb75c7ab5a18d819ecc57"
+    },
+    "wall-earth-cut": {
+      "default": "98b0260064b2f05dededc947053c40ea9aac6d9863c9ab80637790afb56cb040"
+    },
+    "water-river-flowing": {
+      "default": "b015c763de526fb569d676ef97095ad89066ccf9047fa9baf91f436eeb572837"
+    },
+    "rough-driftwood": {
+      "default": "971791d9754e87f17adaad6357c0a91913b867cb74c76b3edf2fec1dcee6850b"
+    },
+    "snow-packed": {
+      "default": "82bc57fbb3143ef78efd65773ac73e13a178b5871c15495d16ba2d4c5ab3ec1d"
+    },
+    "wall-ice": {
+      "default": "703a4f78d4d913c822949529473ee0d19cde623cb121adebf7cc9a0a4a890492"
+    },
+    "water-icy-slush": {
+      "default": "7da07a189deac96ba084371920b602ce52633784c3f068480b091b42f459c974"
+    },
+    "rough-snow-deep": {
+      "default": "63fa86fe95dfe4677178be547d2e97f4cde2b394aa006ddd15ef6c1744ac1b32"
+    },
+    "sand-desert": {
+      "default": "cb65ffdb3d23df8edf5c3fa1c3262f48712d0984ad090593b9a5dc5c97ac1185"
+    },
+    "wall-adobe": {
+      "default": "28022a64c3479b2bbadffa752f494b69168bd1b0de49912b7ebbaa291a5a32df"
+    },
+    "water-hot-spring": {
+      "default": "7410071e41d14e9709296736ceaf7e22330772d22c9d15d8c9232fe8dfe07c2a"
+    },
+    "rough-cactus-scrub": {
+      "default": "be11a8a5a8fe75e681fcb876c810c49e70beace4f321d43b6e5cd08a3924eaf3"
+    },
+    "door-curtain-beaded": {
+      "axis-a": "ca83416c7a81db59f42fc6e9d8640dd799ac4680b580e248830a6556d7ce5f4f",
+      "axis-b": "f248a286249ba3bacc6a72d27c88bb1f237e85a374ab7f85a05509c94fc385c4"
+    },
+    "lowwall-sandbag": {
+      "axis-a": "72f01dc7b9590684084200284cc3868ed7cb584412ebc9ece8c4e31958c8bfdd",
+      "axis-b": "4b979c61d0751d4653d01a0895de3aa7b1ebb2967fed93de20ca5d7f63b64773"
+    },
+    "slate-tile": {
+      "default": "e20b0435c43cf1412e45a2bfc6fb2fd89c1f8ea52d58213caf7985203da27fd3"
+    },
+    "wall-iron-plate": {
+      "default": "30f57efb4cc7e91c397231a036a20aa37601e335819ab192e14509c3d7499f3e"
+    },
+    "hazard-acid-pool": {
+      "default": "f206384717b8579ea352c9438d56828d6e6bd7b74b38f7a86f366a7d4b13be8d"
+    },
+    "door-iron-reinforced": {
+      "axis-a": "d11fbc09cf2514b3d77c174dbccd371588469932f71060b235235b3487c827af",
+      "axis-b": "3c8d031ece70ace2f1163624425cf0145f37d2f09aad40bce0902efaa9a08a14"
+    },
+    "lowwall-bookshelf": {
+      "axis-a": "425387ac11d393ccde428904141db2e9ffbc9eaa368df1d43ef4b872b21141d2",
+      "axis-b": "343ef89901eec6e0c9869db4d44c7266cd09ce59e059fb853aaacdf3140eb8d1"
+    },
+    "cp-asphalt-wet": {
+      "default": "afcd98d42093dbd2963188bdf376d16380b980fc39de8410a48beab243f7a08a"
+    },
+    "cp-wall-neon": {
+      "default": "077ca8bf9054faff267c8f9f21878070660d1f3cf43b7ff6a426f5a79cd1d110"
+    },
+    "cp-oil-slick": {
+      "default": "06a8e020eb8801162c24b39197e9759facc3043201788f1ada9c286710426a00"
+    },
+    "cp-cable-tangle": {
+      "default": "2768e2a5cd1c512461aa3447043724fb0b640d92d2583dffb357173d3f1cf2c6"
+    },
+    "cp-door-cage": {
+      "axis-a": "bc9680fa509b7bed60967faa9c53ca1ca95c5800f3e03e3335d0e2419a0f4040",
+      "axis-b": "eee31f6f75e75d92d104916a1ca836e8339b301a6c4d6cdcdf539b2ce354ecf1"
+    },
+    "cp-lowwall-crash-barrier": {
+      "axis-a": "5b4b0c24a041e71fe81b282c97ca9afaf74d6456580c2e561df610e6666fe990",
+      "axis-b": "0c9a2332ab8b0237ff85d537eb5c1664fbcbb3645ccc664124db40096dcd227a"
+    },
+    "cp-holo-tile": {
+      "default": "eef369aec4c1a5070c4dc4b5908233e2fec344a2e2e2e061b555601f34eca59d"
+    },
+    "cp-wall-chrome": {
+      "default": "d0073ac2fc5a058931ca2e6a8b118bbaa2c1d7a43b9235d626f976b792cad9bd"
+    },
+    "cp-coolant": {
+      "default": "be7c9bce353a22584b3f1bf57107d362ec52e8d2f0776a66bfe62cfd114caeca"
+    },
+    "cp-scrap-electronics": {
+      "default": "3d27474e05d492c26ad01f7f46647114d4d12cde35763d0aacc1d6d085672bef"
+    },
+    "cp-door-sliding-glass": {
+      "axis-a": "7df2a23a0d0a80899e6e2e856a493826c5a6374c9a12e2176b44d01ac6d0567d",
+      "axis-b": "2451f84921ea88e0bab13a8f7680114d7615345c7422c6377d8e3c901ac60be6"
+    },
+    "cp-lowwall-console": {
+      "axis-a": "48a71496d5ef3bcc91f35e23dcd87d501681f8cc72c74dfc5267b9d9b7f1b7e2",
+      "axis-b": "f973b6771f5ac082d6a92267dea4cb0ad4c199bb0bf3688a7f2ea17e6a916cfe"
+    },
+    "cp-concrete-plaza": {
+      "default": "b01295c557ec362ecf75f6aa31b9045abb13480a8b99ac20c430bf08dc9d36bb"
+    },
+    "cp-wall-container": {
+      "default": "e421cdc8640d2e8a2be2e5da1a88a440672876258433047e19cb72ac796f84f6"
+    },
+    "cp-toxic-runoff": {
+      "default": "29eaf617d686c465759543c41099c880fd91eaec07abd34c783bc78136289b7f"
+    },
+    "cp-rubble-concrete": {
+      "default": "6ae0ee8fe7ec9c049ee23e59d2c24638f8d449c6b7463d5e2620d2a016c92eca"
+    },
+    "cp-lowwall-crates": {
+      "axis-a": "0b2bc4e0c37b44a44311de61aed48c1143adc2e40100fae5630d6647a3f3c1ff",
+      "axis-b": "a2fe97130252830114ba8593134fc9b183eaec820d041ebc866c080ef88053de"
+    },
+    "sp-iron-plate": {
+      "default": "26554f67f6a77a4c82d604e387cc2db2779d3c6b33684f3ebcb901bb4b21d6e1"
+    },
+    "sp-wall-boiler": {
+      "default": "d60b08bcab3bbd2c76e55999df4bae431589e350432759b31c74c5235b7a8aae"
+    },
+    "sp-steam-pool": {
+      "default": "6647993c051ee0ab976a00999851a8b154204c0b503a2a897247b27c09d56327"
+    },
+    "sp-gear-scrap": {
+      "default": "bd8ea700b80ce2ce9fea6f12f22a08995d938735f5a6c67591da905c7b150902"
+    },
+    "sp-door-brass": {
+      "axis-a": "fdc03bc974324315ff39d8afd8aa602340fca2cdaf91c893714e994f4d786579",
+      "axis-b": "cc1cb1cd827b8f96c4cdc923100923da9bed3fdc6b5484bbdf358d9d66860238"
+    },
+    "sp-lowwall-pipe-rail": {
+      "axis-a": "b2e9dd5962c0d537f5ebdb43d044cc08127d6abb6154dc1428bbf82ece02511d",
+      "axis-b": "a88f92b199f4d8fe29252d83ad400f3bc7354314edc930bef8cce7909b8cd55a"
+    },
+    "sp-cobbles-gaslit": {
+      "default": "36cd2446cd395c8ff33bb35c9b47c54f7582bb09dcb63b9466dfea6662390041"
+    },
+    "sp-wall-brick-soot": {
+      "default": "666b7a0b5a30f975a3851fe93e15f6cfbb5bb174d6f8b0b82fb65cee2c5e61c6"
+    },
+    "sp-water-canal": {
+      "default": "34f6739979a03a921bcca9b9b938ccca5e7063b23fa122da26a3d574fa7926ef"
+    },
+    "sp-coal-heap": {
+      "default": "a3721381050cc3d004f46b4680059dc67effb716f111a68252c02d20e78e089d"
+    },
+    "sp-door-cage-lift": {
+      "axis-a": "0bef92fa8c357af14dde4fcae25f9c086cb5f859a2969f891efe41173dae02dc",
+      "axis-b": "eb62529bb773eea25e7f027bb4a74fefffb8978d1ce8543edb61db9575e7b66d"
+    },
+    "sp-lowwall-crate-row": {
+      "axis-a": "55487742f302a88f75daf41cbaca7470e504e394d9c4c41c41e5ff02469191ca",
+      "axis-b": "6d0b6b7596f74d7f2b2da1a29eab535023b9f6591f74205a61911027222cfdc0"
+    },
+    "pa-asphalt-cracked": {
+      "default": "f1c2815702baa243cf84fc0b87fbef5c86b7fd82f1ce0dfcb5f7aa4d7dd1a3e7"
+    },
+    "pa-wall-car-wrecks": {
+      "default": "a3acb43312088239f29932713491d371638ca259bf3c26a8a67c33f3aef13ceb"
+    },
+    "pa-toxic-sludge": {
+      "default": "d9ff33ae062c30cc233cc188c369935b25bb284e2e2845f9dc3d624655bda7ee"
+    },
+    "pa-scrap-field": {
+      "default": "3b9749c038bd79146c6ab2b6ac108247fdcce87ea229b4477c07f3626d99ace0"
+    },
+    "pa-door-chain-gate": {
+      "axis-a": "c4a3d5fad66c8f7328a118fbb6774215f78295697f3eb4c5d007f698d2b50d9f",
+      "axis-b": "4de5af5aa1f305639e415b96f3568a4cf75c69cf83dfd8539c3b303fc6e8f27b"
+    },
+    "pa-lowwall-tyre-row": {
+      "axis-a": "925919223f77cfc9e27869de1ff38d308eb2cf07b4a8486b06caa513d25e327e",
+      "axis-b": "69824eaf9ce740471b5483950ba2989511d871562208de64b2c5fb735b8ded1e"
+    },
+    "pa-bunker-concrete": {
+      "default": "bc6acc9d87ee3d42da32e8ae27406a86ea1369176c09f237096961f9ca37a2cb"
+    },
+    "pa-wall-rubble-barricade": {
+      "default": "72d09115bdf29a5f80d91d8f25309c3de50e36dfb49f3347ed81cfe116f3090e"
+    },
+    "pa-rust-water": {
+      "default": "97ff69ea1c5d2bc580cbabb35b4b833f48f39f44f56affb6437869714c510003"
+    },
+    "pa-debris-plaster": {
+      "default": "3b7de30a9072d50e63569908eb73214756d7ed48da5dfc9b2c65a78fefc9e851"
+    },
+    "pa-door-welded": {
+      "axis-a": "76b43e766de81b2f4f8f69da72804b561c59a8351f59f7610ea9095b5685e136",
+      "axis-b": "b0eeeb1008badf81d8d6daed2d63821cc6d683e6315485b96d125609d2b89bff"
+    },
+    "pa-lowwall-sandbags": {
+      "axis-a": "9aa5389c5d15d263f66337880bf80bec8105a648353a02d426e5f7b77a49d394",
+      "axis-b": "304fb34c544cba338b060a60f4fbe12d278a7a1bfff64f98a6a5db34a2ee1186"
+    },
+    "hr-boards-rotten": {
+      "default": "d9e547547f636d2bc0fcbb0be7a7592038653dd5661c0ba6077a2f9062cab574"
+    },
+    "hr-wall-mould-brick": {
+      "default": "e5e08f704b3dc0676d8952d72ed6ef5617782d3c5aa8803458feddcdbade1390"
+    },
+    "hr-black-water": {
+      "default": "893fa1531de1b0cc6055e72eb5b6b0afedf2d3a89fd9775d6591512f44894d90"
+    },
+    "hr-rot-debris": {
+      "default": "4f5d78465da865a031f827e02dcc8d52909228ab632a804980fb8c0e82cce878"
+    },
+    "hr-door-nailed": {
+      "axis-a": "93fc06f91224d0f46d95d573b2a93ca34f385cbd241d398af78f3d4a88c59e99",
+      "axis-b": "418a46159abc277fc7e87bf422dd9a71af9e1c58a63dacbc70c4d0e8a036405c"
+    },
+    "hr-lowwall-pews": {
+      "axis-a": "ec203746b39fbbdff687e8e010da295d7b45ded211dceed11a5678e80eadef7b",
+      "axis-b": "8b24f25420aed057be7204b6e2bd656f4c38f6aa33689269702bb1bcd792e92d"
+    },
+    "hr-flesh-floor": {
+      "default": "715030cfa37b243f48136e2ac8e641874b21b73229ac1f8a09fec362dad5137f"
+    },
+    "hr-wall-flesh": {
+      "default": "0049ce4529fb73bedb3064a96d5819e4f20076f9e78f1dcaa7ca76c0f34006f8"
+    },
+    "hr-bile-pool": {
+      "default": "d22346dd553bad0ad070fb1a2480032e2cd1bf13a358f4f238c9dde084ddc7ac"
+    },
+    "hr-viscera": {
+      "default": "14ecd74c2d61a61a602f3171b1a25dda4537f6eb1a3b61dc514198174e800bb4"
+    },
+    "hr-door-flesh": {
+      "axis-a": "de0f62d1d86ad10aa45370386513ac52a0576f17b185fa7537e64a65c93fb9bf",
+      "axis-b": "ce97255b1cf0205f51041f789b672980496ae962f2aa29ae90c4c000717743b4"
+    },
+    "hr-lowwall-cages": {
+      "axis-a": "1bed09dbcfda49e8d63087bfceee9c0743cf87b52f14ea64b1e181b6064fdbf0",
+      "axis-b": "c198b2e789643bd83a67061a697209aa4696487a60831d62abd42075b77bdd25"
+    },
+    "my-parquet-victorian": {
+      "default": "a05404c53f505e79f8b85de192f6c3edb6e332cb7fa644862c9e39710ab017cc"
+    },
+    "my-wall-wallpaper": {
+      "default": "01cd3489d369eeef7d10c1e85729cab246b99c6d36cd6dd83bd852dcec0232fd"
+    },
+    "my-puddle-rain": {
+      "default": "5f56b089b0ba01c130b1bfcf672c513080925ec66f966a127b7b85db454e7f8b"
+    },
+    "my-papers-scattered": {
+      "default": "ddbd2466519409e2438930832e1c36ff06863166fa7e2c355870ace6a0a87d3a"
+    },
+    "my-door-panelled": {
+      "axis-a": "fcf0d23e149643a47e99222d98eccdd156215c60f150b861b9440b4d0277cc51",
+      "axis-b": "438d0ea0d0215713313b941df72c01804b7cc07ef5258fcc69109d3400ff246a"
+    },
+    "my-lowwall-sofa": {
+      "axis-a": "7ae1aa34a9d275f03ebe8e1ae001bdc0e8162864ae3e4e9e1a59f8851c2ffa69",
+      "axis-b": "7f526932d5b3a7e736da84f22d04f3a2eeb810f9cdcf7304fde16eebfdcb7529"
+    },
+    "my-cobbles-wet": {
+      "default": "3a523e0b57739e2dd808b4b9ef537ba28c8bf5266c07601548d066a3c6a6fa15"
+    },
+    "my-wall-brick-alley": {
+      "default": "64fc8cf12b5d2f1916333ff847dc2eee34df31ba59b2aec86feda7f234dbe68d"
+    },
+    "my-canal": {
+      "default": "9b792e4640c84dc93c32c99011966d38e4f3ae03acc47ad58bb8abce62b585b0"
+    },
+    "my-rubbish-alley": {
+      "default": "7d2509bf369ff16f3b19557c98fe2b969bec377d19248f2ed82d240a4495b2f9"
+    },
+    "my-door-shop": {
+      "axis-a": "5c8bab57df5c2a3855b603fbb95e657132062d6d2c8195915fb72777ba712626",
+      "axis-b": "1322fa6da9a40b446f8d9bae9ecd004432dc23581aa75d90b1bf37017c6ac644"
+    },
+    "my-lowwall-railing": {
+      "axis-a": "ad775fe4daf0f3b43c89f13f31f7df5ddbe7ee0b38394436acf0c6631345b2af",
+      "axis-b": "a6c43cdc5c8965b64f709a7f9481db4233e26c9a0d68c213925fe6cd83ddb935"
+    },
+    "hr-wall-rotten-timber": {
+      "default": "1563f80c6701e8aa77b02377ca6196b3f8b220a47dc9665aa64710e2523d6d74"
+    }
+  },
+  "renderHashes": {
+    "stone-dungeon": {
+      ".:default": "6f117e9b22b4ae13391db4106de735a9d9d27480e308b926e1e3496badd70008",
+      "#:default": "a57e86c30caeacc8240765dcd8db5094ccef1846f388077e26c0218f5dafc47b",
+      "~:default": "d758768eb3c201c248ac283f9a6fc6642ee79be6f24796c843a401ee07511ada",
+      ",:default": "fd0593e402f2291ac5ade4f212bce6e82e9f9d89332717def103319f4abcabac",
+      "+:axis-a": "30c6511e9686345dff8372140761297aefd2ec941e1f18a309ab43cf87f90c4a",
+      "+:axis-b": "2262d268e22cebbd9c0017e056b70c723f6b593e9ebcd362308ccfa80d3340d8",
+      "|:axis-a": "1fd7d3d38f69a9fc2e231dd696398e0a87f21a7322a4a318f860993bb829a955",
+      "|:axis-b": "f5a2e002cf012e5fe556bf97dfb4ba8d06435d16384f00425fe69ca90d8c376f",
+      "^:default": "623638853e7a009d0cabbdfd22d7054e203f09b1a0e2916092f67e0a2041e43b"
+    },
+    "cavern": {
+      ".:default": "ae435cc78f6eecb47146775608ac8dcc4447baed2dbfb3e41f802a058583f8fa",
+      "#:default": "9f071c846b58eb09b1e3e96647681725bb56ab3406627b9ee9cf455234f91fac",
+      "~:default": "4c30ab5a07fcb96437cd16f5de7c19acc272c96db8ce3e78fbaa06bb0ffc08db",
+      ",:default": "99dfb0a27744b0dce02641a4dec5c81a542dac3eaa99a10df4cdd11a8581df2e",
+      "+:axis-a": "019b5d53ec354f9628ae7c1c898b316415f1abdc2fec51f839587c57e0ac8cdd",
+      "+:axis-b": "b77bfa2ff43b826c76fb9e2ba013e6db8b638ab700efee162dfe2a1ab68d4d03",
+      "|:axis-a": "fd63fbe46b93aad64e95715e098c20f5b522c4f330437b0e793aa928e592afac",
+      "|:axis-b": "433d5f0007e5e57addc969d6b92f3d7d1149339c7328d541def06040661719af",
+      "^:default": "623638853e7a009d0cabbdfd22d7054e203f09b1a0e2916092f67e0a2041e43b"
+    },
+    "forest-floor": {
+      ".:default": "de3eb5896d90ed3cc18408d1d845aab256232e7f74b1585675c236d5b709056e",
+      "#:default": "89af8801d8a000cd275b871af50346eee7db7dfbb3674a5473b4124417d9b69e",
+      "~:default": "5b6b35e5e248c0e01992bb80289a31c10ef1af96219343f403d0cd245a999e1b",
+      ",:default": "854438a8ae8b7ca3ca1758699c5ca8f48815c821a8e9a1e6f6088e5e581c1e3e",
+      "+:axis-a": "4643430ac2ac2f840528e2cfaa92b5453919b53fad5dbeb1daaebc52e972dfd3",
+      "+:axis-b": "f72724d901dcc56026b894417524853ce3f54312102228a992ec04bf73b69c96",
+      "|:axis-a": "75bff5f89cffce17a83b09f8b1b49ad2ae112d1c0b897b8a48d678a31aa86b1a",
+      "|:axis-b": "8a86b8626e1b1d291d523d23eb2dd8a667ffdabf6257fb094c2a982b7dad0787",
+      "^:default": "623638853e7a009d0cabbdfd22d7054e203f09b1a0e2916092f67e0a2041e43b"
+    },
+    "mire": {
+      ".:default": "dd1c13e9969a784a4fbf464402b0824e94867e96cc5d1bdcb5b7f2b82ace69e2",
+      "#:default": "6240901e19a4e7110d23aae240b74857d010ff65112c86fae9f0d0418d2f774f",
+      "~:default": "40197e7f2f47fc90a9d011b1abdd779f8c28217b57be8281cf7b2f9c15c07135",
+      ",:default": "12fb9f665de483ded5de680e35d3cdb84d34b540863119e81b95481213c796c1",
+      "+:axis-a": "4643430ac2ac2f840528e2cfaa92b5453919b53fad5dbeb1daaebc52e972dfd3",
+      "+:axis-b": "f72724d901dcc56026b894417524853ce3f54312102228a992ec04bf73b69c96",
+      "|:axis-a": "d7cd69b2e41e75df99139d85c23fd163544b7c3e29dcbf112d1bed48f855878d",
+      "|:axis-b": "810a833ab8faeababbe690c8ace4794a1d7c4140f9ef22016bed78aee3f614b8",
+      "^:default": "623638853e7a009d0cabbdfd22d7054e203f09b1a0e2916092f67e0a2041e43b"
+    },
+    "river-bank": {
+      ".:default": "24af25966210ef9d4267f74999a3820c57c2396c2c51e3502aacd88ce630b755",
+      "#:default": "0b022d42c3eced25462717624a0447d612dfb495e308dfbbc59c26815f8259ca",
+      "~:default": "43762589be49c9775684e63bebeabf6410a2f91fc502f0f843b265b5c1fd3e2e",
+      ",:default": "0f44e4767a413b7b885258af9371b38b142d6c6430bea4d5e97d68138b4a03a4",
+      "+:axis-a": "4643430ac2ac2f840528e2cfaa92b5453919b53fad5dbeb1daaebc52e972dfd3",
+      "+:axis-b": "f72724d901dcc56026b894417524853ce3f54312102228a992ec04bf73b69c96",
+      "|:axis-a": "1fd7d3d38f69a9fc2e231dd696398e0a87f21a7322a4a318f860993bb829a955",
+      "|:axis-b": "f5a2e002cf012e5fe556bf97dfb4ba8d06435d16384f00425fe69ca90d8c376f",
+      "^:default": "623638853e7a009d0cabbdfd22d7054e203f09b1a0e2916092f67e0a2041e43b"
+    },
+    "open-ground": {
+      ".:default": "a7d8fb34d03bc4a1542222a60eab676cc9e8c3756e5de3f3784dfbe0375a0171",
+      "#:default": "71da905f4588793f950b477ea97ca43f4e29c3d4255b6522ecca6552a04f49ee",
+      "~:default": "f12e77055ff1631a63afa1bc17a68f7c57b205b53e35b5cb9375b32433d66d83",
+      ",:default": "986f10af64c35b5de3354586638181b298f3230cd33699455361b987d247154b",
+      "+:axis-a": "9a63f3dcf6f861b2a0c96c325dfbd0456df7102aae5dfac20d74fc65bef32fe2",
+      "+:axis-b": "12184bd14a0b46593598ddec917eebb4e30fba132598368d09d362db3b00bcb3",
+      "|:axis-a": "d7cd69b2e41e75df99139d85c23fd163544b7c3e29dcbf112d1bed48f855878d",
+      "|:axis-b": "810a833ab8faeababbe690c8ace4794a1d7c4140f9ef22016bed78aee3f614b8",
+      "^:default": "623638853e7a009d0cabbdfd22d7054e203f09b1a0e2916092f67e0a2041e43b"
+    },
+    "sunken-crypt": {
+      ".:default": "0da5f1cde616609886aac2ec4d94285b6d3c0e04d470bfa26fbebc3695cb829e",
+      "#:default": "5f9ce81fc62575b4a686e8b350e30157fe9f9831594f2cea58d9a19a160c1b9e",
+      "~:default": "0af7c5dbc7a4615cbd267c65d57f2db1f571bb9f9f5972c11f3f6b36d2528676",
+      ",:default": "eb9b1a70025aa2f705a0f5ce6bf9515d7cb996cec1cc6e80c8436e7e157b350a",
+      "+:axis-a": "30c6511e9686345dff8372140761297aefd2ec941e1f18a309ab43cf87f90c4a",
+      "+:axis-b": "2262d268e22cebbd9c0017e056b70c723f6b593e9ebcd362308ccfa80d3340d8",
+      "|:axis-a": "e307aca51976027d052ca7c67d1a7e70f068b8a1fa2191f46e3eb84579d7f2c3",
+      "|:axis-b": "ed32b4780f74344cbc1ceccacf5e1ad9736473da8fa7d2ed6b2952b153b10540",
+      "^:default": "623638853e7a009d0cabbdfd22d7054e203f09b1a0e2916092f67e0a2041e43b"
+    },
+    "overgrown-ruin": {
+      ".:default": "de3eb5896d90ed3cc18408d1d845aab256232e7f74b1585675c236d5b709056e",
+      "#:default": "3139ec0ddf81c9bdcd90af2baab45f5ed05faa2ebcb481cdbb8891e310998e87",
+      "~:default": "5b6b35e5e248c0e01992bb80289a31c10ef1af96219343f403d0cd245a999e1b",
+      ",:default": "854438a8ae8b7ca3ca1758699c5ca8f48815c821a8e9a1e6f6088e5e581c1e3e",
+      "+:axis-a": "518a3d58899cd5fc6ba7768342dd9213996ffcda88e29474444b0ecbfc60a505",
+      "+:axis-b": "4edca6cf0e8f8438628a4a585decf75fa64f78da93af0f66b1646431effdefec",
+      "|:axis-a": "8b60a8230fd22e7ab9ac484a1fd8aaf2d29db69a49899224879b3789eeedb895",
+      "|:axis-b": "e75eb62ca92f16a080df4b901d5a35ee89d8b3b43bb03cb9f66ecc12063325a8",
+      "^:default": "623638853e7a009d0cabbdfd22d7054e203f09b1a0e2916092f67e0a2041e43b"
+    },
+    "volcanic-deep": {
+      ".:default": "bc66246f279f06a0ff4ab94e26e217137218e5591d540d4828800341b18d16ee",
+      "#:default": "2ebc7b88091fe7752e0aa1107a848530f787d1641937c6f95ad4058448394770",
+      "~:default": "b25832062839820e2e16e0553e77192b6a2117cc1feebbcabf406b3aa57b189b",
+      ",:default": "b530360f9be64147c696cea3ffd3c10b2a7045316d57caf9bd0461b7c06ea7c0",
+      "+:axis-a": "019b5d53ec354f9628ae7c1c898b316415f1abdc2fec51f839587c57e0ac8cdd",
+      "+:axis-b": "b77bfa2ff43b826c76fb9e2ba013e6db8b638ab700efee162dfe2a1ab68d4d03",
+      "|:axis-a": "fd63fbe46b93aad64e95715e098c20f5b522c4f330437b0e793aa928e592afac",
+      "|:axis-b": "433d5f0007e5e57addc969d6b92f3d7d1149339c7328d541def06040661719af",
+      "^:default": "623638853e7a009d0cabbdfd22d7054e203f09b1a0e2916092f67e0a2041e43b"
+    },
+    "ship-deck": {
+      ".:default": "e45d41f8d6982755a92c3525c1381ed49d7a545b3739f46bc318af1a867600ca",
+      "#:default": "0456147bd1176cd5737f115d84039a45c45ecf0aa8b6164f47abba0ddf637220",
+      "~:default": "ff2dd38b647ed1fb86e4c3489f187692023e32ae2c128b009060b27a51105909",
+      ",:default": "fd0593e402f2291ac5ade4f212bce6e82e9f9d89332717def103319f4abcabac",
+      "+:axis-a": "4643430ac2ac2f840528e2cfaa92b5453919b53fad5dbeb1daaebc52e972dfd3",
+      "+:axis-b": "f72724d901dcc56026b894417524853ce3f54312102228a992ec04bf73b69c96",
+      "|:axis-a": "0843c3adf0b9d02220fb77fedc6b1633b849aee4ce90c78539c3491f0e6dac20",
+      "|:axis-b": "663c550333289bea940babe2c538fe4c364256faecd010f9f557dedebd9fd6f8",
+      "^:default": "623638853e7a009d0cabbdfd22d7054e203f09b1a0e2916092f67e0a2041e43b"
+    },
+    "temple": {
+      ".:default": "d28c6b25ed2c63320c30de5edeec0b33606310e24e14dc7efe1827f6d63a2207",
+      "#:default": "105bb2101cd7109099192b27a3c21638283bb8b2f7105b2644bb0d9b458f5886",
+      "~:default": "697b77d2b523b17dbd6e71f218ac149386f96df5e693404a8bcaf52cafff64a2",
+      ",:default": "bd23d74baaab4ad316d7358a7bd5d071a926757a61be5f237788604c7759633b",
+      "+:axis-a": "d58b20168f9a736a5b8fba1b1aa6305cabc9ac28bb5432b0d596393631fc85e7",
+      "+:axis-b": "ee52787f96de512fda27805ceb74eb1e8f5dc526b90365d4ddd8a9bac145b8f7",
+      "|:axis-a": "a6fb83189190b63c2aa4f84772bffbbb0757d436c61f09f38d99ce94f1058af8",
+      "|:axis-b": "fb25fa9662f51139ae64b10caa58c36e0a1b93f2e69cdd8c2335e6876affbb6c",
+      "^:default": "623638853e7a009d0cabbdfd22d7054e203f09b1a0e2916092f67e0a2041e43b"
+    },
+    "sewer": {
+      ".:default": "0d9fdea66dc8e326523b82d981237277180495f8806052d75db79b4eee368190",
+      "#:default": "47c5a063dc15c877af845618deaef6524ccd1c211bbb8de21247d0920d6f0024",
+      "~:default": "c80ac7a1de85e401baf07df7dfc03ba6a62b03de8a22c2acb61ed49ed360887d",
+      ",:default": "9ba9e85bcf22bbd4b5361ad86c71cf063fcc3ebc1b63c488d6bb500fccd833eb",
+      "+:axis-a": "6cd4fc7558146d58e7858e63e77775ca62cb19278ee53302be20d195cbfd62de",
+      "+:axis-b": "7478e81db24acf943298c481d17abcc08d05761c4a26878486e7c9d9b6daf868",
+      "|:axis-a": "610169fcf11cd970a597852051b6b2d2cbc994095bff338eb7a5390d3b475301",
+      "|:axis-b": "708d623e6a5877da51dbd44f3f134bb2b4805d55f71fbfd4e0191a9891f10d5e",
+      "^:default": "623638853e7a009d0cabbdfd22d7054e203f09b1a0e2916092f67e0a2041e43b"
+    },
+    "frozen": {
+      ".:default": "4bf45f1a1848de3498e166045931f69e60d35436036a2d6ba56f6a1dfdf18f73",
+      "#:default": "050e3c29a6d6c21bc94439f68638737f0dd16128c117e5ad727e3bff5aa88571",
+      "~:default": "4b066a363e6c0b1f2bf379d15ab92c86eeab31b06e8d5466bc3d39f7da74fb12",
+      ",:default": "b8ddf86a17752c2336d4f36fbd0f701647ebaacfdfcab8332173236e5ef51e90",
+      "+:axis-a": "019b5d53ec354f9628ae7c1c898b316415f1abdc2fec51f839587c57e0ac8cdd",
+      "+:axis-b": "b77bfa2ff43b826c76fb9e2ba013e6db8b638ab700efee162dfe2a1ab68d4d03",
+      "|:axis-a": "fc0dc39d27fae91a2eb431968a1cdb9051142bf1dc42bb4aac1740871e5e88c4",
+      "|:axis-b": "451fec6081650209791531ba72b3db675bbb815c542dd673d80deac5a5e41c84",
+      "^:default": "4de46ef2d94a926ade934f82270f34e6132e94736d9f1096becad45b3ea8f74e"
+    },
+    "desert": {
+      ".:default": "1e78927ccd087852001ddde763a4a642dccd0b93cb549bb23fe67e0ecb0256ef",
+      "#:default": "22f8661d64061394354c80f61da97b1fb4464ba6f47f38fdd3441326065a9b24",
+      "~:default": "7958eaeee064a9231b18f097e5a228468941a040e9d06b232c84bcdc059ba55a",
+      ",:default": "faf09b3e01690f944eb51b9f1c85cc7d4bef8afca9172118e5fef85450638520",
+      "+:axis-a": "196cbbdb3d0ff659ab36b7db13958b28987531d08b20fda3742c3188fbed467a",
+      "+:axis-b": "26089eb22ea631eba56b112c8ec93b0dc581f28473973331cba5296a13a1483f",
+      "|:axis-a": "d86a6b39cde3ec65b8ec90a025bc320a93a2727ee12861ad4e4fba1f3d0b8698",
+      "|:axis-b": "064dd1db610c312a70b313b8019897f3589019a8fdc6161ee3605fcba263443b",
+      "^:default": "623638853e7a009d0cabbdfd22d7054e203f09b1a0e2916092f67e0a2041e43b"
+    },
+    "laboratory": {
+      ".:default": "af64c5866548babb83595b3daab7fbad43c00fb539be8d10896d79c5e9988236",
+      "#:default": "842d1403310210e3ade4cee68e8d701823203bdbf9adf9bd49db04c7c18e4935",
+      "~:default": "fbdc1d9b6cfe8918444b0a762cdf2ca9a041942ec96922b5837dfcdd5319e28b",
+      ",:default": "bd23d74baaab4ad316d7358a7bd5d071a926757a61be5f237788604c7759633b",
+      "+:axis-a": "9ca054164005a01d36cc4492047a6f01a709585b0a81de9199d43176c4e546c8",
+      "+:axis-b": "4f708afd0a7e176193431ef97442af5418c42ce94a2412c50503d84f20563379",
+      "|:axis-a": "9c7fe59a419a782157d379745234437a3f849d762669908f04b9171bebc4a508",
+      "|:axis-b": "7a2d9a0f3f640075d22e7f5040563122594cca50b767188a7ea38328bb5df139",
+      "^:default": "623638853e7a009d0cabbdfd22d7054e203f09b1a0e2916092f67e0a2041e43b"
+    },
+    "tavern": {
+      ".:default": "1ffe5bc6fdd7838fbe1215baf4117f3cb06cc7bfe7563a211eea29e813764111",
+      "#:default": "c794e9e134070b269410cd0bbca5fda5d0fc4ec252c4ce03d63e50cec5bf0e16",
+      "~:default": "d758768eb3c201c248ac283f9a6fc6642ee79be6f24796c843a401ee07511ada",
+      ",:default": "fd0593e402f2291ac5ade4f212bce6e82e9f9d89332717def103319f4abcabac",
+      "+:axis-a": "4643430ac2ac2f840528e2cfaa92b5453919b53fad5dbeb1daaebc52e972dfd3",
+      "+:axis-b": "f72724d901dcc56026b894417524853ce3f54312102228a992ec04bf73b69c96",
+      "|:axis-a": "f6a34659a77ac28c42bb743e50ceba86206d474d3a2704f229bfbceca3a4f419",
+      "|:axis-b": "c59c4f11c64549a4e5022af2202aee5aa924cd9c21f6b9bc9033a11b8bf4faf4",
+      "^:default": "623638853e7a009d0cabbdfd22d7054e203f09b1a0e2916092f67e0a2041e43b"
+    },
+    "cp-street": {
+      ".:default": "db411c464c632b89f5272988bb2c5f9c9292736cc21b19f4585e813c30821838",
+      "#:default": "7eeb70a25b6b69895b41db4e80c38b3c8430acd2a9416fb2f0961e31cdd65630",
+      "~:default": "359299a4dd5ebd52a9c38350ccb1bf475eff32ddd0fa5882b610068458f986c8",
+      ",:default": "aa487c2b32568b24bb74d47c6bd7e7e7c9ab52fe9ffc698995ea35cfd47bdc53",
+      "+:axis-a": "5c258cbe6af01aaae575ad5ba1a8081ba642a401225ff11d714343e2b145c94e",
+      "+:axis-b": "6308b7fbe87a41059265c6152bd6133d37324e620f934cf042e9a659d5541f87",
+      "|:axis-a": "401327c963773919d39a725cfe9b87c99e109dde125e4372188f129a69a7822a",
+      "|:axis-b": "98f8f6bf110a9c1977667833ff457f0f6c582aeda89e5c24628646e2f437343c",
+      "^:default": "623638853e7a009d0cabbdfd22d7054e203f09b1a0e2916092f67e0a2041e43b"
+    },
+    "cp-corp": {
+      ".:default": "4ea3815e1d22ce4f18d8aa173654694267c7e3f5786618c928cc23aae5f98c9f",
+      "#:default": "60d2db4d94d6cb665b366b756e086ddd5c3c2170b79513d151a42d412b1f7929",
+      "~:default": "40220e5bd952c7d0c256df152faa26bb5d67199e586dab0bafcd3f65d7de10c8",
+      ",:default": "23a0b02cd4702a99ff38085552de6cd9452e3514bfe6cc90d5e03c3f6eaa53bf",
+      "+:axis-a": "c7181ea46480131b76be706cfc41f15210fedc9bc89341909de6f05be6a8311b",
+      "+:axis-b": "31d4b98cdfcf9aa149f299d3f2b0950fa013e282942627cb7af79e7f05ec7e02",
+      "|:axis-a": "2302506f789f251eda573e66afcd84bf0d56dec74695f10f832a53a8c085dc61",
+      "|:axis-b": "ff312dcbfa89c79726ac99772518feacad2303da1c7268b5281691e19d55c508",
+      "^:default": "623638853e7a009d0cabbdfd22d7054e203f09b1a0e2916092f67e0a2041e43b"
+    },
+    "cp-yard": {
+      ".:default": "34abe9a7f5d0f1a35b3327f4e8a87a66dfcf6ee7fb0f795efde8fc27e4f0bfd7",
+      "#:default": "11f15488143934a8dc263b28d00b4bf186ea151b8f5d9d086fe3734f61bd44ff",
+      "~:default": "b16dcd8e85c0272d9c3ab93bffe09c1e2d80e6316e890c24dd1ef5c7d9e338ca",
+      ",:default": "8753b065922683ac8b2084b9f0899b06666daf73e3c747684f9ba35495d047c5",
+      "+:axis-a": "6308b7fbe87a41059265c6152bd6133d37324e620f934cf042e9a659d5541f87",
+      "+:axis-b": "5c258cbe6af01aaae575ad5ba1a8081ba642a401225ff11d714343e2b145c94e",
+      "|:axis-a": "4cb9f6d673f8204d97be9e5389e9e4a80638908faa1bf7190e4ff810aba88c33",
+      "|:axis-b": "eb99ba80063481a807c028f59b58ac036274f1dfed2117c5868233f402a3d794",
+      "^:default": "623638853e7a009d0cabbdfd22d7054e203f09b1a0e2916092f67e0a2041e43b"
+    },
+    "sp-foundry": {
+      ".:default": "db2172c02388273cdeb244d514d3471ac06181fe5063669c83f22036b8366edf",
+      "#:default": "8efce9322724255a924ce5b4af9e86f9495b297955698f058104683f2765f6cf",
+      "~:default": "79618968263e7605ea7093dd2d3c88841601de1ea8e18c3cdf4478bae72bc008",
+      ",:default": "e8e4865ca70f7f34a302bf9b0579853e2dc582ce013b0e0f95b74c057bcb3113",
+      "+:axis-a": "5929d325b2de98d2642191a66b6a6ba9f162b7d97aac86c06584e72ac0a899ad",
+      "+:axis-b": "9ac275b97914ca08be62d74ee45b93903f5ac15528ba28925f5ac8f5e2f5f535",
+      "|:axis-a": "0e3455ae20034325808f96159e337aacef570999f9225fddc8beb70457aff3dc",
+      "|:axis-b": "3d4862fd2f54efd58fda42deab21563622af1c969cb67b52334bfbac4582058d",
+      "^:default": "623638853e7a009d0cabbdfd22d7054e203f09b1a0e2916092f67e0a2041e43b"
+    },
+    "sp-street": {
+      ".:default": "6a16bd41053582488fe321e3bd6172b3daab966b172e55f4775059f2b0f2ee2e",
+      "#:default": "d11a1d6edcea4e6337ca5878b77d11bb0c1a44c390e9ae78530e6efe1ee56dcd",
+      "~:default": "928e5b11568f354eb8a4539298ba9a54ac72427be503004f54ce9253e680ffba",
+      ",:default": "90bc97b7b464585ede71c107f8ac6f024430c9cf09c732ea083440ff04f290b3",
+      "+:axis-a": "65515e44ad1efccf5f6083b3e0de0aa21aa8206082339516b40971b6426a696b",
+      "+:axis-b": "76d48b3463f42134c099e3f7b6cab37c2ed8d4d6eac3728f606787af3733ef39",
+      "|:axis-a": "92d46b9627d66be4d46d72995e7ad90b6e94bbd163db3731f89e848b7448274d",
+      "|:axis-b": "433737c1eca0ae5f836f88f643b812ef28d53e904c73eeb9e29d1104ca0fc54c",
+      "^:default": "623638853e7a009d0cabbdfd22d7054e203f09b1a0e2916092f67e0a2041e43b"
+    },
+    "pa-highway": {
+      ".:default": "aab3aa03c89d9a73dae2d2139cde657f604c3c3d209916ebb593a94e96bf7d2b",
+      "#:default": "8bf81270e12674e7fd30a00e988862665225a7a29c96fd916530727abaf8508a",
+      "~:default": "ae1a85effa0255bcff1c463ce38f615dded57fa632f47f0b14b2d4e05003af62",
+      ",:default": "a1b472d4e747169a26b7ab106e20ed553f3bc1e087dea8aeb79e12bded5fb5f5",
+      "+:axis-a": "489f345cf33274ce2adcc7f8e0ce9925b840c6044e9fbc64a68075e4ef4b2ed9",
+      "+:axis-b": "ae106ff9eefd11706dc5acc10a96a0b122704ccce29832b90c9a5de89a490bee",
+      "|:axis-a": "6e5babb61697b660893e27f3b3fd27625603f0327e164b66da07091b830731c1",
+      "|:axis-b": "f4a3eff38e0747dedcc11495963bf9a255730fc90d76152b0965c770559313e1",
+      "^:default": "623638853e7a009d0cabbdfd22d7054e203f09b1a0e2916092f67e0a2041e43b"
+    },
+    "pa-bunker": {
+      ".:default": "d70a4861fe697bae7e5e9c3019d89656304bfac65adf5d08705fbe6be79547c7",
+      "#:default": "ebaa9117e041ea5b8c1ab76a7d3b31068a8fdd355e0a890ce59652d841f940d2",
+      "~:default": "b4e7b4473756f4fcc669615fc8abdab9c4276ddc8b9998464dca84f553f5c528",
+      ",:default": "8226354fbd22a3b3720b17fc2ba46923577800883d6378fe09ecda45e1c6b3c5",
+      "+:axis-a": "e4b2a8e9032b165a66af6c1c29e06b0d76d42266a0dde46037fcbbf2330f3261",
+      "+:axis-b": "e3080a5666d769987f41bf84ebeb19e115f807995cc2360e3c8c0c12df328d99",
+      "|:axis-a": "f22a8c0b20b297a669cd44e7c7d42c1e9e30b6fd388267cf1dbf19eb94c54cff",
+      "|:axis-b": "f3d817d0eabd7b7f1c7e2fda276b0d5daba37d908ba3eaceed39cc012b128751",
+      "^:default": "623638853e7a009d0cabbdfd22d7054e203f09b1a0e2916092f67e0a2041e43b"
+    },
+    "hr-manor": {
+      ".:default": "0247e1882b323d78fb3579950bfe18accadd835f153dd2f792722230c30e465d",
+      "#:default": "b3350920bc5e634c54b12a83c430bad1db74c67ab0dbc5dfc8ac24e54941505a",
+      "~:default": "21c3ba7f41b88e4d01aa7a04a33223eaa77c799b74440251b92e035a9b512826",
+      ",:default": "ce87f5418f928e9fca2e0951c692cf03e9744adcc8d2444d3db5f385b6e89c76",
+      "+:axis-a": "87887e3978650904374f1b099a8ccf768d77903e9714481754f95a39531b5651",
+      "+:axis-b": "cfbc0e46c14144ee1db8b23b0536520957a20fe899c32119dd645f1e4bb46b6d",
+      "|:axis-a": "6eaaabfb4994f89d4ae5a4001703be6b8afcfb02bfd0f0e5a6a12c94f39c8a2c",
+      "|:axis-b": "9e6fae2d7f252340235db561118999440f372c01064ce30779a590a4225d7cad",
+      "^:default": "623638853e7a009d0cabbdfd22d7054e203f09b1a0e2916092f67e0a2041e43b"
+    },
+    "hr-flesh": {
+      ".:default": "09304052f0ec2948e06e6b9a17fd93bc6e758aa636e3894da01faea225090b29",
+      "#:default": "94693c46054e79b6a428debb8bf3c329f7ba2a929105cd84f4530aaf2091c911",
+      "~:default": "77157c6cee9fd8d952b55c4f810d6ee66acedfd05dc2a80cc817e3116d1c767f",
+      ",:default": "c520a4e302853c66193dd5d922a8f8944fdca7f8c8d6ee5ee41bbf7a2b0dfb0d",
+      "+:axis-a": "244d1ff4baf1ae566bd8f25d6768110daa88850eabb6da7228a30ffc65619c3b",
+      "+:axis-b": "4fb3c4d0b8e7de07e0c1d7df64c085bcd748b7d23896fa9c7f8a43e445383681",
+      "|:axis-a": "a6721a226f93e90d97674b4b97d7906dee31784dd22660801ca1dae0a1f50c4c",
+      "|:axis-b": "fc957193ee89e3af8885fd29cece19796624b34c6afc51c53c741a526848dc6a",
+      "^:default": "623638853e7a009d0cabbdfd22d7054e203f09b1a0e2916092f67e0a2041e43b"
+    },
+    "my-townhouse": {
+      ".:default": "82214721c96837fc6fd736f2c5090e0a8329c64827ee31c63004461827f85b59",
+      "#:default": "0893436b9dbb5e15a8bed6a5acae53ce1d1dac2f78b734e6a40998df42119c86",
+      "~:default": "873970c035585bc8194919ace65cb666770c48339c5d556740922c6d2b346a86",
+      ",:default": "09aec552bdf00c5827e17bb375a56f0c2683e826dcf301f92f8ec163b5fdb5ee",
+      "+:axis-a": "d898850181fa68b5fde0a87b513617919a36311c703ca9ad194d0384dd340f56",
+      "+:axis-b": "b121b4d47701f5ded66378b5adb49ced8a121c4dee6aafb014336906a896e142",
+      "|:axis-a": "367fcac19bda0b50f7040bd30c325ae5233080b7f493865aadb9d39351638ad1",
+      "|:axis-b": "3332a562aaee435c8b39d6119669081d8f1b8793060ec676af874df6629ac49c",
+      "^:default": "623638853e7a009d0cabbdfd22d7054e203f09b1a0e2916092f67e0a2041e43b"
+    },
+    "my-alley": {
+      ".:default": "3a415d284303b9597ed281bad704b1c469fbb52155568f139a826a06a3d668fd",
+      "#:default": "08b626420dcb62a89ad9f62df62bd8094078edbc83aa639c2c4657c67ff798ac",
+      "~:default": "5240fc2d7f5835c1ef386346a862b386d49cac5128a68dde49edae343b86d3e0",
+      ",:default": "a22085efab05f29dbcecba57c33e93127508239adbea7fab51bda9f587673687",
+      "+:axis-a": "1d1729d71faaf33c26afc7a438ca6991481750fcea8a32cf3d04d710097845c6",
+      "+:axis-b": "f3e4a10a2b4b3b4a9b55ff07d41c7a93ee76821206859aee83d866779b7071bf",
+      "|:axis-a": "e2d778d4d0d6be3606eb98986a6cff72d1dddad632d33c61dd81be510e356c87",
+      "|:axis-b": "e019b3ac1b7fe7d5cb53631fb81613aff9f58478c4057043468009345c9a19e4",
+      "^:default": "623638853e7a009d0cabbdfd22d7054e203f09b1a0e2916092f67e0a2041e43b"
+    }
+  },
+  "backgrounds": {
+    "stone-dungeon": "c021647898a57de22629a3ca43de232232d62ad0ac0cbbf515ef9ff2d009ca25",
+    "cavern": "c021647898a57de22629a3ca43de232232d62ad0ac0cbbf515ef9ff2d009ca25",
+    "forest-floor": "941dbdef4db493d1d042a942f560738b27cd068745744b8c262f0b61e11499ba",
+    "mire": "1b6ffe601515982b7fa1aa96a1d1926218a640a7dad785d2cb342e34dc744dcd",
+    "river-bank": "1b6ffe601515982b7fa1aa96a1d1926218a640a7dad785d2cb342e34dc744dcd",
+    "open-ground": "941dbdef4db493d1d042a942f560738b27cd068745744b8c262f0b61e11499ba",
+    "sunken-crypt": "8ef9e090752081b6f6b2ad7bd9e253183b1ec14181cc7bb3992fb5e88168361a",
+    "overgrown-ruin": "941dbdef4db493d1d042a942f560738b27cd068745744b8c262f0b61e11499ba",
+    "volcanic-deep": "b1c85a0d1775660fefe5c72b17c471191f7473e3c8560c2c3ae9e21afbac7823",
+    "ship-deck": "1b6ffe601515982b7fa1aa96a1d1926218a640a7dad785d2cb342e34dc744dcd",
+    "temple": "72e5333e5739d40c5ceb8398b16bb37c3b1316db4775c9db3f23ebd80d813532",
+    "sewer": "1b6ffe601515982b7fa1aa96a1d1926218a640a7dad785d2cb342e34dc744dcd",
+    "frozen": "feb47792c78202e95080047cfe649e820730553943ba409bf439842710c2f64f",
+    "desert": "54631a791f423a1be5c320a3a3cada6568f979a86dd55a53e5a4a5df8e30aa7a",
+    "laboratory": "c021647898a57de22629a3ca43de232232d62ad0ac0cbbf515ef9ff2d009ca25",
+    "tavern": "72e5333e5739d40c5ceb8398b16bb37c3b1316db4775c9db3f23ebd80d813532",
+    "cp-street": "1dcbd28fe0665ff133f294e19e0a73216fda639342e6936ed2ea5e844a1a2636",
+    "cp-corp": "d47cc9796da4b5b919a4bfb6ab1c236d1c86ed929ff278d8dbda94e00712bd38",
+    "cp-yard": "531a278e071ffd3ca977f16a57a53693e5f701226722954e353d34a7c83ec3e8",
+    "sp-foundry": "71117aec5df37a055f2301735c3b4e2cb707ffd5680b766d6562cfdbff3423a2",
+    "sp-street": "84bba59a4102c220aed1b0b0e8076cec3c08f58ed9b39420aca1f498e36c13ee",
+    "pa-highway": "1d75938a140221dfcbe6a69731d00cd07e81154241b4034bb5cc62a8d49165dc",
+    "pa-bunker": "fe9f06e9a9238471d0c076942dc645d3d7bcf29da4c23238a07ac489b80d2413",
+    "hr-manor": "cb0dc7cb1ad02f076074da5e0a2b17c14bdc58e24e717ef3d5346cfcf84435dd",
+    "hr-flesh": "68e3a2da96a1ba1dd8a9131bca4a4650b6e2ae1c3c1be2176cdc65d6a6834631",
+    "my-townhouse": "e81013f07f5a362831f4a1eb27a9fe07915206ecb39ce781c1905de10f5fe0f3",
+    "my-alley": "5050979e02ef5521cb0f6b17d6e2ee6dfa71056e2237f6e43e56d2b119b69e43"
+  },
+  "tokens": {
+    "class/fighter": {
+      "file": "tokens/classes/token__class__fighter.png",
+      "sha256": "95a26ed28a7116f8dec3c82385d4fb5458a33a13bcadf988e0ec07cf2a6d6ead",
+      "status": "original-first-pass",
+      "basis": "Original generic fighter design",
+      "origin": {
+        "source": "tokens-classes.png",
+        "cell": [
+          0,
+          0
+        ]
+      },
+      "footpoint": [
+        40,
+        104
+      ]
+    },
+    "class/wizard": {
+      "file": "tokens/classes/token__class__wizard.png",
+      "sha256": "02120c5002585fadd5ca971b32de8d7ef0d8ba5912b2d661601d098eed039d80",
+      "status": "original-first-pass",
+      "basis": "Original generic wizard design",
+      "origin": {
+        "source": "tokens-classes.png",
+        "cell": [
+          1,
+          0
+        ]
+      },
+      "footpoint": [
+        40,
+        104
+      ]
+    },
+    "class/cleric": {
+      "file": "tokens/classes/token__class__cleric.png",
+      "sha256": "f08a7cc30e97455e3af789afd17a5f89d60f1432f6ba28d8a16aa8b47f69def8",
+      "status": "original-first-pass",
+      "basis": "Original generic cleric design",
+      "origin": {
+        "source": "tokens-classes.png",
+        "cell": [
+          2,
+          0
+        ]
+      },
+      "footpoint": [
+        40,
+        104
+      ]
+    },
+    "class/rogue": {
+      "file": "tokens/classes/token__class__rogue.png",
+      "sha256": "093ff49a0511441c9a6a63ba19945d798cedb05dfd72731b780fa101ba0d9a91",
+      "status": "original-first-pass",
+      "basis": "Original generic rogue design",
+      "origin": {
+        "source": "tokens-classes.png",
+        "cell": [
+          3,
+          0
+        ]
+      },
+      "footpoint": [
+        40,
+        104
+      ]
+    },
+    "class/ranger": {
+      "file": "tokens/classes/token__class__ranger.png",
+      "sha256": "bf3ae6bae6a975613c0426d16addbde92660f2ce14ea292c94fff0316dd12082",
+      "status": "original-first-pass",
+      "basis": "Original generic ranger design",
+      "origin": {
+        "source": "tokens-classes.png",
+        "cell": [
+          0,
+          1
+        ]
+      },
+      "footpoint": [
+        40,
+        104
+      ]
+    },
+    "class/barbarian": {
+      "file": "tokens/classes/token__class__barbarian.png",
+      "sha256": "e8ec4eb69be00e3d847f0b602f794fb7a0f11feea699d3e18014e71fdbfae136",
+      "status": "original-first-pass",
+      "basis": "Original generic barbarian design",
+      "origin": {
+        "source": "tokens-classes.png",
+        "cell": [
+          1,
+          1
+        ]
+      },
+      "footpoint": [
+        40,
+        104
+      ]
+    },
+    "class/paladin": {
+      "file": "tokens/classes/token__class__paladin.png",
+      "sha256": "ab25d4bb00df1b23b24afc725d055185a44d5cb91fad04ba06f26a887b9526a1",
+      "status": "original-first-pass",
+      "basis": "Original generic paladin design",
+      "origin": {
+        "source": "tokens-classes.png",
+        "cell": [
+          2,
+          1
+        ]
+      },
+      "footpoint": [
+        40,
+        104
+      ]
+    },
+    "class/druid": {
+      "file": "tokens/classes/token__class__druid.png",
+      "sha256": "4dc857988c16b91d8a316e33e3c0ee23be932b8b3edaaf4990dc07358558860e",
+      "status": "original-first-pass",
+      "basis": "Original generic druid design",
+      "origin": {
+        "source": "tokens-classes.png",
+        "cell": [
+          3,
+          1
+        ]
+      },
+      "footpoint": [
+        40,
+        104
+      ]
+    },
+    "class/monk": {
+      "file": "tokens/classes/token__class__monk.png",
+      "sha256": "612ce357a22ee438ba8589974a5980f6defbb3d1a20a2352ff5709db82012fe0",
+      "status": "original-first-pass",
+      "basis": "Original generic monk design",
+      "origin": {
+        "source": "tokens-classes.png",
+        "cell": [
+          0,
+          2
+        ]
+      },
+      "footpoint": [
+        40,
+        104
+      ]
+    },
+    "class/bard": {
+      "file": "tokens/classes/token__class__bard.png",
+      "sha256": "62904e5f21ada855fe8573fa02c958e0d82c0afac925fc65ee21b3fbffc9f70d",
+      "status": "original-first-pass",
+      "basis": "Original generic bard design",
+      "origin": {
+        "source": "tokens-classes.png",
+        "cell": [
+          1,
+          2
+        ]
+      },
+      "footpoint": [
+        40,
+        104
+      ]
+    },
+    "class/warlock": {
+      "file": "tokens/classes/token__class__warlock.png",
+      "sha256": "412a91782cf12554a28775351130a5212809e0da7587269cf890e6ae9afc76b4",
+      "status": "original-first-pass",
+      "basis": "Original generic warlock design",
+      "origin": {
+        "source": "tokens-classes.png",
+        "cell": [
+          2,
+          2
+        ]
+      },
+      "footpoint": [
+        40,
+        104
+      ]
+    },
+    "class/sorcerer": {
+      "file": "tokens/classes/token__class__sorcerer.png",
+      "sha256": "76371a1c5869f828e502e7c0ab5a828ee8efea8f53d2efae9b45bf46e5bc4103",
+      "status": "original-first-pass",
+      "basis": "Original generic sorcerer design",
+      "origin": {
+        "source": "tokens-classes.png",
+        "cell": [
+          3,
+          2
+        ]
+      },
+      "footpoint": [
+        40,
+        104
+      ]
+    },
+    "enemy/goblin": {
+      "file": "tokens/enemies/token__enemy__goblin.png",
+      "sha256": "81de81157170501b5910308cb96479eb624e2ac2fcac49f759ef992204082bc3",
+      "status": "original-first-pass",
+      "basis": "Original generic goblin design",
+      "origin": {
+        "source": "tokens-enemies.png",
+        "cell": [
+          0,
+          0
+        ]
+      },
+      "footpoint": [
+        40,
+        104
+      ]
+    },
+    "enemy/skeleton": {
+      "file": "tokens/enemies/token__enemy__skeleton.png",
+      "sha256": "0a5a5aeb24dd4d18f5902dcb2c16349869044a4dad8099a32a6ab3affad8a617",
+      "status": "original-first-pass",
+      "basis": "Original generic skeleton design",
+      "origin": {
+        "source": "tokens-enemies.png",
+        "cell": [
+          1,
+          0
+        ]
+      },
+      "footpoint": [
+        40,
+        104
+      ]
+    },
+    "enemy/wolf": {
+      "file": "tokens/enemies/token__enemy__wolf.png",
+      "sha256": "62935136caae954477c32fdeee02a6f7c1e28f54a4ef15c44b5617825674eaf4",
+      "status": "original-first-pass",
+      "basis": "Original generic wolf design",
+      "origin": {
+        "source": "tokens-enemies.png",
+        "cell": [
+          2,
+          0
+        ]
+      },
+      "footpoint": [
+        40,
+        104
+      ]
+    },
+    "enemy/bandit": {
+      "file": "tokens/enemies/token__enemy__bandit.png",
+      "sha256": "a403c226edf377043dca1db32503f2a60f2f02f7eca3bb620ba6848abf02a291",
+      "status": "original-first-pass",
+      "basis": "Original generic bandit design",
+      "origin": {
+        "source": "tokens-enemies.png",
+        "cell": [
+          3,
+          0
+        ]
+      },
+      "footpoint": [
+        40,
+        104
+      ]
+    },
+    "enemy/cultist": {
+      "file": "tokens/enemies/token__enemy__cultist.png",
+      "sha256": "dc97e98c4903d4c187a80cd11c1cb10255ffd331907bbe7992cc84186597f0da",
+      "status": "original-first-pass",
+      "basis": "Original generic cultist design",
+      "origin": {
+        "source": "tokens-enemies.png",
+        "cell": [
+          4,
+          0
+        ]
+      },
+      "footpoint": [
+        40,
+        104
+      ]
+    },
+    "enemy/orc": {
+      "file": "tokens/enemies/token__enemy__orc.png",
+      "sha256": "1a6579b9dd6360cad5aba038d25ee1aadc6b0c231d6bc9a2bf53fb31c6a82f57",
+      "status": "original-first-pass",
+      "basis": "Original generic orc design",
+      "origin": {
+        "source": "tokens-enemies.png",
+        "cell": [
+          0,
+          1
+        ]
+      },
+      "footpoint": [
+        40,
+        104
+      ]
+    },
+    "enemy/slime": {
+      "file": "tokens/enemies/token__enemy__slime.png",
+      "sha256": "ed83d86b56ca6fcef5b955f9e9753a6903ab41e205eccbc2bf8e0e88dd3d8906",
+      "status": "original-first-pass",
+      "basis": "Original generic slime design",
+      "origin": {
+        "source": "tokens-enemies.png",
+        "cell": [
+          1,
+          1
+        ]
+      },
+      "footpoint": [
+        40,
+        104
+      ]
+    },
+    "enemy/giant-spider": {
+      "file": "tokens/enemies/token__enemy__giant-spider.png",
+      "sha256": "2643c66896433c5797e0bfb516732cc600a3c0894120528cdee8535d5b5c9ccf",
+      "status": "original-first-pass",
+      "basis": "Original generic giant-spider design",
+      "origin": {
+        "source": "tokens-enemies.png",
+        "cell": [
+          2,
+          1
+        ]
+      },
+      "footpoint": [
+        40,
+        104
+      ]
+    },
+    "enemy/zombie": {
+      "file": "tokens/enemies/token__enemy__zombie.png",
+      "sha256": "17dec9d9e4e19c5c0e41d765e641554bd06158f8a0de161b8e4f34e140405a08",
+      "status": "original-first-pass",
+      "basis": "Original generic zombie design",
+      "origin": {
+        "source": "tokens-enemies.png",
+        "cell": [
+          3,
+          1
+        ]
+      },
+      "footpoint": [
+        40,
+        104
+      ]
+    },
+    "enemy/guard": {
+      "file": "tokens/enemies/token__enemy__guard.png",
+      "sha256": "c48f50ea51b55fcc7e8315bfa4dc65573e73815b07eb0b4c247a17eff801c437",
+      "status": "original-first-pass",
+      "basis": "Original generic guard design",
+      "origin": {
+        "source": "tokens-enemies.png",
+        "cell": [
+          4,
+          1
+        ]
+      },
+      "footpoint": [
+        40,
+        104
+      ]
+    }
+  },
+  "bindings": {
+    "stone-dungeon": {
+      ".": "flagstone-granite",
+      "#": "wall-dungeon-mossy",
+      "~": "water-flooded-floor",
+      ",": "rough-debris-crates",
+      "+": "door-wood-iron-banded",
+      "|": "lowwall-stone-parapet",
+      "^": "generic-ladder"
+    },
+    "cavern": {
+      ".": "cave-rock-smooth",
+      "#": "wall-cave-rock",
+      "~": "water-cave-pool",
+      ",": "rough-rubble-scree",
+      "+": "door-stone-slab",
+      "|": "lowwall-stalagmite-row",
+      "^": "generic-ladder"
+    },
+    "forest-floor": {
+      ".": "grass-dark",
+      "#": "wall-tree-canopy",
+      "~": "water-shallow-clear",
+      ",": "rough-bramble",
+      "+": "door-wood-plain",
+      "|": "lowwall-log-barricade",
+      "^": "generic-ladder"
+    },
+    "mire": {
+      ".": "peat-swamp",
+      "#": "wall-mangrove",
+      "~": "water-swamp-murky",
+      ",": "rough-reed-bed",
+      "+": "door-wood-plain",
+      "|": "lowwall-wood-fence",
+      "^": "generic-ladder"
+    },
+    "river-bank": {
+      ".": "sand-beach",
+      "#": "wall-earth-cut",
+      "~": "water-river-flowing",
+      ",": "rough-driftwood",
+      "+": "door-wood-plain",
+      "|": "lowwall-stone-parapet",
+      "^": "generic-ladder"
+    },
+    "open-ground": {
+      ".": "grass-meadow",
+      "#": "wall-hedge-dense",
+      "~": "water-deep-blue",
+      ",": "rough-tall-grass",
+      "+": "door-gate-timber",
+      "|": "lowwall-wood-fence",
+      "^": "generic-ladder"
+    },
+    "sunken-crypt": {
+      ".": "flagstone-cracked",
+      "#": "wall-rubble-collapsed",
+      "~": "water-blood-pool",
+      ",": "rough-bone-scatter",
+      "+": "door-wood-iron-banded",
+      "|": "lowwall-sarcophagus",
+      "^": "generic-ladder"
+    },
+    "overgrown-ruin": {
+      ".": "grass-dark",
+      "#": "wall-ruined-overgrown",
+      "~": "water-shallow-clear",
+      ",": "rough-bramble",
+      "+": "door-rotted-broken",
+      "|": "lowwall-broken-stub",
+      "^": "generic-ladder"
+    },
+    "volcanic-deep": {
+      ".": "basalt-columns",
+      "#": "wall-volcanic",
+      "~": "hazard-lava-molten",
+      ",": "rough-ash-drifts",
+      "+": "door-stone-slab",
+      "|": "lowwall-stalagmite-row",
+      "^": "generic-ladder"
+    },
+    "ship-deck": {
+      ".": "ship-deck",
+      "#": "wall-wood-plank",
+      "~": "water-sea-waves",
+      ",": "rough-debris-crates",
+      "+": "door-wood-plain",
+      "|": "lowwall-barrel-row",
+      "^": "generic-ladder"
+    },
+    "temple": {
+      ".": "marble-polished",
+      "#": "wall-marble-panel",
+      "~": "water-deep-blue",
+      ",": "rough-pottery-shards",
+      "+": "door-double-ornate",
+      "|": "lowwall-pew-bench",
+      "^": "generic-ladder"
+    },
+    "sewer": {
+      ".": "sewer-brick",
+      "#": "wall-sewer-stone",
+      "~": "water-sewer-sludge",
+      ",": "rough-mud-churned",
+      "+": "door-cell-bars",
+      "|": "lowwall-rubble-heap",
+      "^": "generic-ladder"
+    },
+    "frozen": {
+      ".": "snow-packed",
+      "#": "wall-ice",
+      "~": "water-icy-slush",
+      ",": "rough-snow-deep",
+      "+": "door-stone-slab",
+      "|": "lowwall-rubble-heap",
+      "^": "generic-ladder"
+    },
+    "desert": {
+      ".": "sand-desert",
+      "#": "wall-adobe",
+      "~": "water-hot-spring",
+      ",": "rough-cactus-scrub",
+      "+": "door-curtain-beaded",
+      "|": "lowwall-sandbag",
+      "^": "generic-ladder"
+    },
+    "laboratory": {
+      ".": "slate-tile",
+      "#": "wall-iron-plate",
+      "~": "hazard-acid-pool",
+      ",": "rough-pottery-shards",
+      "+": "door-iron-reinforced",
+      "|": "lowwall-bookshelf",
+      "^": "generic-ladder"
+    },
+    "tavern": {
+      ".": "wood-plank-worn",
+      "#": "wall-wood-log",
+      "~": "water-flooded-floor",
+      ",": "rough-debris-crates",
+      "+": "door-wood-plain",
+      "|": "lowwall-market-counter",
+      "^": "generic-ladder"
+    },
+    "cp-street": {
+      ".": "cp-asphalt-wet",
+      "#": "cp-wall-neon",
+      "~": "cp-oil-slick",
+      ",": "cp-cable-tangle",
+      "+": "cp-door-cage",
+      "|": "cp-lowwall-crash-barrier",
+      "^": "generic-ladder"
+    },
+    "cp-corp": {
+      ".": "cp-holo-tile",
+      "#": "cp-wall-chrome",
+      "~": "cp-coolant",
+      ",": "cp-scrap-electronics",
+      "+": "cp-door-sliding-glass",
+      "|": "cp-lowwall-console",
+      "^": "generic-ladder"
+    },
+    "cp-yard": {
+      ".": "cp-concrete-plaza",
+      "#": "cp-wall-container",
+      "~": "cp-toxic-runoff",
+      ",": "cp-rubble-concrete",
+      "+": "cp-door-cage",
+      "|": "cp-lowwall-crates",
+      "^": "generic-ladder"
+    },
+    "sp-foundry": {
+      ".": "sp-iron-plate",
+      "#": "sp-wall-boiler",
+      "~": "sp-steam-pool",
+      ",": "sp-gear-scrap",
+      "+": "sp-door-brass",
+      "|": "sp-lowwall-pipe-rail",
+      "^": "generic-ladder"
+    },
+    "sp-street": {
+      ".": "sp-cobbles-gaslit",
+      "#": "sp-wall-brick-soot",
+      "~": "sp-water-canal",
+      ",": "sp-coal-heap",
+      "+": "sp-door-cage-lift",
+      "|": "sp-lowwall-crate-row",
+      "^": "generic-ladder"
+    },
+    "pa-highway": {
+      ".": "pa-asphalt-cracked",
+      "#": "pa-wall-car-wrecks",
+      "~": "pa-toxic-sludge",
+      ",": "pa-scrap-field",
+      "+": "pa-door-chain-gate",
+      "|": "pa-lowwall-tyre-row",
+      "^": "generic-ladder"
+    },
+    "pa-bunker": {
+      ".": "pa-bunker-concrete",
+      "#": "pa-wall-rubble-barricade",
+      "~": "pa-rust-water",
+      ",": "pa-debris-plaster",
+      "+": "pa-door-welded",
+      "|": "pa-lowwall-sandbags",
+      "^": "generic-ladder"
+    },
+    "hr-manor": {
+      ".": "hr-boards-rotten",
+      "#": "hr-wall-rotten-timber",
+      "~": "hr-black-water",
+      ",": "hr-rot-debris",
+      "+": "hr-door-nailed",
+      "|": "hr-lowwall-pews",
+      "^": "generic-ladder"
+    },
+    "hr-flesh": {
+      ".": "hr-flesh-floor",
+      "#": "hr-wall-flesh",
+      "~": "hr-bile-pool",
+      ",": "hr-viscera",
+      "+": "hr-door-flesh",
+      "|": "hr-lowwall-cages",
+      "^": "generic-ladder"
+    },
+    "my-townhouse": {
+      ".": "my-parquet-victorian",
+      "#": "my-wall-wallpaper",
+      "~": "my-puddle-rain",
+      ",": "my-papers-scattered",
+      "+": "my-door-panelled",
+      "|": "my-lowwall-sofa",
+      "^": "generic-ladder"
+    },
+    "my-alley": {
+      ".": "my-cobbles-wet",
+      "#": "my-wall-brick-alley",
+      "~": "my-canal",
+      ",": "my-rubbish-alley",
+      "+": "my-door-shop",
+      "|": "my-lowwall-railing",
+      "^": "generic-ladder"
+    }
+  }
+}

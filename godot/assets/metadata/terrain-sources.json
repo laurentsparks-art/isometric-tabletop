@@ -1,0 +1,3873 @@
+{
+  "version": 1,
+  "notes": "Editable single-sprite sources recovered from retained original sheets. Protected references retain previous normalized pixels. No new generated art.",
+  "entries": {
+    "flagstone-granite:default": {
+      "id": "flagstone-granite",
+      "axis": "default",
+      "file": "sources/terrain/floor__flagstone-granite__default.png",
+      "protectedArt": true,
+      "origin": {
+        "source": "terrain-a.png",
+        "cell": [
+          0,
+          0
+        ],
+        "mirrored": false
+      },
+      "sha256": "81edfebff08e4e3ee494e9ccbdcc006d725e50033d9606c98999af983f27e9a0",
+      "originalOutputHash": "81edfebff08e4e3ee494e9ccbdcc006d725e50033d9606c98999af983f27e9a0",
+      "role": "floor",
+      "tag": ".",
+      "status": "original-first-pass",
+      "output": "terrain/floor/floor__flagstone-granite.png"
+    },
+    "wall-dungeon-mossy:default": {
+      "id": "wall-dungeon-mossy",
+      "axis": "default",
+      "file": "sources/terrain/wall__wall-dungeon-mossy__default.png",
+      "protectedArt": true,
+      "origin": {
+        "source": "terrain-a.png",
+        "cell": [
+          1,
+          0
+        ],
+        "mirrored": false
+      },
+      "sha256": "25c039a40998dfbb0a8715b4b1da724d9983379f82df6a88444526498e1653d8",
+      "originalOutputHash": "25c039a40998dfbb0a8715b4b1da724d9983379f82df6a88444526498e1653d8",
+      "role": "wall",
+      "tag": "#",
+      "status": "original-first-pass",
+      "output": "terrain/wall/wall__wall-dungeon-mossy.png"
+    },
+    "water-flooded-floor:default": {
+      "id": "water-flooded-floor",
+      "axis": "default",
+      "file": "sources/terrain/water__water-flooded-floor__default.png",
+      "protectedArt": true,
+      "origin": {
+        "source": "terrain-a.png",
+        "cell": [
+          2,
+          0
+        ],
+        "mirrored": false
+      },
+      "sha256": "e28cdedfc4a5709986025e83373130e3a1e9a42d46f54a2d78e242d8fdad4382",
+      "originalOutputHash": "e28cdedfc4a5709986025e83373130e3a1e9a42d46f54a2d78e242d8fdad4382",
+      "role": "water",
+      "tag": "~",
+      "status": "original-first-pass",
+      "output": "terrain/water/water__water-flooded-floor.png"
+    },
+    "rough-debris-crates:default": {
+      "id": "rough-debris-crates",
+      "axis": "default",
+      "file": "sources/terrain/rough__rough-debris-crates__default.png",
+      "protectedArt": true,
+      "origin": {
+        "source": "terrain-a.png",
+        "cell": [
+          3,
+          0
+        ],
+        "mirrored": false
+      },
+      "sha256": "c3f59c76e30d1f0985b0c518baaf15ef4a44bb2232ff26cc4d7cd7dfa5b0018b",
+      "originalOutputHash": "c3f59c76e30d1f0985b0c518baaf15ef4a44bb2232ff26cc4d7cd7dfa5b0018b",
+      "role": "rough",
+      "tag": ",",
+      "status": "original-first-pass",
+      "output": "terrain/rough/rough__rough-debris-crates.png"
+    },
+    "door-wood-iron-banded:axis-a": {
+      "id": "door-wood-iron-banded",
+      "axis": "axis-a",
+      "file": "sources/terrain/door__door-wood-iron-banded__axis-a.png",
+      "protectedArt": true,
+      "origin": {
+        "source": "terrain-a.png",
+        "cell": [
+          4,
+          0
+        ],
+        "mirrored": false
+      },
+      "sha256": "df108b7a7ecb1c634b492e5e1b64b5387e3695e96cca7c5915824295a9b840cc",
+      "originalOutputHash": "df108b7a7ecb1c634b492e5e1b64b5387e3695e96cca7c5915824295a9b840cc",
+      "role": "door",
+      "tag": "+",
+      "status": "original-first-pass",
+      "output": "terrain/door/door__door-wood-iron-banded__axis-a.png"
+    },
+    "door-wood-iron-banded:axis-b": {
+      "id": "door-wood-iron-banded",
+      "axis": "axis-b",
+      "file": "sources/terrain/door__door-wood-iron-banded__axis-b.png",
+      "protectedArt": true,
+      "origin": {
+        "source": "terrain-a.png",
+        "cell": [
+          5,
+          0
+        ],
+        "mirrored": false
+      },
+      "sha256": "c3371ceb920ce980be7f25c33c1c96a6feb1c2128abd0166cd673e5366516fb9",
+      "originalOutputHash": "c3371ceb920ce980be7f25c33c1c96a6feb1c2128abd0166cd673e5366516fb9",
+      "role": "door",
+      "tag": "+",
+      "status": "original-first-pass",
+      "output": "terrain/door/door__door-wood-iron-banded__axis-b.png"
+    },
+    "lowwall-stone-parapet:axis-a": {
+      "id": "lowwall-stone-parapet",
+      "axis": "axis-a",
+      "file": "sources/terrain/lowwall__lowwall-stone-parapet__axis-a.png",
+      "protectedArt": true,
+      "origin": {
+        "source": "terrain-a.png",
+        "cell": [
+          6,
+          0
+        ],
+        "mirrored": false
+      },
+      "sha256": "eff4c4d0469073a27190b7182448302bacf72ecca21947200a95d5b01594a8d2",
+      "originalOutputHash": "eff4c4d0469073a27190b7182448302bacf72ecca21947200a95d5b01594a8d2",
+      "role": "lowwall",
+      "tag": "|",
+      "status": "original-first-pass",
+      "output": "terrain/lowwall/lowwall__lowwall-stone-parapet__axis-a.png"
+    },
+    "lowwall-stone-parapet:axis-b": {
+      "id": "lowwall-stone-parapet",
+      "axis": "axis-b",
+      "file": "sources/terrain/lowwall__lowwall-stone-parapet__axis-b.png",
+      "protectedArt": true,
+      "origin": {
+        "source": "terrain-a.png",
+        "cell": [
+          6,
+          0
+        ],
+        "mirrored": true
+      },
+      "sha256": "a58d78221c71a276a81f4ecada8a6b5e1e9bf178b06cdbf12c73754d1a67e103",
+      "originalOutputHash": "a58d78221c71a276a81f4ecada8a6b5e1e9bf178b06cdbf12c73754d1a67e103",
+      "role": "lowwall",
+      "tag": "|",
+      "status": "original-first-pass",
+      "output": "terrain/lowwall/lowwall__lowwall-stone-parapet__axis-b.png"
+    },
+    "generic-ladder:default": {
+      "id": "generic-ladder",
+      "axis": "default",
+      "file": "sources/terrain/climb__generic-ladder__default.png",
+      "protectedArt": true,
+      "origin": {
+        "source": "terrain-a.png",
+        "cell": [
+          7,
+          0
+        ],
+        "mirrored": false
+      },
+      "sha256": "e57cafe8cfcda089aa29615d7836d43816838522700126726043314c2dd94058",
+      "originalOutputHash": "e57cafe8cfcda089aa29615d7836d43816838522700126726043314c2dd94058",
+      "role": "climb",
+      "tag": "^",
+      "status": "original-first-pass",
+      "output": "terrain/climb/climb__generic-ladder.png"
+    },
+    "cave-rock-smooth:default": {
+      "id": "cave-rock-smooth",
+      "axis": "default",
+      "file": "sources/terrain/floor__cave-rock-smooth__default.png",
+      "protectedArt": true,
+      "origin": {
+        "source": "terrain-a.png",
+        "cell": [
+          0,
+          1
+        ],
+        "mirrored": false
+      },
+      "sha256": "5f5be0d7c3a7e9220cf91afa0c0d2b7d6d710659c21bdbd03aed727fe6a51284",
+      "originalOutputHash": "5f5be0d7c3a7e9220cf91afa0c0d2b7d6d710659c21bdbd03aed727fe6a51284",
+      "role": "floor",
+      "tag": ".",
+      "status": "original-first-pass",
+      "output": "terrain/floor/floor__cave-rock-smooth.png"
+    },
+    "wall-cave-rock:default": {
+      "id": "wall-cave-rock",
+      "axis": "default",
+      "file": "sources/terrain/wall__wall-cave-rock__default.png",
+      "protectedArt": true,
+      "origin": {
+        "source": "terrain-a.png",
+        "cell": [
+          1,
+          1
+        ],
+        "mirrored": false
+      },
+      "sha256": "e87405f51436b0333e0e5b1921bce4f08d8ea1b78cc7bc25b6f4d0159af23c91",
+      "originalOutputHash": "e87405f51436b0333e0e5b1921bce4f08d8ea1b78cc7bc25b6f4d0159af23c91",
+      "role": "wall",
+      "tag": "#",
+      "status": "original-first-pass",
+      "output": "terrain/wall/wall__wall-cave-rock.png"
+    },
+    "water-cave-pool:default": {
+      "id": "water-cave-pool",
+      "axis": "default",
+      "file": "sources/terrain/water__water-cave-pool__default.png",
+      "protectedArt": true,
+      "origin": {
+        "source": "terrain-a.png",
+        "cell": [
+          2,
+          1
+        ],
+        "mirrored": false
+      },
+      "sha256": "4735439425ec3829f7f8846d17bd766eace4d828794618c730d788c65dfe2ece",
+      "originalOutputHash": "4735439425ec3829f7f8846d17bd766eace4d828794618c730d788c65dfe2ece",
+      "role": "water",
+      "tag": "~",
+      "status": "original-first-pass",
+      "output": "terrain/water/water__water-cave-pool.png"
+    },
+    "rough-rubble-scree:default": {
+      "id": "rough-rubble-scree",
+      "axis": "default",
+      "file": "sources/terrain/rough__rough-rubble-scree__default.png",
+      "protectedArt": true,
+      "origin": {
+        "source": "terrain-a.png",
+        "cell": [
+          3,
+          1
+        ],
+        "mirrored": false
+      },
+      "sha256": "fe540d4ddda2b74c706775e188afcac70205f0f7f4d08de824f1c3869cd55868",
+      "originalOutputHash": "fe540d4ddda2b74c706775e188afcac70205f0f7f4d08de824f1c3869cd55868",
+      "role": "rough",
+      "tag": ",",
+      "status": "original-first-pass",
+      "output": "terrain/rough/rough__rough-rubble-scree.png"
+    },
+    "door-stone-slab:axis-a": {
+      "id": "door-stone-slab",
+      "axis": "axis-a",
+      "file": "sources/terrain/door__door-stone-slab__axis-a.png",
+      "protectedArt": true,
+      "origin": {
+        "source": "terrain-a.png",
+        "cell": [
+          4,
+          1
+        ],
+        "mirrored": false
+      },
+      "sha256": "7a18c1377c906fe4e91414fc5536b01a59ca495d6c6746d1316eac13e0a31c3f",
+      "originalOutputHash": "7a18c1377c906fe4e91414fc5536b01a59ca495d6c6746d1316eac13e0a31c3f",
+      "role": "door",
+      "tag": "+",
+      "status": "original-first-pass",
+      "output": "terrain/door/door__door-stone-slab__axis-a.png"
+    },
+    "door-stone-slab:axis-b": {
+      "id": "door-stone-slab",
+      "axis": "axis-b",
+      "file": "sources/terrain/door__door-stone-slab__axis-b.png",
+      "protectedArt": true,
+      "origin": {
+        "source": "terrain-a.png",
+        "cell": [
+          5,
+          1
+        ],
+        "mirrored": false
+      },
+      "sha256": "64949a99b0a7f92c2edf4b63e67b9a6288940e60d867fee5caaae3a75c10d2c4",
+      "originalOutputHash": "64949a99b0a7f92c2edf4b63e67b9a6288940e60d867fee5caaae3a75c10d2c4",
+      "role": "door",
+      "tag": "+",
+      "status": "original-first-pass",
+      "output": "terrain/door/door__door-stone-slab__axis-b.png"
+    },
+    "lowwall-stalagmite-row:axis-a": {
+      "id": "lowwall-stalagmite-row",
+      "axis": "axis-a",
+      "file": "sources/terrain/lowwall__lowwall-stalagmite-row__axis-a.png",
+      "protectedArt": true,
+      "origin": {
+        "source": "terrain-a.png",
+        "cell": [
+          6,
+          1
+        ],
+        "mirrored": false
+      },
+      "sha256": "3015d7f072343246315b4099417fbafaff22e07743a53664f2b1205d547fb89a",
+      "originalOutputHash": "3015d7f072343246315b4099417fbafaff22e07743a53664f2b1205d547fb89a",
+      "role": "lowwall",
+      "tag": "|",
+      "status": "original-first-pass",
+      "output": "terrain/lowwall/lowwall__lowwall-stalagmite-row__axis-a.png"
+    },
+    "lowwall-stalagmite-row:axis-b": {
+      "id": "lowwall-stalagmite-row",
+      "axis": "axis-b",
+      "file": "sources/terrain/lowwall__lowwall-stalagmite-row__axis-b.png",
+      "protectedArt": true,
+      "origin": {
+        "source": "terrain-a.png",
+        "cell": [
+          6,
+          1
+        ],
+        "mirrored": true
+      },
+      "sha256": "91364f41630d19d9b30ca974fa5bf18e239fafaf8f030872f9766cc55843b2b9",
+      "originalOutputHash": "91364f41630d19d9b30ca974fa5bf18e239fafaf8f030872f9766cc55843b2b9",
+      "role": "lowwall",
+      "tag": "|",
+      "status": "original-first-pass",
+      "output": "terrain/lowwall/lowwall__lowwall-stalagmite-row__axis-b.png"
+    },
+    "grass-dark:default": {
+      "id": "grass-dark",
+      "axis": "default",
+      "file": "sources/terrain/floor__grass-dark__default.png",
+      "protectedArt": false,
+      "origin": {
+        "source": "terrain-a.png",
+        "cell": [
+          0,
+          2
+        ],
+        "mirrored": false,
+        "recoveredBox": {
+          "left": 10,
+          "top": 527,
+          "width": 211,
+          "height": 137
+        }
+      },
+      "sha256": "3c5386df7334f8185afce63a86d7543b1db79368839705bb1234acd4a3eb037d",
+      "originalOutputHash": "7e5da859b015fbce90d47edae9f7ddf80cf781dec1841cbcb44e13977fc94213",
+      "role": "floor",
+      "tag": ".",
+      "status": "original-first-pass",
+      "output": "terrain/floor/floor__grass-dark.png"
+    },
+    "wall-tree-canopy:default": {
+      "id": "wall-tree-canopy",
+      "axis": "default",
+      "file": "sources/terrain/wall__wall-tree-canopy__default.png",
+      "protectedArt": false,
+      "origin": {
+        "source": "terrain-a.png",
+        "cell": [
+          1,
+          2
+        ],
+        "mirrored": false,
+        "recoveredBox": {
+          "left": 0,
+          "top": 40,
+          "width": 128,
+          "height": 152
+        },
+        "recovery": "Touching cross-row component: use legacy cell isolation, then clean main component"
+      },
+      "sha256": "1fe0891019207a3671a6d966230be1fc116f4c262a17c70e7d0796563a6e1763",
+      "originalOutputHash": "8a704ca0bf48da733a0adbfdad3b61ce6455f3c80c91dc639655cd8ebbbfb4f1",
+      "role": "wall",
+      "tag": "#",
+      "status": "original-first-pass",
+      "output": "terrain/wall/wall__wall-tree-canopy.png"
+    },
+    "water-shallow-clear:default": {
+      "id": "water-shallow-clear",
+      "axis": "default",
+      "file": "sources/terrain/water__water-shallow-clear__default.png",
+      "protectedArt": false,
+      "origin": {
+        "source": "terrain-a.png",
+        "cell": [
+          2,
+          2
+        ],
+        "mirrored": false,
+        "recoveredBox": {
+          "left": 446,
+          "top": 517,
+          "width": 220,
+          "height": 152
+        }
+      },
+      "sha256": "cf092a376a2dcd87bc3c43631531020c84e76b3868c5afefa35e4d2e35b3ef50",
+      "originalOutputHash": "b3d78d7d130235d65df87fb989a68592f8e73366bf700a4e68e1311366161fba",
+      "role": "water",
+      "tag": "~",
+      "status": "original-first-pass",
+      "output": "terrain/water/water__water-shallow-clear.png"
+    },
+    "rough-bramble:default": {
+      "id": "rough-bramble",
+      "axis": "default",
+      "file": "sources/terrain/rough__rough-bramble__default.png",
+      "protectedArt": false,
+      "origin": {
+        "source": "terrain-a.png",
+        "cell": [
+          3,
+          2
+        ],
+        "mirrored": false,
+        "recoveredBox": {
+          "left": 678,
+          "top": 503,
+          "width": 211,
+          "height": 166
+        }
+      },
+      "sha256": "db8423b7ce4befb66ffc28ad71a210aa3acbf91eded5709104be8062fe8ab927",
+      "originalOutputHash": "da5e5fdcabee6b638f16ef37bb103ebb70708cc35161541dd348ec4a0caac5b1",
+      "role": "rough",
+      "tag": ",",
+      "status": "original-first-pass",
+      "output": "terrain/rough/rough__rough-bramble.png"
+    },
+    "door-wood-plain:axis-a": {
+      "id": "door-wood-plain",
+      "axis": "axis-a",
+      "file": "sources/terrain/door__door-wood-plain__axis-a.png",
+      "protectedArt": false,
+      "origin": {
+        "source": "terrain-a.png",
+        "cell": [
+          4,
+          2
+        ],
+        "mirrored": false,
+        "recoveredBox": {
+          "left": 932,
+          "top": 454,
+          "width": 147,
+          "height": 209
+        }
+      },
+      "sha256": "55b15a0beb457f63720d0255f04ebfc670759a631a2c85ee89081d555cb95a5f",
+      "originalOutputHash": "db39b145f62a0534525d3e91b59b440f4bd0c4213fce9b6e6f29f8154eec41c2",
+      "role": "door",
+      "tag": "+",
+      "status": "original-first-pass",
+      "output": "terrain/door/door__door-wood-plain__axis-a.png"
+    },
+    "door-wood-plain:axis-b": {
+      "id": "door-wood-plain",
+      "axis": "axis-b",
+      "file": "sources/terrain/door__door-wood-plain__axis-b.png",
+      "protectedArt": false,
+      "origin": {
+        "source": "terrain-a.png",
+        "cell": [
+          5,
+          2
+        ],
+        "mirrored": false,
+        "recoveredBox": {
+          "left": 1146,
+          "top": 454,
+          "width": 146,
+          "height": 210
+        }
+      },
+      "sha256": "2518edee3e151427011d03731f556302ab8c0fa7a6148fcaa3296164fe65a73a",
+      "originalOutputHash": "0e2fdc06299a8a53bf9406fb30ca9506086fd9747de322b40709cff8775fa9cd",
+      "role": "door",
+      "tag": "+",
+      "status": "original-first-pass",
+      "output": "terrain/door/door__door-wood-plain__axis-b.png"
+    },
+    "lowwall-log-barricade:axis-a": {
+      "id": "lowwall-log-barricade",
+      "axis": "axis-a",
+      "file": "sources/terrain/lowwall__lowwall-log-barricade__axis-a.png",
+      "protectedArt": false,
+      "origin": {
+        "source": "terrain-a.png",
+        "cell": [
+          6,
+          2
+        ],
+        "mirrored": false,
+        "recoveredBox": {
+          "left": 1346,
+          "top": 496,
+          "width": 199,
+          "height": 171
+        }
+      },
+      "sha256": "910d77aac0a095de6599ccc437daa629673e3fa77c37472fbfaf9c263ea4a733",
+      "originalOutputHash": "af75f2a67c6c9875f9aa8387497192bdcc0ad0cb5edad86cf6befb689b1d7cb4",
+      "role": "lowwall",
+      "tag": "|",
+      "status": "original-first-pass",
+      "output": "terrain/lowwall/lowwall__lowwall-log-barricade__axis-a.png"
+    },
+    "lowwall-log-barricade:axis-b": {
+      "id": "lowwall-log-barricade",
+      "axis": "axis-b",
+      "file": "sources/terrain/lowwall__lowwall-log-barricade__axis-b.png",
+      "protectedArt": false,
+      "origin": {
+        "source": "terrain-a.png",
+        "cell": [
+          6,
+          2
+        ],
+        "mirrored": true,
+        "recoveredBox": {
+          "left": 1346,
+          "top": 496,
+          "width": 199,
+          "height": 171
+        }
+      },
+      "sha256": "31f65b4d6f31c848962fce7dbcffe6f2560ce1f926e3055afb98ece9db3faa4a",
+      "originalOutputHash": "90a3407b9d6889605596623f7451fbe98f2f5821595fcf28214ca4778a3e4bd7",
+      "role": "lowwall",
+      "tag": "|",
+      "status": "original-first-pass",
+      "output": "terrain/lowwall/lowwall__lowwall-log-barricade__axis-b.png"
+    },
+    "peat-swamp:default": {
+      "id": "peat-swamp",
+      "axis": "default",
+      "file": "sources/terrain/floor__peat-swamp__default.png",
+      "protectedArt": false,
+      "origin": {
+        "source": "terrain-a.png",
+        "cell": [
+          0,
+          3
+        ],
+        "mirrored": false,
+        "recoveredBox": {
+          "left": 6,
+          "top": 735,
+          "width": 217,
+          "height": 140
+        }
+      },
+      "sha256": "1688313667b6938a94c8310b749ac7ee73009a575851b35b3568f06520655db0",
+      "originalOutputHash": "fbf87988c97a7707664d329c248d1d07a7f092b3d89d58eefa5226701bb5a7ad",
+      "role": "floor",
+      "tag": ".",
+      "status": "original-first-pass",
+      "output": "terrain/floor/floor__peat-swamp.png"
+    },
+    "wall-mangrove:default": {
+      "id": "wall-mangrove",
+      "axis": "default",
+      "file": "sources/terrain/wall__wall-mangrove__default.png",
+      "protectedArt": false,
+      "origin": {
+        "source": "terrain-a.png",
+        "cell": [
+          1,
+          3
+        ],
+        "mirrored": false,
+        "recoveredBox": {
+          "left": 231,
+          "top": 669,
+          "width": 206,
+          "height": 210
+        }
+      },
+      "sha256": "7028e75949477a5435e9259864aaf94f8cf0256a7566e95ad8e485ae8cebfa02",
+      "originalOutputHash": "e622b0e7da7d4392f944a02e2020cdbfe4965ace03cc579461ab007c6caeb860",
+      "role": "wall",
+      "tag": "#",
+      "status": "original-first-pass",
+      "output": "terrain/wall/wall__wall-mangrove.png"
+    },
+    "water-swamp-murky:default": {
+      "id": "water-swamp-murky",
+      "axis": "default",
+      "file": "sources/terrain/water__water-swamp-murky__default.png",
+      "protectedArt": false,
+      "origin": {
+        "source": "terrain-a.png",
+        "cell": [
+          2,
+          3
+        ],
+        "mirrored": false,
+        "recoveredBox": {
+          "left": 447,
+          "top": 731,
+          "width": 224,
+          "height": 144
+        }
+      },
+      "sha256": "e00d45ed65ef6d081a2ac7f2335c69ff29a9dca26eddcc12c1b7745ef684b137",
+      "originalOutputHash": "9e274509c1f52761a01cc43d7a8cf470534fd00cef10efb615a7a49869982cdc",
+      "role": "water",
+      "tag": "~",
+      "status": "original-first-pass",
+      "output": "terrain/water/water__water-swamp-murky.png"
+    },
+    "rough-reed-bed:default": {
+      "id": "rough-reed-bed",
+      "axis": "default",
+      "file": "sources/terrain/rough__rough-reed-bed__default.png",
+      "protectedArt": false,
+      "origin": {
+        "source": "terrain-a.png",
+        "cell": [
+          3,
+          3
+        ],
+        "mirrored": false,
+        "recoveredBox": {
+          "left": 679,
+          "top": 703,
+          "width": 211,
+          "height": 174
+        }
+      },
+      "sha256": "4eabb4d1cd45b0a5a3d3581de61b4a96211548056e1858df2ab4a49d7ed0f0e9",
+      "originalOutputHash": "2f59be0f5930e0e0823787cf631cebd619cea3f26413391d125dd36c2b1f7ca9",
+      "role": "rough",
+      "tag": ",",
+      "status": "original-first-pass",
+      "output": "terrain/rough/rough__rough-reed-bed.png"
+    },
+    "lowwall-wood-fence:axis-a": {
+      "id": "lowwall-wood-fence",
+      "axis": "axis-a",
+      "file": "sources/terrain/lowwall__lowwall-wood-fence__axis-a.png",
+      "protectedArt": false,
+      "origin": {
+        "source": "terrain-a.png",
+        "cell": [
+          6,
+          3
+        ],
+        "mirrored": false,
+        "recoveredBox": {
+          "left": 1347,
+          "top": 729,
+          "width": 183,
+          "height": 148
+        }
+      },
+      "sha256": "9768468f02882dd6d5a29531bb175e0bca245e496a354456c907a0bce51cf221",
+      "originalOutputHash": "fac736a986a98dfc3fd18de634852ec444c7d8ee0079a38d64f9c3f94006e07c",
+      "role": "lowwall",
+      "tag": "|",
+      "status": "original-first-pass",
+      "output": "terrain/lowwall/lowwall__lowwall-wood-fence__axis-a.png"
+    },
+    "lowwall-wood-fence:axis-b": {
+      "id": "lowwall-wood-fence",
+      "axis": "axis-b",
+      "file": "sources/terrain/lowwall__lowwall-wood-fence__axis-b.png",
+      "protectedArt": false,
+      "origin": {
+        "source": "terrain-a.png",
+        "cell": [
+          6,
+          3
+        ],
+        "mirrored": true,
+        "recoveredBox": {
+          "left": 1347,
+          "top": 729,
+          "width": 183,
+          "height": 148
+        }
+      },
+      "sha256": "4618a5abeee476dabadd5c57234a117d73cad233742cc99e342b9e568c3ec0a2",
+      "originalOutputHash": "59f4e4529537d77391c8369616e1dfd36f5efb5bdd07e942a85a5caa9c0d10f4",
+      "role": "lowwall",
+      "tag": "|",
+      "status": "original-first-pass",
+      "output": "terrain/lowwall/lowwall__lowwall-wood-fence__axis-b.png"
+    },
+    "grass-meadow:default": {
+      "id": "grass-meadow",
+      "axis": "default",
+      "file": "sources/terrain/floor__grass-meadow__default.png",
+      "protectedArt": false,
+      "origin": {
+        "source": "terrain-b.png",
+        "cell": [
+          0,
+          0
+        ],
+        "mirrored": false,
+        "recoveredBox": {
+          "left": 12,
+          "top": 87,
+          "width": 207,
+          "height": 141
+        }
+      },
+      "sha256": "c42c702c796653d090ed4deb89c42fb54d49d3d1457fe4216d6cf7b7214d6a36",
+      "originalOutputHash": "9522941a7a0a64afcd3bafb9562dd1b7e12032130d08677e9cc6ab5e80c3e6df",
+      "role": "floor",
+      "tag": ".",
+      "status": "original-first-pass",
+      "output": "terrain/floor/floor__grass-meadow.png"
+    },
+    "wall-hedge-dense:default": {
+      "id": "wall-hedge-dense",
+      "axis": "default",
+      "file": "sources/terrain/wall__wall-hedge-dense__default.png",
+      "protectedArt": false,
+      "origin": {
+        "source": "terrain-b.png",
+        "cell": [
+          1,
+          0
+        ],
+        "mirrored": false,
+        "recoveredBox": {
+          "left": 241,
+          "top": 29,
+          "width": 196,
+          "height": 198
+        }
+      },
+      "sha256": "9694a98d3a1bb15055ca880a6da68a2a077914f7af7dcd0496fc2f46540baaac",
+      "originalOutputHash": "046b83f469b3bd6980905cf8de5702eb07709df9f19afcf463ef144218e029f0",
+      "role": "wall",
+      "tag": "#",
+      "status": "original-first-pass",
+      "output": "terrain/wall/wall__wall-hedge-dense.png"
+    },
+    "water-deep-blue:default": {
+      "id": "water-deep-blue",
+      "axis": "default",
+      "file": "sources/terrain/water__water-deep-blue__default.png",
+      "protectedArt": false,
+      "origin": {
+        "source": "terrain-b.png",
+        "cell": [
+          2,
+          0
+        ],
+        "mirrored": false,
+        "recoveredBox": {
+          "left": 457,
+          "top": 84,
+          "width": 205,
+          "height": 145
+        }
+      },
+      "sha256": "b3bf046a84d5b03fbbbfeff064113c472995ef06c45ab0c91edf48801c965c49",
+      "originalOutputHash": "0fc0d7a19633816c40bc683601032099c49748a806bbe0d2be1a3abaf4ff09f2",
+      "role": "water",
+      "tag": "~",
+      "status": "original-first-pass",
+      "output": "terrain/water/water__water-deep-blue.png"
+    },
+    "rough-tall-grass:default": {
+      "id": "rough-tall-grass",
+      "axis": "default",
+      "file": "sources/terrain/rough__rough-tall-grass__default.png",
+      "protectedArt": false,
+      "origin": {
+        "source": "terrain-b.png",
+        "cell": [
+          3,
+          0
+        ],
+        "mirrored": false,
+        "recoveredBox": {
+          "left": 677,
+          "top": 65,
+          "width": 204,
+          "height": 163
+        }
+      },
+      "sha256": "5b01b75413dbfe35f0c3270f0e9ccafc27d6b50955ea950bfce48c3e835777fd",
+      "originalOutputHash": "d6474c57da53b4b7c2701063e1885b244a06e43f65a9f5ac278e47843fbd658f",
+      "role": "rough",
+      "tag": ",",
+      "status": "original-first-pass",
+      "output": "terrain/rough/rough__rough-tall-grass.png"
+    },
+    "door-gate-timber:axis-a": {
+      "id": "door-gate-timber",
+      "axis": "axis-a",
+      "file": "sources/terrain/door__door-gate-timber__axis-a.png",
+      "protectedArt": false,
+      "origin": {
+        "source": "terrain-b.png",
+        "cell": [
+          4,
+          0
+        ],
+        "mirrored": false,
+        "recoveredBox": {
+          "left": 903,
+          "top": 19,
+          "width": 194,
+          "height": 209
+        }
+      },
+      "sha256": "0bde854db8070edbcf60d1283187d3507078979293fbefc159d40e50b9ce8a65",
+      "originalOutputHash": "df55234195f6aa8ee5d36a83793ae12dfd92ccbc2821c550436c691d7a742a3c",
+      "role": "door",
+      "tag": "+",
+      "status": "original-first-pass",
+      "output": "terrain/door/door__door-gate-timber__axis-a.png"
+    },
+    "door-gate-timber:axis-b": {
+      "id": "door-gate-timber",
+      "axis": "axis-b",
+      "file": "sources/terrain/door__door-gate-timber__axis-b.png",
+      "protectedArt": false,
+      "origin": {
+        "source": "terrain-b.png",
+        "cell": [
+          5,
+          0
+        ],
+        "mirrored": false,
+        "recoveredBox": {
+          "left": 1122,
+          "top": 19,
+          "width": 195,
+          "height": 209
+        }
+      },
+      "sha256": "aa7784dcb59ea262b6fff1f9017f4551c453bbebf2491e1f4ede075bf71c9f85",
+      "originalOutputHash": "a8f615eb9839ae492a4059b9a7c85dc1f71c55e3cc51a94fad2f882d8596581d",
+      "role": "door",
+      "tag": "+",
+      "status": "original-first-pass",
+      "output": "terrain/door/door__door-gate-timber__axis-b.png"
+    },
+    "flagstone-cracked:default": {
+      "id": "flagstone-cracked",
+      "axis": "default",
+      "file": "sources/terrain/floor__flagstone-cracked__default.png",
+      "protectedArt": false,
+      "origin": {
+        "source": "terrain-b.png",
+        "cell": [
+          0,
+          1
+        ],
+        "mirrored": false,
+        "recoveredBox": {
+          "left": 11,
+          "top": 308,
+          "width": 210,
+          "height": 138
+        }
+      },
+      "sha256": "9471efaeca34fd8e17b7ab1bf23f72a057dee413289c7362a2923d6893cbbe49",
+      "originalOutputHash": "2d84597dc7bba34c1a37de97290ddd823c9f46dfabf8a229a6c8594fde85e2ff",
+      "role": "floor",
+      "tag": ".",
+      "status": "original-first-pass",
+      "output": "terrain/floor/floor__flagstone-cracked.png"
+    },
+    "wall-rubble-collapsed:default": {
+      "id": "wall-rubble-collapsed",
+      "axis": "default",
+      "file": "sources/terrain/wall__wall-rubble-collapsed__default.png",
+      "protectedArt": false,
+      "origin": {
+        "source": "terrain-b.png",
+        "cell": [
+          1,
+          1
+        ],
+        "mirrored": false,
+        "recoveredBox": {
+          "left": 236,
+          "top": 238,
+          "width": 201,
+          "height": 207
+        }
+      },
+      "sha256": "e2898f68f6b96e145bd5c891da9582255fdc13c143f2aeed66e53906ae8ef354",
+      "originalOutputHash": "a492aac6c1736dcf46ea25be0ebffb563fea8e952083277187f6de25cc4ef5ac",
+      "role": "wall",
+      "tag": "#",
+      "status": "original-first-pass",
+      "output": "terrain/wall/wall__wall-rubble-collapsed.png"
+    },
+    "water-blood-pool:default": {
+      "id": "water-blood-pool",
+      "axis": "default",
+      "file": "sources/terrain/water__water-blood-pool__default.png",
+      "protectedArt": false,
+      "origin": {
+        "source": "terrain-b.png",
+        "cell": [
+          2,
+          1
+        ],
+        "mirrored": false,
+        "recoveredBox": {
+          "left": 451,
+          "top": 308,
+          "width": 212,
+          "height": 139
+        }
+      },
+      "sha256": "848a79090d508729b5d61ec9a4090106c6c0e8a943bbd4235e848fede54fa201",
+      "originalOutputHash": "641ca2ad4710974ce7be8a4e2f444cd4b9a4c5105a721de373c8501c56999365",
+      "role": "water",
+      "tag": "~",
+      "status": "original-first-pass",
+      "output": "terrain/water/water__water-blood-pool.png"
+    },
+    "rough-bone-scatter:default": {
+      "id": "rough-bone-scatter",
+      "axis": "default",
+      "file": "sources/terrain/rough__rough-bone-scatter__default.png",
+      "protectedArt": false,
+      "origin": {
+        "source": "terrain-b.png",
+        "cell": [
+          3,
+          1
+        ],
+        "mirrored": false,
+        "recoveredBox": {
+          "left": 676,
+          "top": 311,
+          "width": 208,
+          "height": 137
+        }
+      },
+      "sha256": "f0ed52e29a178781f38a5846ffc6a124faffcc18b45029fa036effd4644d2f13",
+      "originalOutputHash": "116f2deb5b30b697be54168b7a5fa37d05cb787fe4bd409b365b4c5b269e0f04",
+      "role": "rough",
+      "tag": ",",
+      "status": "original-first-pass",
+      "output": "terrain/rough/rough__rough-bone-scatter.png"
+    },
+    "lowwall-sarcophagus:axis-a": {
+      "id": "lowwall-sarcophagus",
+      "axis": "axis-a",
+      "file": "sources/terrain/lowwall__lowwall-sarcophagus__axis-a.png",
+      "protectedArt": false,
+      "origin": {
+        "source": "terrain-b.png",
+        "cell": [
+          6,
+          1
+        ],
+        "mirrored": false,
+        "recoveredBox": {
+          "left": 1334,
+          "top": 293,
+          "width": 210,
+          "height": 155
+        }
+      },
+      "sha256": "9ecbd8735fa5eee5817ce73bbf8ea9c943bbd16807d5053cf644a9338cc2fcbd",
+      "originalOutputHash": "b7ebc52ebf9abd0811ac5782210120c0406ef9bdc1f087ecfb697cea3cd22eb0",
+      "role": "lowwall",
+      "tag": "|",
+      "status": "original-first-pass",
+      "output": "terrain/lowwall/lowwall__lowwall-sarcophagus__axis-a.png"
+    },
+    "lowwall-sarcophagus:axis-b": {
+      "id": "lowwall-sarcophagus",
+      "axis": "axis-b",
+      "file": "sources/terrain/lowwall__lowwall-sarcophagus__axis-b.png",
+      "protectedArt": false,
+      "origin": {
+        "source": "terrain-b.png",
+        "cell": [
+          6,
+          1
+        ],
+        "mirrored": true,
+        "recoveredBox": {
+          "left": 1334,
+          "top": 293,
+          "width": 210,
+          "height": 155
+        }
+      },
+      "sha256": "92ba0a3a94b8b14d3522d6a92cd74762ca94a2d9337591328d68bcf1dc4cac70",
+      "originalOutputHash": "301f314b750393f716b351924d2a3d6558c4fc8491328a85548fae87af19c1cf",
+      "role": "lowwall",
+      "tag": "|",
+      "status": "original-first-pass",
+      "output": "terrain/lowwall/lowwall__lowwall-sarcophagus__axis-b.png"
+    },
+    "wall-ruined-overgrown:default": {
+      "id": "wall-ruined-overgrown",
+      "axis": "default",
+      "file": "sources/terrain/wall__wall-ruined-overgrown__default.png",
+      "protectedArt": false,
+      "origin": {
+        "source": "terrain-b.png",
+        "cell": [
+          1,
+          2
+        ],
+        "mirrored": false,
+        "recoveredBox": {
+          "left": 238,
+          "top": 444,
+          "width": 201,
+          "height": 216
+        }
+      },
+      "sha256": "b4b8bbb217fad3ce8c465512e09b41d24e1208c676b693c401e09e141eea3c5d",
+      "originalOutputHash": "9eda9b8984cfaf39ecbe36e33200ec7f70f346f11890fdd5009b4637f4e284cf",
+      "role": "wall",
+      "tag": "#",
+      "status": "original-first-pass",
+      "output": "terrain/wall/wall__wall-ruined-overgrown.png"
+    },
+    "door-rotted-broken:axis-a": {
+      "id": "door-rotted-broken",
+      "axis": "axis-a",
+      "file": "sources/terrain/door__door-rotted-broken__axis-a.png",
+      "protectedArt": false,
+      "origin": {
+        "source": "terrain-b.png",
+        "cell": [
+          4,
+          2
+        ],
+        "mirrored": false,
+        "recoveredBox": {
+          "left": 901,
+          "top": 444,
+          "width": 198,
+          "height": 219
+        }
+      },
+      "sha256": "1edb6012aa4ba26cb158cfee15a35cb33ac864c0f5347caf29114c0a9eddda63",
+      "originalOutputHash": "2880907c4f67d85cdc4c8e0fafb20a165a5371bd974b13f476ebb9e9ab70fbd2",
+      "role": "door",
+      "tag": "+",
+      "status": "original-first-pass",
+      "output": "terrain/door/door__door-rotted-broken__axis-a.png"
+    },
+    "door-rotted-broken:axis-b": {
+      "id": "door-rotted-broken",
+      "axis": "axis-b",
+      "file": "sources/terrain/door__door-rotted-broken__axis-b.png",
+      "protectedArt": false,
+      "origin": {
+        "source": "terrain-b.png",
+        "cell": [
+          5,
+          2
+        ],
+        "mirrored": false,
+        "recoveredBox": {
+          "left": 1120,
+          "top": 444,
+          "width": 197,
+          "height": 219
+        }
+      },
+      "sha256": "bf9fad326a3403b519365d62b88550775f4754250cf6f0cfc4d5e130ad37ece0",
+      "originalOutputHash": "dbe11c9b6e4c23a0632d80748a1e9de98ddf62c91ca70149efe43f1264cdc782",
+      "role": "door",
+      "tag": "+",
+      "status": "original-first-pass",
+      "output": "terrain/door/door__door-rotted-broken__axis-b.png"
+    },
+    "lowwall-broken-stub:axis-a": {
+      "id": "lowwall-broken-stub",
+      "axis": "axis-a",
+      "file": "sources/terrain/lowwall__lowwall-broken-stub__axis-a.png",
+      "protectedArt": false,
+      "origin": {
+        "source": "terrain-b.png",
+        "cell": [
+          6,
+          2
+        ],
+        "mirrored": false,
+        "recoveredBox": {
+          "left": 1334,
+          "top": 512,
+          "width": 205,
+          "height": 153
+        }
+      },
+      "sha256": "79f5728089d9980023ce22f6988e01d47e3ef828123626cc3e1c4762f6fcd41f",
+      "originalOutputHash": "36f197482111723af248f6aee1e4f0476ede796fb6fc7191783a2225a1bab5d7",
+      "role": "lowwall",
+      "tag": "|",
+      "status": "original-first-pass",
+      "output": "terrain/lowwall/lowwall__lowwall-broken-stub__axis-a.png"
+    },
+    "lowwall-broken-stub:axis-b": {
+      "id": "lowwall-broken-stub",
+      "axis": "axis-b",
+      "file": "sources/terrain/lowwall__lowwall-broken-stub__axis-b.png",
+      "protectedArt": false,
+      "origin": {
+        "source": "terrain-b.png",
+        "cell": [
+          6,
+          2
+        ],
+        "mirrored": true,
+        "recoveredBox": {
+          "left": 1334,
+          "top": 512,
+          "width": 205,
+          "height": 153
+        }
+      },
+      "sha256": "9dbb679711af4f93ab234f32695274dd6a622b6da1ae235f6de6631142eff480",
+      "originalOutputHash": "b9d5520b6788422940fa12c25f40f1242cc2563a5e25ece7d4f50643289dcb98",
+      "role": "lowwall",
+      "tag": "|",
+      "status": "original-first-pass",
+      "output": "terrain/lowwall/lowwall__lowwall-broken-stub__axis-b.png"
+    },
+    "basalt-columns:default": {
+      "id": "basalt-columns",
+      "axis": "default",
+      "file": "sources/terrain/floor__basalt-columns__default.png",
+      "protectedArt": false,
+      "origin": {
+        "source": "terrain-b.png",
+        "cell": [
+          0,
+          3
+        ],
+        "mirrored": false,
+        "recoveredBox": {
+          "left": 11,
+          "top": 725,
+          "width": 211,
+          "height": 140
+        }
+      },
+      "sha256": "a550e0302b56fd552ee66b400a551a10bf603eb9c901d9ab667cb8dc1ce4067e",
+      "originalOutputHash": "ace83c55cf4752422aca7fa35c318a726f2f5e9a38762ffa1d02c679e8372a74",
+      "role": "floor",
+      "tag": ".",
+      "status": "original-first-pass",
+      "output": "terrain/floor/floor__basalt-columns.png"
+    },
+    "wall-volcanic:default": {
+      "id": "wall-volcanic",
+      "axis": "default",
+      "file": "sources/terrain/wall__wall-volcanic__default.png",
+      "protectedArt": false,
+      "origin": {
+        "source": "terrain-b.png",
+        "cell": [
+          1,
+          3
+        ],
+        "mirrored": false,
+        "recoveredBox": {
+          "left": 236,
+          "top": 665,
+          "width": 202,
+          "height": 200
+        }
+      },
+      "sha256": "a56d04d52b4cfa10d9b38d9b3ca237d6d9ee0acf543823b02c007c59322ee60a",
+      "originalOutputHash": "817ca40d7852089c6680307b8a01e915be63f61303c48507bf6b6e5e24d7982e",
+      "role": "wall",
+      "tag": "#",
+      "status": "original-first-pass",
+      "output": "terrain/wall/wall__wall-volcanic.png"
+    },
+    "hazard-lava-molten:default": {
+      "id": "hazard-lava-molten",
+      "axis": "default",
+      "file": "sources/terrain/water__hazard-lava-molten__default.png",
+      "protectedArt": false,
+      "origin": {
+        "source": "terrain-b.png",
+        "cell": [
+          2,
+          3
+        ],
+        "mirrored": false,
+        "recoveredBox": {
+          "left": 450,
+          "top": 722,
+          "width": 216,
+          "height": 146
+        }
+      },
+      "sha256": "a0d69860ba587bdccc3db33ad03c9d2c83d85a4abd25ae88a7a717690fdb39f9",
+      "originalOutputHash": "9204b40abfe38ade99d892f2ba799f6f4ebbea1511ad021b8f72b56903d4f13a",
+      "role": "water",
+      "tag": "~",
+      "status": "original-first-pass",
+      "output": "terrain/water/water__hazard-lava-molten.png"
+    },
+    "rough-ash-drifts:default": {
+      "id": "rough-ash-drifts",
+      "axis": "default",
+      "file": "sources/terrain/rough__rough-ash-drifts__default.png",
+      "protectedArt": false,
+      "origin": {
+        "source": "terrain-b.png",
+        "cell": [
+          3,
+          3
+        ],
+        "mirrored": false,
+        "recoveredBox": {
+          "left": 676,
+          "top": 712,
+          "width": 208,
+          "height": 156
+        }
+      },
+      "sha256": "e5b9eac351d26a9c23a54d3d13ae743fe5f3ca72e1a8cd8f6db8425c4ecb51ca",
+      "originalOutputHash": "da49a0e3706abef30765a05120431a9ba73de244f447c716bb5646c1e83a3e2f",
+      "role": "rough",
+      "tag": ",",
+      "status": "original-first-pass",
+      "output": "terrain/rough/rough__rough-ash-drifts.png"
+    },
+    "marble-polished:default": {
+      "id": "marble-polished",
+      "axis": "default",
+      "file": "sources/terrain/floor__marble-polished__default.png",
+      "protectedArt": false,
+      "origin": {
+        "source": "terrain-c.png",
+        "cell": [
+          0,
+          0
+        ],
+        "mirrored": false,
+        "recoveredBox": {
+          "left": 16,
+          "top": 108,
+          "width": 218,
+          "height": 139
+        }
+      },
+      "sha256": "221215b873315f81c62dd3e1b6efc8ca1f67c9c159f7713dbd1e60339c78ea08",
+      "originalOutputHash": "791d45c95611b3f42397d6029f7a2502053ac04d03bac2ec776e9ea281e39632",
+      "role": "floor",
+      "tag": ".",
+      "status": "original-first-pass",
+      "output": "terrain/floor/floor__marble-polished.png"
+    },
+    "wall-marble-panel:default": {
+      "id": "wall-marble-panel",
+      "axis": "default",
+      "file": "sources/terrain/wall__wall-marble-panel__default.png",
+      "protectedArt": false,
+      "origin": {
+        "source": "terrain-c.png",
+        "cell": [
+          1,
+          0
+        ],
+        "mirrored": false,
+        "recoveredBox": {
+          "left": 258,
+          "top": 35,
+          "width": 158,
+          "height": 202
+        }
+      },
+      "sha256": "d528880f9f9955ffdde0b6e3397dcba7ec511fa2c93b763a9a08d1827b0e19a2",
+      "originalOutputHash": "69ef66960e1ca16b56a259ddbb07dcda5328f52a9773543928154203c0023900",
+      "role": "wall",
+      "tag": "#",
+      "status": "original-first-pass",
+      "output": "terrain/wall/wall__wall-marble-panel.png"
+    },
+    "rough-pottery-shards:default": {
+      "id": "rough-pottery-shards",
+      "axis": "default",
+      "file": "sources/terrain/rough__rough-pottery-shards__default.png",
+      "protectedArt": false,
+      "origin": {
+        "source": "terrain-c.png",
+        "cell": [
+          3,
+          0
+        ],
+        "mirrored": false,
+        "recoveredBox": {
+          "left": 682,
+          "top": 96,
+          "width": 216,
+          "height": 149
+        }
+      },
+      "sha256": "a8f55ef4b31c6c74b5e8b1601a29022c874385c25802292f4497b01d51d061ce",
+      "originalOutputHash": "7c525d5ea3f3555839cea5ccaa2c22fab090556c96692124a1d4a8b3867d4676",
+      "role": "rough",
+      "tag": ",",
+      "status": "original-first-pass",
+      "output": "terrain/rough/rough__rough-pottery-shards.png"
+    },
+    "door-double-ornate:axis-a": {
+      "id": "door-double-ornate",
+      "axis": "axis-a",
+      "file": "sources/terrain/door__door-double-ornate__axis-a.png",
+      "protectedArt": false,
+      "origin": {
+        "source": "terrain-c.png",
+        "cell": [
+          4,
+          0
+        ],
+        "mirrored": false,
+        "recoveredBox": {
+          "left": 936,
+          "top": 37,
+          "width": 169,
+          "height": 207
+        }
+      },
+      "sha256": "43c4f10869fdfe77594a91b73440f78b72768bdbdcf1e04c0d73b33c00b503df",
+      "originalOutputHash": "c1c62fdc9062016c6d4441a842f2d1369b9fb6d89ce1f6dd639e58796cebfee7",
+      "role": "door",
+      "tag": "+",
+      "status": "original-first-pass",
+      "output": "terrain/door/door__door-double-ornate__axis-a.png"
+    },
+    "door-double-ornate:axis-b": {
+      "id": "door-double-ornate",
+      "axis": "axis-b",
+      "file": "sources/terrain/door__door-double-ornate__axis-b.png",
+      "protectedArt": false,
+      "origin": {
+        "source": "terrain-c.png",
+        "cell": [
+          4,
+          0
+        ],
+        "mirrored": true,
+        "recoveredBox": {
+          "left": 936,
+          "top": 37,
+          "width": 169,
+          "height": 207
+        }
+      },
+      "sha256": "f1e47eec791ad855e0e14a0a526ce48aee9e464e6bf6ea69af35767a2d9d5d71",
+      "originalOutputHash": "78e2af68b23914da62b01c1b217b2a6fb9bb2e021c72ccdd5c7e47167a992df9",
+      "role": "door",
+      "tag": "+",
+      "status": "original-first-pass",
+      "output": "terrain/door/door__door-double-ornate__axis-b.png"
+    },
+    "lowwall-pew-bench:axis-a": {
+      "id": "lowwall-pew-bench",
+      "axis": "axis-a",
+      "file": "sources/terrain/lowwall__lowwall-pew-bench__axis-a.png",
+      "protectedArt": false,
+      "origin": {
+        "source": "terrain-c.png",
+        "cell": [
+          5,
+          0
+        ],
+        "mirrored": true,
+        "recoveredBox": {
+          "left": 1143,
+          "top": 98,
+          "width": 177,
+          "height": 144
+        }
+      },
+      "sha256": "5beb309a51b1087db247eada5874ab3b085185dc01d32ff19da1142b5146a613",
+      "originalOutputHash": "3e898ea88e0209f8becf4328308f79d9cdbeec5a77ca346a4ad5351666ab8087",
+      "role": "lowwall",
+      "tag": "|",
+      "status": "original-first-pass",
+      "output": "terrain/lowwall/lowwall__lowwall-pew-bench__axis-a.png"
+    },
+    "lowwall-pew-bench:axis-b": {
+      "id": "lowwall-pew-bench",
+      "axis": "axis-b",
+      "file": "sources/terrain/lowwall__lowwall-pew-bench__axis-b.png",
+      "protectedArt": false,
+      "origin": {
+        "source": "terrain-c.png",
+        "cell": [
+          5,
+          0
+        ],
+        "mirrored": false,
+        "recoveredBox": {
+          "left": 1143,
+          "top": 98,
+          "width": 177,
+          "height": 144
+        }
+      },
+      "sha256": "cdb3c04319bd22629143c134f1b99bc2d4624d90f4cd8fa66fdad17f86054d56",
+      "originalOutputHash": "1ff7965713cb0e510eec9e804cd3da4945fe87c6757799766f73eaef3b9a95fa",
+      "role": "lowwall",
+      "tag": "|",
+      "status": "original-first-pass",
+      "output": "terrain/lowwall/lowwall__lowwall-pew-bench__axis-b.png"
+    },
+    "sewer-brick:default": {
+      "id": "sewer-brick",
+      "axis": "default",
+      "file": "sources/terrain/floor__sewer-brick__default.png",
+      "protectedArt": false,
+      "origin": {
+        "source": "terrain-c.png",
+        "cell": [
+          0,
+          1
+        ],
+        "mirrored": false,
+        "recoveredBox": {
+          "left": 17,
+          "top": 304,
+          "width": 223,
+          "height": 145
+        }
+      },
+      "sha256": "94c319cc693990fa7848d7aea25a24121d9c86be69c7987d325419c1a23af873",
+      "originalOutputHash": "94b5b8f96e5abc5cfc0a44708e74140139ec54de5628f275c609d21f8b412b8b",
+      "role": "floor",
+      "tag": ".",
+      "status": "original-first-pass",
+      "output": "terrain/floor/floor__sewer-brick.png"
+    },
+    "wall-sewer-stone:default": {
+      "id": "wall-sewer-stone",
+      "axis": "default",
+      "file": "sources/terrain/wall__wall-sewer-stone__default.png",
+      "protectedArt": false,
+      "origin": {
+        "source": "terrain-c.png",
+        "cell": [
+          1,
+          1
+        ],
+        "mirrored": false,
+        "recoveredBox": {
+          "left": 261,
+          "top": 244,
+          "width": 158,
+          "height": 195
+        }
+      },
+      "sha256": "a168417ff876257768fe9dd67d4eb447b5649d91e4bed6c4c6fc5e7822c39cf5",
+      "originalOutputHash": "b56dd1f0a321dc492c3d2e9c07e74832cd8e3ce4fe8681bd703c271c133373f1",
+      "role": "wall",
+      "tag": "#",
+      "status": "original-first-pass",
+      "output": "terrain/wall/wall__wall-sewer-stone.png"
+    },
+    "water-sewer-sludge:default": {
+      "id": "water-sewer-sludge",
+      "axis": "default",
+      "file": "sources/terrain/water__water-sewer-sludge__default.png",
+      "protectedArt": false,
+      "origin": {
+        "source": "terrain-c.png",
+        "cell": [
+          2,
+          1
+        ],
+        "mirrored": false,
+        "recoveredBox": {
+          "left": 442,
+          "top": 290,
+          "width": 232,
+          "height": 159
+        }
+      },
+      "sha256": "f56a8aa65a7ce57abb7387265003c10055429453c034f20763dc7e69356465a7",
+      "originalOutputHash": "ef147966f7322039bc3c0b9c3a52ee778f8be06a08e6aff4b12a3e9baf14f2df",
+      "role": "water",
+      "tag": "~",
+      "status": "original-first-pass",
+      "output": "terrain/water/water__water-sewer-sludge.png"
+    },
+    "rough-mud-churned:default": {
+      "id": "rough-mud-churned",
+      "axis": "default",
+      "file": "sources/terrain/rough__rough-mud-churned__default.png",
+      "protectedArt": false,
+      "origin": {
+        "source": "terrain-c.png",
+        "cell": [
+          3,
+          1
+        ],
+        "mirrored": false,
+        "recoveredBox": {
+          "left": 684,
+          "top": 303,
+          "width": 222,
+          "height": 144
+        }
+      },
+      "sha256": "29b0a7f1e4450bce7d10ca984158a35eed971185fb08fbdb3cceb802252583a9",
+      "originalOutputHash": "0ad7187e8697cf7694a0a454c57031d83a70697d6052207363d9c378ddc014a4",
+      "role": "rough",
+      "tag": ",",
+      "status": "original-first-pass",
+      "output": "terrain/rough/rough__rough-mud-churned.png"
+    },
+    "door-cell-bars:axis-a": {
+      "id": "door-cell-bars",
+      "axis": "axis-a",
+      "file": "sources/terrain/door__door-cell-bars__axis-a.png",
+      "protectedArt": false,
+      "origin": {
+        "source": "terrain-c.png",
+        "cell": [
+          4,
+          1
+        ],
+        "mirrored": false,
+        "recoveredBox": {
+          "left": 926,
+          "top": 242,
+          "width": 171,
+          "height": 205
+        }
+      },
+      "sha256": "417a9a1f8e99074832ad790b354b82564e1c2793b6050b5e10f474158c775c1c",
+      "originalOutputHash": "48602678af1705d7257a96297fe1d72bfc582d42e44892e7925d10c5b5d9d7f4",
+      "role": "door",
+      "tag": "+",
+      "status": "original-first-pass",
+      "output": "terrain/door/door__door-cell-bars__axis-a.png"
+    },
+    "door-cell-bars:axis-b": {
+      "id": "door-cell-bars",
+      "axis": "axis-b",
+      "file": "sources/terrain/door__door-cell-bars__axis-b.png",
+      "protectedArt": false,
+      "origin": {
+        "source": "terrain-c.png",
+        "cell": [
+          5,
+          1
+        ],
+        "mirrored": false,
+        "recoveredBox": {
+          "left": 1152,
+          "top": 260,
+          "width": 153,
+          "height": 185
+        }
+      },
+      "sha256": "d923966cddf59a4fa568a33e294b57aa010bb052befde45820149d27f8380f42",
+      "originalOutputHash": "7327fd22e2f5eac9276fd31cf8393c3db84d3350afb13126417098576f3573c2",
+      "role": "door",
+      "tag": "+",
+      "status": "original-first-pass",
+      "output": "terrain/door/door__door-cell-bars__axis-b.png"
+    },
+    "lowwall-rubble-heap:axis-a": {
+      "id": "lowwall-rubble-heap",
+      "axis": "axis-a",
+      "file": "sources/terrain/lowwall__lowwall-rubble-heap__axis-a.png",
+      "protectedArt": false,
+      "origin": {
+        "source": "terrain-c.png",
+        "cell": [
+          6,
+          1
+        ],
+        "mirrored": false,
+        "recoveredBox": {
+          "left": 1352,
+          "top": 292,
+          "width": 199,
+          "height": 149
+        }
+      },
+      "sha256": "a06216344a8c3635ee52eb9293d6149a04a038f742bc8b5abe67d2dc0d10bac6",
+      "originalOutputHash": "d3121f6facd84fd5d4cffd26d159b167315f6984e106eda59da7e029e98721c3",
+      "role": "lowwall",
+      "tag": "|",
+      "status": "original-first-pass",
+      "output": "terrain/lowwall/lowwall__lowwall-rubble-heap__axis-a.png"
+    },
+    "lowwall-rubble-heap:axis-b": {
+      "id": "lowwall-rubble-heap",
+      "axis": "axis-b",
+      "file": "sources/terrain/lowwall__lowwall-rubble-heap__axis-b.png",
+      "protectedArt": false,
+      "origin": {
+        "source": "terrain-c.png",
+        "cell": [
+          6,
+          1
+        ],
+        "mirrored": true,
+        "recoveredBox": {
+          "left": 1352,
+          "top": 292,
+          "width": 199,
+          "height": 149
+        }
+      },
+      "sha256": "ec8bc095bae95c70a2cc30af7c23a420da1804585f69a40bd4be7dc98c232f68",
+      "originalOutputHash": "a2ccffdca1b3b0faad37c111b2a04b671e87b1a77deafe344897b5233981bfbc",
+      "role": "lowwall",
+      "tag": "|",
+      "status": "original-first-pass",
+      "output": "terrain/lowwall/lowwall__lowwall-rubble-heap__axis-b.png"
+    },
+    "wood-plank-worn:default": {
+      "id": "wood-plank-worn",
+      "axis": "default",
+      "file": "sources/terrain/floor__wood-plank-worn__default.png",
+      "protectedArt": false,
+      "origin": {
+        "source": "terrain-c.png",
+        "cell": [
+          0,
+          2
+        ],
+        "mirrored": false,
+        "recoveredBox": {
+          "left": 15,
+          "top": 500,
+          "width": 225,
+          "height": 148
+        }
+      },
+      "sha256": "25e46e20aa69dc382cd2fa8571e7195fc76ce7aedd558d56a835f365e0e52aa2",
+      "originalOutputHash": "c3838b27e6bed115a4dc44eb767d09e23f1ae66d783991d55b599c6d19aeb38a",
+      "role": "floor",
+      "tag": ".",
+      "status": "original-first-pass",
+      "output": "terrain/floor/floor__wood-plank-worn.png"
+    },
+    "wall-wood-log:default": {
+      "id": "wall-wood-log",
+      "axis": "default",
+      "file": "sources/terrain/wall__wall-wood-log__default.png",
+      "protectedArt": false,
+      "origin": {
+        "source": "terrain-c.png",
+        "cell": [
+          1,
+          2
+        ],
+        "mirrored": false,
+        "recoveredBox": {
+          "left": 261,
+          "top": 443,
+          "width": 163,
+          "height": 203
+        }
+      },
+      "sha256": "9c7c0197ac20ab32714ad3dd6a14c40f75f3bca56268a7ce3ad61cb7aa4a6e12",
+      "originalOutputHash": "ab0e275e1440ec2c31ed3f1fa16d3e4ef521a9eeef49aab027ab29237fa4ac11",
+      "role": "wall",
+      "tag": "#",
+      "status": "original-first-pass",
+      "output": "terrain/wall/wall__wall-wood-log.png"
+    },
+    "lowwall-market-counter:axis-a": {
+      "id": "lowwall-market-counter",
+      "axis": "axis-a",
+      "file": "sources/terrain/lowwall__lowwall-market-counter__axis-a.png",
+      "protectedArt": false,
+      "origin": {
+        "source": "terrain-c.png",
+        "cell": [
+          6,
+          2
+        ],
+        "mirrored": false,
+        "recoveredBox": {
+          "left": 1342,
+          "top": 487,
+          "width": 202,
+          "height": 168
+        }
+      },
+      "sha256": "ab8a43a194aad55e16a76661779fa4b641c58766321dd559b1def8af4a687e07",
+      "originalOutputHash": "3941143e1942b7a1c6a4481d6693a60107ba897786bf17fc37119cf33302bc5c",
+      "role": "lowwall",
+      "tag": "|",
+      "status": "original-first-pass",
+      "output": "terrain/lowwall/lowwall__lowwall-market-counter__axis-a.png"
+    },
+    "lowwall-market-counter:axis-b": {
+      "id": "lowwall-market-counter",
+      "axis": "axis-b",
+      "file": "sources/terrain/lowwall__lowwall-market-counter__axis-b.png",
+      "protectedArt": false,
+      "origin": {
+        "source": "terrain-c.png",
+        "cell": [
+          6,
+          2
+        ],
+        "mirrored": true,
+        "recoveredBox": {
+          "left": 1342,
+          "top": 487,
+          "width": 202,
+          "height": 168
+        }
+      },
+      "sha256": "555346a68f1c86c3fdcb763523090eb38fb8e87e3f50493719e927bc699a2fc0",
+      "originalOutputHash": "ac8b75bcfc00b3555f6b05781385bd46f5a4817d63d551fe14108c420ea3dea5",
+      "role": "lowwall",
+      "tag": "|",
+      "status": "original-first-pass",
+      "output": "terrain/lowwall/lowwall__lowwall-market-counter__axis-b.png"
+    },
+    "ship-deck:default": {
+      "id": "ship-deck",
+      "axis": "default",
+      "file": "sources/terrain/floor__ship-deck__default.png",
+      "protectedArt": false,
+      "origin": {
+        "source": "terrain-c.png",
+        "cell": [
+          0,
+          3
+        ],
+        "mirrored": false,
+        "recoveredBox": {
+          "left": 14,
+          "top": 695,
+          "width": 227,
+          "height": 157
+        }
+      },
+      "sha256": "62a182b8071248f208bbd4fdbcb389c72cb3477a293880153ac86a34405c9b05",
+      "originalOutputHash": "6c191b02b1691be5028caf49b8a38976f77fe1db892dca9d6b984c379bbdc323",
+      "role": "floor",
+      "tag": ".",
+      "status": "original-first-pass",
+      "output": "terrain/floor/floor__ship-deck.png"
+    },
+    "wall-wood-plank:default": {
+      "id": "wall-wood-plank",
+      "axis": "default",
+      "file": "sources/terrain/wall__wall-wood-plank__default.png",
+      "protectedArt": false,
+      "origin": {
+        "source": "terrain-c.png",
+        "cell": [
+          1,
+          3
+        ],
+        "mirrored": false,
+        "recoveredBox": {
+          "left": 261,
+          "top": 647,
+          "width": 163,
+          "height": 205
+        }
+      },
+      "sha256": "967b8d51954005dc79d4064739ffab3e7c67495798493d1652304175411894b3",
+      "originalOutputHash": "597a422fb241273fb63fe09586b79dc2ec74131dd787f5545873fee7fb19dbf0",
+      "role": "wall",
+      "tag": "#",
+      "status": "original-first-pass",
+      "output": "terrain/wall/wall__wall-wood-plank.png"
+    },
+    "water-sea-waves:default": {
+      "id": "water-sea-waves",
+      "axis": "default",
+      "file": "sources/terrain/water__water-sea-waves__default.png",
+      "protectedArt": false,
+      "origin": {
+        "source": "terrain-c.png",
+        "cell": [
+          2,
+          3
+        ],
+        "mirrored": false,
+        "recoveredBox": {
+          "left": 446,
+          "top": 685,
+          "width": 237,
+          "height": 166
+        }
+      },
+      "sha256": "09aba649555dadb34470ad9440431a6bf1fd5f78c835f7f981d10c1327569678",
+      "originalOutputHash": "e285ba237c08aea478e701ab4a31a9c32be07d49948bd00fa491dde2d1d1c63c",
+      "role": "water",
+      "tag": "~",
+      "status": "original-first-pass",
+      "output": "terrain/water/water__water-sea-waves.png"
+    },
+    "lowwall-barrel-row:axis-a": {
+      "id": "lowwall-barrel-row",
+      "axis": "axis-a",
+      "file": "sources/terrain/lowwall__lowwall-barrel-row__axis-a.png",
+      "protectedArt": false,
+      "origin": {
+        "source": "terrain-c.png",
+        "cell": [
+          6,
+          3
+        ],
+        "mirrored": false,
+        "recoveredBox": {
+          "left": 1343,
+          "top": 690,
+          "width": 214,
+          "height": 162
+        }
+      },
+      "sha256": "2d71275a2b04fd3e23861626743884624a54a7509c8a732e56dde4a4c86abef6",
+      "originalOutputHash": "6d01a3e1d554069457d3fb75bbd38063a8cd58553c0d1cb903db96b9dbd49671",
+      "role": "lowwall",
+      "tag": "|",
+      "status": "original-first-pass",
+      "output": "terrain/lowwall/lowwall__lowwall-barrel-row__axis-a.png"
+    },
+    "lowwall-barrel-row:axis-b": {
+      "id": "lowwall-barrel-row",
+      "axis": "axis-b",
+      "file": "sources/terrain/lowwall__lowwall-barrel-row__axis-b.png",
+      "protectedArt": false,
+      "origin": {
+        "source": "terrain-c.png",
+        "cell": [
+          6,
+          3
+        ],
+        "mirrored": true,
+        "recoveredBox": {
+          "left": 1343,
+          "top": 690,
+          "width": 214,
+          "height": 162
+        }
+      },
+      "sha256": "a98561d2acef93f47cad1dc85703f853c0afd335f4c7f70dd9ace9ac5c61fee8",
+      "originalOutputHash": "a7e4373876ca8bafcf64751efdb4ca72606508134d05f98780e09b732fe858f2",
+      "role": "lowwall",
+      "tag": "|",
+      "status": "original-first-pass",
+      "output": "terrain/lowwall/lowwall__lowwall-barrel-row__axis-b.png"
+    },
+    "sand-beach:default": {
+      "id": "sand-beach",
+      "axis": "default",
+      "file": "sources/terrain/floor__sand-beach__default.png",
+      "protectedArt": false,
+      "origin": {
+        "source": "terrain-d.png",
+        "cell": [
+          0,
+          0
+        ],
+        "mirrored": false,
+        "recoveredBox": {
+          "left": 9,
+          "top": 73,
+          "width": 213,
+          "height": 144
+        }
+      },
+      "sha256": "847100f5f9bbb604d8105cc1c3819ec1851f609ca6484e8321309eb7a321ccf0",
+      "originalOutputHash": "350bfdad61b5c5b7d224a742eaf582832813d294fbe31b1505577a1524b1df7a",
+      "role": "floor",
+      "tag": ".",
+      "status": "original-first-pass",
+      "output": "terrain/floor/floor__sand-beach.png"
+    },
+    "wall-earth-cut:default": {
+      "id": "wall-earth-cut",
+      "axis": "default",
+      "file": "sources/terrain/wall__wall-earth-cut__default.png",
+      "protectedArt": false,
+      "origin": {
+        "source": "terrain-d.png",
+        "cell": [
+          1,
+          0
+        ],
+        "mirrored": false,
+        "recoveredBox": {
+          "left": 269,
+          "top": 26,
+          "width": 150,
+          "height": 191
+        }
+      },
+      "sha256": "bbc186e09424773f39be026de75466f9a815ca88de7545c85d51ca049bac6d70",
+      "originalOutputHash": "c23bb737f1f3654c9b96f7d6d18427ac14c61f9404ab0e081a30d9a898054ceb",
+      "role": "wall",
+      "tag": "#",
+      "status": "original-first-pass",
+      "output": "terrain/wall/wall__wall-earth-cut.png"
+    },
+    "water-river-flowing:default": {
+      "id": "water-river-flowing",
+      "axis": "default",
+      "file": "sources/terrain/water__water-river-flowing__default.png",
+      "protectedArt": false,
+      "origin": {
+        "source": "terrain-d.png",
+        "cell": [
+          2,
+          0
+        ],
+        "mirrored": false,
+        "recoveredBox": {
+          "left": 442,
+          "top": 55,
+          "width": 226,
+          "height": 167
+        }
+      },
+      "sha256": "1db989cf8eedcb7e62c6390f282cfce8ee72b61a6a644bb6897d780ab471d1a0",
+      "originalOutputHash": "928b2e69cde336c814f88f596a89c0cbdc753c301dd72405fa95690b7f8f99bd",
+      "role": "water",
+      "tag": "~",
+      "status": "original-first-pass",
+      "output": "terrain/water/water__water-river-flowing.png"
+    },
+    "rough-driftwood:default": {
+      "id": "rough-driftwood",
+      "axis": "default",
+      "file": "sources/terrain/rough__rough-driftwood__default.png",
+      "protectedArt": false,
+      "origin": {
+        "source": "terrain-d.png",
+        "cell": [
+          3,
+          0
+        ],
+        "mirrored": false,
+        "recoveredBox": {
+          "left": 674,
+          "top": 57,
+          "width": 213,
+          "height": 160
+        }
+      },
+      "sha256": "14e1471806783fdf4825307e411fd19db30ab67e7068536d2e3b793cfde893a0",
+      "originalOutputHash": "f43f33dacaeb42c55636dec97f3b7047058c6b83e6e61285898b917cb515a455",
+      "role": "rough",
+      "tag": ",",
+      "status": "original-first-pass",
+      "output": "terrain/rough/rough__rough-driftwood.png"
+    },
+    "snow-packed:default": {
+      "id": "snow-packed",
+      "axis": "default",
+      "file": "sources/terrain/floor__snow-packed__default.png",
+      "protectedArt": false,
+      "origin": {
+        "source": "terrain-d.png",
+        "cell": [
+          0,
+          1
+        ],
+        "mirrored": false,
+        "recoveredBox": {
+          "left": 7,
+          "top": 283,
+          "width": 221,
+          "height": 148
+        }
+      },
+      "sha256": "15db1a1f0b51d148a3b635502105f69defd56bb1d2c9430456d5abcdb2a1079c",
+      "originalOutputHash": "7e048aaa70ac0997cc4f275018b537f8c6778a03e12971629c51fcb8fce0c63d",
+      "role": "floor",
+      "tag": ".",
+      "status": "original-first-pass",
+      "output": "terrain/floor/floor__snow-packed.png"
+    },
+    "wall-ice:default": {
+      "id": "wall-ice",
+      "axis": "default",
+      "file": "sources/terrain/wall__wall-ice__default.png",
+      "protectedArt": false,
+      "origin": {
+        "source": "terrain-d.png",
+        "cell": [
+          1,
+          1
+        ],
+        "mirrored": false,
+        "recoveredBox": {
+          "left": 266,
+          "top": 228,
+          "width": 154,
+          "height": 205
+        }
+      },
+      "sha256": "b272303dec0cc2a81fcb39b265449480d32e492ce874a29d5d11f2f6e0eb3f7d",
+      "originalOutputHash": "3a6e3edb442f3ea6d851f7010b9df38b182e8d1098fba35c188d4dd9e983b597",
+      "role": "wall",
+      "tag": "#",
+      "status": "original-first-pass",
+      "output": "terrain/wall/wall__wall-ice.png"
+    },
+    "water-icy-slush:default": {
+      "id": "water-icy-slush",
+      "axis": "default",
+      "file": "sources/terrain/water__water-icy-slush__default.png",
+      "protectedArt": false,
+      "origin": {
+        "source": "terrain-d.png",
+        "cell": [
+          2,
+          1
+        ],
+        "mirrored": false,
+        "recoveredBox": {
+          "left": 442,
+          "top": 268,
+          "width": 226,
+          "height": 172
+        }
+      },
+      "sha256": "de3ce611d4ee45fa5bbf2044e3329f8aee4a86d563689e72704019d432c37607",
+      "originalOutputHash": "3449d2895b457e17c2c4298165143d0c7672a73389ff2bb0e0858b74ebe7068f",
+      "role": "water",
+      "tag": "~",
+      "status": "original-first-pass",
+      "output": "terrain/water/water__water-icy-slush.png"
+    },
+    "rough-snow-deep:default": {
+      "id": "rough-snow-deep",
+      "axis": "default",
+      "file": "sources/terrain/rough__rough-snow-deep__default.png",
+      "protectedArt": false,
+      "origin": {
+        "source": "terrain-d.png",
+        "cell": [
+          3,
+          1
+        ],
+        "mirrored": false,
+        "recoveredBox": {
+          "left": 674,
+          "top": 251,
+          "width": 213,
+          "height": 183
+        }
+      },
+      "sha256": "8d2a671f9e28a08f9135ab631d4f7994e1d9a85eedf57db535c78d630af9af98",
+      "originalOutputHash": "6ef5aa27e2cd3a0003323aabd4f63dae0469505e4a283ec8703853e82675b493",
+      "role": "rough",
+      "tag": ",",
+      "status": "original-first-pass",
+      "output": "terrain/rough/rough__rough-snow-deep.png"
+    },
+    "sand-desert:default": {
+      "id": "sand-desert",
+      "axis": "default",
+      "file": "sources/terrain/floor__sand-desert__default.png",
+      "protectedArt": false,
+      "origin": {
+        "source": "terrain-d.png",
+        "cell": [
+          0,
+          2
+        ],
+        "mirrored": false,
+        "recoveredBox": {
+          "left": 7,
+          "top": 502,
+          "width": 220,
+          "height": 149
+        }
+      },
+      "sha256": "3212124deddb233ddc35279850892804ccc4441baaba81208e6ce9c626f336e4",
+      "originalOutputHash": "999e978e3c6c34baca1e4a13e507e8173a43a11f842c7d3ea1726226e04bc72f",
+      "role": "floor",
+      "tag": ".",
+      "status": "original-first-pass",
+      "output": "terrain/floor/floor__sand-desert.png"
+    },
+    "wall-adobe:default": {
+      "id": "wall-adobe",
+      "axis": "default",
+      "file": "sources/terrain/wall__wall-adobe__default.png",
+      "protectedArt": false,
+      "origin": {
+        "source": "terrain-d.png",
+        "cell": [
+          1,
+          2
+        ],
+        "mirrored": false,
+        "recoveredBox": {
+          "left": 269,
+          "top": 443,
+          "width": 150,
+          "height": 202
+        }
+      },
+      "sha256": "4907884c481fbbf17b0a7b84026c0e43fee6382c0d3cba28b4817fdfec37e1dc",
+      "originalOutputHash": "48b82efd68bb53651a48b594aa1beb283b5dc777ec8d555a1f0f99f43ab1e530",
+      "role": "wall",
+      "tag": "#",
+      "status": "original-first-pass",
+      "output": "terrain/wall/wall__wall-adobe.png"
+    },
+    "water-hot-spring:default": {
+      "id": "water-hot-spring",
+      "axis": "default",
+      "file": "sources/terrain/water__water-hot-spring__default.png",
+      "protectedArt": false,
+      "origin": {
+        "source": "terrain-d.png",
+        "cell": [
+          2,
+          2
+        ],
+        "mirrored": false,
+        "recoveredBox": {
+          "left": 442,
+          "top": 485,
+          "width": 226,
+          "height": 166
+        }
+      },
+      "sha256": "bc5ccc128b03cb0d96a8917360c602f9b0c63c1931918387587c2e0580d62f53",
+      "originalOutputHash": "b8520db6f45d8217b15af9a60372081b0ef436b4201168b6ea2e79322e5203b1",
+      "role": "water",
+      "tag": "~",
+      "status": "original-first-pass",
+      "output": "terrain/water/water__water-hot-spring.png"
+    },
+    "rough-cactus-scrub:default": {
+      "id": "rough-cactus-scrub",
+      "axis": "default",
+      "file": "sources/terrain/rough__rough-cactus-scrub__default.png",
+      "protectedArt": false,
+      "origin": {
+        "source": "terrain-d.png",
+        "cell": [
+          3,
+          2
+        ],
+        "mirrored": false,
+        "recoveredBox": {
+          "left": 674,
+          "top": 453,
+          "width": 213,
+          "height": 195
+        }
+      },
+      "sha256": "cbbb84fdc05681146b60e074f77542cb60be0caf3c8da7f6c4aa19d95d9af7ed",
+      "originalOutputHash": "f969bb4d867f6f3a2fd0928699d808fe3eef5e432143e82a0816c7a9cc1dae51",
+      "role": "rough",
+      "tag": ",",
+      "status": "original-first-pass",
+      "output": "terrain/rough/rough__rough-cactus-scrub.png"
+    },
+    "door-curtain-beaded:axis-a": {
+      "id": "door-curtain-beaded",
+      "axis": "axis-a",
+      "file": "sources/terrain/door__door-curtain-beaded__axis-a.png",
+      "protectedArt": false,
+      "origin": {
+        "source": "terrain-d.png",
+        "cell": [
+          4,
+          2
+        ],
+        "mirrored": false,
+        "recoveredBox": {
+          "left": 903,
+          "top": 451,
+          "width": 183,
+          "height": 207
+        }
+      },
+      "sha256": "8d9d595a75f6288e3f15d9feda948d40b70f7c68ec552018d4af34daac452b06",
+      "originalOutputHash": "ae7393fe265c29909c66f9080d01dc0b10b49f090940e02bbeae98414f177e17",
+      "role": "door",
+      "tag": "+",
+      "status": "original-first-pass",
+      "output": "terrain/door/door__door-curtain-beaded__axis-a.png"
+    },
+    "door-curtain-beaded:axis-b": {
+      "id": "door-curtain-beaded",
+      "axis": "axis-b",
+      "file": "sources/terrain/door__door-curtain-beaded__axis-b.png",
+      "protectedArt": false,
+      "origin": {
+        "source": "terrain-d.png",
+        "cell": [
+          5,
+          2
+        ],
+        "mirrored": false,
+        "recoveredBox": {
+          "left": 1129,
+          "top": 451,
+          "width": 183,
+          "height": 207
+        }
+      },
+      "sha256": "35ad6d85da0fe0f00c058e6d19e0763498d4fca76f05716d1abdc78361c5c267",
+      "originalOutputHash": "f99174cf59f13af654096ee992ce5b6007e1f2e0a889eafb0fe5dfff16667300",
+      "role": "door",
+      "tag": "+",
+      "status": "original-first-pass",
+      "output": "terrain/door/door__door-curtain-beaded__axis-b.png"
+    },
+    "lowwall-sandbag:axis-a": {
+      "id": "lowwall-sandbag",
+      "axis": "axis-a",
+      "file": "sources/terrain/lowwall__lowwall-sandbag__axis-a.png",
+      "protectedArt": false,
+      "origin": {
+        "source": "terrain-d.png",
+        "cell": [
+          6,
+          2
+        ],
+        "mirrored": false,
+        "recoveredBox": {
+          "left": 1339,
+          "top": 505,
+          "width": 210,
+          "height": 148
+        }
+      },
+      "sha256": "20f8372aa3f7ae292fde89339d6c6665a803d8b1a59d5acc78b2abc2de7c72d5",
+      "originalOutputHash": "7e9290f570f581741fa4fdda3ce03a708a31600d8cde5b3e8477cec8784681b7",
+      "role": "lowwall",
+      "tag": "|",
+      "status": "original-first-pass",
+      "output": "terrain/lowwall/lowwall__lowwall-sandbag__axis-a.png"
+    },
+    "lowwall-sandbag:axis-b": {
+      "id": "lowwall-sandbag",
+      "axis": "axis-b",
+      "file": "sources/terrain/lowwall__lowwall-sandbag__axis-b.png",
+      "protectedArt": false,
+      "origin": {
+        "source": "terrain-d.png",
+        "cell": [
+          6,
+          2
+        ],
+        "mirrored": true,
+        "recoveredBox": {
+          "left": 1339,
+          "top": 505,
+          "width": 210,
+          "height": 148
+        }
+      },
+      "sha256": "69ca883e1f7a3536c07f5948887a54d1173992b33f70dbd3e9234e7711a4f41f",
+      "originalOutputHash": "180548ea6ecfc0062f4e75067ac953c151beeca5dc07a3153e256c4d1fe7cc7a",
+      "role": "lowwall",
+      "tag": "|",
+      "status": "original-first-pass",
+      "output": "terrain/lowwall/lowwall__lowwall-sandbag__axis-b.png"
+    },
+    "slate-tile:default": {
+      "id": "slate-tile",
+      "axis": "default",
+      "file": "sources/terrain/floor__slate-tile__default.png",
+      "protectedArt": false,
+      "origin": {
+        "source": "terrain-d.png",
+        "cell": [
+          0,
+          3
+        ],
+        "mirrored": false,
+        "recoveredBox": {
+          "left": 9,
+          "top": 709,
+          "width": 218,
+          "height": 146
+        }
+      },
+      "sha256": "df9826702099f84941459c80d58f8630174ba476df02405d4cb8aad98f39c4ed",
+      "originalOutputHash": "b5980298ec6f56a16720410153fe4197383c8db3b2255dedd4e321f3e3592392",
+      "role": "floor",
+      "tag": ".",
+      "status": "original-first-pass",
+      "output": "terrain/floor/floor__slate-tile.png"
+    },
+    "wall-iron-plate:default": {
+      "id": "wall-iron-plate",
+      "axis": "default",
+      "file": "sources/terrain/wall__wall-iron-plate__default.png",
+      "protectedArt": false,
+      "origin": {
+        "source": "terrain-d.png",
+        "cell": [
+          1,
+          3
+        ],
+        "mirrored": false,
+        "recoveredBox": {
+          "left": 270,
+          "top": 658,
+          "width": 151,
+          "height": 203
+        }
+      },
+      "sha256": "0008e764191e1eebb78e1985edf5c2f042882eb76b0983a7972188cb7118ae5b",
+      "originalOutputHash": "26dc929f7ef8cf827d20e8290d707c0fda798e0c2f0649a630ffc3a8b0d10639",
+      "role": "wall",
+      "tag": "#",
+      "status": "original-first-pass",
+      "output": "terrain/wall/wall__wall-iron-plate.png"
+    },
+    "hazard-acid-pool:default": {
+      "id": "hazard-acid-pool",
+      "axis": "default",
+      "file": "sources/terrain/water__hazard-acid-pool__default.png",
+      "protectedArt": false,
+      "origin": {
+        "source": "terrain-d.png",
+        "cell": [
+          2,
+          3
+        ],
+        "mirrored": false,
+        "recoveredBox": {
+          "left": 443,
+          "top": 686,
+          "width": 225,
+          "height": 171
+        }
+      },
+      "sha256": "8fa73b5dae5c0a90246d4f83dccabc0b798997d3f6ab10a8ed96cd81dbbd7d9f",
+      "originalOutputHash": "7d84bde84100b95fc3b75a887e1d4651e90b059749725b91b8663fe455102512",
+      "role": "water",
+      "tag": "~",
+      "status": "original-first-pass",
+      "output": "terrain/water/water__hazard-acid-pool.png"
+    },
+    "door-iron-reinforced:axis-a": {
+      "id": "door-iron-reinforced",
+      "axis": "axis-a",
+      "file": "sources/terrain/door__door-iron-reinforced__axis-a.png",
+      "protectedArt": false,
+      "origin": {
+        "source": "terrain-d.png",
+        "cell": [
+          4,
+          3
+        ],
+        "mirrored": false,
+        "recoveredBox": {
+          "left": 907,
+          "top": 662,
+          "width": 181,
+          "height": 207
+        }
+      },
+      "sha256": "cbb0511118c1f567cc5989532ce60e8bcee4f6fa05261c81c7e1c197a31847a4",
+      "originalOutputHash": "9c0f63e5ee626caccfd3c61ec67f18f6844ee66ad7fbb03e0ec3742ff6e8f5ea",
+      "role": "door",
+      "tag": "+",
+      "status": "original-first-pass",
+      "output": "terrain/door/door__door-iron-reinforced__axis-a.png"
+    },
+    "door-iron-reinforced:axis-b": {
+      "id": "door-iron-reinforced",
+      "axis": "axis-b",
+      "file": "sources/terrain/door__door-iron-reinforced__axis-b.png",
+      "protectedArt": false,
+      "origin": {
+        "source": "terrain-d.png",
+        "cell": [
+          5,
+          3
+        ],
+        "mirrored": false,
+        "recoveredBox": {
+          "left": 1128,
+          "top": 662,
+          "width": 183,
+          "height": 207
+        }
+      },
+      "sha256": "aa3b5e8ef4fbc1a725a723fdefc2b15b62c45031c49b9c2b40982f3c2d7c8dc7",
+      "originalOutputHash": "691c2a7f29f206a8b7d4e59534f4dc36a6692dcfbfce0a1b8aa19fc28220c0b2",
+      "role": "door",
+      "tag": "+",
+      "status": "original-first-pass",
+      "output": "terrain/door/door__door-iron-reinforced__axis-b.png"
+    },
+    "lowwall-bookshelf:axis-a": {
+      "id": "lowwall-bookshelf",
+      "axis": "axis-a",
+      "file": "sources/terrain/lowwall__lowwall-bookshelf__axis-a.png",
+      "protectedArt": false,
+      "origin": {
+        "source": "terrain-d.png",
+        "cell": [
+          6,
+          3
+        ],
+        "mirrored": false,
+        "recoveredBox": {
+          "left": 1339,
+          "top": 692,
+          "width": 210,
+          "height": 177
+        }
+      },
+      "sha256": "3a4e529261adc49625255f94a97559d5a94ae89034b7387714fdc109276af65e",
+      "originalOutputHash": "6695bbae6602a51f68653ae6322a37c15b0c222968511ce036beb451c1ba2e7e",
+      "role": "lowwall",
+      "tag": "|",
+      "status": "original-first-pass",
+      "output": "terrain/lowwall/lowwall__lowwall-bookshelf__axis-a.png"
+    },
+    "lowwall-bookshelf:axis-b": {
+      "id": "lowwall-bookshelf",
+      "axis": "axis-b",
+      "file": "sources/terrain/lowwall__lowwall-bookshelf__axis-b.png",
+      "protectedArt": false,
+      "origin": {
+        "source": "terrain-d.png",
+        "cell": [
+          6,
+          3
+        ],
+        "mirrored": true,
+        "recoveredBox": {
+          "left": 1339,
+          "top": 692,
+          "width": 210,
+          "height": 177
+        }
+      },
+      "sha256": "2b1db9fc393aeed5ec7a91c723cbd01bce6b17ba2c7fe10c0f74da86a3aa9d17",
+      "originalOutputHash": "17dc7e8a63f8923e1a64ae6bcb6c824b76884dee14559bebc9c8519c1ac27699",
+      "role": "lowwall",
+      "tag": "|",
+      "status": "original-first-pass",
+      "output": "terrain/lowwall/lowwall__lowwall-bookshelf__axis-b.png"
+    },
+    "cp-asphalt-wet:default": {
+      "id": "cp-asphalt-wet",
+      "axis": "default",
+      "file": "sources/terrain/floor__cp-asphalt-wet__default.png",
+      "protectedArt": false,
+      "origin": {
+        "baseMaterial": "slate-tile",
+        "tint": "#7880bc"
+      },
+      "sha256": "a94be36c96ab08dae03ffe4c96e96b28f8da67df919cc8de325f3549fb985b86",
+      "originalOutputHash": "ae64c8efd941805bdd036ccdc4f584bf5956849d1866dcdd4488d914810043e0",
+      "role": "floor",
+      "tag": ".",
+      "status": "placeholder",
+      "output": "terrain/floor/floor__cp-asphalt-wet.png"
+    },
+    "cp-wall-neon:default": {
+      "id": "cp-wall-neon",
+      "axis": "default",
+      "file": "sources/terrain/wall__cp-wall-neon__default.png",
+      "protectedArt": false,
+      "origin": {
+        "baseMaterial": "wall-iron-plate",
+        "tint": "#7880bc"
+      },
+      "sha256": "c664dbd7d50718f53af456fcb1fadc98eabd39219b846958b4ad339bbed21707",
+      "originalOutputHash": "6b44319ed67205ce19a0e1b70a1f0523caf10c3bbd46031475192c6bedff6122",
+      "role": "wall",
+      "tag": "#",
+      "status": "placeholder",
+      "output": "terrain/wall/wall__cp-wall-neon.png"
+    },
+    "cp-oil-slick:default": {
+      "id": "cp-oil-slick",
+      "axis": "default",
+      "file": "sources/terrain/water__cp-oil-slick__default.png",
+      "protectedArt": false,
+      "origin": {
+        "baseMaterial": "hazard-acid-pool",
+        "tint": "#7880bc"
+      },
+      "sha256": "0fd066091a8c44f48733a03a4b8cca434a26ba86741532bd47b3dadbf4ddff01",
+      "originalOutputHash": "15e312067c5b224b8dbe4fad91ce3f0ccb5cc81a52004af7904f28b1b0902e7f",
+      "role": "water",
+      "tag": "~",
+      "status": "placeholder",
+      "output": "terrain/water/water__cp-oil-slick.png"
+    },
+    "cp-cable-tangle:default": {
+      "id": "cp-cable-tangle",
+      "axis": "default",
+      "file": "sources/terrain/rough__cp-cable-tangle__default.png",
+      "protectedArt": false,
+      "origin": {
+        "baseMaterial": "rough-pottery-shards",
+        "tint": "#7880bc"
+      },
+      "sha256": "31768f81d6f1cde5ff54ee23838a0fc9fe46c6bfb90835e4bf7c97e7a195d8fe",
+      "originalOutputHash": "9571b83cfedaa16463e5659689cbad3ab571dfa08040b8323481bbc341594feb",
+      "role": "rough",
+      "tag": ",",
+      "status": "placeholder",
+      "output": "terrain/rough/rough__cp-cable-tangle.png"
+    },
+    "cp-door-cage:axis-a": {
+      "id": "cp-door-cage",
+      "axis": "axis-a",
+      "file": "sources/terrain/door__cp-door-cage__axis-a.png",
+      "protectedArt": false,
+      "origin": {
+        "baseMaterial": "door-iron-reinforced",
+        "tint": "#7880bc"
+      },
+      "sha256": "ab7be42b4153d7375ecf76f7ed42dfc893a83897bf397fce6aff5429d4ccb790",
+      "originalOutputHash": "b1109c19423b02c036ab3055cdd55869252fae147e02ab5ab8d4dbb17e6e62ae",
+      "role": "door",
+      "tag": "+",
+      "status": "placeholder",
+      "output": "terrain/door/door__cp-door-cage__axis-a.png"
+    },
+    "cp-door-cage:axis-b": {
+      "id": "cp-door-cage",
+      "axis": "axis-b",
+      "file": "sources/terrain/door__cp-door-cage__axis-b.png",
+      "protectedArt": false,
+      "origin": {
+        "baseMaterial": "door-iron-reinforced",
+        "tint": "#7880bc"
+      },
+      "sha256": "94203c857aee398bcb1d4ece3eab03b3259a37b42b77c7860b24c3c9af570d1c",
+      "originalOutputHash": "92e54774d597c6693e62e1e766b4b142b6803a4d2e3c89bdcf7bc2fa255af88f",
+      "role": "door",
+      "tag": "+",
+      "status": "placeholder",
+      "output": "terrain/door/door__cp-door-cage__axis-b.png"
+    },
+    "cp-lowwall-crash-barrier:axis-a": {
+      "id": "cp-lowwall-crash-barrier",
+      "axis": "axis-a",
+      "file": "sources/terrain/lowwall__cp-lowwall-crash-barrier__axis-a.png",
+      "protectedArt": false,
+      "origin": {
+        "baseMaterial": "lowwall-bookshelf",
+        "tint": "#7880bc"
+      },
+      "sha256": "ca5bb15f894fbc26eaba884f02c021522ab3320e00284cd9ee11373154d31dcb",
+      "originalOutputHash": "d5a2b69a3db2499c2c73ad5e9d1121a2442b9939bff6c17657be19154cf150c3",
+      "role": "lowwall",
+      "tag": "|",
+      "status": "placeholder",
+      "output": "terrain/lowwall/lowwall__cp-lowwall-crash-barrier__axis-a.png"
+    },
+    "cp-lowwall-crash-barrier:axis-b": {
+      "id": "cp-lowwall-crash-barrier",
+      "axis": "axis-b",
+      "file": "sources/terrain/lowwall__cp-lowwall-crash-barrier__axis-b.png",
+      "protectedArt": false,
+      "origin": {
+        "baseMaterial": "lowwall-bookshelf",
+        "tint": "#7880bc"
+      },
+      "sha256": "c611eb02cad0189be54888cd668b85f52e4134e02fe031f084dcddd066de7dce",
+      "originalOutputHash": "eee334919fae7742b881745a87b6c45a27069afbb90362402f66ac4204d92945",
+      "role": "lowwall",
+      "tag": "|",
+      "status": "placeholder",
+      "output": "terrain/lowwall/lowwall__cp-lowwall-crash-barrier__axis-b.png"
+    },
+    "cp-holo-tile:default": {
+      "id": "cp-holo-tile",
+      "axis": "default",
+      "file": "sources/terrain/floor__cp-holo-tile__default.png",
+      "protectedArt": false,
+      "origin": {
+        "baseMaterial": "slate-tile",
+        "tint": "#8fb8c4"
+      },
+      "sha256": "76d979fffa59ac64aad97a37f690b47bd373d778de0c6f4746392c0720b5e31c",
+      "originalOutputHash": "69619b25d989aced1cb1048119023d4a2b11a57e438c64c396bbf8e4850a992e",
+      "role": "floor",
+      "tag": ".",
+      "status": "placeholder",
+      "output": "terrain/floor/floor__cp-holo-tile.png"
+    },
+    "cp-wall-chrome:default": {
+      "id": "cp-wall-chrome",
+      "axis": "default",
+      "file": "sources/terrain/wall__cp-wall-chrome__default.png",
+      "protectedArt": false,
+      "origin": {
+        "baseMaterial": "wall-iron-plate",
+        "tint": "#8fb8c4"
+      },
+      "sha256": "92d6d9e56c1942e66e9741f8a3d605e68d674ea2c7af8add1381e8fcf912ae35",
+      "originalOutputHash": "2d95ebb42a1595eca2fa430b89100a01097b89143fecf59d665fe36c0e51fed4",
+      "role": "wall",
+      "tag": "#",
+      "status": "placeholder",
+      "output": "terrain/wall/wall__cp-wall-chrome.png"
+    },
+    "cp-coolant:default": {
+      "id": "cp-coolant",
+      "axis": "default",
+      "file": "sources/terrain/water__cp-coolant__default.png",
+      "protectedArt": false,
+      "origin": {
+        "baseMaterial": "hazard-acid-pool",
+        "tint": "#8fb8c4"
+      },
+      "sha256": "73a9ccb36cbd99e962bb834aae3d862b54ddf35af4cd7b53fff7bf3d774868dd",
+      "originalOutputHash": "26138a72684b4b4902e691615811858f1bf616588c57076cf292260a71a339a0",
+      "role": "water",
+      "tag": "~",
+      "status": "placeholder",
+      "output": "terrain/water/water__cp-coolant.png"
+    },
+    "cp-scrap-electronics:default": {
+      "id": "cp-scrap-electronics",
+      "axis": "default",
+      "file": "sources/terrain/rough__cp-scrap-electronics__default.png",
+      "protectedArt": false,
+      "origin": {
+        "baseMaterial": "rough-pottery-shards",
+        "tint": "#8fb8c4"
+      },
+      "sha256": "828f98a02bc5e93c5e911c8b4679280fc036a50347c693ae41f972ddefd3f653",
+      "originalOutputHash": "c723d15c566e0a962b4f199446b84b9da92d035bb1bdfeebb5887729ea14a9d6",
+      "role": "rough",
+      "tag": ",",
+      "status": "placeholder",
+      "output": "terrain/rough/rough__cp-scrap-electronics.png"
+    },
+    "cp-door-sliding-glass:axis-a": {
+      "id": "cp-door-sliding-glass",
+      "axis": "axis-a",
+      "file": "sources/terrain/door__cp-door-sliding-glass__axis-a.png",
+      "protectedArt": false,
+      "origin": {
+        "baseMaterial": "door-iron-reinforced",
+        "tint": "#8fb8c4"
+      },
+      "sha256": "4df5397bf6330c0e71be1c36a89b448576fd202a3ac4a7861df6147898ea97a4",
+      "originalOutputHash": "343e5a4c8e685ee89d6ce2df160406c5b8be07762f1318224f1d2e81e5d72575",
+      "role": "door",
+      "tag": "+",
+      "status": "placeholder",
+      "output": "terrain/door/door__cp-door-sliding-glass__axis-a.png"
+    },
+    "cp-door-sliding-glass:axis-b": {
+      "id": "cp-door-sliding-glass",
+      "axis": "axis-b",
+      "file": "sources/terrain/door__cp-door-sliding-glass__axis-b.png",
+      "protectedArt": false,
+      "origin": {
+        "baseMaterial": "door-iron-reinforced",
+        "tint": "#8fb8c4"
+      },
+      "sha256": "1a90de694175370141f8952266caa972b08773d8bfe5845ab2a0139fb9557cfc",
+      "originalOutputHash": "c57eeecfd26938d3fdd2c6cd7d46c0a3c4703c6b492097b29a927be9390183f6",
+      "role": "door",
+      "tag": "+",
+      "status": "placeholder",
+      "output": "terrain/door/door__cp-door-sliding-glass__axis-b.png"
+    },
+    "cp-lowwall-console:axis-a": {
+      "id": "cp-lowwall-console",
+      "axis": "axis-a",
+      "file": "sources/terrain/lowwall__cp-lowwall-console__axis-a.png",
+      "protectedArt": false,
+      "origin": {
+        "baseMaterial": "lowwall-bookshelf",
+        "tint": "#8fb8c4"
+      },
+      "sha256": "0c0063c1d89070dd1a39f2d30914292a43a8df760cc004cb9fbd0959ab0b9948",
+      "originalOutputHash": "ad8e424932e70e7e0d502f733a081cc7ca4ff48deda2785dbfb30b3fc33e2666",
+      "role": "lowwall",
+      "tag": "|",
+      "status": "placeholder",
+      "output": "terrain/lowwall/lowwall__cp-lowwall-console__axis-a.png"
+    },
+    "cp-lowwall-console:axis-b": {
+      "id": "cp-lowwall-console",
+      "axis": "axis-b",
+      "file": "sources/terrain/lowwall__cp-lowwall-console__axis-b.png",
+      "protectedArt": false,
+      "origin": {
+        "baseMaterial": "lowwall-bookshelf",
+        "tint": "#8fb8c4"
+      },
+      "sha256": "79deb482c7f1f405443dc80a3c0473cb33efc81ebe37f547f38e660a4f555e52",
+      "originalOutputHash": "5e4024442e8c35c0a96f33682c273b3301a96ba03fbf0572d7d786b44946ccfc",
+      "role": "lowwall",
+      "tag": "|",
+      "status": "placeholder",
+      "output": "terrain/lowwall/lowwall__cp-lowwall-console__axis-b.png"
+    },
+    "cp-concrete-plaza:default": {
+      "id": "cp-concrete-plaza",
+      "axis": "default",
+      "file": "sources/terrain/floor__cp-concrete-plaza__default.png",
+      "protectedArt": false,
+      "origin": {
+        "baseMaterial": "sewer-brick",
+        "tint": "#789b96"
+      },
+      "sha256": "9171a6724b363be6995365395074b2f15333a4dac3fb8a715bb1b04fed5c384c",
+      "originalOutputHash": "9fe41aa10bb1b82658df7017529f4fd012f0041e4afa7db5700830219c4b34ab",
+      "role": "floor",
+      "tag": ".",
+      "status": "placeholder",
+      "output": "terrain/floor/floor__cp-concrete-plaza.png"
+    },
+    "cp-wall-container:default": {
+      "id": "cp-wall-container",
+      "axis": "default",
+      "file": "sources/terrain/wall__cp-wall-container__default.png",
+      "protectedArt": false,
+      "origin": {
+        "baseMaterial": "wall-sewer-stone",
+        "tint": "#789b96"
+      },
+      "sha256": "8fe4ff912835e0728744ac8ad07853d5d0b7da223ee86c7bf7cf40645fd976a3",
+      "originalOutputHash": "e2c6d535fd5df4a6e4ee29813cf5456748e5dc233bd28e9347bc2febafcebea9",
+      "role": "wall",
+      "tag": "#",
+      "status": "placeholder",
+      "output": "terrain/wall/wall__cp-wall-container.png"
+    },
+    "cp-toxic-runoff:default": {
+      "id": "cp-toxic-runoff",
+      "axis": "default",
+      "file": "sources/terrain/water__cp-toxic-runoff__default.png",
+      "protectedArt": false,
+      "origin": {
+        "baseMaterial": "water-sewer-sludge",
+        "tint": "#789b96"
+      },
+      "sha256": "109b986f7a1eb0503b59127b437a68accd2b47cb9cb8d75a3e4d25a01f647034",
+      "originalOutputHash": "b4740c1983dbf2a479acc5aaacbb9997d9fffca9c5aeb8d811ed72bc6b60eed0",
+      "role": "water",
+      "tag": "~",
+      "status": "placeholder",
+      "output": "terrain/water/water__cp-toxic-runoff.png"
+    },
+    "cp-rubble-concrete:default": {
+      "id": "cp-rubble-concrete",
+      "axis": "default",
+      "file": "sources/terrain/rough__cp-rubble-concrete__default.png",
+      "protectedArt": false,
+      "origin": {
+        "baseMaterial": "rough-mud-churned",
+        "tint": "#789b96"
+      },
+      "sha256": "64162f3c13bfeefcb5c1f848be0cd606957445473fb5bf94c8a62bf2c5dbc96c",
+      "originalOutputHash": "4c6fb2cb1b6a1b078e20d118697183d5e1e23aeb7d6105e37e32ab669d6345cc",
+      "role": "rough",
+      "tag": ",",
+      "status": "placeholder",
+      "output": "terrain/rough/rough__cp-rubble-concrete.png"
+    },
+    "cp-lowwall-crates:axis-a": {
+      "id": "cp-lowwall-crates",
+      "axis": "axis-a",
+      "file": "sources/terrain/lowwall__cp-lowwall-crates__axis-a.png",
+      "protectedArt": false,
+      "origin": {
+        "baseMaterial": "lowwall-rubble-heap",
+        "tint": "#789b96"
+      },
+      "sha256": "dafff9fca4c1add63330d6d54283ff5a3849369adae216cb1754de69fdfef4b9",
+      "originalOutputHash": "1800d86728e835d58e0f946b8bc400e7b3ecb7ba48ec66aa6e20a1998b0e09a3",
+      "role": "lowwall",
+      "tag": "|",
+      "status": "placeholder",
+      "output": "terrain/lowwall/lowwall__cp-lowwall-crates__axis-a.png"
+    },
+    "cp-lowwall-crates:axis-b": {
+      "id": "cp-lowwall-crates",
+      "axis": "axis-b",
+      "file": "sources/terrain/lowwall__cp-lowwall-crates__axis-b.png",
+      "protectedArt": false,
+      "origin": {
+        "baseMaterial": "lowwall-rubble-heap",
+        "tint": "#789b96"
+      },
+      "sha256": "fc6bc73766b3024d6d66f85c49daa522d98ddc75406fd300f8abb6928d32f1b6",
+      "originalOutputHash": "0c967b00fb129f6f7710d316249550cd1cb02c7840c03ba017fa27abf60ba950",
+      "role": "lowwall",
+      "tag": "|",
+      "status": "placeholder",
+      "output": "terrain/lowwall/lowwall__cp-lowwall-crates__axis-b.png"
+    },
+    "sp-iron-plate:default": {
+      "id": "sp-iron-plate",
+      "axis": "default",
+      "file": "sources/terrain/floor__sp-iron-plate__default.png",
+      "protectedArt": false,
+      "origin": {
+        "baseMaterial": "basalt-columns",
+        "tint": "#b29871"
+      },
+      "sha256": "8da897569d1e70c45904e21fb612793f7ea7cd667ee7fe04d62a090e58622da8",
+      "originalOutputHash": "8f33b75b14ff0d2048ec7972193baed7430db80a875604772e8d280bd11da471",
+      "role": "floor",
+      "tag": ".",
+      "status": "placeholder",
+      "output": "terrain/floor/floor__sp-iron-plate.png"
+    },
+    "sp-wall-boiler:default": {
+      "id": "sp-wall-boiler",
+      "axis": "default",
+      "file": "sources/terrain/wall__sp-wall-boiler__default.png",
+      "protectedArt": false,
+      "origin": {
+        "baseMaterial": "wall-volcanic",
+        "tint": "#b29871"
+      },
+      "sha256": "c54c8ec1bb303225c50b1f0d07f1ed7aaf6bdcb03398403e6077e3485ca4f204",
+      "originalOutputHash": "e0a0b76555c7c2c4695249ced4caf5c1577abafeddf4b2e7d2c635d64347114a",
+      "role": "wall",
+      "tag": "#",
+      "status": "placeholder",
+      "output": "terrain/wall/wall__sp-wall-boiler.png"
+    },
+    "sp-steam-pool:default": {
+      "id": "sp-steam-pool",
+      "axis": "default",
+      "file": "sources/terrain/water__sp-steam-pool__default.png",
+      "protectedArt": false,
+      "origin": {
+        "baseMaterial": "hazard-lava-molten",
+        "tint": "#b29871"
+      },
+      "sha256": "20e0f7a6833835a1d0d6cd1735d244a893ea70e630383df595c372f19c6115e8",
+      "originalOutputHash": "355f669eecccc8387b8d40169facd7d6e8fb8cfbafeb010d666b55f4e5749fb0",
+      "role": "water",
+      "tag": "~",
+      "status": "placeholder",
+      "output": "terrain/water/water__sp-steam-pool.png"
+    },
+    "sp-gear-scrap:default": {
+      "id": "sp-gear-scrap",
+      "axis": "default",
+      "file": "sources/terrain/rough__sp-gear-scrap__default.png",
+      "protectedArt": false,
+      "origin": {
+        "baseMaterial": "rough-ash-drifts",
+        "tint": "#b29871"
+      },
+      "sha256": "6a2955a61b6b42665b6ab7990747bc30750e79fca8ce7c839ffa93a8dc7de546",
+      "originalOutputHash": "75ab652cc8bba7c1a77fe7cac74a3ffd1da6354a7c00f6e27c1e13ffdea0392e",
+      "role": "rough",
+      "tag": ",",
+      "status": "placeholder",
+      "output": "terrain/rough/rough__sp-gear-scrap.png"
+    },
+    "sp-door-brass:axis-a": {
+      "id": "sp-door-brass",
+      "axis": "axis-a",
+      "file": "sources/terrain/door__sp-door-brass__axis-a.png",
+      "protectedArt": false,
+      "origin": {
+        "baseMaterial": "door-stone-slab",
+        "tint": "#b29871"
+      },
+      "sha256": "37b2510ae075a56ae2d8603b3ec47198ebd3393f116e9c5c0c90c6e7373262ae",
+      "originalOutputHash": "37b2510ae075a56ae2d8603b3ec47198ebd3393f116e9c5c0c90c6e7373262ae",
+      "role": "door",
+      "tag": "+",
+      "status": "placeholder",
+      "output": "terrain/door/door__sp-door-brass__axis-a.png"
+    },
+    "sp-door-brass:axis-b": {
+      "id": "sp-door-brass",
+      "axis": "axis-b",
+      "file": "sources/terrain/door__sp-door-brass__axis-b.png",
+      "protectedArt": false,
+      "origin": {
+        "baseMaterial": "door-stone-slab",
+        "tint": "#b29871"
+      },
+      "sha256": "d4f578639cdc1b7e8e9641089c6f19e5a5aefb5b6a0f51e0e72421845d355787",
+      "originalOutputHash": "d4f578639cdc1b7e8e9641089c6f19e5a5aefb5b6a0f51e0e72421845d355787",
+      "role": "door",
+      "tag": "+",
+      "status": "placeholder",
+      "output": "terrain/door/door__sp-door-brass__axis-b.png"
+    },
+    "sp-lowwall-pipe-rail:axis-a": {
+      "id": "sp-lowwall-pipe-rail",
+      "axis": "axis-a",
+      "file": "sources/terrain/lowwall__sp-lowwall-pipe-rail__axis-a.png",
+      "protectedArt": false,
+      "origin": {
+        "baseMaterial": "lowwall-stalagmite-row",
+        "tint": "#b29871"
+      },
+      "sha256": "3067f405ef6622e794570adbf83741fbbca9745eecf0e007357e7fc9e10671b8",
+      "originalOutputHash": "3067f405ef6622e794570adbf83741fbbca9745eecf0e007357e7fc9e10671b8",
+      "role": "lowwall",
+      "tag": "|",
+      "status": "placeholder",
+      "output": "terrain/lowwall/lowwall__sp-lowwall-pipe-rail__axis-a.png"
+    },
+    "sp-lowwall-pipe-rail:axis-b": {
+      "id": "sp-lowwall-pipe-rail",
+      "axis": "axis-b",
+      "file": "sources/terrain/lowwall__sp-lowwall-pipe-rail__axis-b.png",
+      "protectedArt": false,
+      "origin": {
+        "baseMaterial": "lowwall-stalagmite-row",
+        "tint": "#b29871"
+      },
+      "sha256": "a8c7e3dd4b259955d5178db75327b9065bfeed2cfac4c4452b14da14d7dcf520",
+      "originalOutputHash": "a8c7e3dd4b259955d5178db75327b9065bfeed2cfac4c4452b14da14d7dcf520",
+      "role": "lowwall",
+      "tag": "|",
+      "status": "placeholder",
+      "output": "terrain/lowwall/lowwall__sp-lowwall-pipe-rail__axis-b.png"
+    },
+    "sp-cobbles-gaslit:default": {
+      "id": "sp-cobbles-gaslit",
+      "axis": "default",
+      "file": "sources/terrain/floor__sp-cobbles-gaslit__default.png",
+      "protectedArt": false,
+      "origin": {
+        "baseMaterial": "wood-plank-worn",
+        "tint": "#bc9b6f"
+      },
+      "sha256": "fd50ed6192e95035effa7a566ca427a4ee72ff3e974f804cd2702e8c62ec97c7",
+      "originalOutputHash": "bad32c83d4cb8bbd4bf6190e11fcaed6d0fc40134653bdaea2d6399b5a0b6cfb",
+      "role": "floor",
+      "tag": ".",
+      "status": "placeholder",
+      "output": "terrain/floor/floor__sp-cobbles-gaslit.png"
+    },
+    "sp-wall-brick-soot:default": {
+      "id": "sp-wall-brick-soot",
+      "axis": "default",
+      "file": "sources/terrain/wall__sp-wall-brick-soot__default.png",
+      "protectedArt": false,
+      "origin": {
+        "baseMaterial": "wall-wood-log",
+        "tint": "#bc9b6f"
+      },
+      "sha256": "593bc71dc5cd971429e4c83586a301b5d239da841aa6ac22762cc1e0bf7f09d4",
+      "originalOutputHash": "66143032509df408c051442748b9dd9c64b1867eac836116ccc0ed7262a78574",
+      "role": "wall",
+      "tag": "#",
+      "status": "placeholder",
+      "output": "terrain/wall/wall__sp-wall-brick-soot.png"
+    },
+    "sp-water-canal:default": {
+      "id": "sp-water-canal",
+      "axis": "default",
+      "file": "sources/terrain/water__sp-water-canal__default.png",
+      "protectedArt": false,
+      "origin": {
+        "baseMaterial": "water-flooded-floor",
+        "tint": "#bc9b6f"
+      },
+      "sha256": "81214def28c431d4c8dcb78c57c83eecae07bac81655ace5af3d32443c81acc9",
+      "originalOutputHash": "81214def28c431d4c8dcb78c57c83eecae07bac81655ace5af3d32443c81acc9",
+      "role": "water",
+      "tag": "~",
+      "status": "placeholder",
+      "output": "terrain/water/water__sp-water-canal.png"
+    },
+    "sp-coal-heap:default": {
+      "id": "sp-coal-heap",
+      "axis": "default",
+      "file": "sources/terrain/rough__sp-coal-heap__default.png",
+      "protectedArt": false,
+      "origin": {
+        "baseMaterial": "rough-debris-crates",
+        "tint": "#bc9b6f"
+      },
+      "sha256": "3b2af46c03f5bd1e7b10b83db7ae678414c8b6e71689cb7c396ec19d67310c71",
+      "originalOutputHash": "3b2af46c03f5bd1e7b10b83db7ae678414c8b6e71689cb7c396ec19d67310c71",
+      "role": "rough",
+      "tag": ",",
+      "status": "placeholder",
+      "output": "terrain/rough/rough__sp-coal-heap.png"
+    },
+    "sp-door-cage-lift:axis-a": {
+      "id": "sp-door-cage-lift",
+      "axis": "axis-a",
+      "file": "sources/terrain/door__sp-door-cage-lift__axis-a.png",
+      "protectedArt": false,
+      "origin": {
+        "baseMaterial": "door-wood-plain",
+        "tint": "#bc9b6f"
+      },
+      "sha256": "b72e3c5e0684a94be67cc3ecf00dac55bf43e3167cd1f9f54b0d44e25ea518e7",
+      "originalOutputHash": "6347f60b499fdd40fb3d5f93327c0f1af9088afc73434c22189d8f94e140c3a1",
+      "role": "door",
+      "tag": "+",
+      "status": "placeholder",
+      "output": "terrain/door/door__sp-door-cage-lift__axis-a.png"
+    },
+    "sp-door-cage-lift:axis-b": {
+      "id": "sp-door-cage-lift",
+      "axis": "axis-b",
+      "file": "sources/terrain/door__sp-door-cage-lift__axis-b.png",
+      "protectedArt": false,
+      "origin": {
+        "baseMaterial": "door-wood-plain",
+        "tint": "#bc9b6f"
+      },
+      "sha256": "d4ef65024e6b61947fddb19987f70fc944a89b5b1775bfc8d6424b9995b91826",
+      "originalOutputHash": "65351208bdc8db7e3abfeeba0b9deee9922630dc9b7311f435eba9c357aabe09",
+      "role": "door",
+      "tag": "+",
+      "status": "placeholder",
+      "output": "terrain/door/door__sp-door-cage-lift__axis-b.png"
+    },
+    "sp-lowwall-crate-row:axis-a": {
+      "id": "sp-lowwall-crate-row",
+      "axis": "axis-a",
+      "file": "sources/terrain/lowwall__sp-lowwall-crate-row__axis-a.png",
+      "protectedArt": false,
+      "origin": {
+        "baseMaterial": "lowwall-market-counter",
+        "tint": "#bc9b6f"
+      },
+      "sha256": "1a8e48cef91590d46cee9cb3abb883a2c4a3a42d6ef5726d013b40603a2d2b0e",
+      "originalOutputHash": "37abc2c11eea3d6dd60409f025c1ca7090a1ebca54ef08a2d273dc3beff7e546",
+      "role": "lowwall",
+      "tag": "|",
+      "status": "placeholder",
+      "output": "terrain/lowwall/lowwall__sp-lowwall-crate-row__axis-a.png"
+    },
+    "sp-lowwall-crate-row:axis-b": {
+      "id": "sp-lowwall-crate-row",
+      "axis": "axis-b",
+      "file": "sources/terrain/lowwall__sp-lowwall-crate-row__axis-b.png",
+      "protectedArt": false,
+      "origin": {
+        "baseMaterial": "lowwall-market-counter",
+        "tint": "#bc9b6f"
+      },
+      "sha256": "ae70a8263cb3f9b6be3d8980e81bc8c212e23e167141e87e3b105d0997f58561",
+      "originalOutputHash": "105eb68c9231cc6e52b6dd8e16e2246faf429256029c56b95a110205b0b78051",
+      "role": "lowwall",
+      "tag": "|",
+      "status": "placeholder",
+      "output": "terrain/lowwall/lowwall__sp-lowwall-crate-row__axis-b.png"
+    },
+    "pa-asphalt-cracked:default": {
+      "id": "pa-asphalt-cracked",
+      "axis": "default",
+      "file": "sources/terrain/floor__pa-asphalt-cracked__default.png",
+      "protectedArt": false,
+      "origin": {
+        "baseMaterial": "sand-beach",
+        "tint": "#a39478"
+      },
+      "sha256": "2428d4146af3ab68e14cea50aecf3f14ca17c121085d3fb97a9bdf521e17768d",
+      "originalOutputHash": "13ecc6d1969560ac3433e8f1c6e7551acbd6a157062174246943111560bea559",
+      "role": "floor",
+      "tag": ".",
+      "status": "placeholder",
+      "output": "terrain/floor/floor__pa-asphalt-cracked.png"
+    },
+    "pa-wall-car-wrecks:default": {
+      "id": "pa-wall-car-wrecks",
+      "axis": "default",
+      "file": "sources/terrain/wall__pa-wall-car-wrecks__default.png",
+      "protectedArt": false,
+      "origin": {
+        "baseMaterial": "wall-earth-cut",
+        "tint": "#a39478"
+      },
+      "sha256": "9efa9797fc9f6081517c79ed13f1506f5dfc0a8af3b2ff3c22f4791b770aafc3",
+      "originalOutputHash": "1c8a4d6ca50a2e03a1e1b1763d44629b4067395f8a259333ce329193d76e0727",
+      "role": "wall",
+      "tag": "#",
+      "status": "placeholder",
+      "output": "terrain/wall/wall__pa-wall-car-wrecks.png"
+    },
+    "pa-toxic-sludge:default": {
+      "id": "pa-toxic-sludge",
+      "axis": "default",
+      "file": "sources/terrain/water__pa-toxic-sludge__default.png",
+      "protectedArt": false,
+      "origin": {
+        "baseMaterial": "water-river-flowing",
+        "tint": "#a39478"
+      },
+      "sha256": "9e069b067c53b19684a726b84c4ec8d8c4de03d4f1b1624e855dc4ecd8524548",
+      "originalOutputHash": "b5e2168396dc6130df346c03b7bb31525f6be1c949998ec4c34474cb3fbd8b5f",
+      "role": "water",
+      "tag": "~",
+      "status": "placeholder",
+      "output": "terrain/water/water__pa-toxic-sludge.png"
+    },
+    "pa-scrap-field:default": {
+      "id": "pa-scrap-field",
+      "axis": "default",
+      "file": "sources/terrain/rough__pa-scrap-field__default.png",
+      "protectedArt": false,
+      "origin": {
+        "baseMaterial": "rough-driftwood",
+        "tint": "#a39478"
+      },
+      "sha256": "19100440c843ba138695953a1040a3e0a5c1b776eedeec073c288bae3a57b6ed",
+      "originalOutputHash": "b11b7a4c7f83b0c50f6097b76bf39a24dddf3939e802912fcaa25e556746ac73",
+      "role": "rough",
+      "tag": ",",
+      "status": "placeholder",
+      "output": "terrain/rough/rough__pa-scrap-field.png"
+    },
+    "pa-door-chain-gate:axis-a": {
+      "id": "pa-door-chain-gate",
+      "axis": "axis-a",
+      "file": "sources/terrain/door__pa-door-chain-gate__axis-a.png",
+      "protectedArt": false,
+      "origin": {
+        "baseMaterial": "door-wood-plain",
+        "tint": "#a39478"
+      },
+      "sha256": "abb349311141e60f9c25e32a65f25187d1d7b602567fd37dc0a5a24fb731f4cf",
+      "originalOutputHash": "a1686a253ff52edfe03079c93004c114ed1e2743db6c43a074871c5b785868a8",
+      "role": "door",
+      "tag": "+",
+      "status": "placeholder",
+      "output": "terrain/door/door__pa-door-chain-gate__axis-a.png"
+    },
+    "pa-door-chain-gate:axis-b": {
+      "id": "pa-door-chain-gate",
+      "axis": "axis-b",
+      "file": "sources/terrain/door__pa-door-chain-gate__axis-b.png",
+      "protectedArt": false,
+      "origin": {
+        "baseMaterial": "door-wood-plain",
+        "tint": "#a39478"
+      },
+      "sha256": "55e38c68b11c79bffb85203c27b8a45bc7388cb9b7cc82d8bd5fc49aecb50b4f",
+      "originalOutputHash": "4c6a16f0c311c5322891ce413c1a4ce09c32f951334832d05826f58ef130a6f9",
+      "role": "door",
+      "tag": "+",
+      "status": "placeholder",
+      "output": "terrain/door/door__pa-door-chain-gate__axis-b.png"
+    },
+    "pa-lowwall-tyre-row:axis-a": {
+      "id": "pa-lowwall-tyre-row",
+      "axis": "axis-a",
+      "file": "sources/terrain/lowwall__pa-lowwall-tyre-row__axis-a.png",
+      "protectedArt": false,
+      "origin": {
+        "baseMaterial": "lowwall-stone-parapet",
+        "tint": "#a39478"
+      },
+      "sha256": "a837de38b4bb01339e43216db5eaa24b0742cddbbea19f91f75a02a92feacf15",
+      "originalOutputHash": "a837de38b4bb01339e43216db5eaa24b0742cddbbea19f91f75a02a92feacf15",
+      "role": "lowwall",
+      "tag": "|",
+      "status": "placeholder",
+      "output": "terrain/lowwall/lowwall__pa-lowwall-tyre-row__axis-a.png"
+    },
+    "pa-lowwall-tyre-row:axis-b": {
+      "id": "pa-lowwall-tyre-row",
+      "axis": "axis-b",
+      "file": "sources/terrain/lowwall__pa-lowwall-tyre-row__axis-b.png",
+      "protectedArt": false,
+      "origin": {
+        "baseMaterial": "lowwall-stone-parapet",
+        "tint": "#a39478"
+      },
+      "sha256": "48cc83103507518c2492068064d7fe7aa03e6b7b565b87208d9b140bd0a07b84",
+      "originalOutputHash": "48cc83103507518c2492068064d7fe7aa03e6b7b565b87208d9b140bd0a07b84",
+      "role": "lowwall",
+      "tag": "|",
+      "status": "placeholder",
+      "output": "terrain/lowwall/lowwall__pa-lowwall-tyre-row__axis-b.png"
+    },
+    "pa-bunker-concrete:default": {
+      "id": "pa-bunker-concrete",
+      "axis": "default",
+      "file": "sources/terrain/floor__pa-bunker-concrete__default.png",
+      "protectedArt": true,
+      "origin": {
+        "baseMaterial": "flagstone-granite",
+        "tint": "#8a9678"
+      },
+      "sha256": "1a76fd2a14971c849aa803ca3e613c5e30fd82d715274e40d8d305f2bd1ed6bc",
+      "originalOutputHash": "1a76fd2a14971c849aa803ca3e613c5e30fd82d715274e40d8d305f2bd1ed6bc",
+      "role": "floor",
+      "tag": ".",
+      "status": "placeholder",
+      "output": "terrain/floor/floor__pa-bunker-concrete.png"
+    },
+    "pa-wall-rubble-barricade:default": {
+      "id": "pa-wall-rubble-barricade",
+      "axis": "default",
+      "file": "sources/terrain/wall__pa-wall-rubble-barricade__default.png",
+      "protectedArt": false,
+      "origin": {
+        "baseMaterial": "wall-dungeon-mossy",
+        "tint": "#8a9678",
+        "previousProtectedArt": true,
+        "replacementAuthority": "User explicitly requested post-apocalyptic bunker redesign after withdrawing this skin reference approval on2026-10-16"
+      },
+      "sha256": "93fc5c6ff4e0c2304ae13f834cbd5d567016a765dad426071161c47be7caceb2",
+      "originalOutputHash": "93fc5c6ff4e0c2304ae13f834cbd5d567016a765dad426071161c47be7caceb2",
+      "role": "wall",
+      "tag": "#",
+      "status": "placeholder",
+      "output": "terrain/wall/wall__pa-wall-rubble-barricade.png"
+    },
+    "pa-rust-water:default": {
+      "id": "pa-rust-water",
+      "axis": "default",
+      "file": "sources/terrain/water__pa-rust-water__default.png",
+      "protectedArt": true,
+      "origin": {
+        "baseMaterial": "water-flooded-floor",
+        "tint": "#8a9678"
+      },
+      "sha256": "6bb3e7ff87bd3adea6e88768d92aac00981f9cc3536abe36c57109e1f592c9dd",
+      "originalOutputHash": "6bb3e7ff87bd3adea6e88768d92aac00981f9cc3536abe36c57109e1f592c9dd",
+      "role": "water",
+      "tag": "~",
+      "status": "placeholder",
+      "output": "terrain/water/water__pa-rust-water.png"
+    },
+    "pa-debris-plaster:default": {
+      "id": "pa-debris-plaster",
+      "axis": "default",
+      "file": "sources/terrain/rough__pa-debris-plaster__default.png",
+      "protectedArt": true,
+      "origin": {
+        "baseMaterial": "rough-debris-crates",
+        "tint": "#8a9678"
+      },
+      "sha256": "9f1f34f690be1fa23b4b8f7538ed60c23f2dc8dd2a7fcbf938f42979abc40f74",
+      "originalOutputHash": "9f1f34f690be1fa23b4b8f7538ed60c23f2dc8dd2a7fcbf938f42979abc40f74",
+      "role": "rough",
+      "tag": ",",
+      "status": "placeholder",
+      "output": "terrain/rough/rough__pa-debris-plaster.png"
+    },
+    "pa-door-welded:axis-a": {
+      "id": "pa-door-welded",
+      "axis": "axis-a",
+      "file": "sources/terrain/door__pa-door-welded__axis-a.png",
+      "protectedArt": true,
+      "origin": {
+        "baseMaterial": "door-wood-iron-banded",
+        "tint": "#8a9678"
+      },
+      "sha256": "207d68895202bad2cd68e48696d3dc403de3e6f8590a69fe6cf0d9bfc99c3644",
+      "originalOutputHash": "207d68895202bad2cd68e48696d3dc403de3e6f8590a69fe6cf0d9bfc99c3644",
+      "role": "door",
+      "tag": "+",
+      "status": "placeholder",
+      "output": "terrain/door/door__pa-door-welded__axis-a.png"
+    },
+    "pa-door-welded:axis-b": {
+      "id": "pa-door-welded",
+      "axis": "axis-b",
+      "file": "sources/terrain/door__pa-door-welded__axis-b.png",
+      "protectedArt": true,
+      "origin": {
+        "baseMaterial": "door-wood-iron-banded",
+        "tint": "#8a9678"
+      },
+      "sha256": "ff7eb2fa29a16be8b9ba88e33015a6c4b39828e4dd0ddb32938f0ebe0eeaf08e",
+      "originalOutputHash": "ff7eb2fa29a16be8b9ba88e33015a6c4b39828e4dd0ddb32938f0ebe0eeaf08e",
+      "role": "door",
+      "tag": "+",
+      "status": "placeholder",
+      "output": "terrain/door/door__pa-door-welded__axis-b.png"
+    },
+    "pa-lowwall-sandbags:axis-a": {
+      "id": "pa-lowwall-sandbags",
+      "axis": "axis-a",
+      "file": "sources/terrain/lowwall__pa-lowwall-sandbags__axis-a.png",
+      "protectedArt": true,
+      "origin": {
+        "baseMaterial": "lowwall-stone-parapet",
+        "tint": "#8a9678"
+      },
+      "sha256": "e82fd3941ff5a51e1b70d79f9acf26bd024e94b24cd858fb8ffa6d1f3da77d75",
+      "originalOutputHash": "e82fd3941ff5a51e1b70d79f9acf26bd024e94b24cd858fb8ffa6d1f3da77d75",
+      "role": "lowwall",
+      "tag": "|",
+      "status": "placeholder",
+      "output": "terrain/lowwall/lowwall__pa-lowwall-sandbags__axis-a.png"
+    },
+    "pa-lowwall-sandbags:axis-b": {
+      "id": "pa-lowwall-sandbags",
+      "axis": "axis-b",
+      "file": "sources/terrain/lowwall__pa-lowwall-sandbags__axis-b.png",
+      "protectedArt": true,
+      "origin": {
+        "baseMaterial": "lowwall-stone-parapet",
+        "tint": "#8a9678"
+      },
+      "sha256": "518bf4c70ed1a0aacdef0a434b670891186d64b99017adfe1a275acd135491bd",
+      "originalOutputHash": "518bf4c70ed1a0aacdef0a434b670891186d64b99017adfe1a275acd135491bd",
+      "role": "lowwall",
+      "tag": "|",
+      "status": "placeholder",
+      "output": "terrain/lowwall/lowwall__pa-lowwall-sandbags__axis-b.png"
+    },
+    "hr-boards-rotten:default": {
+      "id": "hr-boards-rotten",
+      "axis": "default",
+      "file": "sources/terrain/floor__hr-boards-rotten__default.png",
+      "protectedArt": false,
+      "origin": {
+        "baseMaterial": "wood-plank-worn",
+        "tint": "#7e688f"
+      },
+      "sha256": "8755969cace98d25548e25f0d454634eb652740f26768f1f7a1695b4fb807b74",
+      "originalOutputHash": "e944a9063df489b0cbdab93c342c3b971d666577d01a472f48b5f3fbf0ca1878",
+      "role": "floor",
+      "tag": ".",
+      "status": "placeholder",
+      "output": "terrain/floor/floor__hr-boards-rotten.png"
+    },
+    "hr-wall-mould-brick:default": {
+      "id": "hr-wall-mould-brick",
+      "axis": "default",
+      "file": "sources/terrain/wall__hr-wall-mould-brick__default.png",
+      "protectedArt": false,
+      "origin": {
+        "baseMaterial": "wall-wood-log",
+        "tint": "#7e688f"
+      },
+      "sha256": "8ee0424895e4c358d25b8f599d985c3409939ffb7b8c8e3027ca65ca2f402d11",
+      "originalOutputHash": "890ef45f4fe11ff0c9b35f76b5a60cb6948d3f46fb0530c5f55ccb18a5583ff6",
+      "role": "wall",
+      "tag": "#",
+      "status": "placeholder",
+      "output": "terrain/wall/wall__hr-wall-mould-brick.png"
+    },
+    "hr-black-water:default": {
+      "id": "hr-black-water",
+      "axis": "default",
+      "file": "sources/terrain/water__hr-black-water__default.png",
+      "protectedArt": false,
+      "origin": {
+        "baseMaterial": "water-flooded-floor",
+        "tint": "#7e688f"
+      },
+      "sha256": "b303aa93fb2dcafe428e87ce854807c191d8a526a9f5e2ee9acfa0c681f7bf3b",
+      "originalOutputHash": "b303aa93fb2dcafe428e87ce854807c191d8a526a9f5e2ee9acfa0c681f7bf3b",
+      "role": "water",
+      "tag": "~",
+      "status": "placeholder",
+      "output": "terrain/water/water__hr-black-water.png"
+    },
+    "hr-rot-debris:default": {
+      "id": "hr-rot-debris",
+      "axis": "default",
+      "file": "sources/terrain/rough__hr-rot-debris__default.png",
+      "protectedArt": false,
+      "origin": {
+        "baseMaterial": "rough-debris-crates",
+        "tint": "#7e688f"
+      },
+      "sha256": "29ccb9543a58b09b3d7ea2a10a518d70698ba52d42be9d7764989ca1d9d470ac",
+      "originalOutputHash": "29ccb9543a58b09b3d7ea2a10a518d70698ba52d42be9d7764989ca1d9d470ac",
+      "role": "rough",
+      "tag": ",",
+      "status": "placeholder",
+      "output": "terrain/rough/rough__hr-rot-debris.png"
+    },
+    "hr-door-nailed:axis-a": {
+      "id": "hr-door-nailed",
+      "axis": "axis-a",
+      "file": "sources/terrain/door__hr-door-nailed__axis-a.png",
+      "protectedArt": false,
+      "origin": {
+        "baseMaterial": "door-wood-plain",
+        "tint": "#7e688f"
+      },
+      "sha256": "397e6a5287ea45691319b44d49d7a033381686d6f8042f37453aa2f47bd5c034",
+      "originalOutputHash": "9ab783d73a3d8e72d812753196e297ba3d65a00f3275fdac06c407d58e35cc87",
+      "role": "door",
+      "tag": "+",
+      "status": "placeholder",
+      "output": "terrain/door/door__hr-door-nailed__axis-a.png"
+    },
+    "hr-door-nailed:axis-b": {
+      "id": "hr-door-nailed",
+      "axis": "axis-b",
+      "file": "sources/terrain/door__hr-door-nailed__axis-b.png",
+      "protectedArt": false,
+      "origin": {
+        "baseMaterial": "door-wood-plain",
+        "tint": "#7e688f"
+      },
+      "sha256": "1d0497e87ad7737959b1d5f437456700df51193e27e011f7408ff4ce6a4bcfc3",
+      "originalOutputHash": "26764f04be2b71331408ccb10137e581950d8fd864934e13a5a5e3160a21d85d",
+      "role": "door",
+      "tag": "+",
+      "status": "placeholder",
+      "output": "terrain/door/door__hr-door-nailed__axis-b.png"
+    },
+    "hr-lowwall-pews:axis-a": {
+      "id": "hr-lowwall-pews",
+      "axis": "axis-a",
+      "file": "sources/terrain/lowwall__hr-lowwall-pews__axis-a.png",
+      "protectedArt": false,
+      "origin": {
+        "baseMaterial": "lowwall-market-counter",
+        "tint": "#7e688f"
+      },
+      "sha256": "9d726fd51512f4da4e2032d97ed73b9816c7d76517275b15be546ea39164d985",
+      "originalOutputHash": "898010e1992843782098573391e5a4cc4defce8f10973ef21e30b943242fa865",
+      "role": "lowwall",
+      "tag": "|",
+      "status": "placeholder",
+      "output": "terrain/lowwall/lowwall__hr-lowwall-pews__axis-a.png"
+    },
+    "hr-lowwall-pews:axis-b": {
+      "id": "hr-lowwall-pews",
+      "axis": "axis-b",
+      "file": "sources/terrain/lowwall__hr-lowwall-pews__axis-b.png",
+      "protectedArt": false,
+      "origin": {
+        "baseMaterial": "lowwall-market-counter",
+        "tint": "#7e688f"
+      },
+      "sha256": "e1754fb707d7a7451b93070e03a74104655d72a1a2b4bed03f2fe39f66fbdfa8",
+      "originalOutputHash": "863673bfa2a44c0fb96517f3a54512fe906a6a696e048a4a132c93e72ee20613",
+      "role": "lowwall",
+      "tag": "|",
+      "status": "placeholder",
+      "output": "terrain/lowwall/lowwall__hr-lowwall-pews__axis-b.png"
+    },
+    "hr-flesh-floor:default": {
+      "id": "hr-flesh-floor",
+      "axis": "default",
+      "file": "sources/terrain/floor__hr-flesh-floor__default.png",
+      "protectedArt": false,
+      "origin": {
+        "baseMaterial": "flagstone-cracked",
+        "tint": "#a36a78"
+      },
+      "sha256": "8f83226c6d7eae68781ad878f2a66eca9317210fb42122337452afeaab47237e",
+      "originalOutputHash": "93187a720fd18e6ededfbe22e45274bfed2b487485b33685a28d2c987e6f271f",
+      "role": "floor",
+      "tag": ".",
+      "status": "placeholder",
+      "output": "terrain/floor/floor__hr-flesh-floor.png"
+    },
+    "hr-wall-flesh:default": {
+      "id": "hr-wall-flesh",
+      "axis": "default",
+      "file": "sources/terrain/wall__hr-wall-flesh__default.png",
+      "protectedArt": false,
+      "origin": {
+        "baseMaterial": "wall-rubble-collapsed",
+        "tint": "#a36a78"
+      },
+      "sha256": "7276f2e1e111413ca3bebaf8e46a43d65ebe12eb516c3bfe3fda8f3f2fc8c80f",
+      "originalOutputHash": "3e3619ef9fc231705f3628e25b80d8f0a742d4ec3de9b043e4f458b8dcc2a84f",
+      "role": "wall",
+      "tag": "#",
+      "status": "placeholder",
+      "output": "terrain/wall/wall__hr-wall-flesh.png"
+    },
+    "hr-bile-pool:default": {
+      "id": "hr-bile-pool",
+      "axis": "default",
+      "file": "sources/terrain/water__hr-bile-pool__default.png",
+      "protectedArt": false,
+      "origin": {
+        "baseMaterial": "water-blood-pool",
+        "tint": "#a36a78"
+      },
+      "sha256": "3f21ede6612d7316e3f11493315e7211096512268d7a4a979a92baf446cb7dae",
+      "originalOutputHash": "01b95ea17c37df12509250eb19ade55acd0b07dd71654026afe2f63ef4796eb7",
+      "role": "water",
+      "tag": "~",
+      "status": "placeholder",
+      "output": "terrain/water/water__hr-bile-pool.png"
+    },
+    "hr-viscera:default": {
+      "id": "hr-viscera",
+      "axis": "default",
+      "file": "sources/terrain/rough__hr-viscera__default.png",
+      "protectedArt": false,
+      "origin": {
+        "baseMaterial": "rough-bone-scatter",
+        "tint": "#a36a78"
+      },
+      "sha256": "bbe5158c923eb61c392a19f0e00cb7cda99c83fcebb97713f4dd52ff9106336a",
+      "originalOutputHash": "a39deff634577d8fe51ca31b65d3990d911583cceaf6aa94497af5a7415294e0",
+      "role": "rough",
+      "tag": ",",
+      "status": "placeholder",
+      "output": "terrain/rough/rough__hr-viscera.png"
+    },
+    "hr-door-flesh:axis-a": {
+      "id": "hr-door-flesh",
+      "axis": "axis-a",
+      "file": "sources/terrain/door__hr-door-flesh__axis-a.png",
+      "protectedArt": false,
+      "origin": {
+        "baseMaterial": "door-wood-iron-banded",
+        "tint": "#a36a78"
+      },
+      "sha256": "95b97e8a644eac4357d8c42b9d170973e5d666764e1cdd47f514d33de0b5faa0",
+      "originalOutputHash": "95b97e8a644eac4357d8c42b9d170973e5d666764e1cdd47f514d33de0b5faa0",
+      "role": "door",
+      "tag": "+",
+      "status": "placeholder",
+      "output": "terrain/door/door__hr-door-flesh__axis-a.png"
+    },
+    "hr-door-flesh:axis-b": {
+      "id": "hr-door-flesh",
+      "axis": "axis-b",
+      "file": "sources/terrain/door__hr-door-flesh__axis-b.png",
+      "protectedArt": false,
+      "origin": {
+        "baseMaterial": "door-wood-iron-banded",
+        "tint": "#a36a78"
+      },
+      "sha256": "a8b213e5b0e2db2e76f5005616269b4bdb4b9ba7cac7d9d39467fef50ec066a3",
+      "originalOutputHash": "a8b213e5b0e2db2e76f5005616269b4bdb4b9ba7cac7d9d39467fef50ec066a3",
+      "role": "door",
+      "tag": "+",
+      "status": "placeholder",
+      "output": "terrain/door/door__hr-door-flesh__axis-b.png"
+    },
+    "hr-lowwall-cages:axis-a": {
+      "id": "hr-lowwall-cages",
+      "axis": "axis-a",
+      "file": "sources/terrain/lowwall__hr-lowwall-cages__axis-a.png",
+      "protectedArt": false,
+      "origin": {
+        "baseMaterial": "lowwall-sarcophagus",
+        "tint": "#a36a78"
+      },
+      "sha256": "018d7d7508c6e7cfad12a8ac380159c752e313ebef95f1c83eefb83343843141",
+      "originalOutputHash": "f9c50a712110d0f9f3bdfd678f7a8f2d07d21af4c4e6c97671b14aff525c3b73",
+      "role": "lowwall",
+      "tag": "|",
+      "status": "placeholder",
+      "output": "terrain/lowwall/lowwall__hr-lowwall-cages__axis-a.png"
+    },
+    "hr-lowwall-cages:axis-b": {
+      "id": "hr-lowwall-cages",
+      "axis": "axis-b",
+      "file": "sources/terrain/lowwall__hr-lowwall-cages__axis-b.png",
+      "protectedArt": false,
+      "origin": {
+        "baseMaterial": "lowwall-sarcophagus",
+        "tint": "#a36a78"
+      },
+      "sha256": "74aa46e44e696956fe49b876c3ca0a5136d604f3b13a06398dd26fca34994a99",
+      "originalOutputHash": "8dbb9469238c86874b3d9999e893e32e2008bf38b1c9bf5d59654ced78403457",
+      "role": "lowwall",
+      "tag": "|",
+      "status": "placeholder",
+      "output": "terrain/lowwall/lowwall__hr-lowwall-cages__axis-b.png"
+    },
+    "my-parquet-victorian:default": {
+      "id": "my-parquet-victorian",
+      "axis": "default",
+      "file": "sources/terrain/floor__my-parquet-victorian__default.png",
+      "protectedArt": false,
+      "origin": {
+        "baseMaterial": "wood-plank-worn",
+        "tint": "#9c8982"
+      },
+      "sha256": "ad3954ea0e7e9099567baa353b079e869b10c853ddea5f31778d169b57cddceb",
+      "originalOutputHash": "382233a9cbbe0f29a42ea3b4895836dd9d2de2aa21c27059b90354774135cb0a",
+      "role": "floor",
+      "tag": ".",
+      "status": "placeholder",
+      "output": "terrain/floor/floor__my-parquet-victorian.png"
+    },
+    "my-wall-wallpaper:default": {
+      "id": "my-wall-wallpaper",
+      "axis": "default",
+      "file": "sources/terrain/wall__my-wall-wallpaper__default.png",
+      "protectedArt": false,
+      "origin": {
+        "baseMaterial": "wall-wood-log",
+        "tint": "#9c8982"
+      },
+      "sha256": "f1de8e202a0d8c239f80d4d7073cf82e5ff91b021024c9ac48dba82574d2bf97",
+      "originalOutputHash": "f9909dcf3744090edcb9958d8a4ab9a0f0de548da712893cbf6225a387c67b6d",
+      "role": "wall",
+      "tag": "#",
+      "status": "placeholder",
+      "output": "terrain/wall/wall__my-wall-wallpaper.png"
+    },
+    "my-puddle-rain:default": {
+      "id": "my-puddle-rain",
+      "axis": "default",
+      "file": "sources/terrain/water__my-puddle-rain__default.png",
+      "protectedArt": false,
+      "origin": {
+        "baseMaterial": "water-flooded-floor",
+        "tint": "#9c8982"
+      },
+      "sha256": "ef0946459d9ec7096bfb8665aa0b6e17cea3066ac983a85d4f4707a5d972ee67",
+      "originalOutputHash": "ef0946459d9ec7096bfb8665aa0b6e17cea3066ac983a85d4f4707a5d972ee67",
+      "role": "water",
+      "tag": "~",
+      "status": "placeholder",
+      "output": "terrain/water/water__my-puddle-rain.png"
+    },
+    "my-papers-scattered:default": {
+      "id": "my-papers-scattered",
+      "axis": "default",
+      "file": "sources/terrain/rough__my-papers-scattered__default.png",
+      "protectedArt": false,
+      "origin": {
+        "baseMaterial": "rough-debris-crates",
+        "tint": "#9c8982"
+      },
+      "sha256": "f6262782111424f42c7dbc84cf10814e57ea0baf9c7edd99978a5f102efe95af",
+      "originalOutputHash": "f6262782111424f42c7dbc84cf10814e57ea0baf9c7edd99978a5f102efe95af",
+      "role": "rough",
+      "tag": ",",
+      "status": "placeholder",
+      "output": "terrain/rough/rough__my-papers-scattered.png"
+    },
+    "my-door-panelled:axis-a": {
+      "id": "my-door-panelled",
+      "axis": "axis-a",
+      "file": "sources/terrain/door__my-door-panelled__axis-a.png",
+      "protectedArt": false,
+      "origin": {
+        "baseMaterial": "door-wood-plain",
+        "tint": "#9c8982"
+      },
+      "sha256": "2b1b9ed5b3104dbdaa7d61d3bbd04f8310488170e9928ed887d98121e6c235af",
+      "originalOutputHash": "eb0f779ddb4a0ce44da0cb64986ff614cc13c6b63685ddfb268ddbbd0ae72bf8",
+      "role": "door",
+      "tag": "+",
+      "status": "placeholder",
+      "output": "terrain/door/door__my-door-panelled__axis-a.png"
+    },
+    "my-door-panelled:axis-b": {
+      "id": "my-door-panelled",
+      "axis": "axis-b",
+      "file": "sources/terrain/door__my-door-panelled__axis-b.png",
+      "protectedArt": false,
+      "origin": {
+        "baseMaterial": "door-wood-plain",
+        "tint": "#9c8982"
+      },
+      "sha256": "8c0248a554e8fbf67e323210fc128f036736f7ad84d8e0ed69f1f349bd14a6c1",
+      "originalOutputHash": "edb3bafd0450289aa93b7ab7047918cc00bb5dd141b89804f9a1a001c720b8aa",
+      "role": "door",
+      "tag": "+",
+      "status": "placeholder",
+      "output": "terrain/door/door__my-door-panelled__axis-b.png"
+    },
+    "my-lowwall-sofa:axis-a": {
+      "id": "my-lowwall-sofa",
+      "axis": "axis-a",
+      "file": "sources/terrain/lowwall__my-lowwall-sofa__axis-a.png",
+      "protectedArt": false,
+      "origin": {
+        "baseMaterial": "lowwall-market-counter",
+        "tint": "#9c8982"
+      },
+      "sha256": "cc117bcbb93fabc6239e4ba57df85162ac4422ca9a4756ffa83a95b64362d938",
+      "originalOutputHash": "acbe74321b9147c898de53a35ae087ec1cec76669f131f0325d1871afb6c5015",
+      "role": "lowwall",
+      "tag": "|",
+      "status": "placeholder",
+      "output": "terrain/lowwall/lowwall__my-lowwall-sofa__axis-a.png"
+    },
+    "my-lowwall-sofa:axis-b": {
+      "id": "my-lowwall-sofa",
+      "axis": "axis-b",
+      "file": "sources/terrain/lowwall__my-lowwall-sofa__axis-b.png",
+      "protectedArt": false,
+      "origin": {
+        "baseMaterial": "lowwall-market-counter",
+        "tint": "#9c8982"
+      },
+      "sha256": "135adfb2af5308be2aa042b7c71e68d5444df7542c17724540ac87b5b918c646",
+      "originalOutputHash": "304640a2f53db5306b5b9df7d4ae5c68f4a1810afe6ddb83481e92c7991ff9ef",
+      "role": "lowwall",
+      "tag": "|",
+      "status": "placeholder",
+      "output": "terrain/lowwall/lowwall__my-lowwall-sofa__axis-b.png"
+    },
+    "my-cobbles-wet:default": {
+      "id": "my-cobbles-wet",
+      "axis": "default",
+      "file": "sources/terrain/floor__my-cobbles-wet__default.png",
+      "protectedArt": false,
+      "origin": {
+        "baseMaterial": "sewer-brick",
+        "tint": "#7d859a"
+      },
+      "sha256": "17b4c6590b0871f3b9a6ed2741a8b75de00e5f21d68d9e188507226e4588434d",
+      "originalOutputHash": "19daaf1a9afb94e6ee935c9b06cf53ff5270132f6dcd126cf931a9df8bf7094a",
+      "role": "floor",
+      "tag": ".",
+      "status": "placeholder",
+      "output": "terrain/floor/floor__my-cobbles-wet.png"
+    },
+    "my-wall-brick-alley:default": {
+      "id": "my-wall-brick-alley",
+      "axis": "default",
+      "file": "sources/terrain/wall__my-wall-brick-alley__default.png",
+      "protectedArt": false,
+      "origin": {
+        "baseMaterial": "wall-sewer-stone",
+        "tint": "#7d859a"
+      },
+      "sha256": "38fa4d8b93db4004befaffe027bc8a700ef053a9028b3f7e5947ffb1a0985d89",
+      "originalOutputHash": "8374d1690ee6c6ee73035775c26c06dd685645b940b5c2f72c6f59cd561908b1",
+      "role": "wall",
+      "tag": "#",
+      "status": "placeholder",
+      "output": "terrain/wall/wall__my-wall-brick-alley.png"
+    },
+    "my-canal:default": {
+      "id": "my-canal",
+      "axis": "default",
+      "file": "sources/terrain/water__my-canal__default.png",
+      "protectedArt": false,
+      "origin": {
+        "baseMaterial": "water-sewer-sludge",
+        "tint": "#7d859a"
+      },
+      "sha256": "4b4c38d85b3a1b68050579a30219285a2ab967d523dd929ccb9da511a9f62fdb",
+      "originalOutputHash": "2b068ede608b32fc2e8c576233e417e2afd432eaa9ad0bd3bfa24c09ddf4454d",
+      "role": "water",
+      "tag": "~",
+      "status": "placeholder",
+      "output": "terrain/water/water__my-canal.png"
+    },
+    "my-rubbish-alley:default": {
+      "id": "my-rubbish-alley",
+      "axis": "default",
+      "file": "sources/terrain/rough__my-rubbish-alley__default.png",
+      "protectedArt": false,
+      "origin": {
+        "baseMaterial": "rough-mud-churned",
+        "tint": "#7d859a"
+      },
+      "sha256": "98b5f5b2a50f7bcdb9e7f7bb31ebd96f879dc184ad70b29f87847a8c20f05d56",
+      "originalOutputHash": "acde4611e6813456d22cae8e19546992a69e32b1d0dc8a9cea2226bba010993d",
+      "role": "rough",
+      "tag": ",",
+      "status": "placeholder",
+      "output": "terrain/rough/rough__my-rubbish-alley.png"
+    },
+    "my-door-shop:axis-a": {
+      "id": "my-door-shop",
+      "axis": "axis-a",
+      "file": "sources/terrain/door__my-door-shop__axis-a.png",
+      "protectedArt": false,
+      "origin": {
+        "baseMaterial": "door-cell-bars",
+        "tint": "#7d859a"
+      },
+      "sha256": "6ced0e0b53507415b3cfa187d4717470acf9de98adada3b7812d21487b61fafc",
+      "originalOutputHash": "d2bdd02eb91f9b75ca3069f921d01b4538d4066e3c422f46f6ab01cb6c38fdfa",
+      "role": "door",
+      "tag": "+",
+      "status": "placeholder",
+      "output": "terrain/door/door__my-door-shop__axis-a.png"
+    },
+    "my-door-shop:axis-b": {
+      "id": "my-door-shop",
+      "axis": "axis-b",
+      "file": "sources/terrain/door__my-door-shop__axis-b.png",
+      "protectedArt": false,
+      "origin": {
+        "baseMaterial": "door-cell-bars",
+        "tint": "#7d859a"
+      },
+      "sha256": "c7fe5e26ad8d86061941a3dff156e5e5e148eb7c880764fea90a24510909f0bb",
+      "originalOutputHash": "5eb1460911ac1fc388098d9e3f602c0a7a8292f935da552e3ffa1178cd76f79a",
+      "role": "door",
+      "tag": "+",
+      "status": "placeholder",
+      "output": "terrain/door/door__my-door-shop__axis-b.png"
+    },
+    "my-lowwall-railing:axis-a": {
+      "id": "my-lowwall-railing",
+      "axis": "axis-a",
+      "file": "sources/terrain/lowwall__my-lowwall-railing__axis-a.png",
+      "protectedArt": false,
+      "origin": {
+        "baseMaterial": "lowwall-rubble-heap",
+        "tint": "#7d859a"
+      },
+      "sha256": "c5e8d387570515a7ae2abc77d0b1914374796b18689da5adc59c355854c9e9fd",
+      "originalOutputHash": "691b43504ea27a71200f49fd44eae6b4850f2335bc1b3d2bce43dac2838ca466",
+      "role": "lowwall",
+      "tag": "|",
+      "status": "placeholder",
+      "output": "terrain/lowwall/lowwall__my-lowwall-railing__axis-a.png"
+    },
+    "my-lowwall-railing:axis-b": {
+      "id": "my-lowwall-railing",
+      "axis": "axis-b",
+      "file": "sources/terrain/lowwall__my-lowwall-railing__axis-b.png",
+      "protectedArt": false,
+      "origin": {
+        "baseMaterial": "lowwall-rubble-heap",
+        "tint": "#7d859a"
+      },
+      "sha256": "b9ae80ce61384f72af7461a6f4b45ab29b557ab17ec0f842971fbc2b930ff031",
+      "originalOutputHash": "023e236b920c44d88a0269df1843694acd2608dd7e0f785266315d5579f762ff",
+      "role": "lowwall",
+      "tag": "|",
+      "status": "placeholder",
+      "output": "terrain/lowwall/lowwall__my-lowwall-railing__axis-b.png"
+    },
+    "hr-wall-rotten-timber:default": {
+      "id": "hr-wall-rotten-timber",
+      "axis": "default",
+      "file": "sources/final-three/hr-wall-rotten-timber__packed-v1.png",
+      "protectedArt": false,
+      "origin": {
+        "authoredSource": "sources/final-three/hr-wall-rotten-timber__source-v1.png",
+        "material": "decaying timber"
+      },
+      "sha256": "1563f80c6701e8aa77b02377ca6196b3f8b220a47dc9665aa64710e2523d6d74",
+      "originalOutputHash": "890ef45f4fe11ff0c9b35f76b5a60cb6948d3f46fb0530c5f55ccb18a5583ff6",
+      "role": "wall",
+      "tag": "#",
+      "status": "original-first-pass",
+      "output": "terrain/wall/wall__hr-wall-rotten-timber.png"
+    }
+  }
+}
