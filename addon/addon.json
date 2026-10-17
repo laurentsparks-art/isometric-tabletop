@@ -53,5 +53,9 @@
         ]
       }
     ]
-  }
+  },
+  "minServerVersion": "0.28.0",
+  "platforms": [
+    "win32"
+  ]
 }

@@ -14,7 +14,7 @@ for (const name of ["web_nothreads_debug.zip", "web_nothreads_release.zip"]) {
   fs.mkdirSync(target, { recursive: true });
   fs.copyFileSync(source, path.join(target, name));
 }
-const out = path.join(tree, "ui");
+const out = path.join(tree, "addon/ui");
 fs.mkdirSync(out, { recursive: true });
 console.log(godotRun(bin, ["--editor", "--import"]));
 console.log(godotRun(bin, ["--export-release", "ODM Web", path.join(out, "index.html")]));

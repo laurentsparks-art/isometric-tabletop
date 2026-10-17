@@ -1,6 +1,6 @@
 import fs from 'node:fs';import path from 'node:path';import {deflateRawSync,crc32} from 'node:zlib';
-const root=path.resolve(import.meta.dirname,'..'),out=path.join(root,'artifacts');fs.mkdirSync(out,{recursive:true});
-const names=['addon.json','LICENSE','README.md','server/main.mjs'];for(const entry of fs.readdirSync(path.join(root,'ui'),{withFileTypes:true}))if(entry.isFile())names.push('ui/'+entry.name);for(const entry of fs.readdirSync(path.join(root,'docs'),{withFileTypes:true}))if(entry.isFile()&&entry.name.endsWith('.md'))names.push('docs/'+entry.name);
+const repo=path.resolve(import.meta.dirname,'..'),root=path.join(repo,'addon'),out=path.join(repo,'artifacts');fs.mkdirSync(out,{recursive:true});
+const names=[];function list(dir=''){for(const e of fs.readdirSync(path.join(root,dir),{withFileTypes:true})){const name=dir?dir+'/'+e.name:e.name;if(e.isDirectory())list(name);else if(e.isFile())names.push(name);else throw Error('Only regular package files are allowed');}}list();
 const local=[],central=[];let offset=0;
 for(const name of names.sort()){
  const input=fs.readFileSync(path.join(root,name)),data=deflateRawSync(input,{level:6}),n=Buffer.from(name),crc=crc32(input);

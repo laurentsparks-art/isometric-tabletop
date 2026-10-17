@@ -1,5 +1,5 @@
 import fs from 'node:fs/promises';import path from 'node:path';import sharp from 'sharp';
-const root=path.resolve(import.meta.dirname,'..'),assets=path.join(root,'godot/assets'),out=path.join(root,'ui');await fs.mkdir(out,{recursive:true});
+const root=path.resolve(import.meta.dirname,'..'),assets=path.join(root,'godot/assets'),out=path.join(root,'addon/ui');await fs.mkdir(out,{recursive:true});
 // Original pixel geometry. Every edge follows a 2:1 isometric axis. Frames
 // mirror around the same centre; no arbitrary bitmap angle or interpolation.
 const shaft=[[8,24],[32,12],[28,10],[40,8],[36,18],[34,14],[10,26]];

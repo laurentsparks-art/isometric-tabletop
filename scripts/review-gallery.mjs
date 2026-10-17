@@ -1,5 +1,5 @@
 import fs from 'node:fs';import path from 'node:path';import sharp from 'sharp';
-const out=path.resolve(process.argv[2]??'artifacts/installed-browser'),skins=JSON.parse(fs.readFileSync('ui/skins.json'));
+const out=path.resolve(process.argv[2]??'artifacts/installed-browser'),skins=JSON.parse(fs.readFileSync('addon/ui/skins.json'));
 for(let batch=0;batch<3;batch++){
  const composite=[];for(let i=0;i<9;i++){const skin=skins[batch*9+i];const x=(i%3)*720,y=Math.floor(i/3)*640;const screenshot=await sharp(path.join(out,skin.id+'-0.png')).extract({left:315,top:110,width:730,height:650}).resize(720,600,{kernel:'nearest'}).png().toBuffer();composite.push({input:screenshot,left:x,top:y+40},{input:Buffer.from('<svg width="720" height="40"><rect width="720" height="40" fill="#14101d"/><text x="14" y="28" font-family="Arial" font-size="22" fill="#efce83">'+skin.id+'</text></svg>'),left:x,top:y});}
  await sharp({create:{width:2160,height:1920,channels:4,background:'#14101d'}}).composite(composite).png().toFile(path.join(out,'addon-skins-'+(batch+1)+'.png'));

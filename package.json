@@ -18,7 +18,8 @@
     "qa:seed": "node scripts/provision-qa.mjs",
     "qa:gallery": "node scripts/review-gallery.mjs",
     "test:install": "node scripts/test-install.mjs",
-    "test:gameplay": "node scripts/test-gameplay.mjs"
+    "test:gameplay": "node scripts/test-gameplay.mjs",
+    "release:audit": "node scripts/audit-release.mjs"
   },
   "devDependencies": {
     "playwright-core": "1.63.0",
