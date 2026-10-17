@@ -4,7 +4,7 @@ An optional Godot 4 board-view addon. It draws ODM's existing player-safe tactic
 
 ## Install / try locally
 
-Requires ODM's **open addon framework PR #371**, tested at `d2b1f87dd297f55ff7aeea172ac5c873bd653a87`, with the small patches described in [framework-patches.md](docs/framework-patches.md). This is a local preview, not a published release or a direct-core merge.
+Requires ODM's addon framework from **PR #371** (merged October 17, 2026), tested at `d2b1f87dd297f55ff7aeea172ac5c873bd653a87`, with the small patches described in [framework-patches.md](docs/framework-patches.md). This is a local preview, not a published release or a direct-core merge.
 
 The package includes its single-threaded Compatibility Web export. **An ODM server needs Node, not Godot, npm install or a separate addon service.** No setup step, downloads, privileges or GPU exclusive lock are requested.
 
