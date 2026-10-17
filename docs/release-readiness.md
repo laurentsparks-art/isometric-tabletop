@@ -12,7 +12,7 @@
 | Public GitHub/catalogue install | BLOCKED | No public repository yet. Real URL, audited public commit/hash and catalogue PR must be generated after approval |
 | Repository/security audit | PASS | No credentials/world/cache/logs in tracked package; no permissions, telemetry or runtime downloads; case-sensitive UI references checked |
 | Dependencies/licences | PASS | Runtime dependency-free; addon npm audit zero vulnerabilities. MIT/CC0/Godot/OFL notices retained. Host lock has five inherited high advisories; no unrelated upgrades |
-| Production build/private tracing | PASS | Fresh dependencies/build; 305 traces exclude private state. QA world outside host source. Populated-checkout tracing concern remains documented |
+| Production build/private tracing | PASS | Fresh dependencies/build; 307 traces exclude private state. QA world outside host source. Populated-checkout tracing concern remains documented |
 | Full host test suite | PASS | 636/636 test files in one clean-environment run, including 34 addon-core and 20 runtime checks. Scoped lint passed; TypeScript passed in production build |
 | Godot/addon tests | PASS | 514 art, 4075 ground, 731 rotation, 97 tabletop assertions; 10 adapter/resource tests |
 | Clean addon rebuild | PASS | Git archive, npm ci, cold import/Web export/tests; rebuilt ZIP installed and expanded gameplay passed. 156/158 pack payload hashes identical; remaining two are UID cache and generated scene IDs. Scene properties compare equal |
