@@ -19,7 +19,10 @@
     "qa:gallery": "node scripts/review-gallery.mjs",
     "test:install": "node scripts/test-install.mjs",
     "test:gameplay": "node scripts/test-gameplay.mjs",
-    "release:audit": "node scripts/audit-release.mjs"
+    "release:audit": "node scripts/audit-release.mjs",
+    "qa:showcase": "node scripts/prepare-showcase.mjs",
+    "qa:capture-gameplay": "node scripts/capture-gameplay.mjs",
+    "test:repository": "node scripts/test-repository-package.mjs"
   },
   "devDependencies": {
     "playwright-core": "1.63.0",

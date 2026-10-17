@@ -4,3 +4,17 @@ godot/.export-templates/
 .godot-export/
 artifacts/
 *.log
+
+# Never publish local worlds, authentication state or keys.
+data/
+.env*
+!.env.example
+*.sqlite
+*.sqlite-*
+*.db
+credentials*.json
+storage-state*.json
+playwright/.auth/
+*.pem
+*.key
+.DS_Store

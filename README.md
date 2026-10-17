@@ -2,6 +2,10 @@
 
 An optional Godot 4 board-view addon: 27 approved pixel-art environments, standees, upright names, player-safe fog, shared markings and animated quarter-turn rotation. **ODM owns authentication, movement, D&D rules, initiative and multiplayer synchronization.** This addon is a presentation and picking client.
 
+![Actual Isometric Tabletop running inside ODM](docs/images/primary.png)
+
+[Environments](docs/images/environments.png) · [Four rotations](docs/images/rotation.png) · [Active gameplay](docs/images/gameplay.png)
+
 ## Release status
 
 **0.1.0 release candidate — not published.** Tested against official ODM **0.28.0**, upstream `1b4d97d3fe619f3b1024c096337f49cf54d29698`, plus the three small host changes described in [framework-patches.md](docs/framework-patches.md). Unmodified 0.28.0 installs the addon but rejects Godot's resource pack. Do not advertise unmodified-host compatibility before those fixes ship.
@@ -50,7 +54,7 @@ npm run release:audit
 npm run package:addon
 ```
 
-Templates contain `web_nothreads_debug.zip` and `web_nothreads_release.zip`. Export writes `addon/ui/`; its source hashes/runtime checksums are tested. Do not rebuild approved art for routine packaging. `build:assets` is the optional deterministic source packer, `build:ui` rebuilds the original arrow/swish. No artwork generation runs during install/export.
+Templates contain `web_nothreads_debug.zip` and `web_nothreads_release.zip`. Export writes `addon/ui/`; its source hashes/runtime checksums are tested. Godot can generate different node/resource IDs and pack ordering on a fresh import, so functional rebuilds are verified without claiming byte-for-byte identical packs. `runtime.json.version` is checksum schema version 1; the addon release version is 0.1.0. Do not rebuild approved art for routine packaging. `build:assets` is the optional deterministic source packer, `build:ui` rebuilds the original arrow/swish. No artwork generation runs during install/export.
 
 Geometry stays 128x64 logical diamonds, 128x384 packed regions, common anchors and guttered nearest-filtered atlases. `config/skins.ts` generates `addon/ui/skins.json`; stable material IDs, ODM-TAG and door-axis metadata are unchanged.
 
@@ -88,3 +92,5 @@ Opaque `sandbox="allow-scripts"`; no parent DOM/storage/cookies, gameplay HTTP c
 Code and owner-authorized Zen Garden adaptation: MIT, existing ODM notices retained. Original art/audio: CC0-1.0 to the extent rights are held, with no claim of exclusive generated-image copyright. Godot notices and OFL fonts are retained. See [THIRD_PARTY.md](THIRD_PARTY.md), [artwork records](godot/assets/LICENSE.md), [CHANGELOG](CHANGELOG.md) and [CONTRIBUTING](CONTRIBUTING.md).
 
 No telemetry, payment system, DRM or external account service. Catalogue publication requires auditable source and its normal review; commercial extensions are outside this baseline.
+
+To reproduce the showcase, run `qa:capture-gameplay` with the same explicit QA URL/world/credentials arguments, then `qa:showcase` after the browser capture. Full-resolution originals stay in ignored artifacts; four selected real runtime PNGs in docs/images are intentional public documentation.
