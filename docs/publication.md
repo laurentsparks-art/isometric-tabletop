@@ -1,21 +1,25 @@
-# Publication steps (owner approval required)
+# Publication record
 
-Proposed owner/name: laurentsparks-art/isometric-tabletop. This is a proposal, not an existing verified repository. No remote has been created or modified by this release-preparation task.
+Owner authorized repository creation, source push, v0.1.0 release and official catalogue PR submission on 2026-10-18. No catalogue merge is authorized.
 
-1. Review this local commit, public file audit, ZIP checksum, screenshots and known limitations. Authorize repository creation/push explicitly.
-2. Create the public repository under the verified owner. Set its default branch deliberately; publish the reviewed source and addon/ together. Do not publish QA artifacts, credentials or worlds. Add the real remote URL only after creation.
-3. Confirm the remote contains the exact reviewed commit and source/asset notices. Re-run the official checker against the downloaded addon/ folder and compare its content with the verified local ZIP.
-4. After separate release approval, tag the reviewed commit v0.1.0 and upload artifacts/isometric-tabletop-0.1.0.zip plus its SHA256SUMS file. Use docs/release-notes.md and the existing actual runtime showcase; do not claim catalogue acceptance before review.
-5. In a current official ODM checkout, use the verified public URL and exact commit:
+- Public repository: https://github.com/laurentsparks-art/isometric-tabletop
+- Released/audited source: `f84cb14ff27cee0e95a42dcb3a18822daf21d249`
+- Release: https://github.com/laurentsparks-art/isometric-tabletop/releases/tag/v0.1.0
+- Install folder: https://github.com/laurentsparks-art/isometric-tabletop/tree/f84cb14ff27cee0e95a42dcb3a18822daf21d249/addon
+- ZIP: https://github.com/laurentsparks-art/isometric-tabletop/releases/download/v0.1.0/isometric-tabletop-0.1.0.zip
+
+The public download was verified at 19,501,877 bytes and SHA-256 `3347e6043de3e4c7cbb3456f3d82b215c1294566332c23806f0b9bee966c0e81`. The approved ZIP and addon/ contents are frozen; subsequent publication-documentation commits do not alter them. The bundled package README retains its pre-publication wording; this repository README and release page provide current links.
+
+A new synthetic world running unmodified official ODM 0.28.1 installed the real public GitHub folder, enabled it and passed MCP, rendering, Board fallback and eleven authenticated gameplay checks. All installed file hashes match the approved package. No personal campaigns or credentials were published.
+
+## Catalogue submission
+
+The official tool generates the entry at the pinned release commit:
 
 ```powershell
-$repoUrl = Read-Host 'Verified public repository URL'
-$commit = Read-Host 'Exact reviewed public commit'
-node scripts/addon-catalog.mjs add "$repoUrl/tree/$commit/addon" --category maps
+node scripts/addon-catalog.mjs add https://github.com/laurentsparks-art/isometric-tabletop/tree/f84cb14ff27cee0e95a42dcb3a18822daf21d249/addon --category maps
 node scripts/addon-catalog.mjs check
 node scripts/addon-catalog.mjs verify --changed upstream/main
 ```
 
-6. Review only the generated addons/catalog.json change. With explicit submission approval, open the catalogue PR using docs/catalogue-pr-draft.md, replacing its placeholders with real evidence. Never fabricate a public pin or content hash.
-
-No publication, remote tag, GitHub release or catalogue submission has been performed.
+Only addons/catalog.json belongs in the catalogue PR. The Windows checker passes; the current Ubuntu-only CI runtime probe cannot validate a Windows-scoped manifest. Request platform-appropriate review rather than claiming untested Linux support or changing the approved package. Catalogue acceptance remains the ODM maintainer's decision.

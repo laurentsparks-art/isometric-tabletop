@@ -1,6 +1,6 @@
 # Changelog
 
-## 0.1.0 � first release candidate (unpublished)
+## 0.1.0 — 2026-10-18
 
 - Optional sandboxed Godot board view using ODM API v1; no gameplay server or permissions.
 - 27 approved skins, original pixel artwork, standees and upright token names.
@@ -8,4 +8,4 @@
 - Authorized fog, reachability, shared drawings, tile/token interaction and host action-ring anchors.
 - Prebuilt single-thread Web export and independently reproducible source/build tooling.
 
-Known: measurement/advanced targeting/private pictures use Board. Requires official ODM 0.28.1; PR #399 supplies the framework support. Windows Chrome verified; other platforms and desktop unverified. No public release has been published.
+Known: measurement/advanced targeting/private pictures use Board. Requires official ODM 0.28.1; PR #399 supplies the framework support. Windows Chrome verified; other platforms and desktop unverified. Published at https://github.com/laurentsparks-art/isometric-tabletop/releases/tag/v0.1.0.

@@ -1,6 +1,6 @@
 # Isometric Tabletop 0.1.0 — official-release validation
 
-**Technical verdict: READY FOR OWNER-APPROVED PUBLICATION.** Remote creation, pushes, releases and catalogue submission still require explicit approval.
+**Published v0.1.0 with owner authorization on 2026-10-18.** Catalogue submission/review is in progress; no catalogue merge or listing is claimed. The release tag and installable package remain pinned to reviewed commit `f84cb14ff27cee0e95a42dcb3a18822daf21d249`.
 
 Target: unmodified official ODM v0.28.1, commit `bc96434fe1f550fd0c6b374f2376968dc8bddcc9`. PR #399 is merged and included. No local host patches were applied; the release checkout remains clean. Addon ID/version/API: `isometric-tabletop` / `0.1.0` / `1`; minimum server `0.28.1`, Windows-only manifest, permissions `[]`.
 
@@ -20,8 +20,8 @@ Target: unmodified official ODM v0.28.1, commit `bc96434fe1f550fd0c6b374f2376968
 | Full official repository suite | PASS | 668/668 test files, 5 Vitest tests, exit 0; `npm test -- --fileParallelism --maxWorkers=2`, 675.73 seconds, no browser capture workload; includes 34 addon-core and 20 addon-runtime checks |
 | Package/privacy/licensing | PASS | Installable 31 files, no host install/build/download step; MIT/CC0/Godot/OFL notices retained, zero addon npm advisories; five inherited high advisories in the official host lock were recorded without unrelated upgrades; tracked-content/case/path audit and reachable text-history secret-pattern scan pass |
 | Desktop/Linux/macOS/mobile | NOT TESTED | No support claim; Windows-only initial scope retained |
-| Public repository/catalogue install | BLOCKED | Owner approval and real public repository/commit required; no fabricated pins/hashes or catalogue record |
-| Publication | BLOCKED | No remote creation, push, release/tag publication or catalogue PR authorized/performed |
+| Public GitHub installation | PASS | Actual pinned public folder installed in a fresh synthetic world on official 0.28.1; all 31 file hashes match; Wasm/PCK/WAV 200 and typed; all eleven gameplay checks pass |
+| Repository/release publication | PASS | Public repository and v0.1.0 release created after explicit owner authorization; downloaded release ZIP size/hash match the frozen approved package |
 
 ## Package and public content
 
@@ -43,4 +43,4 @@ A historical intermittent rotation/initialization timeout remains unisolated. Th
 
 ## Next actions
 
-Technical gates passed. Owner reviews this candidate and authorizes creation/push to the proposed `laurentsparks-art/isometric-tabletop` repository. Verify the real public commit, then separately authorize release upload and catalogue submission. Follow [publication.md](publication.md), [catalogue-submission.md](catalogue-submission.md), [catalogue-pr-draft.md](catalogue-pr-draft.md) and [release-notes.md](release-notes.md). No remote action was performed.
+Public repository and release: https://github.com/laurentsparks-art/isometric-tabletop and https://github.com/laurentsparks-art/isometric-tabletop/releases/tag/v0.1.0. Catalogue review remains separate. Windows-only scope is retained; the current Ubuntu-only catalogue runtime audit needs a platform-appropriate reviewer check. No catalogue merge is authorized.
