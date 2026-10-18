@@ -22,7 +22,8 @@
     "release:audit": "node scripts/audit-release.mjs",
     "qa:showcase": "node scripts/prepare-showcase.mjs",
     "qa:capture-gameplay": "node scripts/capture-gameplay.mjs",
-    "test:repository": "node scripts/test-repository-package.mjs"
+    "test:repository": "node scripts/test-repository-package.mjs",
+    "test:rotation:browser": "node scripts/test-rotation-browser.mjs"
   },
   "devDependencies": {
     "playwright-core": "1.63.0",

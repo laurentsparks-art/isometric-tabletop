@@ -2,7 +2,7 @@
 
 Optional Godot board renderer for Open Dungeon Master. ODM owns authentication, visibility, rules, movement and multiplayer state. This addon only draws authorized snapshots and returns pointer interactions.
 
-Release candidate: requires ODM 0.28.0 **plus the documented generic host patches**. It does not currently run on unmodified 0.28.0. No public repository or catalogue entry exists yet.
+Release candidate: requires official ODM 0.28.1 or newer. No custom host patches are required. No public repository or catalogue entry exists yet.
 
 Install this folder through Admin > Addons, enable it, then open a campaign map and choose View > Isometric. No setup, Godot install, package install or separate service is needed. No permissions or downloads are requested.
 
@@ -14,4 +14,4 @@ Verified: Windows server and headed Chrome/WebGL 2. Linux, macOS, desktop client
 
 Code MIT; original art/swish CC0 where rights are held. Godot and font notices are in ui/. THIRD_PARTY.md identifies dependencies. Editable Godot source, tools and full documentation are in the repository parent of this installable folder.
 
-If blank: return to Board, check required host patch level, browser WebGL 2 and the network request for index.pck. Never weaken the iframe sandbox or force SwiftShader.
+If blank: return to Board, check ODM is at least 0.28.1, browser WebGL 2 and the network request for index.pck. Never weaken the iframe sandbox or force SwiftShader.

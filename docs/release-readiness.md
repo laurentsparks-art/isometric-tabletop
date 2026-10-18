@@ -1,46 +1,46 @@
-# Isometric Tabletop 0.1.0 — release-candidate checklist
+# Isometric Tabletop 0.1.0 — official-release validation
 
-**Verdict: local candidate prepared; public release BLOCKED on official host support and owner-authorized publication.** The human visual/gameplay baseline is accepted. No production artwork or renderer changes were made in this pass.
+**Technical verdict: READY FOR OWNER-APPROVED PUBLICATION.** Remote creation, pushes, releases and catalogue submission still require explicit approval.
 
-| Gate | Status | Evidence / remaining action |
+Target: unmodified official ODM v0.28.1, commit `bc96434fe1f550fd0c6b374f2376968dc8bddcc9`. PR #399 is merged and included. No local host patches were applied; the release checkout remains clean. Addon ID/version/API: `isometric-tabletop` / `0.1.0` / `1`; minimum server `0.28.1`, Windows-only manifest, permissions `[]`.
+
+| Release gate | Status | Evidence |
 |---|---|---|
-| Approved graphics/runtime freeze | PASS | 662 original resource hashes and all approved UI/runtime bytes preserved; no production art repack/generation |
-| Latest official host | PASS | Fresh main `1b4d97d3fe619f3b1024c096337f49cf54d29698`, ODM 0.28.0; separate clean worktree |
-| Unmodified ODM compatibility | BLOCKED | Actual install/enable succeeds, Wasm 200 but PCK 404. Skin/audio metadata absent. Do not claim compatibility before host fixes ship |
-| Required host patches | BLOCKED | Local `11c78086`, `fa5e5d87`, `7edcdc8a` tested, not published/accepted. Seven files, 73 insertions/5 deletions. Old lifecycle/schema fixes are already upstream |
-| Supported package installation | PASS | Admin ZIP install/enable/ready/MCP, disable/uninstall/default Board, reinstalled. Official file-by-file fetch of committed addon/ with local Git reader verifies every blob and matches ZIP bytes |
-| Public GitHub/catalogue install | BLOCKED | No public repository yet. Real URL, audited public commit/hash and catalogue PR must be generated after approval |
-| Repository/security audit | PASS | No credentials/world/cache/logs in tracked package; no permissions, telemetry or runtime downloads; case-sensitive UI references checked |
-| Dependencies/licences | PASS | Runtime dependency-free; addon npm audit zero vulnerabilities. MIT/CC0/Godot/OFL notices retained. Host lock has five inherited high advisories; no unrelated upgrades |
-| Production build/private tracing | PASS | Fresh dependencies/build; 307 traces exclude private state. QA world outside host source. Populated-checkout tracing concern remains documented |
-| Full host test suite | PASS | 636/636 test files in one clean-environment run, including 34 addon-core and 20 runtime checks. Scoped lint passed; TypeScript passed in production build |
-| Godot/addon tests | PASS | 514 art, 4075 ground, 731 rotation, 97 tabletop assertions; 10 adapter/resource tests |
-| Clean addon rebuild | PASS | Git archive, npm ci, cold import/Web export/tests; rebuilt ZIP installed and expanded gameplay passed. 156/158 pack payload hashes identical; remaining two are UID cache and generated scene IDs. Scene properties compare equal |
-| Browser/visual sweep | PASS | Actual installed Chrome: 27 skins x four angles x normal/close zoom, opaque sandbox, Wasm/PCK 200, reload/2D switch; runtime PNGs inspected |
-| Gameplay/shared state | PASS | DM/two-player logins, multi-character permissions, legal/rejected movement, strict SSE, anchors/action ring, audio/reduced motion, fog/secrets/hidden tokens, map replacement, shared drawing, encounter start/end, basic attack on actual initiative with combat FX |
-| Full player spell/advanced parity | NOT TESTED | Magical-hazard save/damage presentation tested; complete player spell turns/advanced targeting not claimed. Use Board for advanced tools |
-| Intermittent input timeout resolved | BLOCKED | One rebuilt run timed out at 270-to-0 rotation with a populated scene. Instrumented rerun and final foreground/fresh-event run passed; root cause not isolated. Retain failure evidence and investigate if reproducible |
-| Linux/macOS execution | NOT TESTED | No Linux subsystem/macOS runner. Static path/case checks pass; initial manifest conservatively declares Windows only |
-| Desktop/mobile | NOT TESTED | PR63 merged; client main `47c123642d23930dd9d0c6a542d58c7336af0dc1` inspected. No runnable matching client. No mobile support claimed |
-| Public metadata/showcase | PASS | README, changelog, contributing, notices, release notes/catalogue instructions and four selected actual runtime PNGs prepared |
-| Remote publication | BLOCKED | Await explicit owner approval. No addon remote, push, release, framework PR or catalogue PR |
+| Official framework support | PASS | PCK/WAV MIME allowlist, optional skin/material/genre/audio fields and checker-owned SQLite close are shipped in the tag; API v1 unchanged |
+| Approved source/runtime freeze | PASS | 662 mandatory resource hashes and all approved UI/runtime bytes preserved; no artwork generation/repacking or renderer changes |
+| ZIP installation/lifecycle | PASS | Real admin-authenticated ZIP upload, enable, ready, MCP probe, disable, absent contribution/default Board, uninstall preserves campaign/map, reinstall |
+| Cold authenticated browser | PASS | Fresh Chrome profiles, normal DM/player logins; 27 skins x four rotations x normal/close zoom, reload/reconnect, Board switching; 222 actual runtime screenshots, no uncaught JS/failed addon requests in completed serial run |
+| Gameplay/permissions | PASS | Two independent player sessions plus DM, multi-character switch/ownership rejection, four-angle picking, legal/rejected movement, strict SSE positions, action-ring anchors, hidden token/secret-door projection |
+| Audio/accessibility | PASS | Real swish follows global mute; second-player reduced-motion rotation and independent orientation |
+| Shared drawing/combat | PASS | Persisted stroke via normal draw endpoint reaches both snapshots and both views; real encounter start/end, map replacement, actual pc_attack on initiative with FX, magical-hazard save/damage feedback |
+| Rotation reproduction | PASS | 32 clockwise/counterclockwise turns, 231–279 ms click-to-settle, no browser errors or authoritative map changes; historical intermittent timeout did not reproduce and is NOT claimed fixed |
+| Addon/Godot suites | PASS | 11 Node tests; 514 art, 4075 ground, 731 rotation, 97 tabletop engine assertions |
+| Clean source rebuild | PASS | Separate Git archive, fresh npm ci, cold Godot 4.7.2 import/non-threaded Web export, ten original source-preservation tests; approved shipped export retained |
+| Official host build | PASS | Fresh npm ci, production build including TypeScript; scoped framework ESLint; 311 production traces exclude private QA/env/artifacts |
+| Full official repository suite | PASS | 668/668 test files, 5 Vitest tests, exit 0; `npm test -- --fileParallelism --maxWorkers=2`, 675.73 seconds, no browser capture workload; includes 34 addon-core and 20 addon-runtime checks |
+| Package/privacy/licensing | PASS | Installable 31 files, no host install/build/download step; MIT/CC0/Godot/OFL notices retained, zero addon npm advisories; five inherited high advisories in the official host lock were recorded without unrelated upgrades; tracked-content/case/path audit and reachable text-history secret-pattern scan pass |
+| Desktop/Linux/macOS/mobile | NOT TESTED | No support claim; Windows-only initial scope retained |
+| Public repository/catalogue install | BLOCKED | Owner approval and real public repository/commit required; no fabricated pins/hashes or catalogue record |
+| Publication | BLOCKED | No remote creation, push, release/tag publication or catalogue PR authorized/performed |
 
-## Package
+## Package and public content
 
-Installable `addon/`: 31 files, 49,554,664 bytes unpacked; ZIP about 19.5 MB. Largest file: 39,514,754-byte Wasm, below GitHub 100 MB/framework 64 MiB caps. Editable Godot/art/tooling stay outside the installable folder. Four documentation images are intentional public assets; full raw captures, credentials and QA worlds remain ignored. No LFS, install builds or startup downloads.
+`addon/` holds 31 files, 49,554,623 bytes. Largest file: Wasm 39,514,754 bytes; PCK 9,511,872 bytes, within GitHub and framework limits. ZIP: 19,501,877 bytes.
 
-Fresh Godot imports can generate different resource/node IDs and pack ordering. The clean build is functionally reproducible and its actual gameplay was tested; bit-for-bit identical PCK files are not claimed. The approved prebuilt export was retained. `runtime.json.version` is checksum schema version 1, not the addon release number.
+SHA-256: `3347e6043de3e4c7cbb3456f3d82b215c1294566332c23806f0b9bee966c0e81`.
 
-## Measurement and remaining limits
+The ZIP and SHA256SUMS are ignored under artifacts/. Editable Godot/art/source/build tools remain outside addon/. Four intentionally published documentation PNGs are existing real runtime captures, with provenance recorded in docs/images/README.md. Full captures, credentials and the synthetic world remain outside the source repository. No new dependencies, native addon executables, permissions, analytics, telemetry or remote services.
 
-Temporary ruler/template readouts are host-local and absent from API-v1 snapshots; logical coordinate picking is correct. Switch to **Board** to measure. Persistent lines drawn on Board arrive as stored marks and remain synchronized in Isometric. Advanced intent/aim/ruler previews, private pictures and detailed light glyphs also use Board. Godot's caught service-worker warning is nonfatal. Button orientation is iframe-local; the host persists the starting option per device.
+## Failures retained, not hidden
 
-## Remaining release actions
+The first full-suite attempt exited with a V8 allocation/out-of-memory failure while browser capture was concurrent; Windows had about 0.8 GB free physical memory. The first capture completed 24 skins then timed out taking a screenshot. Both reports were retained. The subsequent browser-only run completed all 27 skins and all checks. This is evidence to serialize expensive release tasks on this machine, not proof of a repaired renderer defect. The complete bounded-worker rerun passed all 668 files; the original interrupted run is not counted as a pass.
 
-1. Share the generic framework proposal after approval, obtain an official release containing required support and set that actual minimum version.
-2. Reproduce/resolve the retained intermittent input timeout or explicitly accept it as a preview limitation before wider distribution.
-3. Review showcase/platform scope; execute Linux/macOS/desktop before expanding claims and complete player-spell smoke if required for release scope.
-4. Owner chooses/approves a real public repository, authorizes push, and separately approves any release/tag.
-5. Generate the maps entry with official addon-catalog tooling from the real URL/commit/addon folder; verify and submit only after approval. No fabricated URL/hash.
+## Known limitations
 
-Launch the normal host with the isolated QA environment, DEV_DIRS empty, port 3014. Sign in normally, open the QA campaign, then Map > View > Isometric. Credentials stay outside this repository. Local detailed evidence is under ignored artifacts/release*, not installed with the addon.
+Measure on **Board**: the host's temporary ruler/template overlay is not in API-v1 snapshots. Persistent shared lines remain supported. Advanced aiming/intent arrows, private picture/portrait replies and detailed light glyphs also use Board. Complete player spell-turn and advanced combat-animation parity are NOT TESTED; the magical-hazard case is not a complete player spell turn.
+
+A historical intermittent rotation/initialization timeout remains unisolated. The focused new run passed; if a view stalls, switch to Board or reload. No renderer refactor or speculative fix was made. Godot's caught service-worker warning in the opaque frame remains nonfatal. Cold exports can differ in generated resource IDs/pack ordering; byte-for-byte reproducible PCKs are not claimed.
+
+## Next actions
+
+Technical gates passed. Owner reviews this candidate and authorizes creation/push to the proposed `laurentsparks-art/isometric-tabletop` repository. Verify the real public commit, then separately authorize release upload and catalogue submission. Follow [publication.md](publication.md), [catalogue-submission.md](catalogue-submission.md), [catalogue-pr-draft.md](catalogue-pr-draft.md) and [release-notes.md](release-notes.md). No remote action was performed.

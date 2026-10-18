@@ -4,11 +4,11 @@ An optional Godot 4 board-view addon: 27 approved pixel-art environments, stande
 
 ![Actual Isometric Tabletop running inside ODM](docs/images/primary.png)
 
-[Environments](docs/images/environments.png) · [Four rotations](docs/images/rotation.png) · [Active gameplay](docs/images/gameplay.png)
+[Environments](docs/images/environments.png) ï¿½ [Four rotations](docs/images/rotation.png) ï¿½ [Active gameplay](docs/images/gameplay.png)
 
 ## Release status
 
-**0.1.0 release candidate — not published.** Tested against official ODM **0.28.0**, upstream `1b4d97d3fe619f3b1024c096337f49cf54d29698`, plus the three small host changes described in [framework-patches.md](docs/framework-patches.md). Unmodified 0.28.0 installs the addon but rejects Godot's resource pack. Do not advertise unmodified-host compatibility before those fixes ship.
+**0.1.0 release candidate â€” not published.** Requires official [ODM **0.28.1**](https://github.com/Lebbitheplow/open-dungeon-master/releases/tag/v0.28.1) or newer. Release validation targets unmodified tag `v0.28.1` (`bc96434fe1f550fd0c6b374f2376968dc8bddcc9`); no custom host patches are required. PR #399 shipped the necessary generic framework support.
 
 The artwork/gameplay baseline has human acceptance approval. Release checks and remaining gates are recorded in [release-readiness.md](docs/release-readiness.md).
 
@@ -18,7 +18,7 @@ The public repository and official catalogue submission await owner approval. On
 
 Enable **Isometric Tabletop**, open an ordinary campaign map, then choose **View > Isometric**. Select **Board** to return to ODM's original view without changing campaign state. No setup step, Godot install, npm install on the server, separate service, runtime download or permission grant is required.
 
-Only `addon/` is installed. Godot/editable artwork, developer tools and tests remain in the same auditable repository outside that folder. See [catalogue submission steps](docs/catalogue-submission.md); no repository URL or catalogue hash has been invented.
+Only `addon/` is installed. Godot/editable artwork, developer tools and tests remain in the same auditable repository outside that folder. See [publication steps](docs/publication.md) and [catalogue submission steps](docs/catalogue-submission.md); no repository URL or catalogue hash has been invented.
 
 ## Controls and requirements
 
@@ -31,11 +31,13 @@ Only `addon/` is installed. Godot/editable artwork, developer tools and tests re
 
 **Measure on Board.** ODM's temporary ruler/template readout is local host overlay state, not part of API-v1 snapshots. Tile/hover coordinates arrive correctly, but the isometric iframe cannot show that temporary path/area readout. A full measurement bridge is outside this release. Persistent shared lines drawn on Board do arrive as snapshot marks and remain supported.
 
+An intermittent rotation/initialization timeout has been observed in earlier QA; it is not claimed fixed. Reload or switch to Board if the view stalls.
+
 Advanced aiming/intent arrows, private backdrop/portrait replies and detailed light glyphs also use Board. Basic authorized spell zones, labels, marks, aura/FX feedback are supported; full combat-animation parity is not claimed. Dismiss ODM's first-use guided tour if it intercepts View controls. The shared ladder and approved heritage/shared artwork retain their provenance.
 
 ## Troubleshooting
 
-If the view fails, switch to Board, check the host patch level and inspect `index.pck`/`index.wasm` in browser Network. PCK must return 200, not 404; Wasm must use `application/wasm`. Check WebGL 2 support and current Chrome. Do not force SwiftShader or weaken the `allow-scripts` sandbox. A caught Godot PWA service-worker warning is harmless in the opaque frame. No session credentials should ever be supplied to the addon.
+If the view fails, switch to Board, check that ODM is at least 0.28.1 and inspect `index.pck`/`index.wasm` in browser Network. PCK must return 200, not 404; Wasm must use `application/wasm`. Check WebGL 2 support and current Chrome. Do not force SwiftShader or weaken the `allow-scripts` sandbox. A caught Godot PWA service-worker warning is harmless in the opaque frame. No session credentials should ever be supplied to the addon.
 
 Build the ODM distribution in a clean checkout with no QA world under it. Next startup tracing may otherwise include private data. Keep QA data outside the host source tree and audit all production trace files.
 
@@ -68,7 +70,7 @@ node D:\path\to\odm\scripts\check-addon.mjs .\addon --run
 npm run test:browser -- --url http://127.0.0.1:3014 --world D:\isolated-qa\world.json --credentials D:\isolated-qa\credentials.json
 ```
 
-The provisioner creates ordinary hashed-password accounts in a synthetic world and preserves them on rerun. Never point it at a personal world. Credentials, worlds, logs and runtime screenshots stay ignored. `test:gameplay` and `test:install` use the same explicit QA arguments. No authentication bypass or SwiftShader flags are used. Human artwork approval remains separate from screenshot assertions.
+The provisioner creates ordinary hashed-password accounts in a synthetic world and preserves them on rerun. Never point it at a personal world. Credentials, worlds, logs and runtime screenshots stay ignored. `test:gameplay` and `test:install` use the same explicit QA arguments. `test:rotation:browser` adds 32 sequential clockwise/counterclockwise turns and records completion timing without mutating map state. No authentication bypass or SwiftShader flags are used. Human artwork approval remains separate from screenshot assertions.
 
 ## Architecture
 

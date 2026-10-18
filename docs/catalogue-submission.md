@@ -1,15 +1,15 @@
-# Catalogue submission — prepared, not submitted
+# Catalogue submission ï¿½ prepared, not submitted
 
-Latest rules read from official main `1b4d97d3`: docs/addons/guidelines.md. Category **maps**. ID `isometric-tabletop`, version0.1.0, API1, permissions[], Node runtime, one Isometric board view with needsViewData:false. Windows is the currently executed/declared platform. Source MIT, original artwork CC0 where rights held; bundled Godot and OFL notices included.
+Rules verified against official main `df3fec70d030e6cbff2810652ff28284a9819e43` and the installed v0.28.1 catalogue tool: docs/addons/guidelines.md. Category **maps**. ID `isometric-tabletop`, version0.1.0, API1, permissions[], Node runtime, one Isometric board view with needsViewData:false. Windows is the currently executed/declared platform. Source MIT, original artwork CC0 where rights held; bundled Godot and OFL notices included.
 
 ## Gates before remote actions
 
 - Owner approves publication and chooses/creates a real public GitHub repository.
-- Required generic host support is accepted and shipped; set the actual minimum supported ODM release.
+- Required generic host support shipped in ODM 0.28.1 (PR #399); minServerVersion is 0.28.1.
 - Public repository contains editable Godot source, source artwork/provenance, pinned build tools and the tested prebuilt `addon/` folder. No QA world, credentials, caches or private reports.
 - Re-run runtime hashes, installer/browser checks and release audit at the exact intended commit. The installable folder must remain build-free on the ODM host.
 
-No repository URL, remote tag, audited public commit or catalogue content hash is available yet. None is fabricated here. Local source commits are recovery checkpoints, not published catalogue pins.
+Proposed owner/name: `laurentsparks-art/isometric-tabletop` (not an existing verified repository). No real repository URL, remote tag, audited public commit or catalogue content hash is available yet. None is fabricated here. Local source commits are recovery checkpoints, not published catalogue pins.
 
 ## Commands AFTER explicit approval
 
@@ -22,7 +22,7 @@ git push -u origin codex/isometric-addon
 $commit = git rev-parse HEAD
 ```
 
-From a clean official ODM checkout containing the accepted host support:
+From a clean official ODM 0.28.1-or-newer checkout:
 
 ```powershell
 node scripts/check-addon.mjs D:\path\to\isometric-tabletop\addon --run
