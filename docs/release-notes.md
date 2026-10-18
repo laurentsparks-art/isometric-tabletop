@@ -16,7 +16,7 @@ In **Admin → Addons**, enable file/link installation and install the pinned ad
 
 https://github.com/laurentsparks-art/isometric-tabletop/tree/f84cb14ff27cee0e95a42dcb3a18822daf21d249/addon
 
-Alternatively, upload the attached `isometric-tabletop-0.1.0.zip`. Enable **Isometric Tabletop**, open a campaign map, then choose **View → Isometric**. No Godot installation, npm setup, separate service, permission grant or startup download is required. The official catalogue submission is pending review; catalogue inclusion is not claimed.
+Alternatively, upload the attached `isometric-tabletop-0.1.0.zip`. Enable **Isometric Tabletop**, open a campaign map, then choose **View → Isometric**. No Godot installation, npm setup, separate service, permission grant or startup download is required. The [official catalogue submission, ODM #405](https://github.com/Lebbitheplow/open-dungeon-master/pull/405), is pending review; catalogue inclusion is not claimed.
 
 ## Known limitations
 

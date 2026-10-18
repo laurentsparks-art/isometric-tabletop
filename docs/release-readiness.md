@@ -1,6 +1,6 @@
 # Isometric Tabletop 0.1.0 — official-release validation
 
-**Published v0.1.0 with owner authorization on 2026-10-18.** Catalogue submission/review is in progress; no catalogue merge or listing is claimed. The release tag and installable package remain pinned to reviewed commit `f84cb14ff27cee0e95a42dcb3a18822daf21d249`.
+**Published v0.1.0 with owner authorization on 2026-10-18.** [Catalogue PR #405](https://github.com/Lebbitheplow/open-dungeon-master/pull/405) is open; no catalogue merge or listing is claimed. The release tag and installable package remain pinned to reviewed commit `f84cb14ff27cee0e95a42dcb3a18822daf21d249`.
 
 Target: unmodified official ODM v0.28.1, commit `bc96434fe1f550fd0c6b374f2376968dc8bddcc9`. PR #399 is merged and included. No local host patches were applied; the release checkout remains clean. Addon ID/version/API: `isometric-tabletop` / `0.1.0` / `1`; minimum server `0.28.1`, Windows-only manifest, permissions `[]`.
 
@@ -43,4 +43,4 @@ A historical intermittent rotation/initialization timeout remains unisolated. Th
 
 ## Next actions
 
-Public repository and release: https://github.com/laurentsparks-art/isometric-tabletop and https://github.com/laurentsparks-art/isometric-tabletop/releases/tag/v0.1.0. Catalogue review remains separate. Windows-only scope is retained; the current Ubuntu-only catalogue runtime audit needs a platform-appropriate reviewer check. No catalogue merge is authorized.
+Public repository and release: https://github.com/laurentsparks-art/isometric-tabletop and https://github.com/laurentsparks-art/isometric-tabletop/releases/tag/v0.1.0. Catalogue review remains separate. Windows-only scope is retained. Catalogue CI source/hash checks passed, then its checker crashed before the addon probe due to unbuilt native SQLite after ignore-scripts installation. The built-in-driver checker passes on Windows; platform-appropriate CI is also needed. PR405 documents both audit-environment issues; unrelated workflow/driver changes were not mixed into the catalogue entry. No catalogue merge is authorized.

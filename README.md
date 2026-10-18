@@ -14,7 +14,7 @@ The artwork/gameplay baseline has human acceptance approval. Release checks and 
 
 ## Installation
 
-Use **Admin > Addons**, enable file/link installation and install the [release's pinned addon folder](https://github.com/laurentsparks-art/isometric-tabletop/tree/f84cb14ff27cee0e95a42dcb3a18822daf21d249/addon), or upload the [v0.1.0 ZIP](https://github.com/laurentsparks-art/isometric-tabletop/releases/download/v0.1.0/isometric-tabletop-0.1.0.zip). Official catalogue inclusion is pending review; it is not yet claimed.
+Use **Admin > Addons**, enable file/link installation and install the [release's pinned addon folder](https://github.com/laurentsparks-art/isometric-tabletop/tree/f84cb14ff27cee0e95a42dcb3a18822daf21d249/addon), or upload the [v0.1.0 ZIP](https://github.com/laurentsparks-art/isometric-tabletop/releases/download/v0.1.0/isometric-tabletop-0.1.0.zip). [Official catalogue PR #405](https://github.com/Lebbitheplow/open-dungeon-master/pull/405) is open for review; catalogue inclusion is not yet claimed.
 
 Enable **Isometric Tabletop**, open an ordinary campaign map, then choose **View > Isometric**. Select **Board** to return to ODM's original view without changing campaign state. No setup step, Godot install, npm install on the server, separate service, runtime download or permission grant is required.
 

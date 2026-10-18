@@ -14,6 +14,8 @@ A new synthetic world running unmodified official ODM 0.28.1 installed the real 
 
 ## Catalogue submission
 
+[ODM PR #405](https://github.com/Lebbitheplow/open-dungeon-master/pull/405) is open and changes only addons/catalog.json. It has not been merged.
+
 The official tool generates the entry at the pinned release commit:
 
 ```powershell
@@ -22,4 +24,4 @@ node scripts/addon-catalog.mjs check
 node scripts/addon-catalog.mjs verify --changed upstream/main
 ```
 
-Only addons/catalog.json belongs in the catalogue PR. The Windows checker passes; the current Ubuntu-only CI runtime probe cannot validate a Windows-scoped manifest. Request platform-appropriate review rather than claiming untested Linux support or changing the approved package. Catalogue acceptance remains the ODM maintainer's decision.
+Only addons/catalog.json belongs in the catalogue PR. The Windows checker passes with both native and explicitly selected built-in SQLite. The catalogue audit passed source/hash validation, then failed before the addon probe because npm ci --ignore-scripts leaves the native SQLite binding unbuilt. The existing ODM_SQLITE_DRIVER=node setting avoids that dependency in scratch audits. Independently, the current Ubuntu-only job needs a Windows runtime audit for this Windows-scoped manifest. Both findings and the failed job link are documented in PR405. No workflow/driver changes were mixed into the catalogue-only PR. Catalogue acceptance remains the ODM maintainer's decision.

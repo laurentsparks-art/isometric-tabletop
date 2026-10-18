@@ -1,3 +1,5 @@
+> Historical preparation template. The actual submission is [ODM PR #405](https://github.com/Lebbitheplow/open-dungeon-master/pull/405), opened with owner approval. See that PR for current public source, tests and CI findings.
+
 # Catalogue pull request draft (not submitted)
 
 Title: Add Isometric Tabletop board view
